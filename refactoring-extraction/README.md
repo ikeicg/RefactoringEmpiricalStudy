@@ -19,7 +19,7 @@ Produces `target/extract.jar` (a self-contained shaded jar — RefactoringMiner 
 java -jar target/extract.jar <github-url> [start-commit]
 ```
 
-- `<github-url>` — e.g. `https://github.com/checkstyle/checkstyle.git`
+- `<github-url>` — e.g. `https://github.com/owner/repo.git`
 - `[start-commit]` — optional. Branch, tag, or commit hash to walk back from. Omit it to start at
   the repo's current HEAD. Either way, mining walks all the way back to the first commit — full
   history, not a sample.
@@ -27,7 +27,7 @@ java -jar target/extract.jar <github-url> [start-commit]
 Example:
 
 ```sh
-java -jar target/extract.jar https://github.com/checkstyle/checkstyle.git
+java -jar target/extract.jar https://github.com/owner/repo.git
 ```
 
 ## Output
@@ -48,7 +48,7 @@ Written to `<repo-name>_output/` next to wherever you ran the command:
 - **Resumable.** Progress is tracked in `<repo-name>_output/.commits_done`; rerunning the exact
   same command picks up where it left off instead of re-mining everything. If a run is
   interrupted (closed terminal, machine sleep, Ctrl+C), just run the same command again.
-- Measured throughput on a sample (Checkstyle, 600 commits across two different eras of its
-  history): 60–135 ms/commit average, zero timeouts in that sample — but RefactoringMiner can
-  still take up to the full 300s on an unusually large or complex commit, so total run time for a
-  full project history isn't perfectly predictable from the average.
+- **Throughput varies by repository.** Most commits process in well under a second, but
+  RefactoringMiner can take up to the full 300s timeout on an unusually large or complex one, so
+  total run time for a full project history isn't reliably predictable from a short sample — a
+  repo with a few pathological commits can take much longer overall than its average suggests.
