@@ -1,4 +1,4 @@
-# Refactoring Empirical Study — SOEN 6491
+# Refactoring Empirical Study
 
 Scripts and tools for the team's empirical study of refactoring activity across three open-source
 Java projects: Checkstyle, Mockito, JabRef.
