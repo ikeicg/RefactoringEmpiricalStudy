@@ -54,20 +54,26 @@ java -jar smells.jar --csv <project>_extraction.csv --repo <github-url> \
 ## What it does
 
 1. Reads the CSV and keeps the commits with at least one refactoring in production code. This is the sampling frame.
-2. Shuffles the frame with the seed and takes commits in that order until `--commits` are recorded.
-3. For each commit, it exports the production `.java` files at the commit and at its parent (test code is left
-   out), and runs DesigniteJava and PMD on each export.
-4. It records the project-wide totals of both tools, before and after, overall and per smell or rule.
-5. It also records one pair of files from the commit:
-   - a **refactored file**: a production file the CSV names in that commit;
-   - a **control file**: a file changed in the same commit that no refactoring of the commit names, with the
-     closest churn (lines added + deleted) to the refactored file.
+2. Shuffles the frame with the seed. Every later step takes commits in that order.
+3. For a commit, it exports the production `.java` files at the commit and at its parent (test code is left out),
+   and runs DesigniteJava and PMD on each export.
 
-   Both files must exist at the same path before and after, hold exactly one top-level class or interface
-   (DesigniteJava does not model enums, records or annotation types), and be analysed by both tools.
+It then fills two parts, each from the start of the same order:
 
-A commit is skipped, with its reason logged, when no such pair exists or when a tool fails on one of its
-snapshots. A tool that failed is never counted as a tool that found nothing.
+- **Commit totals.** The first `--commits` commits whose two snapshots both tools could analyse. For each, the
+  project-wide totals of both tools, before and after, overall and per smell or rule.
+- **File pairs.** The first `--commits` commits that also hold a usable pair of files:
+  - a **refactored file**: a production file the CSV names in that commit;
+  - a **control file**: a file changed in the same commit that no refactoring of the commit names, with the
+    closest churn (lines added + deleted) to the refactored file.
+
+  Both files must exist at the same path before and after, hold exactly one top-level class or interface
+  (DesigniteJava does not model enums, records or annotation types), and be analysed by both tools. Commits
+  that change no such control file are skipped in this part only.
+
+The two parts overlap but are not identical: a commit with no control file is in the commit totals but not in
+the file pairs, so the file pairs reach further down the order. Every skipped commit is logged with its reason.
+A tool that failed is never counted as a tool that found nothing.
 
 ## Output
 
@@ -75,11 +81,11 @@ Written to the output folder:
 
 | File | Contents |
 |---|---|
-| `<project>_commit_smells.csv` | One row per recorded commit: project-wide totals before and after, for both tools. |
+| `<project>_commit_smells.csv` | Commit totals: one row per commit, project-wide totals before and after, for both tools. |
 | `<project>_commit_detections.csv` | The same totals per smell or rule: one row per commit, snapshot, tool and smell or rule. |
-| `<project>_master_table.csv` | The file pairs: two rows per recorded commit (refactored and control file), with each file's counts before and after. |
+| `<project>_master_table.csv` | File pairs: two rows per pair (refactored and control file), with each file's counts before and after. |
 | `<project>_pair_detections.csv` | The pair counts per smell or rule. |
-| `<project>_sample.csv` | Every commit examined, in sampled order, and whether it was recorded or why it was skipped. |
+| `<project>_sample.csv` | Every commit examined, in sampled order, and for each part whether it was recorded or why it was skipped. |
 | `run_log.txt` | Settings, tool versions, counts of skipped commits and files by reason, and a final result line. |
 | `raw/` | The raw output of both tools for every snapshot. Reused by later runs. |
 | `repo/` | The clone, when `--repo` is a URL. |
@@ -88,7 +94,7 @@ Columns of `<project>_commit_smells.csv`:
 
 | Column | Meaning |
 |---|---|
-| `sample_id` | `c001`, `c002`, ... in the order commits were recorded. Links to the other files. |
+| `sample_id` | `c001`, `c002`, ... in the order commits were recorded. Links to `<project>_commit_detections.csv`. |
 | `project`, `commit`, `parent_commit`, `commit_date` | The commit and its parent (the "before" version). |
 | `production_refactorings`, `refactoring_types` | Refactorings the CSV lists for the commit in production code. |
 | `java_files_before`, `java_files_after` | Production `.java` files analysed at the parent and at the commit. |
@@ -96,7 +102,7 @@ Columns of `<project>_commit_smells.csv`:
 | `pmd_before`, `pmd_after` | PMD rule violations in the whole project. |
 | `pmd_unparsed_files_before`, `pmd_unparsed_files_after` | Files PMD could not parse, whose violations are therefore not counted. |
 
-Columns of `<project>_master_table.csv`: `pair_id` (the `sample_id`), `project`, `commit`, `parent_commit`,
+Columns of `<project>_master_table.csv`: `pair_id` (`p001`, `p002`, ...), `project`, `commit`, `parent_commit`,
 `file_path`, `unit_name`, `group` (`treated` or `control`), `refactoring_types`, `lines_added`, `lines_deleted`,
 `pmd_before`, `pmd_after`, `dj_before`, `dj_after`, `snapshot_before`, `snapshot_after` (the `raw/` folders
 holding that snapshot's tool output).
@@ -107,6 +113,12 @@ holding that snapshot's tool output).
   when several commits are analysed at once.
 - **Resumable.** Tool output is kept in `raw/`. Running the same command again reuses it and finishes with
   the same files. A snapshot whose analysis was interrupted is analysed again.
+- **PMD settings.** PMD runs with a larger thread stack (`-Xss16m`), because its default stack overflows on some
+  very long expressions. When PMD finishes but cannot analyse single files (for example a type it cannot
+  resolve), those files are listed in its report, counted in `pmd_unparsed_files_*`, and never used in a pair.
+- **Test code.** Found by path: `/test/`, `/tests/`, `/testFixtures/`, `/androidTest/`, `/integrationTest/`,
+  `/src/it/`, `/src/xdocs-examples/`, `/src/testinputs/` and `/src/databaseTest/`. A CSV row counts as
+  production code only if the CSV says so and its path matches none of these.
 - **Nested types.** DesigniteJava reports a nested class under its simple name. Such smells count in the
   project totals but are not attributed to a file.
 - **One run per folder at a time.** A second copy started on the same folder is refused.

@@ -10,4 +10,5 @@ Java projects: Checkstyle, Mockito, JabRef.
   [`datasets/`](refactoring-extraction/datasets/) folder holds the extracted refactorings, Git tags and
   run logs for each project.
 - [`smell-measurement/`](smell-measurement/) — standalone tool that reads that CSV and records code smells
-  (DesigniteJava) and rule violations (PMD) before and after a random sample of refactoring commits.
+  (DesigniteJava) and rule violations (PMD) before and after a random sample of refactoring commits. Its
+  [`datasets/`](smell-measurement/datasets/) folder holds the results for each project.

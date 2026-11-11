@@ -106,18 +106,20 @@ public class Main {
             Log log = new Log(cfg.out().resolve("run_log.txt"));
             log.line("started: " + Instant.now());
             log.line("project: " + project);
-            log.line("refactoring CSV: " + cfg.csv() + " (" + refs.rows() + " rows, " + refs.byCommit().size() + " commits)");
-            log.line("repository: " + cfg.repo());
+            log.line("refactoring CSV: " + cfg.csv().getFileName() + " (" + refs.rows() + " rows, " + refs.byCommit().size() + " commits)");
+
             log.line("seed: " + cfg.seed() + ", commits to record: " + cfg.commits() + ", threads: " + cfg.threads());
             log.line("PMD: " + pmdVersion(cfg) + ", ruleset rulesets/java/quickstart.xml (bundled, unmodified)");
-            log.line("DesigniteJava: " + String.join(" ", cfg.designiteCommand()) + " (default thresholds)");
+            log.line("DesigniteJava: " + Path.of(cfg.designiteCommand().get(cfg.designiteCommand().size() - 1)).getFileName() + " (default thresholds)");
             log.line("test code: left out of every snapshot, never a refactored or control file");
 
             Path repoDir = cloneIfNeeded(cfg.repo(), cfg.out().resolve("repo"));
+            ProcResult origin = exec(List.of("git", "config", "--get", "remote.origin.url"), repoDir, 60);
+            log.line("repository: " + (origin.exit() == 0 ? origin.stdout().trim() : repoDir.getFileName()));
 
             // The sampling frame: commits with at least one production-code refactoring, in a seeded order.
             List<String> frame = refs.byCommit().values().stream()
-                    .filter(c -> c.rows().stream().anyMatch(r -> r.codeKind().equals("production")))
+                    .filter(c -> c.rows().stream().anyMatch(r -> isProductionRow(r)))
                     .map(CommitRefs::commit).sorted().collect(Collectors.toCollection(ArrayList::new));
             Collections.shuffle(frame, new Random(cfg.seed()));
             log.line("commits with a production-code refactoring (sampling frame): " + frame.size());
@@ -126,15 +128,20 @@ public class Main {
             Files.createDirectories(rawDir);
             Map<String, CompletableFuture<SnapshotResult>> cache = new ConcurrentHashMap<>();
 
-            Walk walk = walk(frame, cfg, c -> evaluateCommit(refs.byCommit().get(c), cfg, repoDir, rawDir, cache, project));
+            // Part 1: the first `commits` commits of the order whose two snapshots both tools could analyse.
+            Walk<CommitRecord> totals = walk("commit totals", frame, cfg,
+                    c -> evaluateTotals(refs.byCommit().get(c), cfg, repoDir, rawDir, cache, project), "c", CommitRecord::withId);
+            // Part 2: the first `commits` commits of the same order that also hold a usable file pair.
+            Walk<PairRecord> pairs = walk("file pairs", frame, cfg,
+                    c -> evaluatePair(refs.byCommit().get(c), cfg, repoDir, rawDir, cache, project), "p", PairRecord::withId);
 
             String p = project + "_";
-            writeCommitTable(cfg.out().resolve(p + "commit_smells.csv"), walk.accepted(), refs);
-            writeCommitDetections(cfg.out().resolve(p + "commit_detections.csv"), walk.accepted());
-            writeMasterTable(cfg.out().resolve(p + "master_table.csv"), walk.accepted());
-            writePairDetections(cfg.out().resolve(p + "pair_detections.csv"), walk.accepted());
-            writeSample(cfg.out().resolve(p + "sample.csv"), walk);
-            boolean complete = summary(log, frame, walk, cache, cfg.commits());
+            writeCommitTable(cfg.out().resolve(p + "commit_smells.csv"), totals.accepted(), refs);
+            writeCommitDetections(cfg.out().resolve(p + "commit_detections.csv"), totals.accepted());
+            writeMasterTable(cfg.out().resolve(p + "master_table.csv"), pairs.accepted());
+            writePairDetections(cfg.out().resolve(p + "pair_detections.csv"), pairs.accepted());
+            writeSample(cfg.out().resolve(p + "sample.csv"), frame, totals, pairs);
+            boolean complete = summary(log, frame, totals, pairs, cache, cfg.commits());
             log.line("finished: " + Instant.now());
             return complete ? 0 : 2;
         }
@@ -147,6 +154,11 @@ public class Main {
     record CsvRef(String type, String filePath, String codeKind, String description) {}
 
     record CommitRefs(String commit, String date, List<CsvRef> rows) {}
+
+    /** A refactoring in production code: the CSV says production, and the path is not a test folder by this tool's rule either. */
+    static boolean isProductionRow(CsvRef r) {
+        return r.codeKind().equals("production") && !isTestPath(r.filePath());
+    }
 
     record Refactorings(String project, int rows, Map<String, CommitRefs> byCommit) {}
 
@@ -195,19 +207,24 @@ public class Main {
     // Walking the sample
     // ------------------------------------------------------------------------------------
 
-    record Walk(List<Accepted> accepted, Map<String, String> outcome, Map<String, Integer> fileExclusions) {}
+    record Walk<T>(List<T> accepted, Map<String, String> outcome, Map<String, Integer> fileExclusions) {}
+
+    record Evaluation<T>(T value, String rejection, Map<String, Integer> fileExclusions) {
+        static <T> Evaluation<T> skip(String why, Map<String, Integer> exclusions) { return new Evaluation<>(null, why, exclusions); }
+    }
 
     /**
      * Takes commits in the seeded order until `commits` are accepted. Several commits may be analysed at once,
-     * but results are consumed strictly in order, so the sample never depends on timing.
+     * but results are consumed strictly in order, so the result never depends on timing.
      */
-    static Walk walk(List<String> frame, Config cfg, java.util.function.Function<String, Evaluation> evaluate) throws Exception {
-        List<Accepted> accepted = new ArrayList<>();
+    static <T> Walk<T> walk(String label, List<String> frame, Config cfg, java.util.function.Function<String, Evaluation<T>> evaluate,
+                            String idPrefix, java.util.function.BiFunction<T, String, T> withId) throws Exception {
+        List<T> accepted = new ArrayList<>();
         Map<String, String> outcome = new LinkedHashMap<>();
         Map<String, Integer> fileExclusions = new TreeMap<>();
         ExecutorService pool = Executors.newFixedThreadPool(cfg.threads());
         try {
-            Deque<Future<Evaluation>> inFlight = new ArrayDeque<>();
+            Deque<Future<Evaluation<T>>> inFlight = new ArrayDeque<>();
             Deque<String> inFlightCommits = new ArrayDeque<>();
             int next = 0;
             while (accepted.size() < cfg.commits() && (next < frame.size() || !inFlight.isEmpty())) {
@@ -216,24 +233,30 @@ public class Main {
                     inFlight.add(pool.submit(() -> evaluate.apply(c)));
                     inFlightCommits.add(c);
                 }
-                Evaluation e = inFlight.poll().get();
+                Evaluation<T> e = inFlight.poll().get();
                 String c = inFlightCommits.poll();
                 e.fileExclusions().forEach((k, v) -> fileExclusions.merge(k, v, Integer::sum));
-                if (e.accepted() != null) {
-                    String id = String.format("c%03d", accepted.size() + 1);
-                    accepted.add(e.accepted().withId(id));
-                    outcome.put(c, "accepted " + id);
+                if (e.value() != null) {
+                    String id = String.format("%s%03d", idPrefix, accepted.size() + 1);
+                    accepted.add(withId.apply(e.value(), id));
+                    outcome.put(c, "recorded " + id);
                 } else {
                     outcome.put(c, "skipped: " + e.rejection());
                 }
-                System.err.printf("[%s] %d/%d recorded, %d commits examined (%s: %s)%n", Instant.now(), accepted.size(),
+                System.err.printf("[%s] %s: %d/%d recorded, %d commits examined (%s: %s)%n", Instant.now(), label, accepted.size(),
                         cfg.commits(), outcome.size(), c.substring(0, 10), outcome.get(c));
             }
         } finally {
             pool.shutdownNow();
             pool.awaitTermination(1, TimeUnit.MINUTES);
         }
-        return new Walk(accepted, outcome, fileExclusions);
+        return new Walk<>(accepted, outcome, fileExclusions);
+    }
+
+    /** A recorded commit: the project-wide results of both tools at its parent (before) and at the commit (after). */
+    record CommitRecord(String id, String project, String commit, String parent, String date,
+                        SnapshotResult before, SnapshotResult after) {
+        CommitRecord withId(String newId) { return new CommitRecord(newId, project, commit, parent, date, before, after); }
     }
 
     /** One file of a pair, with its counts. */
@@ -242,22 +265,36 @@ public class Main {
                Map<String, Integer> pmdRulesBefore, Map<String, Integer> pmdRulesAfter,
                Map<String, Integer> djSmellsBefore, Map<String, Integer> djSmellsAfter) {}
 
-    /** A recorded commit: its project-wide totals and its file pair. */
-    record Accepted(String id, String project, String commit, String parent, String date,
-                    SnapshotResult before, SnapshotResult after, Row treated, Row control) {
-        Accepted withId(String newId) { return new Accepted(newId, project, commit, parent, date, before, after, treated, control); }
+    /** A recorded file pair: a refactored file and a control file of the same commit. */
+    record PairRecord(String id, String project, String commit, String parent,
+                      SnapshotResult before, SnapshotResult after, Row treated, Row control) {
+        PairRecord withId(String newId) { return new PairRecord(newId, project, commit, parent, before, after, treated, control); }
     }
 
-    record Evaluation(Accepted accepted, String rejection, Map<String, Integer> fileExclusions) {}
+    static Evaluation<CommitRecord> evaluateTotals(CommitRefs c, Config cfg, Path repoDir, Path rawDir,
+                                                   Map<String, CompletableFuture<SnapshotResult>> cache, String project) {
+        Map<String, Integer> none = Map.of();
+        try {
+            if (gitOk(repoDir, "cat-file", "-e", c.commit() + "^{commit}") != 0) return Evaluation.skip("commit not found in the repository", none);
+            String parent = parentOf(repoDir, c.commit());
+            if (parent == null) return Evaluation.skip("root commit (no parent)", none);
+            SnapshotResult before = analyseSnapshot(repoDir, parent, rawDir, cfg, cache);
+            if (!before.ok()) return Evaluation.skip("before snapshot: " + before.failure(), none);
+            SnapshotResult after = analyseSnapshot(repoDir, c.commit(), rawDir, cfg, cache);
+            if (!after.ok()) return Evaluation.skip("after snapshot: " + after.failure(), none);
+            return new Evaluation<>(new CommitRecord(null, project, c.commit(), parent, c.date(), before, after), null, none);
+        } catch (Exception e) {
+            return Evaluation.skip("error: " + e, none);
+        }
+    }
 
-    static Evaluation evaluateCommit(CommitRefs c, Config cfg, Path repoDir, Path rawDir,
-                                     Map<String, CompletableFuture<SnapshotResult>> cache, String project) {
+    static Evaluation<PairRecord> evaluatePair(CommitRefs c, Config cfg, Path repoDir, Path rawDir,
+                                               Map<String, CompletableFuture<SnapshotResult>> cache, String project) {
         Map<String, Integer> exclusions = new TreeMap<>();
         try {
-            if (gitOk(repoDir, "cat-file", "-e", c.commit() + "^{commit}") != 0)
-                return new Evaluation(null, "commit not found in the repository", exclusions);
+            if (gitOk(repoDir, "cat-file", "-e", c.commit() + "^{commit}") != 0) return Evaluation.skip("commit not found in the repository", exclusions);
             String parent = parentOf(repoDir, c.commit());
-            if (parent == null) return new Evaluation(null, "root commit (no parent)", exclusions);
+            if (parent == null) return Evaluation.skip("root commit (no parent)", exclusions);
 
             // Changed .java files, with churn and the file checks.
             List<ChangedFile> changed = changedFiles(repoDir, parent, c.commit());
@@ -268,7 +305,7 @@ public class Main {
             Set<String> csvFiles = new HashSet<>();
             for (CsvRef r : c.rows()) {
                 csvFiles.add(r.filePath());
-                if (r.codeKind().equals("production")) typesByFile.computeIfAbsent(r.filePath(), k -> new TreeSet<>()).add(r.type());
+                if (isProductionRow(r)) typesByFile.computeIfAbsent(r.filePath(), k -> new TreeSet<>()).add(r.type());
             }
             Set<String> names = namesMentioned(c);
             List<ChangedFile> treated = new ArrayList<>(), controls = new ArrayList<>();
@@ -277,13 +314,13 @@ public class Main {
                 if (typesByFile.containsKey(f.path())) treated.add(f);
                 else if (!csvFiles.contains(f.path()) && !mentioned(names, f.packageName(), f.unitName())) controls.add(f);
             }
-            if (treated.isEmpty()) return new Evaluation(null, "no refactored production file passes the file checks", exclusions);
-            if (controls.isEmpty()) return new Evaluation(null, "no control file passes the file checks", exclusions);
+            if (treated.isEmpty()) return Evaluation.skip("no refactored production file passes the file checks", exclusions);
+            if (controls.isEmpty()) return Evaluation.skip("no control file passes the file checks", exclusions);
 
             SnapshotResult before = analyseSnapshot(repoDir, parent, rawDir, cfg, cache);
-            if (!before.ok()) return new Evaluation(null, "before snapshot: " + before.failure(), exclusions);
+            if (!before.ok()) return Evaluation.skip("before snapshot: " + before.failure(), exclusions);
             SnapshotResult after = analyseSnapshot(repoDir, c.commit(), rawDir, cfg, cache);
-            if (!after.ok()) return new Evaluation(null, "after snapshot: " + after.failure(), exclusions);
+            if (!after.ok()) return Evaluation.skip("after snapshot: " + after.failure(), exclusions);
 
             // One refactored file per commit, chosen in a seeded order; the first that both tools can vouch for.
             treated.sort(Comparator.comparing(ChangedFile::path));
@@ -295,11 +332,11 @@ public class Main {
                 if (why != null) continue;
                 Row tr = row(t, "treated", String.join(";", typesByFile.get(t.path())), before, after);
                 Row kr = row(k, "control", "", before, after);
-                return new Evaluation(new Accepted(null, project, c.commit(), parent, c.date(), before, after, tr, kr), null, exclusions);
+                return new Evaluation<>(new PairRecord(null, project, c.commit(), parent, before, after, tr, kr), null, exclusions);
             }
-            return new Evaluation(null, why, exclusions);
+            return Evaluation.skip(why, exclusions);
         } catch (Exception e) {
-            return new Evaluation(null, "error: " + e, exclusions);
+            return Evaluation.skip("error: " + e, exclusions);
         }
     }
 
@@ -412,7 +449,9 @@ public class Main {
         String p = "/" + path;
         return p.contains("/test/") || p.contains("/tests/") || p.contains("/testFixtures/")
                 || p.contains("/androidTest/") || p.contains("/integrationTest/")
-                || p.contains("/src/it/") || p.contains("/src/xdocs-examples/");
+                || p.contains("/src/it/") || p.contains("/src/xdocs-examples/")
+                // early Checkstyle kept its test input files here, and JabRef its database tests
+                || p.contains("/src/testinputs/") || p.contains("/src/databaseTest/");
     }
 
     static String baseName(String path) {
@@ -546,21 +585,23 @@ public class Main {
 
         // PMD, bundled quickstart ruleset, unmodified. With both --no-fail-on-* flags exit 0 is the only success.
         Path pmdCsv = raw.resolve("pmd.csv");
-        ProcResult pmd = exec(pmdCommand(cfg, snap, "csv", pmdCsv), snap, 3600);
-        if (pmd.exit() != 0) return "PMD exited with status " + pmd.exit() + ": " + pmd.tail();
+        ProcResult pmd = exec(pmdCommand(cfg, snap, "csv", pmdCsv), snap, 3600, PMD_ENV);
+        if (!pmdFinished(pmd)) return "PMD exited with status " + pmd.exit() + ": " + pmd.tail();
         if (!Files.exists(pmdCsv)) return "PMD wrote no CSV report";
-        List<List<String>> csv = readCsv(Files.readString(pmdCsv));
+        List<List<String>> csv = readCsv(readText(pmdCsv));
         if (csv.isEmpty() || !csv.get(0).equals(PMD_HEADER)) return "PMD CSV report has an unexpected header";
 
         // A second PMD run in XML, because only the XML report names the files PMD failed to parse; the CSV
         // silently leaves them out, which would read as "zero violations". Its counts must equal the CSV's.
         Path pmdXml = Files.createTempFile("smells-pmd-", ".xml");
         try {
-            ProcResult px = exec(pmdCommand(cfg, snap, "xml", pmdXml), snap, 3600);
-            if (px.exit() != 0) return "PMD (XML run) exited with status " + px.exit() + ": " + px.tail();
+            ProcResult px = exec(pmdCommand(cfg, snap, "xml", pmdXml), snap, 3600, PMD_ENV);
+            if (!pmdFinished(px)) return "PMD (XML run) exited with status " + px.exit() + ": " + px.tail();
             Map<String, Integer> xmlCounts = new TreeMap<>();
             Set<String> errors = new TreeSet<>();
             parsePmdXml(pmdXml, xmlCounts, errors);
+            if ((pmd.exit() != 0 || px.exit() != 0) && errors.isEmpty())
+                return "PMD reported errors but named no file in its report";
             Map<String, Integer> csvCounts = new TreeMap<>();
             pmdRowsByFile(csv).forEach((f, rules) -> csvCounts.put(f, sum(rules)));
             if (!csvCounts.equals(xmlCounts)) return "PMD CSV and XML runs disagree on violation counts";
@@ -598,6 +639,24 @@ public class Main {
         return null;
     }
 
+    /**
+     * PMD's default stack is too small for some long expressions (it fails with StackOverflowError), so it gets a
+     * larger one. This changes no rule and no result.
+     */
+    static final Map<String, String> PMD_ENV = Map.of("PMD_JAVA_OPTS", "-Xss16m");
+
+    /**
+     * True if PMD ran to the end. Exit 0 is a clean run. Exit 1 is accepted only when PMD finished and reported
+     * errors on single files (for example a type it could not resolve); those files are named in the XML report,
+     * counted as unparsed, and never used as a refactored or control file. A crash of the whole run is never accepted.
+     */
+    static boolean pmdFinished(ProcResult r) {
+        if (r.exit() == 0) return true;
+        String all = r.stdout() + "\n" + r.stderr();
+        return r.exit() == 1 && (all.contains("errors occurred while executing PMD") || all.contains("An error occurred while executing PMD"))
+                && !all.contains("Exception in thread") && !all.contains("StackOverflowError") && !all.contains("OutOfMemoryError");
+    }
+
     static List<String> pmdCommand(Config cfg, Path snap, String format, Path report) {
         String exe = System.getProperty("os.name").toLowerCase().contains("win") ? "pmd.bat" : "pmd";
         return List.of(cfg.pmdHome().resolve("bin").resolve(exe).toString(), "check",
@@ -616,7 +675,7 @@ public class Main {
         String status = Files.readString(dir.resolve("status.txt")).trim();
         if (!status.equals("ok")) return SnapshotResult.failed(key, status.substring("failed: ".length()));
 
-        Map<String, Map<String, Integer>> pmd = pmdRowsByFile(readCsv(Files.readString(dir.resolve("pmd.csv"))));
+        Map<String, Map<String, Integer>> pmd = pmdRowsByFile(readCsv(readText(dir.resolve("pmd.csv"))));
         Map<String, Integer> pmdTotals = new TreeMap<>();
         pmd.values().forEach(m -> m.forEach((rule, n) -> pmdTotals.merge(rule, n, Integer::sum)));
         Set<String> pmdErrors = new TreeSet<>(Files.readAllLines(dir.resolve("pmd_errors.txt")));
@@ -676,7 +735,7 @@ public class Main {
 
     /** DesigniteJava CSVs are unquoted comma-separated lines. Any row of the wrong width is a failure, not a skip. */
     static List<String[]> readDesignite(Path csv, List<String> header) throws IOException {
-        List<String> lines = Files.readAllLines(csv);
+        List<String> lines = readText(csv).lines().toList();
         if (lines.isEmpty() || !Arrays.asList(lines.get(0).split(",", -1)).equals(header))
             throw new IllegalStateException("DesigniteJava " + csv.getFileName() + " has an unexpected header");
         List<String[]> rows = new ArrayList<>();
@@ -693,13 +752,13 @@ public class Main {
     // Outputs
     // ------------------------------------------------------------------------------------
 
-    static void writeCommitTable(Path out, List<Accepted> acc, Refactorings refs) throws IOException {
+    static void writeCommitTable(Path out, List<CommitRecord> acc, Refactorings refs) throws IOException {
         List<List<String>> rows = new ArrayList<>();
         rows.add(List.of("sample_id", "project", "commit", "parent_commit", "commit_date", "production_refactorings",
                 "refactoring_types", "java_files_before", "java_files_after", "designite_before", "designite_after",
                 "pmd_before", "pmd_after", "pmd_unparsed_files_before", "pmd_unparsed_files_after"));
-        for (Accepted a : acc) {
-            List<CsvRef> prod = refs.byCommit().get(a.commit()).rows().stream().filter(r -> r.codeKind().equals("production")).toList();
+        for (CommitRecord a : acc) {
+            List<CsvRef> prod = refs.byCommit().get(a.commit()).rows().stream().filter(r -> isProductionRow(r)).toList();
             String types = prod.stream().map(CsvRef::type).collect(Collectors.toCollection(TreeSet::new)).stream().collect(Collectors.joining(";"));
             rows.add(List.of(a.id(), a.project(), a.commit(), a.parent(), a.date(), str(prod.size()), types,
                     str(a.before().javaFiles().size()), str(a.after().javaFiles().size()),
@@ -710,10 +769,10 @@ public class Main {
         writeCsv(out, rows);
     }
 
-    static void writeCommitDetections(Path out, List<Accepted> acc) throws IOException {
+    static void writeCommitDetections(Path out, List<CommitRecord> acc) throws IOException {
         List<List<String>> rows = new ArrayList<>();
         rows.add(List.of("sample_id", "commit", "snapshot", "detector", "detection", "count"));
-        for (Accepted a : acc) {
+        for (CommitRecord a : acc) {
             a.before().djTotals().forEach((k, v) -> rows.add(List.of(a.id(), a.commit(), "before", "designite", k, str(v))));
             a.after().djTotals().forEach((k, v) -> rows.add(List.of(a.id(), a.commit(), "after", "designite", k, str(v))));
             a.before().pmdTotals().forEach((k, v) -> rows.add(List.of(a.id(), a.commit(), "before", "pmd", k, str(v))));
@@ -726,10 +785,10 @@ public class Main {
             "unit_name", "group", "refactoring_types", "lines_added", "lines_deleted",
             "pmd_before", "pmd_after", "dj_before", "dj_after", "snapshot_before", "snapshot_after");
 
-    static void writeMasterTable(Path out, List<Accepted> acc) throws IOException {
+    static void writeMasterTable(Path out, List<PairRecord> acc) throws IOException {
         List<List<String>> rows = new ArrayList<>();
         rows.add(MASTER_COLUMNS);
-        for (Accepted a : acc) {
+        for (PairRecord a : acc) {
             for (Row r : List.of(a.treated(), a.control())) {
                 rows.add(List.of(a.id(), a.project(), a.commit(), a.parent(), r.filePath(), r.unitName(), r.group(),
                         r.refactoringTypes(), str(r.linesAdded()), str(r.linesDeleted()),
@@ -740,10 +799,10 @@ public class Main {
         writeCsv(out, rows);
     }
 
-    static void writePairDetections(Path out, List<Accepted> acc) throws IOException {
+    static void writePairDetections(Path out, List<PairRecord> acc) throws IOException {
         List<List<String>> rows = new ArrayList<>();
         rows.add(List.of("pair_id", "group", "file_path", "snapshot", "detector", "detection", "count"));
-        for (Accepted a : acc) {
+        for (PairRecord a : acc) {
             for (Row r : List.of(a.treated(), a.control())) {
                 r.pmdRulesBefore().forEach((k, v) -> rows.add(List.of(a.id(), r.group(), r.filePath(), "before", "pmd", k, str(v))));
                 r.pmdRulesAfter().forEach((k, v) -> rows.add(List.of(a.id(), r.group(), r.filePath(), "after", "pmd", k, str(v))));
@@ -754,29 +813,40 @@ public class Main {
         writeCsv(out, rows);
     }
 
-    static void writeSample(Path out, Walk w) throws IOException {
+    static void writeSample(Path out, List<String> frame, Walk<CommitRecord> totals, Walk<PairRecord> pairs) throws IOException {
         List<List<String>> rows = new ArrayList<>();
-        rows.add(List.of("order", "commit", "outcome"));
-        int i = 0;
-        for (Map.Entry<String, String> e : w.outcome().entrySet()) rows.add(List.of(str(++i), e.getKey(), e.getValue()));
+        rows.add(List.of("order", "commit", "commit_totals", "file_pair"));
+        for (int i = 0; i < frame.size(); i++) {
+            String c = frame.get(i);
+            if (!totals.outcome().containsKey(c) && !pairs.outcome().containsKey(c)) continue;
+            rows.add(List.of(str(i + 1), c, totals.outcome().getOrDefault(c, "not examined (target already met)"),
+                    pairs.outcome().getOrDefault(c, "not examined (target already met)")));
+        }
         writeCsv(out, rows);
     }
 
-    static boolean summary(Log log, List<String> frame, Walk w, Map<String, CompletableFuture<SnapshotResult>> cache, int target) throws IOException {
+    static boolean summary(Log log, List<String> frame, Walk<CommitRecord> totals, Walk<PairRecord> pairs,
+                           Map<String, CompletableFuture<SnapshotResult>> cache, int target) {
         log.line("");
-        log.line("== Commits ==");
-        log.line("in the sampling frame: " + frame.size());
-        log.line("examined, in seeded order: " + w.outcome().size());
-        Map<String, Integer> outcomes = new TreeMap<>();
-        for (String o : w.outcome().values()) outcomes.merge(o.startsWith("accepted") ? "recorded" : o.replaceAll("\\S+\\.java", "<file>").replaceAll("(type|named) \\S+", "$1 <type>"), 1, Integer::sum);
-        outcomes.forEach((k, v) -> log.line("  " + k + ": " + v));
-        require(outcomes.values().stream().mapToInt(Integer::intValue).sum() == w.outcome().size(), "outcomes do not sum to commits examined");
-        require(outcomes.getOrDefault("recorded", 0) == w.accepted().size(), "recorded count mismatch");
-        log.line("recorded: " + w.accepted().size());
-
-        log.line("");
-        log.line("== Changed files left out by the file checks (in examined commits) ==");
-        w.fileExclusions().forEach((k, v) -> log.line("  " + k + ": " + v));
+        log.line("commits in the sampling frame: " + frame.size());
+        boolean complete = true;
+        for (Object[] part : new Object[][]{{"commit totals", totals}, {"file pairs", pairs}}) {
+            Walk<?> w = (Walk<?>) part[1];
+            log.line("");
+            log.line("== " + part[0] + " ==");
+            log.line("commits examined, in seeded order: " + w.outcome().size());
+            Map<String, Integer> outcomes = new TreeMap<>();
+            for (String o : w.outcome().values())
+                outcomes.merge(o.startsWith("recorded") ? "recorded" : o.replaceAll("\\S+\\.java", "<file>").replaceAll("(type|named) \\S+", "$1 <type>"), 1, Integer::sum);
+            outcomes.forEach((k, v) -> log.line("  " + k + ": " + v));
+            require(outcomes.values().stream().mapToInt(Integer::intValue).sum() == w.outcome().size(), "outcomes do not sum to commits examined");
+            require(outcomes.getOrDefault("recorded", 0) == w.accepted().size(), "recorded count mismatch");
+            if (!w.fileExclusions().isEmpty()) {
+                log.line("changed files left out by the file checks:");
+                w.fileExclusions().forEach((k, v) -> log.line("  " + k + ": " + v));
+            }
+            if (w.accepted().size() < target) complete = false;
+        }
 
         log.line("");
         log.line("== Snapshots ==");
@@ -786,10 +856,10 @@ public class Main {
         log.line("analysed: " + snaps.size() + " (ok " + ok + ", failed " + (snaps.size() - ok) + ")");
         snaps.stream().filter(s -> !s.ok()).forEach(s -> log.line("  failed " + s.key() + ": " + s.failure()));
 
-        boolean complete = w.accepted().size() >= target;
         log.line("");
-        log.line(complete ? "RESULT: COMPLETE - " + target + " commits recorded."
-                : "RESULT: INCOMPLETE - only " + w.accepted().size() + " of " + target + " commits could be recorded; see the reasons above.");
+        log.line(complete ? "RESULT: COMPLETE - " + target + " commits with totals and " + target + " file pairs recorded."
+                : "RESULT: INCOMPLETE - commit totals " + totals.accepted().size() + ", file pairs " + pairs.accepted().size()
+                  + ", of " + target + " each; see the reasons above.");
         return complete;
     }
 
@@ -854,14 +924,19 @@ public class Main {
 
     /** Runs a command to completion, output captured via temp files. Exit -1 on timeout. Stops the process if interrupted. */
     static ProcResult exec(List<String> cmd, Path cwd, int timeoutSeconds) throws IOException {
+        return exec(cmd, cwd, timeoutSeconds, Map.of());
+    }
+
+    static ProcResult exec(List<String> cmd, Path cwd, int timeoutSeconds, Map<String, String> env) throws IOException {
         Path out = Files.createTempFile("smells-out-", ".txt"), err = Files.createTempFile("smells-err-", ".txt");
         Process p = null;
         try {
-            p = new ProcessBuilder(cmd).directory(cwd.toFile()).redirectOutput(out.toFile()).redirectError(err.toFile()).start();
+            ProcessBuilder pb = new ProcessBuilder(cmd).directory(cwd.toFile()).redirectOutput(out.toFile()).redirectError(err.toFile());
+            pb.environment().putAll(env);
+            p = pb.start();
             boolean done = p.waitFor(timeoutSeconds, TimeUnit.SECONDS);
             if (!done) { p.destroyForcibly(); p.waitFor(); }
-            return new ProcResult(done ? p.exitValue() : -1, Files.readString(out, StandardCharsets.UTF_8),
-                    Files.readString(err, StandardCharsets.UTF_8));
+            return new ProcResult(done ? p.exitValue() : -1, readText(out), readText(err));
         } catch (InterruptedException e) {
             if (p != null) p.destroyForcibly();
             Thread.currentThread().interrupt();
@@ -929,6 +1004,11 @@ public class Main {
         Path tmp = Files.createTempFile(out.getParent(), ".tmp-", ".csv");
         Files.writeString(tmp, sb.toString(), StandardCharsets.UTF_8);
         Files.move(tmp, out, StandardCopyOption.REPLACE_EXISTING);
+    }
+
+    /** Reads a file as UTF-8, replacing bytes that are not valid UTF-8 instead of failing (old sources are often Latin-1). */
+    static String readText(Path p) throws IOException {
+        return new String(Files.readAllBytes(p), StandardCharsets.UTF_8);
     }
 
     static String csvField(String s) {
