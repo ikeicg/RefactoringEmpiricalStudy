@@ -1,0 +1,39 @@
+=== run started 2026-11-10T22:57:07.711277600Z (tool version 2) ===
+repo=https://github.com/JabRef/jabref.git
+start commit given=cd1f0ac836d0c71032f4293ac83b0eca1aef6f11 resolved=cd1f0ac836d0c71032f4293ac83b0eca1aef6f11 (2026-09-29, "New translations jabref_en.properties for (Italian) (#17335)")
+non-merge commits from start commit back to the first commit=22141
+fresh start
+releases csv written: 66 tags
+b47c68a9a0f58de3f9fc3a7f5daf8b8952b847a3 error: java.lang.NullPointerException: Cannot invoke "gr.uom.java.xmi.UMLType.getClassType()" because "type" is null (will be retried on the next run)
+c104ac012386d2d4093b0604ae191872ed0b9e52 timeout after 300s (will be retried on the next run)
+246d7876a2d2fa157a8a7359ab537b9038c08413 timeout after 300s (will be retried on the next run)
+98ee51ebd5ba2efc31fa44f398192afe4c65972b error: java.lang.NullPointerException: Cannot invoke "gr.uom.java.xmi.UMLType.matchWithParentClassTypeParameterChange(gr.uom.java.xmi.UMLType, java.util.Set)" because the return value of "gr.uom.java.xmi.decomposition.VariableDeclaration.getType()" is null (will be retried on the next run)
+f50e3e3ab07bb611c620fabb765a21f5355e38b5 error: java.lang.NullPointerException: Cannot invoke "gr.uom.java.xmi.UMLType.getClassType()" because "type" is null (will be retried on the next run)
+4b957d72dd7a704bb17ae7957a48991ee913d1ad error: java.lang.NullPointerException: Cannot invoke "gr.uom.java.xmi.UMLType.getClassType()" because "type" is null (will be retried on the next run)
+b22311f7c82e3397645f23794c28f85010513757 first commit (no parent): no parent to compare against
+5bccc627de7db46fa3500aff11a18846cec1ae1a first commit (no parent): no parent to compare against
+c6426181c7ad3c4a39a126e4d5ba2f60b0751930 first commit (no parent): no parent to compare against
+974d13d62e582491c427d8a2f633b810f3333cd1 first commit (no parent): no parent to compare against
+38e162df42fddc6b317ea550d538591030b945a9 error: java.lang.NullPointerException (will be retried on the next run)
+a403da5555cae19fbfdf18769ce4f0e44757f63e error: java.lang.NullPointerException (will be retried on the next run)
+d487ec863b2e10919a84612a1c15eddefa79c23e error: java.lang.NullPointerException (will be retried on the next run)
+46dcd6c1ab8cbca89ec7b268477b8756bafae114 error: java.lang.NullPointerException (will be retried on the next run)
+fa6e0740fdc66afe05f0b54a507f58198f6e2000 error: java.lang.NullPointerException (will be retried on the next run)
+80e8abac28117bbb3eca0f3d6ab87a6f6923dc61 error: java.lang.NullPointerException (will be retried on the next run)
+5d8b15c8957ba7e4ea43601a3fe1cb9a1b77ad11 timeout after 300s (will be retried on the next run)
+00228cf1dacab53ee823e55ab7c79031bb529e61 timeout after 300s (will be retried on the next run)
+185d7345946c29a2a4e2726c912be0c4db4810b9 first commit (no parent): no parent to compare against
+65e697572b0715f282f8545dd59a1cf2ea129b60 first commit (no parent): no parent to compare against
+=== run finished 2026-11-11T01:30:10.728005700Z ===
+this run: 22141 commits processed (ok=22121, first commit=6, timeouts=4, errors=10)
+SUMMARY for all runs in this folder:
+  non-merge commits in history:          22141
+  analyzed by RefactoringMiner:          22121  (with at least one refactoring: 5538)
+  first commit (no parent to compare):   6
+  timed out:                             4
+  errors:                                10
+  not attempted yet:                     0
+  accounted for:                         22141 of 22141
+  refactoring rows in CSV:               78325  (matches the per-commit counts exactly)
+  STATUS: FINISHED - every commit was attempted; 14 could not be analyzed (each is listed in run_log.txt with its reason).
+          Rerunning the same command retries only those.

@@ -7,3 +7,4 @@ Java projects: Checkstyle, Mockito, JabRef.
 
 - [`refactoring-extraction/`](refactoring-extraction/) — standalone tool that mines a repo's full
   history with RefactoringMiner and writes a CSV of every refactoring instance.
+- [`datasets/`](datasets/) — the extracted refactorings, Git tags and run logs for each project.

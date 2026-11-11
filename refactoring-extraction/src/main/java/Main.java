@@ -33,7 +33,7 @@ import java.util.concurrent.TimeUnit;
  * Clones the repo, lists every non-merge commit reachable from start-commit (default: HEAD) back to
  * the first commit, runs RefactoringMiner on each one, and writes into <repo-name>_output/:
  *   <repo-name>_extraction.csv   one row per refactoring instance
- *   <repo-name>_releases.csv     every Git tag with its date and URL
+ *   <repo-name>_tags.csv         every Git tag with its tagged commit date and URL
  *   run_log.txt                  what ran, every timeout/error with its reason, and a final summary
  *
  * RefactoringMiner runs in a separate worker process, so a commit that hits the time limit is really
@@ -74,7 +74,7 @@ public class Main {
     // ------------------------------------------------------------------------------------------
 
     final String url, startRefGiven, repoName, ownerRepo;
-    final Path outDir, repoDir, extractionCsv, releasesCsv, runLog, statusFile, metaFile, lockFile, rmMessages;
+    final Path outDir, repoDir, extractionCsv, tagsCsv, runLog, statusFile, metaFile, lockFile, rmMessages;
     PrintWriter log;
     final Object logLock = new Object();
     Worker worker;
@@ -92,7 +92,7 @@ public class Main {
         this.outDir = Path.of(repoName + "_output");
         this.repoDir = outDir.resolve("repo");
         this.extractionCsv = outDir.resolve(repoName + "_extraction.csv");
-        this.releasesCsv = outDir.resolve(repoName + "_releases.csv");
+        this.tagsCsv = outDir.resolve(repoName + "_tags.csv");
         this.runLog = outDir.resolve("run_log.txt");
         this.statusFile = outDir.resolve(".commits_done");
         this.metaFile = outDir.resolve(".run_meta");
@@ -199,9 +199,9 @@ public class Main {
                     + " back to the first commit; " + alreadyFinal + " already finished, "
                     + (commits.size() - alreadyFinal) + " to do.");
 
-            // ---- releases first, so they exist even if mining is interrupted ----
-            int tagCount = writeReleases(repo);
-            logLine("releases csv written: " + tagCount + " tags");
+            // ---- tags first, so they exist even if mining is interrupted ----
+            int tagCount = writeTags(repo);
+            logLine("tags csv written: " + tagCount + " tags");
 
             Runtime.getRuntime().addShutdownHook(new Thread(() -> {
                 if (worker != null) worker.kill();
@@ -482,10 +482,10 @@ public class Main {
     }
 
     // ------------------------------------------------------------------------------------------
-    // Releases
+    // Tags
     // ------------------------------------------------------------------------------------------
 
-    int writeReleases(Repository repo) throws Exception {
+    int writeTags(Repository repo) throws Exception {
         List<String[]> rows = new ArrayList<>();
         try (RevWalk walk = new RevWalk(repo)) {
             for (Ref ref : repo.getRefDatabase().getRefsByPrefix("refs/tags/")) {
@@ -502,8 +502,8 @@ public class Main {
             }
         }
         rows.sort(Comparator.<String[], String>comparing(r -> r[1]).thenComparing(r -> r[0]));
-        try (BufferedWriter w = Files.newBufferedWriter(releasesCsv, StandardCharsets.UTF_8)) {
-            w.write("tag,date,url\n");
+        try (BufferedWriter w = Files.newBufferedWriter(tagsCsv, StandardCharsets.UTF_8)) {
+            w.write("tag,tagged_commit_date,url\n");
             for (String[] r : rows) w.write(csvLine(r));
         }
         return rows.size();

@@ -1,7 +1,7 @@
 # refactoring-extraction
 
 Mines a Git repository's full history with [RefactoringMiner](https://github.com/tsantalis/RefactoringMiner)
-and writes a CSV of every refactoring instance, plus a release-dates CSV and a run log.
+and writes a CSV of every refactoring instance, plus a CSV of the repository's Git tags and a run log.
 
 ## Build
 
@@ -33,7 +33,7 @@ Written to `<repo-name>_output/` next to wherever you ran the command:
 | File | Contents |
 |---|---|
 | `<repo-name>_extraction.csv` | One row per refactoring instance (see columns below). |
-| `<repo-name>_releases.csv` | `tag, date, url` — every Git tag in the repo, with its commit date and a GitHub releases-page URL. |
+| `<repo-name>_tags.csv` | `tag, tagged_commit_date, url` — every Git tag in the repo, with the date of the commit it points to and its GitHub tag URL. A tag is not necessarily a release: tags also mark branches, re-tags, builds and packaging, and the tagged commit date can differ from the official release date. Check tags against the project's official release notes before treating them as releases. |
 | `run_log.txt` | The start commit as given and as resolved, how many commits were listed, every timeout or error with its reason, and a final summary. |
 | `refactoringminer_messages.log` | RefactoringMiner's own messages, including the stack trace of any commit it could not analyze. |
 | `repo/` | The clone (Git history only, no checked-out files). Reused by later runs. |

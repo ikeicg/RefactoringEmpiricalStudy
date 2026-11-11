@@ -1,0 +1,40 @@
+=== run started 2026-11-10T22:54:36.043599300Z (tool version 2) ===
+repo=https://github.com/mockito/mockito.git
+start commit given=116a4d6231dc35f90543060af41dcde00fe4e2ae resolved=116a4d6231dc35f90543060af41dcde00fe4e2ae (2026-09-25, "Allow mockito-junit-jupiter to resolve with JUnit 6 in OSGi (#3867)")
+non-merge commits from start commit back to the first commit=5872
+fresh start
+releases csv written: 653 tags
+3b5ba472cc1dd3d85e916875c9332b282d30fff4 timeout after 300s (will be retried on the next run)
+7cf6470d88491fe472e28493b50eba8a6fbf0433 first commit (no parent): no parent to compare against
+=== run finished 2026-11-10T23:10:36.920625400Z ===
+this run: 5872 commits processed (ok=5870, first commit=1, timeouts=1, errors=0)
+SUMMARY for all runs in this folder:
+  non-merge commits in history:          5872
+  analyzed by RefactoringMiner:          5870  (with at least one refactoring: 1600)
+  first commit (no parent to compare):   1
+  timed out:                             1
+  errors:                                0
+  not attempted yet:                     0
+  accounted for:                         5872 of 5872
+  refactoring rows in CSV:               14334  (matches the per-commit counts exactly)
+  STATUS: FINISHED - every commit was attempted; 1 could not be analyzed (each is listed in run_log.txt with its reason).
+          Rerunning the same command retries only those.
+=== run started 2026-11-11T00:29:49.706033800Z (tool version 2) ===
+repo=https://github.com/mockito/mockito.git
+start commit given=116a4d6231dc35f90543060af41dcde00fe4e2ae resolved=116a4d6231dc35f90543060af41dcde00fe4e2ae (2026-09-25, "Allow mockito-junit-jupiter to resolve with JUnit 6 in OSGi (#3867)")
+non-merge commits from start commit back to the first commit=5872
+resuming: 5871 commits already finished, 1 earlier timeouts/errors to retry, 0 never attempted
+releases csv written: 653 tags
+3b5ba472cc1dd3d85e916875c9332b282d30fff4 retrying (previous result: timeout)
+=== run finished 2026-11-11T00:32:43.868090100Z ===
+this run: 1 commits processed (ok=1, first commit=0, timeouts=0, errors=0)
+SUMMARY for all runs in this folder:
+  non-merge commits in history:          5872
+  analyzed by RefactoringMiner:          5871  (with at least one refactoring: 1600)
+  first commit (no parent to compare):   1
+  timed out:                             0
+  errors:                                0
+  not attempted yet:                     0
+  accounted for:                         5872 of 5872
+  refactoring rows in CSV:               14334  (matches the per-commit counts exactly)
+  STATUS: COMPLETE - every commit in the history was mined.

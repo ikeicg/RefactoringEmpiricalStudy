@@ -1,0 +1,69 @@
+=== run started 2026-11-10T22:49:52.746847100Z (tool version 2) ===
+repo=https://github.com/checkstyle/checkstyle.git
+start commit given=0573dedd580e357c16e51b46a036547fc6caf305 resolved=0573dedd580e357c16e51b46a036547fc6caf305 (2026-09-30, "dependency: bump org.apache.commons:commons-lang3 from 3.20.0 to 3.21.0")
+non-merge commits from start commit back to the first commit=17841
+fresh start
+releases csv written: 226 tags
+c81b279d4eb535963d4e7cc7bc57ce91b7742477 error: java.lang.StringIndexOutOfBoundsException: Index 0 out of bounds for length 0 (will be retried on the next run)
+ee66fcb0d01545579d68866735fdcc45760e90aa error: java.lang.StringIndexOutOfBoundsException: Index 0 out of bounds for length 0 (will be retried on the next run)
+0b164e85b794856bdea4d98ef89c536ac37c3ae4 timeout after 300s (will be retried on the next run)
+74d136fb9a7a210f09cd22555deebd278b3dd898 error: java.lang.StringIndexOutOfBoundsException: Index 0 out of bounds for length 0 (will be retried on the next run)
+2575201f28eb1c8670c63619246f43cfad53fbf1 error: java.lang.StringIndexOutOfBoundsException: Index 0 out of bounds for length 0 (will be retried on the next run)
+04c0b99b8b72ade79fcca09a644f461ab5667e5a error: java.lang.StringIndexOutOfBoundsException: Index 0 out of bounds for length 0 (will be retried on the next run)
+ae08612024c2eba6d2608fe0d58d157c5c7768d8 timeout after 300s (will be retried on the next run)
+0cb30594ab84cdba5196967682c12a9bf74a61c6 timeout after 300s (will be retried on the next run)
+840e7143a58542da18227e443df935e1ea429fc9 timeout after 300s (will be retried on the next run)
+3cc64958a6a389e83b1f608c6513985e7d37d140 timeout after 300s (will be retried on the next run)
+5f53a2a380e038e791af244b42f245b813dbc379 first commit (no parent): no parent to compare against
+=== run finished 2026-11-11T00:13:41.620022500Z ===
+this run: 17841 commits processed (ok=17830, first commit=1, timeouts=5, errors=5)
+SUMMARY for all runs in this folder:
+  non-merge commits in history:          17841
+  analyzed by RefactoringMiner:          17830  (with at least one refactoring: 3868)
+  first commit (no parent to compare):   1
+  timed out:                             5
+  errors:                                5
+  not attempted yet:                     0
+  accounted for:                         17841 of 17841
+  refactoring rows in CSV:               37893  (matches the per-commit counts exactly)
+  STATUS: FINISHED - every commit was attempted; 10 could not be analyzed (each is listed in run_log.txt with its reason).
+          Rerunning the same command retries only those.
+=== run started 2026-11-11T00:31:24.731062200Z (tool version 2) ===
+repo=https://github.com/checkstyle/checkstyle.git
+start commit given=0573dedd580e357c16e51b46a036547fc6caf305 resolved=0573dedd580e357c16e51b46a036547fc6caf305 (2026-09-30, "dependency: bump org.apache.commons:commons-lang3 from 3.20.0 to 3.21.0")
+non-merge commits from start commit back to the first commit=17841
+resuming: 17831 commits already finished, 10 earlier timeouts/errors to retry, 0 never attempted
+releases csv written: 226 tags
+c81b279d4eb535963d4e7cc7bc57ce91b7742477 retrying (previous result: error)
+c81b279d4eb535963d4e7cc7bc57ce91b7742477 error: java.lang.StringIndexOutOfBoundsException: Index 0 out of bounds for length 0 (will be retried on the next run)
+ee66fcb0d01545579d68866735fdcc45760e90aa retrying (previous result: error)
+ee66fcb0d01545579d68866735fdcc45760e90aa error: java.lang.StringIndexOutOfBoundsException: Index 0 out of bounds for length 0 (will be retried on the next run)
+0b164e85b794856bdea4d98ef89c536ac37c3ae4 retrying (previous result: timeout)
+0b164e85b794856bdea4d98ef89c536ac37c3ae4 timeout after 300s (will be retried on the next run)
+74d136fb9a7a210f09cd22555deebd278b3dd898 retrying (previous result: error)
+74d136fb9a7a210f09cd22555deebd278b3dd898 error: java.lang.StringIndexOutOfBoundsException: Index 0 out of bounds for length 0 (will be retried on the next run)
+2575201f28eb1c8670c63619246f43cfad53fbf1 retrying (previous result: error)
+2575201f28eb1c8670c63619246f43cfad53fbf1 error: java.lang.StringIndexOutOfBoundsException: Index 0 out of bounds for length 0 (will be retried on the next run)
+04c0b99b8b72ade79fcca09a644f461ab5667e5a retrying (previous result: error)
+04c0b99b8b72ade79fcca09a644f461ab5667e5a error: java.lang.StringIndexOutOfBoundsException: Index 0 out of bounds for length 0 (will be retried on the next run)
+ae08612024c2eba6d2608fe0d58d157c5c7768d8 retrying (previous result: timeout)
+ae08612024c2eba6d2608fe0d58d157c5c7768d8 timeout after 300s (will be retried on the next run)
+0cb30594ab84cdba5196967682c12a9bf74a61c6 retrying (previous result: timeout)
+0cb30594ab84cdba5196967682c12a9bf74a61c6 timeout after 300s (will be retried on the next run)
+840e7143a58542da18227e443df935e1ea429fc9 retrying (previous result: timeout)
+840e7143a58542da18227e443df935e1ea429fc9 timeout after 300s (will be retried on the next run)
+3cc64958a6a389e83b1f608c6513985e7d37d140 retrying (previous result: timeout)
+3cc64958a6a389e83b1f608c6513985e7d37d140 timeout after 300s (will be retried on the next run)
+=== run finished 2026-11-11T00:56:36.103664300Z ===
+this run: 10 commits processed (ok=0, first commit=0, timeouts=5, errors=5)
+SUMMARY for all runs in this folder:
+  non-merge commits in history:          17841
+  analyzed by RefactoringMiner:          17830  (with at least one refactoring: 3868)
+  first commit (no parent to compare):   1
+  timed out:                             5
+  errors:                                5
+  not attempted yet:                     0
+  accounted for:                         17841 of 17841
+  refactoring rows in CSV:               37893  (matches the per-commit counts exactly)
+  STATUS: FINISHED - every commit was attempted; 10 could not be analyzed (each is listed in run_log.txt with its reason).
+          Rerunning the same command retries only those.
