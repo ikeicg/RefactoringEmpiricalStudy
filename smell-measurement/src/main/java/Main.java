@@ -109,7 +109,7 @@ public class Main {
             log.line("refactoring CSV: " + cfg.csv().getFileName() + " (" + refs.rows() + " rows, " + refs.byCommit().size() + " commits)");
 
             log.line("seed: " + cfg.seed() + ", commits to record: " + cfg.commits() + ", threads: " + cfg.threads());
-            log.line("PMD: " + pmdVersion(cfg) + ", ruleset rulesets/java/quickstart.xml (bundled, unmodified)");
+            log.line("PMD: " + pmdVersion(cfg) + ", ruleset " + PMD_RULESET + " (bundled, unmodified)");
             log.line("DesigniteJava: " + Path.of(cfg.designiteCommand().get(cfg.designiteCommand().size() - 1)).getFileName() + " (default thresholds)");
             log.line("test code: left out of every snapshot, never a refactored or control file");
 
@@ -514,14 +514,17 @@ public class Main {
         try {
             Path dir = rawDir.resolve(key);
             Path status = dir.resolve("status.txt");
-            if (!Files.exists(status)) {
+            // A snapshot analysed earlier with another PMD ruleset keeps its DesigniteJava output; only PMD is redone.
+            boolean pmdOnly = Files.exists(status) && Files.readString(status).trim().equals("ok") && !pmdRulesetCurrent(dir);
+            if (!Files.exists(status) || pmdOnly) {
                 Files.createDirectories(dir);
+                Files.deleteIfExists(status);
                 // Named after the key: DesigniteJava writes the directory name into its Project Name column.
                 Path tmp = Files.createTempDirectory("smells-");
                 Path snap = tmp.resolve("snap-" + key.substring(0, 12));
                 try {
                     exportJavaFiles(repoDir, commit, snap);
-                    String failure = runTools(snap, dir, cfg);
+                    String failure = pmdOnly ? runPmd(snap, dir, cfg) : runTools(snap, dir, cfg);
                     Files.writeString(status, failure == null ? "ok\n" : "failed: " + failure + "\n");
                 } finally {
                     deleteTree(tmp);
@@ -583,7 +586,22 @@ public class Main {
         }
         Files.write(raw.resolve("java_files.tsv"), lines);
 
-        // PMD, bundled quickstart ruleset, unmodified. With both --no-fail-on-* flags exit 0 is the only success.
+        String pmdFailure = runPmd(snap, raw, cfg);
+        if (pmdFailure != null) return pmdFailure;
+        return runDesignite(snap, raw, cfg);
+    }
+
+    /** The bundled PMD ruleset, used unmodified: the whole Design category for Java. */
+    static final String PMD_RULESET = "category/java/design.xml";
+
+    static boolean pmdRulesetCurrent(Path raw) throws IOException {
+        Path f = raw.resolve("pmd_ruleset.txt");
+        return Files.exists(f) && Files.readString(f).trim().equals(PMD_RULESET);
+    }
+
+    /** Runs PMD on a snapshot and checks the run. Returns null on success, else why the snapshot is unusable. */
+    static String runPmd(Path snap, Path raw, Config cfg) throws IOException {
+        Files.deleteIfExists(raw.resolve("pmd_ruleset.txt"));
         Path pmdCsv = raw.resolve("pmd.csv");
         ProcResult pmd = exec(pmdCommand(cfg, snap, "csv", pmdCsv), snap, 3600, PMD_ENV);
         if (!pmdFinished(pmd)) return "PMD exited with status " + pmd.exit() + ": " + pmd.tail();
@@ -609,7 +627,12 @@ public class Main {
         } finally {
             Files.deleteIfExists(pmdXml);
         }
+        Files.writeString(raw.resolve("pmd_ruleset.txt"), PMD_RULESET + "\n");
+        return null;
+    }
 
+    /** Runs DesigniteJava on a snapshot and checks the run. Returns null on success, else why it is unusable. */
+    static String runDesignite(Path snap, Path raw, Config cfg) throws IOException {
         // DesigniteJava into a fresh, empty directory (the tool deletes what it finds there).
         Path djOut = Files.createTempDirectory("smells-dj-");
         try {
@@ -661,7 +684,7 @@ public class Main {
         String exe = System.getProperty("os.name").toLowerCase().contains("win") ? "pmd.bat" : "pmd";
         return List.of(cfg.pmdHome().resolve("bin").resolve(exe).toString(), "check",
                 "-d", snap.toString(), "-z", snap.toString(),
-                "-R", "rulesets/java/quickstart.xml", "-f", format, "-r", report.toString(),
+                "-R", PMD_RULESET, "-f", format, "-r", report.toString(),
                 "--no-fail-on-violation", "--no-fail-on-error", "--no-progress", "--no-cache");
     }
 

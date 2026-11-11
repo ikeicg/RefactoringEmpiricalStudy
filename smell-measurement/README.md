@@ -5,7 +5,9 @@ Records code smells before and after refactoring commits. It reads the refactori
 seed, and runs two detectors on the project's production code at each commit (after) and at its parent (before):
 
 - [DesigniteJava](https://github.com/tushartushar/DesigniteJava) (open source, commit `307ddf7`): its 17 design smells, at the tool's default thresholds.
-- [PMD](https://pmd.github.io/) 7.17.0: rule violations from its bundled `rulesets/java/quickstart.xml`, unmodified.
+- [PMD](https://pmd.github.io/) 7.17.0: rule violations from its bundled Design category, `category/java/design.xml`,
+  unmodified (complexity, coupling and size rules such as Cyclomatic Complexity, God Class and Coupling Between
+  Objects). PMD switches off one rule of the category, Loose Package Coupling, because it needs a list of packages.
 
 Both tools read source code, so the project does not have to be built at any commit.
 
@@ -112,7 +114,8 @@ holding that snapshot's tool output).
 - **Same result every time.** The seed fixes the order of commits, and results are taken in that order even
   when several commits are analysed at once.
 - **Resumable.** Tool output is kept in `raw/`. Running the same command again reuses it and finishes with
-  the same files. A snapshot whose analysis was interrupted is analysed again.
+  the same files. A snapshot whose analysis was interrupted is analysed again. A snapshot analysed with another PMD
+  ruleset keeps its DesigniteJava output, and only PMD is run again.
 - **PMD settings.** PMD runs with a larger thread stack (`-Xss16m`), because its default stack overflows on some
   very long expressions. When PMD finishes but cannot analyse single files (for example a type it cannot
   resolve), those files are listed in its report, counted in `pmd_unparsed_files_*`, and never used in a pair.
