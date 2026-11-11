@@ -1,8 +1,8 @@
-started: 2026-11-11T10:55:52.546195706Z
+started: 2026-11-11T17:30:53.112468974Z
 project: jabref
 refactoring CSV: jabref_extraction.csv (78325 rows, 5538 commits)
-seed: 6491, commits to record: 100, threads: 1
-PMD: PMD 7.17.0 (d2942d5ded8e3f967ba8872f3dc58a7bdffa73bf, 2025-09-12T07:17:26Z), ruleset rulesets/java/quickstart.xml (bundled, unmodified)
+seed: 6491, commits to record: 100, threads: 2
+PMD: PMD 7.17.0 (d2942d5ded8e3f967ba8872f3dc58a7bdffa73bf, 2025-09-12T07:17:26Z), ruleset category/java/design.xml (bundled, unmodified)
 DesigniteJava: DesigniteJava.jar (default thresholds)
 test code: left out of every snapshot, never a refactored or control file
 repository: https://github.com/JabRef/jabref.git
@@ -32,7 +32,7 @@ changed files left out by the file checks:
   top-level type is an enum (DesigniteJava does not model it): 10
 
 == Snapshots ==
-analysed: 283 (ok 283, failed 0)
+analysed: 284 (ok 284, failed 0)
 
 RESULT: COMPLETE - 100 commits with totals and 100 file pairs recorded.
-finished: 2026-11-11T10:56:18.587828895Z
+finished: 2026-11-11T18:24:19.214077537Z

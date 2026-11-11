@@ -1,8 +1,8 @@
-started: 2026-11-11T10:55:10.166223656Z
+started: 2026-11-11T16:34:41.644994358Z
 project: mockito
 refactoring CSV: mockito_extraction.csv (14334 rows, 1600 commits)
-seed: 6491, commits to record: 100, threads: 1
-PMD: PMD 7.17.0 (d2942d5ded8e3f967ba8872f3dc58a7bdffa73bf, 2025-09-12T07:17:26Z), ruleset rulesets/java/quickstart.xml (bundled, unmodified)
+seed: 6491, commits to record: 100, threads: 2
+PMD: PMD 7.17.0 (d2942d5ded8e3f967ba8872f3dc58a7bdffa73bf, 2025-09-12T07:17:26Z), ruleset category/java/design.xml (bundled, unmodified)
 DesigniteJava: DesigniteJava.jar (default thresholds)
 test code: left out of every snapshot, never a refactored or control file
 repository: https://github.com/mockito/mockito.git
@@ -28,7 +28,7 @@ changed files left out by the file checks:
   top-level type is an enum (DesigniteJava does not model it): 1
 
 == Snapshots ==
-analysed: 297 (ok 297, failed 0)
+analysed: 298 (ok 298, failed 0)
 
 RESULT: COMPLETE - 100 commits with totals and 100 file pairs recorded.
-finished: 2026-11-11T10:55:26.575164375Z
+finished: 2026-11-11T17:00:06.005685987Z

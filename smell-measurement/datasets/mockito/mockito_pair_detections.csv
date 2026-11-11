@@ -1,110 +1,98 @@
 pair_id,group,file_path,snapshot,detector,detection,count
-p001,treated,src/main/java/org/mockito/internal/creation/bytebuddy/InterceptedInvocation.java,before,pmd,AvoidCatchingThrowable,1
-p001,treated,src/main/java/org/mockito/internal/creation/bytebuddy/InterceptedInvocation.java,before,pmd,MissingOverride,1
-p001,treated,src/main/java/org/mockito/internal/creation/bytebuddy/InterceptedInvocation.java,before,pmd,OneDeclarationPerLine,1
-p001,treated,src/main/java/org/mockito/internal/creation/bytebuddy/InterceptedInvocation.java,after,pmd,AvoidCatchingThrowable,1
-p001,treated,src/main/java/org/mockito/internal/creation/bytebuddy/InterceptedInvocation.java,after,pmd,MissingOverride,1
-p001,treated,src/main/java/org/mockito/internal/creation/bytebuddy/InterceptedInvocation.java,after,pmd,OneDeclarationPerLine,1
-p001,treated,src/main/java/org/mockito/internal/creation/bytebuddy/InterceptedInvocation.java,after,pmd,UnnecessaryImport,1
 p001,treated,src/main/java/org/mockito/internal/creation/bytebuddy/InterceptedInvocation.java,before,designite,Insufficient Modularization,1
 p001,treated,src/main/java/org/mockito/internal/creation/bytebuddy/InterceptedInvocation.java,after,designite,Insufficient Modularization,1
-p001,control,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,before,pmd,AssignmentInOperand,1
-p001,control,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,before,pmd,AvoidAccessibilityAlteration,2
+p001,control,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,before,pmd,AvoidCatchingGenericException,1
 p001,control,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,4
-p001,control,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,before,pmd,CompareObjectsWithEquals,2
+p001,control,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,before,pmd,LawOfDemeter,3
 p001,control,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,before,pmd,UseUtilityClass,1
-p001,control,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,after,pmd,AssignmentInOperand,1
-p001,control,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,after,pmd,AvoidAccessibilityAlteration,2
+p001,control,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,after,pmd,AvoidCatchingGenericException,1
 p001,control,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,4
-p001,control,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,after,pmd,CompareObjectsWithEquals,2
-p001,control,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,after,pmd,LiteralsFirstInComparisons,1
-p001,control,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,after,pmd,OptimizableToArrayCall,1
+p001,control,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,after,pmd,LawOfDemeter,3
 p001,control,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,after,pmd,UseUtilityClass,1
-p002,treated,buildSrc/src/main/groovy/org/mockito/release/notes/improvements/GitHubImprovementsProvider.java,before,pmd,CloseResource,1
-p002,treated,buildSrc/src/main/groovy/org/mockito/release/notes/improvements/GitHubImprovementsProvider.java,before,pmd,GuardLogStatement,1
-p002,treated,buildSrc/src/main/groovy/org/mockito/release/notes/improvements/GitHubImprovementsProvider.java,after,pmd,GuardLogStatement,1
 p002,treated,buildSrc/src/main/groovy/org/mockito/release/notes/improvements/GitHubImprovementsProvider.java,before,designite,Unutilized Abstraction,1
 p002,treated,buildSrc/src/main/groovy/org/mockito/release/notes/improvements/GitHubImprovementsProvider.java,after,designite,Unutilized Abstraction,1
+p002,control,buildSrc/src/main/groovy/org/mockito/release/notes/vcs/GitCommit.java,after,pmd,ImmutableField,1
 p002,control,buildSrc/src/main/groovy/org/mockito/release/notes/vcs/GitCommit.java,before,designite,Unutilized Abstraction,1
 p002,control,buildSrc/src/main/groovy/org/mockito/release/notes/vcs/GitCommit.java,after,designite,Unutilized Abstraction,1
 p004,treated,src/main/java/org/mockito/internal/invocation/InvocationMarker.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
-p005,treated,buildSrc/src/main/groovy/org/mockito/release/comparison/ZipCompare.java,before,pmd,CloseResource,2
-p005,treated,buildSrc/src/main/groovy/org/mockito/release/comparison/ZipCompare.java,before,pmd,ControlStatementBraces,4
-p005,treated,buildSrc/src/main/groovy/org/mockito/release/comparison/ZipCompare.java,before,pmd,ForLoopCanBeForeach,2
-p005,treated,buildSrc/src/main/groovy/org/mockito/release/comparison/ZipCompare.java,before,pmd,GuardLogStatement,6
-p005,treated,buildSrc/src/main/groovy/org/mockito/release/comparison/ZipCompare.java,after,pmd,CloseResource,2
-p005,treated,buildSrc/src/main/groovy/org/mockito/release/comparison/ZipCompare.java,after,pmd,ControlStatementBraces,4
-p005,treated,buildSrc/src/main/groovy/org/mockito/release/comparison/ZipCompare.java,after,pmd,GuardLogStatement,6
-p005,treated,buildSrc/src/main/groovy/org/mockito/release/comparison/ZipCompare.java,after,pmd,UnnecessaryImport,1
-p005,control,src/main/java/org/mockito/configuration/AnnotationEngine.java,after,pmd,UnnecessaryImport,2
+p005,treated,buildSrc/src/main/groovy/org/mockito/release/comparison/ZipCompare.java,before,pmd,AvoidCatchingGenericException,1
+p005,treated,buildSrc/src/main/groovy/org/mockito/release/comparison/ZipCompare.java,before,pmd,CognitiveComplexity,1
+p005,treated,buildSrc/src/main/groovy/org/mockito/release/comparison/ZipCompare.java,before,pmd,CyclomaticComplexity,2
+p005,treated,buildSrc/src/main/groovy/org/mockito/release/comparison/ZipCompare.java,after,pmd,AvoidCatchingGenericException,1
+p005,treated,buildSrc/src/main/groovy/org/mockito/release/comparison/ZipCompare.java,after,pmd,CognitiveComplexity,1
+p005,treated,buildSrc/src/main/groovy/org/mockito/release/comparison/ZipCompare.java,after,pmd,CyclomaticComplexity,2
 p006,treated,src/org/mockito/Strictly.java,before,designite,Unutilized Abstraction,1
 p006,treated,src/org/mockito/Strictly.java,after,designite,Unutilized Abstraction,1
-p006,control,src/org/mockito/CrazyMatchers.java,before,pmd,ReturnEmptyCollectionRatherThanNull,9
-p006,control,src/org/mockito/CrazyMatchers.java,before,pmd,UnnecessaryImport,1
+p006,control,src/org/mockito/CrazyMatchers.java,before,pmd,ExcessivePublicCount,1
+p006,control,src/org/mockito/CrazyMatchers.java,before,pmd,TooManyMethods,1
 p006,control,src/org/mockito/CrazyMatchers.java,before,pmd,UseUtilityClass,1
-p006,control,src/org/mockito/CrazyMatchers.java,after,pmd,ReturnEmptyCollectionRatherThanNull,9
-p006,control,src/org/mockito/CrazyMatchers.java,after,pmd,UnnecessaryImport,1
+p006,control,src/org/mockito/CrazyMatchers.java,after,pmd,ExcessivePublicCount,1
+p006,control,src/org/mockito/CrazyMatchers.java,after,pmd,TooManyMethods,1
 p006,control,src/org/mockito/CrazyMatchers.java,after,pmd,UseUtilityClass,1
 p006,control,src/org/mockito/CrazyMatchers.java,before,designite,Insufficient Modularization,1
 p006,control,src/org/mockito/CrazyMatchers.java,before,designite,Unutilized Abstraction,1
 p006,control,src/org/mockito/CrazyMatchers.java,after,designite,Insufficient Modularization,1
 p006,control,src/org/mockito/CrazyMatchers.java,after,designite,Unutilized Abstraction,1
-p007,treated,src/org/mockito/internal/creation/cglib/CGLIBHacker.java,before,pmd,AvoidAccessibilityAlteration,2
-p007,treated,src/org/mockito/internal/creation/cglib/CGLIBHacker.java,after,pmd,AvoidAccessibilityAlteration,2
-p007,treated,src/org/mockito/internal/creation/cglib/CGLIBHacker.java,after,pmd,UnnecessaryImport,1
+p007,treated,src/org/mockito/internal/creation/cglib/CGLIBHacker.java,before,pmd,AvoidCatchingGenericException,1
+p007,treated,src/org/mockito/internal/creation/cglib/CGLIBHacker.java,before,pmd,AvoidThrowingRawExceptionTypes,1
+p007,treated,src/org/mockito/internal/creation/cglib/CGLIBHacker.java,before,pmd,AvoidUncheckedExceptionsInSignatures,1
+p007,treated,src/org/mockito/internal/creation/cglib/CGLIBHacker.java,after,pmd,AvoidCatchingGenericException,1
+p007,treated,src/org/mockito/internal/creation/cglib/CGLIBHacker.java,after,pmd,AvoidThrowingRawExceptionTypes,1
+p007,treated,src/org/mockito/internal/creation/cglib/CGLIBHacker.java,after,pmd,AvoidUncheckedExceptionsInSignatures,1
 p007,treated,src/org/mockito/internal/creation/cglib/CGLIBHacker.java,after,designite,Unutilized Abstraction,1
-p008,control,src/org/mockito/internal/stubbing/answers/AnswersValidator.java,before,pmd,UnusedFormalParameter,2
-p008,control,src/org/mockito/internal/stubbing/answers/AnswersValidator.java,after,pmd,UnusedFormalParameter,2
+p008,control,src/org/mockito/internal/stubbing/answers/AnswersValidator.java,before,pmd,ImmutableField,1
+p008,control,src/org/mockito/internal/stubbing/answers/AnswersValidator.java,after,pmd,ImmutableField,1
 p008,control,src/org/mockito/internal/stubbing/answers/AnswersValidator.java,before,designite,Missing Hierarchy,1
 p008,control,src/org/mockito/internal/stubbing/answers/AnswersValidator.java,after,designite,Missing Hierarchy,1
-p009,treated,src/org/mockito/internal/creation/MethodInterceptorFilter.java,before,pmd,CompareObjectsWithEquals,1
-p009,treated,src/org/mockito/internal/creation/MethodInterceptorFilter.java,before,pmd,PreserveStackTrace,1
-p009,treated,src/org/mockito/internal/creation/MethodInterceptorFilter.java,after,pmd,CompareObjectsWithEquals,1
-p010,treated,src/main/java/org/mockito/internal/creation/settings/CreationSettings.java,before,pmd,UncommentedEmptyConstructor,1
-p010,treated,src/main/java/org/mockito/internal/creation/settings/CreationSettings.java,after,pmd,UncommentedEmptyConstructor,1
+p009,treated,src/org/mockito/internal/creation/MethodInterceptorFilter.java,before,pmd,AvoidThrowingRawExceptionTypes,1
+p010,treated,src/main/java/org/mockito/internal/creation/settings/CreationSettings.java,before,pmd,DataClass,1
+p010,treated,src/main/java/org/mockito/internal/creation/settings/CreationSettings.java,before,pmd,LawOfDemeter,1
+p010,treated,src/main/java/org/mockito/internal/creation/settings/CreationSettings.java,after,pmd,DataClass,1
+p010,treated,src/main/java/org/mockito/internal/creation/settings/CreationSettings.java,after,pmd,LawOfDemeter,1
 p010,treated,src/main/java/org/mockito/internal/creation/settings/CreationSettings.java,before,designite,Insufficient Modularization,1
 p010,treated,src/main/java/org/mockito/internal/creation/settings/CreationSettings.java,after,designite,Insufficient Modularization,1
-p011,treated,src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,before,pmd,AssignmentInOperand,1
+p010,control,src/main/java/org/mockito/MockSettings.java,before,pmd,TooManyMethods,1
+p010,control,src/main/java/org/mockito/MockSettings.java,after,pmd,TooManyMethods,1
+p011,treated,src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,before,pmd,AvoidCatchingGenericException,4
 p011,treated,src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,2
-p011,treated,src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,before,pmd,CompareObjectsWithEquals,4
+p011,treated,src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,before,pmd,CyclomaticComplexity,1
+p011,treated,src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,before,pmd,SignatureDeclareThrowsException,1
 p011,treated,src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,before,pmd,SimplifyBooleanReturns,3
-p011,treated,src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,before,pmd,UnusedPrivateField,1
-p011,treated,src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,after,pmd,AssignmentInOperand,1
+p011,treated,src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,after,pmd,AvoidCatchingGenericException,4
 p011,treated,src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,2
-p011,treated,src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,after,pmd,CompareObjectsWithEquals,4
+p011,treated,src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,after,pmd,CyclomaticComplexity,1
+p011,treated,src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,after,pmd,SignatureDeclareThrowsException,1
 p011,treated,src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java,after,pmd,SimplifyBooleanReturns,3
-p011,control,src/main/java/org/mockito/internal/creation/bytebuddy/SubclassInjectionLoader.java,before,pmd,AvoidCatchingThrowable,1
+p011,control,src/main/java/org/mockito/internal/creation/bytebuddy/SubclassInjectionLoader.java,before,pmd,AvoidCatchingGenericException,1
 p011,control,src/main/java/org/mockito/internal/creation/bytebuddy/SubclassInjectionLoader.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
-p011,control,src/main/java/org/mockito/internal/creation/bytebuddy/SubclassInjectionLoader.java,before,pmd,CompareObjectsWithEquals,1
-p011,control,src/main/java/org/mockito/internal/creation/bytebuddy/SubclassInjectionLoader.java,after,pmd,AvoidCatchingThrowable,1
+p011,control,src/main/java/org/mockito/internal/creation/bytebuddy/SubclassInjectionLoader.java,before,pmd,ExceptionAsFlowControl,1
+p011,control,src/main/java/org/mockito/internal/creation/bytebuddy/SubclassInjectionLoader.java,before,pmd,LawOfDemeter,3
+p011,control,src/main/java/org/mockito/internal/creation/bytebuddy/SubclassInjectionLoader.java,after,pmd,AvoidCatchingGenericException,1
 p011,control,src/main/java/org/mockito/internal/creation/bytebuddy/SubclassInjectionLoader.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,2
-p011,control,src/main/java/org/mockito/internal/creation/bytebuddy/SubclassInjectionLoader.java,after,pmd,CompareObjectsWithEquals,1
+p011,control,src/main/java/org/mockito/internal/creation/bytebuddy/SubclassInjectionLoader.java,after,pmd,ExceptionAsFlowControl,1
+p011,control,src/main/java/org/mockito/internal/creation/bytebuddy/SubclassInjectionLoader.java,after,pmd,LawOfDemeter,3
 p012,treated,src/org/mockito/internal/VerifyingMode.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
-p012,control,src/org/mockito/internal/InvocationWithMatchers.java,before,pmd,ControlStatementBraces,1
-p012,control,src/org/mockito/internal/InvocationWithMatchers.java,before,pmd,MissingOverride,3
-p012,control,src/org/mockito/internal/InvocationWithMatchers.java,after,pmd,ControlStatementBraces,1
-p012,control,src/org/mockito/internal/InvocationWithMatchers.java,after,pmd,MissingOverride,3
-p013,treated,src/org/mockito/exceptions/verification/junit/JUnitTool.java,before,pmd,AvoidCatchingThrowable,2
 p013,treated,src/org/mockito/exceptions/verification/junit/JUnitTool.java,before,pmd,UseUtilityClass,1
-p013,treated,src/org/mockito/exceptions/verification/junit/JUnitTool.java,before,pmd,VariableCanBeInlined,1
-p013,treated,src/org/mockito/exceptions/verification/junit/JUnitTool.java,after,pmd,AvoidCatchingThrowable,2
 p013,treated,src/org/mockito/exceptions/verification/junit/JUnitTool.java,after,pmd,UseUtilityClass,1
-p013,treated,src/org/mockito/exceptions/verification/junit/JUnitTool.java,after,pmd,VariableCanBeInlined,1
 p013,control,src/org/mockito/exceptions/verification/ArgumentsAreDifferent.java,before,designite,Unutilized Abstraction,1
 p013,control,src/org/mockito/exceptions/verification/ArgumentsAreDifferent.java,after,designite,Unutilized Abstraction,1
 p014,treated,src/main/java/org/mockito/internal/hamcrest/MatcherGenericTypeExtractor.java,before,pmd,UseUtilityClass,1
 p014,treated,src/main/java/org/mockito/internal/hamcrest/MatcherGenericTypeExtractor.java,after,pmd,UseUtilityClass,1
 p014,treated,src/main/java/org/mockito/internal/hamcrest/MatcherGenericTypeExtractor.java,before,designite,Unutilized Abstraction,1
 p014,treated,src/main/java/org/mockito/internal/hamcrest/MatcherGenericTypeExtractor.java,after,designite,Unutilized Abstraction,1
-p014,control,src/main/java/org/mockito/ArgumentMatcher.java,before,pmd,UnnecessaryModifier,1
-p015,treated,src/org/mockito/internal/invocation/Invocation.java,before,pmd,ControlStatementBraces,1
-p015,treated,src/org/mockito/internal/invocation/Invocation.java,before,pmd,MissingOverride,3
-p015,treated,src/org/mockito/internal/invocation/Invocation.java,after,pmd,ControlStatementBraces,1
-p015,treated,src/org/mockito/internal/invocation/Invocation.java,after,pmd,MissingOverride,3
-p015,control,src/org/mockito/internal/invocation/InvocationsChunker.java,before,pmd,LooseCoupling,1
-p015,control,src/org/mockito/internal/invocation/InvocationsChunker.java,before,pmd,MissingOverride,1
-p015,control,src/org/mockito/internal/invocation/InvocationsChunker.java,after,pmd,LooseCoupling,1
-p015,control,src/org/mockito/internal/invocation/InvocationsChunker.java,after,pmd,MissingOverride,1
+p015,treated,src/org/mockito/internal/invocation/Invocation.java,before,pmd,AvoidThrowingRawExceptionTypes,1
+p015,treated,src/org/mockito/internal/invocation/Invocation.java,before,pmd,ImmutableField,1
+p015,treated,src/org/mockito/internal/invocation/Invocation.java,before,pmd,TooManyMethods,1
+p015,treated,src/org/mockito/internal/invocation/Invocation.java,after,pmd,AvoidThrowingRawExceptionTypes,1
+p015,treated,src/org/mockito/internal/invocation/Invocation.java,after,pmd,TooManyMethods,1
+p016,treated,src/main/java/org/mockito/Mockito.java,before,pmd,CouplingBetweenObjects,1
+p016,treated,src/main/java/org/mockito/Mockito.java,before,pmd,ExcessiveImports,1
+p016,treated,src/main/java/org/mockito/Mockito.java,before,pmd,LawOfDemeter,4
+p016,treated,src/main/java/org/mockito/Mockito.java,before,pmd,TooManyMethods,1
+p016,treated,src/main/java/org/mockito/Mockito.java,after,pmd,CouplingBetweenObjects,1
+p016,treated,src/main/java/org/mockito/Mockito.java,after,pmd,ExcessiveImports,1
+p016,treated,src/main/java/org/mockito/Mockito.java,after,pmd,LawOfDemeter,4
+p016,treated,src/main/java/org/mockito/Mockito.java,after,pmd,TooManyMethods,1
 p016,treated,src/main/java/org/mockito/Mockito.java,before,designite,Broken Hierarchy,1
 p016,treated,src/main/java/org/mockito/Mockito.java,before,designite,Cyclic-Dependent Modularization,1
 p016,treated,src/main/java/org/mockito/Mockito.java,before,designite,Deficient Encapsulation,1
@@ -115,95 +103,93 @@ p016,treated,src/main/java/org/mockito/Mockito.java,after,designite,Deficient En
 p016,treated,src/main/java/org/mockito/Mockito.java,after,designite,Insufficient Modularization,1
 p016,control,src/main/java/org/mockito/internal/junit/UnusedStubbingsFinder.java,before,designite,Unutilized Abstraction,1
 p016,control,src/main/java/org/mockito/internal/junit/UnusedStubbingsFinder.java,after,designite,Unutilized Abstraction,1
-p017,treated,src/org/mockito/internal/invocation/InvocationMatcher.java,before,pmd,MissingOverride,1
-p017,treated,src/org/mockito/internal/invocation/InvocationMatcher.java,after,pmd,MissingOverride,1
 p018,treated,src/org/mockito/internal/util/DefaultMockingDetails.java,before,designite,Unutilized Abstraction,1
 p018,treated,src/org/mockito/internal/util/DefaultMockingDetails.java,after,designite,Unutilized Abstraction,1
 p018,control,src/org/mockito/MockingDetails.java,before,designite,Unutilized Abstraction,1
 p018,control,src/org/mockito/MockingDetails.java,after,designite,Unutilized Abstraction,1
 p019,treated,src/main/java/org/mockito/internal/handler/MockHandlerImpl.java,before,designite,Unutilized Abstraction,1
 p019,treated,src/main/java/org/mockito/internal/handler/MockHandlerImpl.java,after,designite,Unutilized Abstraction,1
-p019,control,src/main/java/org/mockito/mock/MockCreationSettings.java,after,pmd,UnnecessaryImport,1
-p020,treated,src/org/mockito/internal/invocation/MatchersBinder.java,before,pmd,VariableCanBeInlined,1
-p020,treated,src/org/mockito/internal/invocation/MatchersBinder.java,after,pmd,VariableCanBeInlined,1
+p020,treated,src/org/mockito/internal/invocation/MatchersBinder.java,before,pmd,CollapsibleIfStatements,1
+p020,treated,src/org/mockito/internal/invocation/MatchersBinder.java,before,pmd,LawOfDemeter,2
+p020,treated,src/org/mockito/internal/invocation/MatchersBinder.java,after,pmd,CollapsibleIfStatements,1
+p020,treated,src/org/mockito/internal/invocation/MatchersBinder.java,after,pmd,LawOfDemeter,2
 p020,control,src/org/mockito/internal/matchers/Any.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
 p020,control,src/org/mockito/internal/matchers/Any.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
 p020,control,src/org/mockito/internal/matchers/Any.java,before,designite,Deficient Encapsulation,1
 p020,control,src/org/mockito/internal/matchers/Any.java,after,designite,Deficient Encapsulation,1
+p021,treated,src/main/java/org/mockito/internal/util/MockUtil.java,before,pmd,AvoidCatchingGenericException,2
 p021,treated,src/main/java/org/mockito/internal/util/MockUtil.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
-p021,treated,src/main/java/org/mockito/internal/util/MockUtil.java,before,pmd,CompareObjectsWithEquals,2
+p021,treated,src/main/java/org/mockito/internal/util/MockUtil.java,before,pmd,LawOfDemeter,3
 p021,treated,src/main/java/org/mockito/internal/util/MockUtil.java,before,pmd,SimplifyBooleanReturns,1
+p021,treated,src/main/java/org/mockito/internal/util/MockUtil.java,before,pmd,TooManyMethods,1
+p021,treated,src/main/java/org/mockito/internal/util/MockUtil.java,after,pmd,AvoidCatchingGenericException,2
 p021,treated,src/main/java/org/mockito/internal/util/MockUtil.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
-p021,treated,src/main/java/org/mockito/internal/util/MockUtil.java,after,pmd,CompareObjectsWithEquals,2
+p021,treated,src/main/java/org/mockito/internal/util/MockUtil.java,after,pmd,LawOfDemeter,3
 p021,treated,src/main/java/org/mockito/internal/util/MockUtil.java,after,pmd,SimplifyBooleanReturns,1
+p021,treated,src/main/java/org/mockito/internal/util/MockUtil.java,after,pmd,TooManyMethods,1
 p021,treated,src/main/java/org/mockito/internal/util/MockUtil.java,before,designite,Cyclic-Dependent Modularization,1
 p021,treated,src/main/java/org/mockito/internal/util/MockUtil.java,after,designite,Cyclic-Dependent Modularization,1
+p021,control,src/main/java/org/mockito/internal/configuration/plugins/DefaultMockitoPlugins.java,before,pmd,AvoidCatchingGenericException,1
+p021,control,src/main/java/org/mockito/internal/configuration/plugins/DefaultMockitoPlugins.java,after,pmd,AvoidCatchingGenericException,1
 p021,control,src/main/java/org/mockito/internal/configuration/plugins/DefaultMockitoPlugins.java,before,designite,Deficient Encapsulation,1
 p021,control,src/main/java/org/mockito/internal/configuration/plugins/DefaultMockitoPlugins.java,after,designite,Cyclic-Dependent Modularization,1
 p021,control,src/main/java/org/mockito/internal/configuration/plugins/DefaultMockitoPlugins.java,after,designite,Deficient Encapsulation,1
 p023,treated,src/org/mockito/internal/matchers/Equals.java,before,designite,Unutilized Abstraction,1
 p023,treated,src/org/mockito/internal/matchers/Equals.java,after,designite,Unutilized Abstraction,1
-p023,control,src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java,before,pmd,AvoidCatchingThrowable,1
-p023,control,src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java,after,pmd,AvoidCatchingThrowable,1
 p024,treated,buildSrc/src/main/groovy/org/mockito/release/steps/DefaultReleaseStep.java,before,designite,Unutilized Abstraction,1
 p024,treated,buildSrc/src/main/groovy/org/mockito/release/steps/DefaultReleaseStep.java,after,designite,Unutilized Abstraction,1
-p024,control,buildSrc/src/main/groovy/org/mockito/release/steps/DefaultReleaseSteps.java,before,pmd,AvoidCatchingThrowable,1
-p024,control,buildSrc/src/main/groovy/org/mockito/release/steps/DefaultReleaseSteps.java,before,pmd,LooseCoupling,2
-p024,control,buildSrc/src/main/groovy/org/mockito/release/steps/DefaultReleaseSteps.java,after,pmd,AvoidCatchingThrowable,1
-p024,control,buildSrc/src/main/groovy/org/mockito/release/steps/DefaultReleaseSteps.java,after,pmd,LooseCoupling,2
+p024,control,buildSrc/src/main/groovy/org/mockito/release/steps/DefaultReleaseSteps.java,before,pmd,AvoidThrowingRawExceptionTypes,1
+p024,control,buildSrc/src/main/groovy/org/mockito/release/steps/DefaultReleaseSteps.java,before,pmd,ImmutableField,1
+p024,control,buildSrc/src/main/groovy/org/mockito/release/steps/DefaultReleaseSteps.java,after,pmd,AvoidThrowingRawExceptionTypes,1
+p024,control,buildSrc/src/main/groovy/org/mockito/release/steps/DefaultReleaseSteps.java,after,pmd,ImmutableField,1
 p024,control,buildSrc/src/main/groovy/org/mockito/release/steps/DefaultReleaseSteps.java,before,designite,Unutilized Abstraction,1
 p024,control,buildSrc/src/main/groovy/org/mockito/release/steps/DefaultReleaseSteps.java,after,designite,Unutilized Abstraction,1
-p025,control,src/org/mockito/internal/invocation/Invocation.java,before,pmd,LiteralsFirstInComparisons,1
-p025,control,src/org/mockito/internal/invocation/Invocation.java,before,pmd,MissingOverride,3
-p025,control,src/org/mockito/internal/invocation/Invocation.java,before,pmd,UnnecessaryImport,5
-p025,control,src/org/mockito/internal/invocation/Invocation.java,after,pmd,LiteralsFirstInComparisons,1
-p025,control,src/org/mockito/internal/invocation/Invocation.java,after,pmd,MissingOverride,3
+p025,control,src/org/mockito/internal/invocation/Invocation.java,before,pmd,AvoidThrowingRawExceptionTypes,1
+p025,control,src/org/mockito/internal/invocation/Invocation.java,before,pmd,GodClass,1
+p025,control,src/org/mockito/internal/invocation/Invocation.java,before,pmd,ImmutableField,1
+p025,control,src/org/mockito/internal/invocation/Invocation.java,before,pmd,TooManyMethods,1
+p025,control,src/org/mockito/internal/invocation/Invocation.java,after,pmd,AvoidThrowingRawExceptionTypes,1
+p025,control,src/org/mockito/internal/invocation/Invocation.java,after,pmd,GodClass,1
+p025,control,src/org/mockito/internal/invocation/Invocation.java,after,pmd,ImmutableField,1
+p025,control,src/org/mockito/internal/invocation/Invocation.java,after,pmd,TooManyMethods,1
 p025,control,src/org/mockito/internal/invocation/Invocation.java,before,designite,Insufficient Modularization,1
 p025,control,src/org/mockito/internal/invocation/Invocation.java,after,designite,Insufficient Modularization,1
 p026,treated,src/org/mockito/invocation/MockitoInvocationHandler.java,after,designite,Unnecessary Abstraction,1
-p026,control,src/org/mockito/internal/MockHandler.java,before,pmd,UnnecessaryImport,1
-p026,control,src/org/mockito/internal/MockHandler.java,after,pmd,UnnecessaryImport,2
 p027,treated,buildSrc/src/main/groovy/org/mockito/release/notes/GitNotesBuilder.java,before,designite,Unutilized Abstraction,1
 p027,treated,buildSrc/src/main/groovy/org/mockito/release/notes/GitNotesBuilder.java,after,designite,Unutilized Abstraction,1
 p028,treated,src/org/mockito/internal/progress/VerificationModeImpl.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
-p028,treated,src/org/mockito/internal/progress/VerificationModeImpl.java,before,pmd,UnnecessarySemicolon,1
+p028,treated,src/org/mockito/internal/progress/VerificationModeImpl.java,before,pmd,TooManyMethods,1
 p028,treated,src/org/mockito/internal/progress/VerificationModeImpl.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
-p028,treated,src/org/mockito/internal/progress/VerificationModeImpl.java,after,pmd,UnnecessarySemicolon,1
+p028,treated,src/org/mockito/internal/progress/VerificationModeImpl.java,after,pmd,TooManyMethods,1
 p028,treated,src/org/mockito/internal/progress/VerificationModeImpl.java,before,designite,Broken Hierarchy,1
 p028,treated,src/org/mockito/internal/progress/VerificationModeImpl.java,after,designite,Broken Hierarchy,1
-p028,control,src/org/mockito/internal/verification/StrictlyMissingInvocationVerifier.java,before,pmd,UseCollectionIsEmpty,1
-p028,control,src/org/mockito/internal/verification/StrictlyMissingInvocationVerifier.java,after,pmd,UseCollectionIsEmpty,1
 p028,control,src/org/mockito/internal/verification/StrictlyMissingInvocationVerifier.java,before,designite,Unutilized Abstraction,1
 p028,control,src/org/mockito/internal/verification/StrictlyMissingInvocationVerifier.java,after,designite,Unutilized Abstraction,1
-p029,treated,buildSrc/src/main/groovy/org/mockito/release/git/DefaultGitTool.java,before,pmd,UncommentedEmptyMethodBody,1
 p029,treated,buildSrc/src/main/groovy/org/mockito/release/git/DefaultGitTool.java,before,designite,Unutilized Abstraction,1
 p029,treated,buildSrc/src/main/groovy/org/mockito/release/git/DefaultGitTool.java,after,designite,Unutilized Abstraction,1
-p029,control,buildSrc/src/main/groovy/org/mockito/release/notes/GitNotesBuilder.java,before,pmd,UnnecessaryImport,1
 p029,control,buildSrc/src/main/groovy/org/mockito/release/notes/GitNotesBuilder.java,before,designite,Unutilized Abstraction,1
 p029,control,buildSrc/src/main/groovy/org/mockito/release/notes/GitNotesBuilder.java,after,designite,Unutilized Abstraction,1
-p030,treated,src/org/mockito/internal/invocation/Invocation.java,before,pmd,MissingOverride,3
-p030,treated,src/org/mockito/internal/invocation/Invocation.java,after,pmd,MissingOverride,3
+p030,treated,src/org/mockito/internal/invocation/Invocation.java,before,pmd,AvoidThrowingRawExceptionTypes,1
+p030,treated,src/org/mockito/internal/invocation/Invocation.java,before,pmd,TooManyMethods,1
+p030,treated,src/org/mockito/internal/invocation/Invocation.java,after,pmd,AvoidThrowingRawExceptionTypes,1
+p030,treated,src/org/mockito/internal/invocation/Invocation.java,after,pmd,TooManyMethods,1
 p030,treated,src/org/mockito/internal/invocation/Invocation.java,before,designite,Insufficient Modularization,1
 p030,treated,src/org/mockito/internal/invocation/Invocation.java,after,designite,Insufficient Modularization,1
-p031,treated,src/org/mockito/internal/progress/ThreadSafeMockingProgress.java,before,pmd,MissingOverride,1
-p031,treated,src/org/mockito/internal/progress/ThreadSafeMockingProgress.java,after,pmd,MissingOverride,1
+p031,treated,src/org/mockito/internal/progress/ThreadSafeMockingProgress.java,before,pmd,TooManyMethods,1
+p031,treated,src/org/mockito/internal/progress/ThreadSafeMockingProgress.java,after,pmd,TooManyMethods,1
 p031,control,src/org/mockito/internal/progress/VerificationMode.java,before,designite,Unnecessary Abstraction,1
-p032,treated,src/main/java/org/mockito/internal/junit/ExceptionFactory.java,before,pmd,AvoidCatchingThrowable,1
 p032,treated,src/main/java/org/mockito/internal/junit/ExceptionFactory.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,2
-p032,treated,src/main/java/org/mockito/internal/junit/ExceptionFactory.java,after,pmd,AvoidCatchingThrowable,1
 p032,treated,src/main/java/org/mockito/internal/junit/ExceptionFactory.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
-p032,treated,src/main/java/org/mockito/internal/junit/ExceptionFactory.java,after,pmd,EmptyCatchBlock,1
-p032,treated,src/main/java/org/mockito/internal/junit/ExceptionFactory.java,after,pmd,UnnecessaryModifier,1
 p032,control,src/main/java/org/mockito/exceptions/verification/ArgumentsAreDifferent.java,before,designite,Unutilized Abstraction,1
 p032,control,src/main/java/org/mockito/exceptions/verification/ArgumentsAreDifferent.java,after,designite,Unutilized Abstraction,1
-p033,treated,src/org/mockito/internal/stubbing/MockitoStubber.java,before,pmd,LooseCoupling,1
-p033,treated,src/org/mockito/internal/stubbing/MockitoStubber.java,after,pmd,LooseCoupling,1
 p033,treated,src/org/mockito/internal/stubbing/MockitoStubber.java,before,designite,Cyclic-Dependent Modularization,1
 p033,treated,src/org/mockito/internal/stubbing/MockitoStubber.java,after,designite,Cyclic-Dependent Modularization,1
 p033,control,src/org/mockito/internal/MockHandler.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,2
 p033,control,src/org/mockito/internal/MockHandler.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,2
 p033,control,src/org/mockito/internal/MockHandler.java,before,designite,Cyclic-Dependent Modularization,1
 p033,control,src/org/mockito/internal/MockHandler.java,after,designite,Cyclic-Dependent Modularization,1
+p034,treated,buildSrc/src/main/groovy/org/mockito/workflow/gradle/internal/StepConfiguration.java,before,pmd,ImmutableField,1
+p034,treated,buildSrc/src/main/groovy/org/mockito/workflow/gradle/internal/StepConfiguration.java,after,pmd,ImmutableField,1
 p034,control,buildSrc/src/main/groovy/org/mockito/workflow/gradle/ReleaseWorkflow.java,before,designite,Unutilized Abstraction,1
 p034,control,buildSrc/src/main/groovy/org/mockito/workflow/gradle/ReleaseWorkflow.java,after,designite,Unutilized Abstraction,1
 p035,treated,src/main/java/org/mockito/exceptions/verification/TooLittleActualInvocations.java,before,designite,Unutilized Abstraction,1
@@ -214,177 +200,170 @@ p035,control,src/main/java/org/mockito/internal/verification/checkers/AtLeastXNu
 p035,control,src/main/java/org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsChecker.java,after,designite,Unutilized Abstraction,1
 p036,treated,src/org/mockito/internal/stubbing/Stubber.java,before,designite,Unutilized Abstraction,1
 p036,treated,src/org/mockito/internal/stubbing/Stubber.java,after,designite,Unutilized Abstraction,1
+p036,control,src/org/mockito/exceptions/Reporter.java,before,pmd,GodClass,1
+p036,control,src/org/mockito/exceptions/Reporter.java,before,pmd,TooManyMethods,1
+p036,control,src/org/mockito/exceptions/Reporter.java,after,pmd,GodClass,1
+p036,control,src/org/mockito/exceptions/Reporter.java,after,pmd,TooManyMethods,1
 p036,control,src/org/mockito/exceptions/Reporter.java,before,designite,Insufficient Modularization,1
 p036,control,src/org/mockito/exceptions/Reporter.java,after,designite,Insufficient Modularization,1
-p037,treated,src/org/mockito/exceptions/Reporter.java,before,pmd,ControlStatementBraces,1
-p037,treated,src/org/mockito/exceptions/Reporter.java,before,pmd,VariableCanBeInlined,2
-p037,treated,src/org/mockito/exceptions/Reporter.java,after,pmd,ControlStatementBraces,1
-p037,treated,src/org/mockito/exceptions/Reporter.java,after,pmd,VariableCanBeInlined,2
+p037,treated,src/org/mockito/exceptions/Reporter.java,before,pmd,CyclomaticComplexity,1
+p037,treated,src/org/mockito/exceptions/Reporter.java,before,pmd,ExcessiveImports,1
+p037,treated,src/org/mockito/exceptions/Reporter.java,before,pmd,ExcessivePublicCount,1
+p037,treated,src/org/mockito/exceptions/Reporter.java,before,pmd,GodClass,1
+p037,treated,src/org/mockito/exceptions/Reporter.java,before,pmd,TooManyMethods,1
+p037,treated,src/org/mockito/exceptions/Reporter.java,after,pmd,CyclomaticComplexity,1
+p037,treated,src/org/mockito/exceptions/Reporter.java,after,pmd,ExcessiveImports,1
+p037,treated,src/org/mockito/exceptions/Reporter.java,after,pmd,ExcessivePublicCount,1
+p037,treated,src/org/mockito/exceptions/Reporter.java,after,pmd,GodClass,1
+p037,treated,src/org/mockito/exceptions/Reporter.java,after,pmd,TooManyMethods,1
 p037,treated,src/org/mockito/exceptions/Reporter.java,before,designite,Insufficient Modularization,1
 p037,treated,src/org/mockito/exceptions/Reporter.java,after,designite,Insufficient Modularization,1
-p038,treated,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,before,pmd,AssignmentInOperand,1
-p038,treated,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,before,pmd,AvoidAccessibilityAlteration,2
+p038,treated,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,before,pmd,AvoidCatchingGenericException,1
 p038,treated,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,4
-p038,treated,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,before,pmd,CompareObjectsWithEquals,2
-p038,treated,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,before,pmd,LiteralsFirstInComparisons,1
-p038,treated,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,before,pmd,OptimizableToArrayCall,1
+p038,treated,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,before,pmd,LawOfDemeter,5
 p038,treated,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,before,pmd,UseUtilityClass,1
-p038,treated,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,after,pmd,AssignmentInOperand,1
-p038,treated,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,after,pmd,AvoidAccessibilityAlteration,2
+p038,treated,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,after,pmd,AvoidCatchingGenericException,1
 p038,treated,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,4
-p038,treated,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,after,pmd,CompareObjectsWithEquals,2
-p038,treated,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,after,pmd,LiteralsFirstInComparisons,1
-p038,treated,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,after,pmd,OptimizableToArrayCall,1
+p038,treated,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,after,pmd,LawOfDemeter,5
 p038,treated,src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,after,pmd,UseUtilityClass,1
-p038,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,AvoidCatchingThrowable,1
-p038,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,AvoidUsingVolatile,1
+p038,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,AvoidCatchingGenericException,3
 p038,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,2
-p038,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,OneDeclarationPerLine,2
-p038,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,OptimizableToArrayCall,1
-p038,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,ReturnEmptyCollectionRatherThanNull,2
-p038,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,AvoidCatchingThrowable,1
-p038,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,AvoidUsingVolatile,1
+p038,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,CouplingBetweenObjects,1
+p038,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,ExceptionAsFlowControl,1
+p038,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,ExcessiveImports,1
+p038,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,LawOfDemeter,12
+p038,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,AvoidCatchingGenericException,3
 p038,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,2
-p038,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,OneDeclarationPerLine,2
-p038,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,OptimizableToArrayCall,1
-p038,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,ReturnEmptyCollectionRatherThanNull,2
+p038,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,CouplingBetweenObjects,1
+p038,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,ExceptionAsFlowControl,1
+p038,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,ExcessiveImports,1
+p038,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,LawOfDemeter,12
 p039,treated,src/org/mockito/exceptions/verification/NeverWantedButInvoked.java,before,designite,Unutilized Abstraction,1
 p039,treated,src/org/mockito/exceptions/verification/NeverWantedButInvoked.java,after,designite,Unutilized Abstraction,1
-p039,control,src/org/mockito/exceptions/Reporter.java,before,pmd,VariableCanBeInlined,2
-p039,control,src/org/mockito/exceptions/Reporter.java,after,pmd,VariableCanBeInlined,2
+p039,control,src/org/mockito/exceptions/Reporter.java,before,pmd,GodClass,1
+p039,control,src/org/mockito/exceptions/Reporter.java,before,pmd,TooManyMethods,1
+p039,control,src/org/mockito/exceptions/Reporter.java,after,pmd,GodClass,1
+p039,control,src/org/mockito/exceptions/Reporter.java,after,pmd,TooManyMethods,1
 p039,control,src/org/mockito/exceptions/Reporter.java,before,designite,Insufficient Modularization,1
 p039,control,src/org/mockito/exceptions/Reporter.java,after,designite,Insufficient Modularization,1
+p040,treated,buildSrc/src/main/groovy/org/mockito/release/comparison/PublicationsComparatorTask.java,before,pmd,ImmutableField,2
+p040,treated,buildSrc/src/main/groovy/org/mockito/release/comparison/PublicationsComparatorTask.java,after,pmd,ImmutableField,2
 p040,treated,buildSrc/src/main/groovy/org/mockito/release/comparison/PublicationsComparatorTask.java,before,designite,Broken Hierarchy,1
 p040,treated,buildSrc/src/main/groovy/org/mockito/release/comparison/PublicationsComparatorTask.java,before,designite,Unutilized Abstraction,1
 p040,treated,buildSrc/src/main/groovy/org/mockito/release/comparison/PublicationsComparatorTask.java,after,designite,Unutilized Abstraction,1
 p040,control,buildSrc/src/main/groovy/org/mockito/release/comparison/PublicationsComparator.java,before,designite,Unnecessary Abstraction,1
 p040,control,buildSrc/src/main/groovy/org/mockito/release/comparison/PublicationsComparator.java,before,designite,Unutilized Abstraction,1
 p040,control,buildSrc/src/main/groovy/org/mockito/release/comparison/PublicationsComparator.java,after,designite,Unutilized Abstraction,1
-p041,treated,src/org/mockito/internal/invocation/Invocation.java,before,pmd,MissingOverride,2
-p041,treated,src/org/mockito/internal/invocation/Invocation.java,after,pmd,MissingOverride,2
+p041,treated,src/org/mockito/internal/invocation/Invocation.java,before,pmd,TooManyMethods,1
 p041,treated,src/org/mockito/internal/invocation/Invocation.java,before,designite,Deficient Encapsulation,1
 p041,treated,src/org/mockito/internal/invocation/Invocation.java,after,designite,Deficient Encapsulation,1
 p041,control,src/org/mockito/internal/reporting/PrintSettings.java,before,designite,Cyclic-Dependent Modularization,1
 p041,control,src/org/mockito/internal/reporting/PrintSettings.java,after,designite,Cyclic-Dependent Modularization,1
-p042,treated,src/main/java/org/mockito/mock/MockCreationSettings.java,before,pmd,UnnecessaryModifier,1
-p042,treated,src/main/java/org/mockito/mock/MockCreationSettings.java,after,pmd,UnnecessaryModifier,1
-p043,treated,src/org/mockito/internal/util/MockUtil.java,before,pmd,PreserveStackTrace,1
-p043,treated,src/org/mockito/internal/util/MockUtil.java,before,pmd,UseLocaleWithCaseConversions,1
+p042,control,src/main/java/org/mockito/MockSettings.java,before,pmd,TooManyMethods,1
+p042,control,src/main/java/org/mockito/MockSettings.java,after,pmd,TooManyMethods,1
+p043,treated,src/org/mockito/internal/util/MockUtil.java,before,pmd,ExceptionAsFlowControl,1
 p043,treated,src/org/mockito/internal/util/MockUtil.java,before,pmd,UseUtilityClass,1
-p043,treated,src/org/mockito/internal/util/MockUtil.java,after,pmd,UseLocaleWithCaseConversions,1
 p043,treated,src/org/mockito/internal/util/MockUtil.java,after,pmd,UseUtilityClass,1
 p043,treated,src/org/mockito/internal/util/MockUtil.java,before,designite,Cyclic-Dependent Modularization,1
 p043,treated,src/org/mockito/internal/util/MockUtil.java,after,designite,Cyclic-Dependent Modularization,1
+p043,control,src/org/mockito/exceptions/Reporter.java,before,pmd,GodClass,1
+p043,control,src/org/mockito/exceptions/Reporter.java,before,pmd,TooManyMethods,1
+p043,control,src/org/mockito/exceptions/Reporter.java,after,pmd,GodClass,1
+p043,control,src/org/mockito/exceptions/Reporter.java,after,pmd,TooManyMethods,1
 p043,control,src/org/mockito/exceptions/Reporter.java,before,designite,Insufficient Modularization,1
 p043,control,src/org/mockito/exceptions/Reporter.java,after,designite,Insufficient Modularization,1
-p044,treated,src/main/java/org/mockito/internal/util/reflection/ReflectionMemberAccessor.java,before,pmd,AvoidAccessibilityAlteration,1
-p044,treated,src/main/java/org/mockito/internal/util/reflection/ReflectionMemberAccessor.java,before,pmd,PreserveStackTrace,1
-p044,treated,src/main/java/org/mockito/internal/util/reflection/ReflectionMemberAccessor.java,after,pmd,AvoidAccessibilityAlteration,1
-p044,treated,src/main/java/org/mockito/internal/util/reflection/ReflectionMemberAccessor.java,after,pmd,PreserveStackTrace,1
+p044,treated,src/main/java/org/mockito/internal/util/reflection/ReflectionMemberAccessor.java,before,pmd,AvoidCatchingGenericException,5
+p044,treated,src/main/java/org/mockito/internal/util/reflection/ReflectionMemberAccessor.java,after,pmd,AvoidCatchingGenericException,5
 p044,control,src/main/java/org/mockito/internal/util/reflection/ModuleMemberAccessor.java,before,designite,Unutilized Abstraction,1
 p044,control,src/main/java/org/mockito/internal/util/reflection/ModuleMemberAccessor.java,after,designite,Unutilized Abstraction,1
-p045,treated,src/main/java/org/mockito/internal/invocation/InterceptedInvocation.java,before,pmd,MissingOverride,1
-p045,treated,src/main/java/org/mockito/internal/invocation/InterceptedInvocation.java,before,pmd,OneDeclarationPerLine,1
-p045,treated,src/main/java/org/mockito/internal/invocation/InterceptedInvocation.java,after,pmd,MissingOverride,1
-p045,treated,src/main/java/org/mockito/internal/invocation/InterceptedInvocation.java,after,pmd,OneDeclarationPerLine,1
 p045,treated,src/main/java/org/mockito/internal/invocation/InterceptedInvocation.java,before,designite,Deficient Encapsulation,1
 p045,treated,src/main/java/org/mockito/internal/invocation/InterceptedInvocation.java,before,designite,Insufficient Modularization,1
 p045,treated,src/main/java/org/mockito/internal/invocation/InterceptedInvocation.java,after,designite,Deficient Encapsulation,1
 p045,treated,src/main/java/org/mockito/internal/invocation/InterceptedInvocation.java,after,designite,Insufficient Modularization,1
-p046,treated,src/org/mockito/BDDMockito.java,before,pmd,MissingOverride,10
-p046,treated,src/org/mockito/BDDMockito.java,before,pmd,UnnecessaryModifier,2
-p046,treated,src/org/mockito/BDDMockito.java,after,pmd,MissingOverride,10
-p046,treated,src/org/mockito/BDDMockito.java,after,pmd,UnnecessaryModifier,2
 p046,treated,src/org/mockito/BDDMockito.java,before,designite,Broken Hierarchy,1
 p046,treated,src/org/mockito/BDDMockito.java,before,designite,Unutilized Abstraction,1
 p046,treated,src/org/mockito/BDDMockito.java,after,designite,Broken Hierarchy,1
 p046,treated,src/org/mockito/BDDMockito.java,after,designite,Unutilized Abstraction,1
 p046,control,src/org/mockito/stubbing/DeprecatedOngoingStubbing.java,before,designite,Unutilized Abstraction,1
 p046,control,src/org/mockito/stubbing/DeprecatedOngoingStubbing.java,after,designite,Unutilized Abstraction,1
-p047,treated,src/org/mockito/internal/invocation/Invocation.java,before,pmd,MissingOverride,3
-p047,treated,src/org/mockito/internal/invocation/Invocation.java,before,pmd,UselessParentheses,1
-p047,treated,src/org/mockito/internal/invocation/Invocation.java,after,pmd,MissingOverride,3
-p047,treated,src/org/mockito/internal/invocation/Invocation.java,after,pmd,UselessParentheses,1
-p047,control,src/org/mockito/internal/matchers/Same.java,before,pmd,CompareObjectsWithEquals,1
-p047,control,src/org/mockito/internal/matchers/Same.java,after,pmd,CompareObjectsWithEquals,1
+p047,treated,src/org/mockito/internal/invocation/Invocation.java,before,pmd,AvoidThrowingRawExceptionTypes,1
+p047,treated,src/org/mockito/internal/invocation/Invocation.java,before,pmd,TooManyMethods,1
+p047,treated,src/org/mockito/internal/invocation/Invocation.java,after,pmd,AvoidThrowingRawExceptionTypes,1
+p047,treated,src/org/mockito/internal/invocation/Invocation.java,after,pmd,TooManyMethods,1
 p047,control,src/org/mockito/internal/matchers/Same.java,before,designite,Unutilized Abstraction,1
 p047,control,src/org/mockito/internal/matchers/Same.java,after,designite,Unutilized Abstraction,1
 p048,control,src/org/mockito/internal/verification/AtLeast.java,before,designite,Unutilized Abstraction,1
 p048,control,src/org/mockito/internal/verification/AtLeast.java,after,designite,Unutilized Abstraction,1
-p049,treated,src/main/java/org/mockito/internal/runners/StrictRunner.java,after,pmd,UnnecessaryImport,1
 p049,treated,src/main/java/org/mockito/internal/runners/StrictRunner.java,before,designite,Unutilized Abstraction,1
 p049,treated,src/main/java/org/mockito/internal/runners/StrictRunner.java,after,designite,Unutilized Abstraction,1
-p049,control,src/main/java/org/mockito/internal/runners/RunnerFactory.java,before,pmd,AvoidCatchingThrowable,1
-p049,control,src/main/java/org/mockito/internal/runners/RunnerFactory.java,after,pmd,AvoidCatchingThrowable,1
 p049,control,src/main/java/org/mockito/internal/runners/RunnerFactory.java,before,designite,Unutilized Abstraction,1
 p049,control,src/main/java/org/mockito/internal/runners/RunnerFactory.java,after,designite,Unutilized Abstraction,1
-p050,treated,src/main/java/org/mockito/internal/creation/SuspendMethod.java,before,pmd,ControlStatementBraces,1
-p050,treated,src/main/java/org/mockito/internal/creation/SuspendMethod.java,before,pmd,LiteralsFirstInComparisons,2
 p050,treated,src/main/java/org/mockito/internal/creation/SuspendMethod.java,before,pmd,UseUtilityClass,1
-p050,treated,src/main/java/org/mockito/internal/creation/SuspendMethod.java,after,pmd,LiteralsFirstInComparisons,2
-p050,control,src/main/java/org/mockito/ArgumentMatchers.java,before,pmd,ControlStatementBraces,2
+p050,control,src/main/java/org/mockito/ArgumentMatchers.java,before,pmd,CouplingBetweenObjects,1
+p050,control,src/main/java/org/mockito/ArgumentMatchers.java,before,pmd,ExcessivePublicCount,1
+p050,control,src/main/java/org/mockito/ArgumentMatchers.java,before,pmd,TooManyMethods,1
 p050,control,src/main/java/org/mockito/ArgumentMatchers.java,before,pmd,UseUtilityClass,1
-p050,control,src/main/java/org/mockito/ArgumentMatchers.java,after,pmd,ControlStatementBraces,1
+p050,control,src/main/java/org/mockito/ArgumentMatchers.java,after,pmd,CouplingBetweenObjects,1
+p050,control,src/main/java/org/mockito/ArgumentMatchers.java,after,pmd,ExcessivePublicCount,1
+p050,control,src/main/java/org/mockito/ArgumentMatchers.java,after,pmd,TooManyMethods,1
 p050,control,src/main/java/org/mockito/ArgumentMatchers.java,after,pmd,UseUtilityClass,1
 p050,control,src/main/java/org/mockito/ArgumentMatchers.java,before,designite,Insufficient Modularization,1
 p050,control,src/main/java/org/mockito/ArgumentMatchers.java,after,designite,Insufficient Modularization,1
-p051,treated,src/main/java/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java,before,pmd,AvoidCatchingThrowable,1
 p051,treated,src/main/java/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
-p051,treated,src/main/java/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java,before,pmd,LambdaCanBeMethodReference,1
-p051,treated,src/main/java/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java,after,pmd,AvoidCatchingThrowable,1
 p051,treated,src/main/java/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
-p051,treated,src/main/java/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java,after,pmd,LambdaCanBeMethodReference,1
 p051,control,src/main/java/org/mockito/internal/verification/checkers/MissingInvocationChecker.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
 p051,control,src/main/java/org/mockito/internal/verification/checkers/MissingInvocationChecker.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
-p052,treated,src/org/mockito/internal/stubbing/Stubber.java,before,pmd,LooseCoupling,1
-p052,treated,src/org/mockito/internal/stubbing/Stubber.java,after,pmd,LooseCoupling,1
+p052,treated,src/org/mockito/internal/stubbing/Stubber.java,before,pmd,TooManyMethods,1
+p052,treated,src/org/mockito/internal/stubbing/Stubber.java,after,pmd,TooManyMethods,1
 p052,treated,src/org/mockito/internal/stubbing/Stubber.java,before,designite,Cyclic-Dependent Modularization,1
 p052,treated,src/org/mockito/internal/stubbing/Stubber.java,after,designite,Cyclic-Dependent Modularization,1
-p053,treated,src/main/java/org/mockito/internal/configuration/plugins/PluginLoader.java,before,pmd,AvoidCatchingThrowable,1
-p053,treated,src/main/java/org/mockito/internal/configuration/plugins/PluginLoader.java,before,pmd,TypeParameterNamingConventions,2
-p053,treated,src/main/java/org/mockito/internal/configuration/plugins/PluginLoader.java,after,pmd,AvoidCatchingThrowable,1
-p053,treated,src/main/java/org/mockito/internal/configuration/plugins/PluginLoader.java,after,pmd,TypeParameterNamingConventions,2
+p053,treated,src/main/java/org/mockito/internal/configuration/plugins/PluginLoader.java,before,pmd,AvoidCatchingGenericException,1
+p053,treated,src/main/java/org/mockito/internal/configuration/plugins/PluginLoader.java,before,pmd,LawOfDemeter,3
 p053,treated,src/main/java/org/mockito/internal/configuration/plugins/PluginLoader.java,before,designite,Unutilized Abstraction,1
 p053,treated,src/main/java/org/mockito/internal/configuration/plugins/PluginLoader.java,after,designite,Unutilized Abstraction,1
+p053,control,src/main/java/org/mockito/internal/configuration/plugins/PluginRegistry.java,before,pmd,DataClass,1
+p053,control,src/main/java/org/mockito/internal/configuration/plugins/PluginRegistry.java,before,pmd,ImmutableField,1
+p053,control,src/main/java/org/mockito/internal/configuration/plugins/PluginRegistry.java,after,pmd,DataClass,1
+p053,control,src/main/java/org/mockito/internal/configuration/plugins/PluginRegistry.java,after,pmd,ImmutableField,1
+p054,treated,src/org/mockito/Matchers.java,before,pmd,TooManyMethods,1
 p054,treated,src/org/mockito/Matchers.java,before,pmd,UseUtilityClass,1
+p054,treated,src/org/mockito/Matchers.java,after,pmd,TooManyMethods,1
 p054,treated,src/org/mockito/Matchers.java,after,pmd,UseUtilityClass,1
 p054,treated,src/org/mockito/Matchers.java,before,designite,Insufficient Modularization,1
 p054,treated,src/org/mockito/Matchers.java,before,designite,Unutilized Abstraction,1
 p054,treated,src/org/mockito/Matchers.java,after,designite,Insufficient Modularization,1
 p054,treated,src/org/mockito/Matchers.java,after,designite,Unutilized Abstraction,1
-p054,control,src/org/mockito/Mockito.java,before,pmd,VariableCanBeInlined,1
-p054,control,src/org/mockito/Mockito.java,after,pmd,VariableCanBeInlined,1
+p054,control,src/org/mockito/Mockito.java,before,pmd,TooManyMethods,1
+p054,control,src/org/mockito/Mockito.java,after,pmd,TooManyMethods,1
 p054,control,src/org/mockito/Mockito.java,before,designite,Broken Hierarchy,1
 p054,control,src/org/mockito/Mockito.java,before,designite,Unutilized Abstraction,1
 p054,control,src/org/mockito/Mockito.java,after,designite,Broken Hierarchy,1
 p054,control,src/org/mockito/Mockito.java,after,designite,Unutilized Abstraction,1
-p055,treated,src/org/mockito/internal/MockitoCore.java,before,pmd,UselessParentheses,1
-p055,treated,src/org/mockito/internal/MockitoCore.java,after,pmd,UselessParentheses,1
-p055,control,src/org/mockito/internal/util/reflection/GenericMetadataSupport.java,before,pmd,ControlStatementBraces,4
-p055,control,src/org/mockito/internal/util/reflection/GenericMetadataSupport.java,before,pmd,DanglingJavadoc,1
-p055,control,src/org/mockito/internal/util/reflection/GenericMetadataSupport.java,before,pmd,LooseCoupling,1
-p055,control,src/org/mockito/internal/util/reflection/GenericMetadataSupport.java,before,pmd,MissingOverride,5
-p055,control,src/org/mockito/internal/util/reflection/GenericMetadataSupport.java,before,pmd,OptimizableToArrayCall,1
-p055,control,src/org/mockito/internal/util/reflection/GenericMetadataSupport.java,before,pmd,UnnecessaryModifier,1
-p055,control,src/org/mockito/internal/util/reflection/GenericMetadataSupport.java,after,pmd,ControlStatementBraces,4
-p055,control,src/org/mockito/internal/util/reflection/GenericMetadataSupport.java,after,pmd,DanglingJavadoc,1
-p055,control,src/org/mockito/internal/util/reflection/GenericMetadataSupport.java,after,pmd,LooseCoupling,1
-p055,control,src/org/mockito/internal/util/reflection/GenericMetadataSupport.java,after,pmd,MissingOverride,5
-p055,control,src/org/mockito/internal/util/reflection/GenericMetadataSupport.java,after,pmd,OptimizableToArrayCall,1
-p055,control,src/org/mockito/internal/util/reflection/GenericMetadataSupport.java,after,pmd,UnnecessaryModifier,1
+p055,treated,src/org/mockito/internal/MockitoCore.java,before,pmd,CouplingBetweenObjects,1
+p055,treated,src/org/mockito/internal/MockitoCore.java,before,pmd,ExcessiveImports,1
+p055,treated,src/org/mockito/internal/MockitoCore.java,before,pmd,TooManyMethods,1
+p055,treated,src/org/mockito/internal/MockitoCore.java,after,pmd,CouplingBetweenObjects,1
+p055,treated,src/org/mockito/internal/MockitoCore.java,after,pmd,ExcessiveImports,1
+p055,treated,src/org/mockito/internal/MockitoCore.java,after,pmd,TooManyMethods,1
+p055,control,src/org/mockito/internal/util/reflection/GenericMetadataSupport.java,before,pmd,ImmutableField,4
+p055,control,src/org/mockito/internal/util/reflection/GenericMetadataSupport.java,before,pmd,LawOfDemeter,4
+p055,control,src/org/mockito/internal/util/reflection/GenericMetadataSupport.java,before,pmd,TooManyMethods,1
+p055,control,src/org/mockito/internal/util/reflection/GenericMetadataSupport.java,after,pmd,ImmutableField,4
+p055,control,src/org/mockito/internal/util/reflection/GenericMetadataSupport.java,after,pmd,LawOfDemeter,4
+p055,control,src/org/mockito/internal/util/reflection/GenericMetadataSupport.java,after,pmd,TooManyMethods,1
 p055,control,src/org/mockito/internal/util/reflection/GenericMetadataSupport.java,before,designite,Insufficient Modularization,1
 p055,control,src/org/mockito/internal/util/reflection/GenericMetadataSupport.java,after,designite,Insufficient Modularization,1
-p056,treated,src/main/java/org/mockito/internal/handler/InvocationNotifierHandler.java,before,pmd,AvoidCatchingThrowable,3
-p056,treated,src/main/java/org/mockito/internal/handler/InvocationNotifierHandler.java,after,pmd,AvoidCatchingThrowable,3
 p056,treated,src/main/java/org/mockito/internal/handler/InvocationNotifierHandler.java,before,designite,Unutilized Abstraction,1
 p056,treated,src/main/java/org/mockito/internal/handler/InvocationNotifierHandler.java,after,designite,Unutilized Abstraction,1
-p056,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java,before,pmd,AvoidCatchingThrowable,1
-p056,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java,after,pmd,AvoidCatchingThrowable,1
+p056,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java,before,pmd,AvoidCatchingGenericException,1
+p056,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java,before,pmd,ExceptionAsFlowControl,5
+p056,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java,after,pmd,AvoidCatchingGenericException,1
+p056,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java,after,pmd,ExceptionAsFlowControl,5
 p056,control,src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java,after,designite,Unutilized Abstraction,1
-p057,treated,buildSrc/src/main/groovy/org/mockito/release/steps/DefaultReleaseSteps.java,before,pmd,AvoidCatchingThrowable,1
-p057,treated,buildSrc/src/main/groovy/org/mockito/release/steps/DefaultReleaseSteps.java,before,pmd,LooseCoupling,1
-p057,treated,buildSrc/src/main/groovy/org/mockito/release/steps/DefaultReleaseSteps.java,after,pmd,AvoidCatchingThrowable,1
-p057,treated,buildSrc/src/main/groovy/org/mockito/release/steps/DefaultReleaseSteps.java,after,pmd,LooseCoupling,2
+p057,treated,buildSrc/src/main/groovy/org/mockito/release/steps/DefaultReleaseSteps.java,before,pmd,AvoidThrowingRawExceptionTypes,1
+p057,treated,buildSrc/src/main/groovy/org/mockito/release/steps/DefaultReleaseSteps.java,before,pmd,ImmutableField,1
+p057,treated,buildSrc/src/main/groovy/org/mockito/release/steps/DefaultReleaseSteps.java,after,pmd,AvoidThrowingRawExceptionTypes,1
+p057,treated,buildSrc/src/main/groovy/org/mockito/release/steps/DefaultReleaseSteps.java,after,pmd,ImmutableField,1
 p057,treated,buildSrc/src/main/groovy/org/mockito/release/steps/DefaultReleaseSteps.java,before,designite,Unutilized Abstraction,1
 p057,treated,buildSrc/src/main/groovy/org/mockito/release/steps/DefaultReleaseSteps.java,after,designite,Unutilized Abstraction,1
 p057,control,buildSrc/src/main/groovy/org/mockito/release/steps/ConfigurableReleaseStep.java,before,designite,Unutilized Abstraction,1
@@ -393,51 +372,43 @@ p058,treated,src/org/mockito/internal/verification/RegisteredInvocations.java,be
 p058,treated,src/org/mockito/internal/verification/RegisteredInvocations.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
 p058,treated,src/org/mockito/internal/verification/RegisteredInvocations.java,before,designite,Cyclic-Dependent Modularization,1
 p058,treated,src/org/mockito/internal/verification/RegisteredInvocations.java,after,designite,Cyclic-Dependent Modularization,1
+p058,control,src/org/mockito/internal/verification/VerifyingRecorder.java,before,pmd,ImmutableField,1
+p058,control,src/org/mockito/internal/verification/VerifyingRecorder.java,after,pmd,ImmutableField,1
 p058,control,src/org/mockito/internal/verification/VerifyingRecorder.java,before,designite,Unutilized Abstraction,1
 p058,control,src/org/mockito/internal/verification/VerifyingRecorder.java,after,designite,Unutilized Abstraction,1
-p059,treated,src/main/java/org/mockito/internal/stubbing/InvocationContainerImpl.java,before,pmd,LooseCoupling,1
-p059,treated,src/main/java/org/mockito/internal/stubbing/InvocationContainerImpl.java,after,pmd,LooseCoupling,1
+p059,treated,src/main/java/org/mockito/internal/stubbing/InvocationContainerImpl.java,before,pmd,TooManyMethods,1
+p059,treated,src/main/java/org/mockito/internal/stubbing/InvocationContainerImpl.java,after,pmd,TooManyMethods,1
 p060,control,src/main/java/org/mockito/internal/junit/StrictStubsTestListener.java,before,designite,Unutilized Abstraction,1
 p060,control,src/main/java/org/mockito/internal/junit/StrictStubsTestListener.java,after,designite,Unutilized Abstraction,1
-p061,treated,src/org/mockito/internal/configuration/DefaultReturnValues.java,before,pmd,PrimitiveWrapperInstantiation,7
-p061,treated,src/org/mockito/internal/configuration/DefaultReturnValues.java,before,pmd,VariableCanBeInlined,1
-p061,treated,src/org/mockito/internal/configuration/DefaultReturnValues.java,after,pmd,VariableCanBeInlined,1
+p061,treated,src/org/mockito/internal/configuration/DefaultReturnValues.java,before,pmd,CognitiveComplexity,1
+p061,treated,src/org/mockito/internal/configuration/DefaultReturnValues.java,before,pmd,CyclomaticComplexity,1
+p061,treated,src/org/mockito/internal/configuration/DefaultReturnValues.java,after,pmd,CognitiveComplexity,1
+p061,treated,src/org/mockito/internal/configuration/DefaultReturnValues.java,after,pmd,CyclomaticComplexity,1
 p061,treated,src/org/mockito/internal/configuration/DefaultReturnValues.java,before,designite,Unutilized Abstraction,1
 p061,treated,src/org/mockito/internal/configuration/DefaultReturnValues.java,after,designite,Unutilized Abstraction,1
-p061,control,src/org/mockito/internal/invocation/Invocation.java,before,pmd,LiteralsFirstInComparisons,1
-p061,control,src/org/mockito/internal/invocation/Invocation.java,before,pmd,MissingOverride,3
-p061,control,src/org/mockito/internal/invocation/Invocation.java,after,pmd,LiteralsFirstInComparisons,1
-p061,control,src/org/mockito/internal/invocation/Invocation.java,after,pmd,MissingOverride,3
+p061,control,src/org/mockito/internal/invocation/Invocation.java,before,pmd,AvoidThrowingRawExceptionTypes,1
+p061,control,src/org/mockito/internal/invocation/Invocation.java,before,pmd,LawOfDemeter,1
+p061,control,src/org/mockito/internal/invocation/Invocation.java,before,pmd,TooManyMethods,1
+p061,control,src/org/mockito/internal/invocation/Invocation.java,after,pmd,AvoidThrowingRawExceptionTypes,1
+p061,control,src/org/mockito/internal/invocation/Invocation.java,after,pmd,LawOfDemeter,1
+p061,control,src/org/mockito/internal/invocation/Invocation.java,after,pmd,TooManyMethods,1
 p061,control,src/org/mockito/internal/invocation/Invocation.java,before,designite,Cyclic-Dependent Modularization,1
 p061,control,src/org/mockito/internal/invocation/Invocation.java,after,designite,Cyclic-Dependent Modularization,1
 p061,control,src/org/mockito/internal/invocation/Invocation.java,after,designite,Insufficient Modularization,1
-p062,treated,src/org/mockito/exceptions/Reporter.java,before,pmd,VariableCanBeInlined,1
-p062,treated,src/org/mockito/exceptions/Reporter.java,after,pmd,VariableCanBeInlined,1
+p062,treated,src/org/mockito/exceptions/Reporter.java,before,pmd,GodClass,1
+p062,treated,src/org/mockito/exceptions/Reporter.java,before,pmd,TooManyMethods,1
+p062,treated,src/org/mockito/exceptions/Reporter.java,after,pmd,GodClass,1
+p062,treated,src/org/mockito/exceptions/Reporter.java,after,pmd,TooManyMethods,1
 p062,treated,src/org/mockito/exceptions/Reporter.java,before,designite,Insufficient Modularization,1
 p062,treated,src/org/mockito/exceptions/Reporter.java,after,designite,Insufficient Modularization,1
-p063,treated,src/main/java/org/mockito/ArgumentMatcher.java,before,pmd,UnnecessaryModifier,1
-p063,treated,src/main/java/org/mockito/ArgumentMatcher.java,after,pmd,UnnecessaryModifier,1
 p064,treated,src/org/mockito/MockitoConfiguration.java,before,pmd,UseUtilityClass,1
 p064,treated,src/org/mockito/MockitoConfiguration.java,after,pmd,UseUtilityClass,1
 p064,control,src/org/mockito/internal/MockHandler.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
 p064,control,src/org/mockito/internal/MockHandler.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
 p065,treated,src/org/mockito/internal/debugging/WarningsPrinterImpl.java,before,designite,Unutilized Abstraction,1
 p065,treated,src/org/mockito/internal/debugging/WarningsPrinterImpl.java,after,designite,Unutilized Abstraction,1
-p065,control,src/org/mockito/runners/ConsoleSpammingMockitoJUnitRunner.java,before,pmd,UnnecessaryImport,3
 p065,control,src/org/mockito/runners/ConsoleSpammingMockitoJUnitRunner.java,before,designite,Unutilized Abstraction,1
 p065,control,src/org/mockito/runners/ConsoleSpammingMockitoJUnitRunner.java,after,designite,Unutilized Abstraction,1
-p066,treated,src/org/mockito/internal/creation/bytebuddy/ByteBuddyMockMaker.java,before,pmd,AvoidCatchingThrowable,1
-p066,treated,src/org/mockito/internal/creation/bytebuddy/ByteBuddyMockMaker.java,after,pmd,AvoidCatchingThrowable,1
-p066,treated,src/org/mockito/internal/creation/bytebuddy/ByteBuddyMockMaker.java,after,pmd,UnnecessaryImport,1
-p066,treated,src/org/mockito/internal/creation/bytebuddy/ByteBuddyMockMaker.java,after,pmd,UnusedPrivateField,1
-p066,control,src/org/mockito/internal/creation/bytebuddy/MockBytecodeGenerator.java,before,pmd,AssignmentInOperand,1
-p066,control,src/org/mockito/internal/creation/bytebuddy/MockBytecodeGenerator.java,before,pmd,OptimizableToArrayCall,1
-p066,control,src/org/mockito/internal/creation/bytebuddy/MockBytecodeGenerator.java,after,pmd,AssignmentInOperand,1
-p066,control,src/org/mockito/internal/creation/bytebuddy/MockBytecodeGenerator.java,after,pmd,OptimizableToArrayCall,1
-p067,treated,src/main/java/org/mockito/internal/junit/UnusedStubbings.java,before,pmd,AssignmentInOperand,1
-p067,treated,src/main/java/org/mockito/internal/junit/UnusedStubbings.java,before,pmd,MissingOverride,1
-p067,treated,src/main/java/org/mockito/internal/junit/UnusedStubbings.java,after,pmd,AssignmentInOperand,1
-p067,treated,src/main/java/org/mockito/internal/junit/UnusedStubbings.java,after,pmd,MissingOverride,1
 p067,treated,src/main/java/org/mockito/internal/junit/UnusedStubbings.java,before,designite,Unutilized Abstraction,1
 p067,treated,src/main/java/org/mockito/internal/junit/UnusedStubbings.java,after,designite,Unutilized Abstraction,1
 p067,control,src/main/java/org/mockito/exceptions/misusing/UnnecessaryStubbingException.java,before,designite,Unutilized Abstraction,1
@@ -446,20 +417,33 @@ p068,treated,src/org/mockito/internal/verification/VerificationModeFactory.java,
 p068,treated,src/org/mockito/internal/verification/VerificationModeFactory.java,after,pmd,UseUtilityClass,1
 p068,control,src/org/mockito/internal/verification/VerificationModeDecoder.java,before,designite,Cyclic-Dependent Modularization,1
 p068,control,src/org/mockito/internal/verification/VerificationModeDecoder.java,after,designite,Cyclic-Dependent Modularization,1
-p069,treated,src/org/mockito/internal/MockControl.java,before,pmd,UnnecessaryImport,2
-p069,treated,src/org/mockito/internal/MockControl.java,after,pmd,UnnecessaryImport,2
+p069,treated,src/org/mockito/internal/MockControl.java,before,pmd,LawOfDemeter,2
+p069,treated,src/org/mockito/internal/MockControl.java,before,pmd,TooManyMethods,1
+p069,treated,src/org/mockito/internal/MockControl.java,after,pmd,CollapsibleIfStatements,1
+p069,treated,src/org/mockito/internal/MockControl.java,after,pmd,LawOfDemeter,2
+p069,treated,src/org/mockito/internal/MockControl.java,after,pmd,TooManyMethods,1
 p069,treated,src/org/mockito/internal/MockControl.java,before,designite,Cyclic-Dependent Modularization,1
 p069,treated,src/org/mockito/internal/MockControl.java,after,designite,Cyclic-Dependent Modularization,1
 p069,control,src/org/mockito/exceptions/InvalidUseOfMatchersException.java,before,designite,Broken Hierarchy,1
 p069,control,src/org/mockito/exceptions/InvalidUseOfMatchersException.java,before,designite,Unutilized Abstraction,1
 p069,control,src/org/mockito/exceptions/InvalidUseOfMatchersException.java,after,designite,Broken Hierarchy,1
 p069,control,src/org/mockito/exceptions/InvalidUseOfMatchersException.java,after,designite,Unutilized Abstraction,1
-p070,treated,src/main/java/org/mockito/internal/configuration/InjectingAnnotationEngine.java,before,pmd,UncommentedEmptyMethodBody,1
-p070,treated,src/main/java/org/mockito/internal/configuration/InjectingAnnotationEngine.java,after,pmd,UncommentedEmptyMethodBody,1
 p070,treated,src/main/java/org/mockito/internal/configuration/InjectingAnnotationEngine.java,before,designite,Unutilized Abstraction,1
 p070,treated,src/main/java/org/mockito/internal/configuration/InjectingAnnotationEngine.java,after,designite,Unutilized Abstraction,1
-p071,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ClinitSuppressionTransformer.java,before,pmd,ReturnEmptyCollectionRatherThanNull,3
-p071,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ClinitSuppressionTransformer.java,after,pmd,ReturnEmptyCollectionRatherThanNull,3
+p071,control,mockito-core/src/main/java/org/mockito/Mockito.java,before,pmd,CouplingBetweenObjects,1
+p071,control,mockito-core/src/main/java/org/mockito/Mockito.java,before,pmd,CyclomaticComplexity,1
+p071,control,mockito-core/src/main/java/org/mockito/Mockito.java,before,pmd,ExcessiveImports,1
+p071,control,mockito-core/src/main/java/org/mockito/Mockito.java,before,pmd,ExcessivePublicCount,1
+p071,control,mockito-core/src/main/java/org/mockito/Mockito.java,before,pmd,GodClass,1
+p071,control,mockito-core/src/main/java/org/mockito/Mockito.java,before,pmd,LawOfDemeter,4
+p071,control,mockito-core/src/main/java/org/mockito/Mockito.java,before,pmd,TooManyMethods,1
+p071,control,mockito-core/src/main/java/org/mockito/Mockito.java,after,pmd,CouplingBetweenObjects,1
+p071,control,mockito-core/src/main/java/org/mockito/Mockito.java,after,pmd,CyclomaticComplexity,1
+p071,control,mockito-core/src/main/java/org/mockito/Mockito.java,after,pmd,ExcessiveImports,1
+p071,control,mockito-core/src/main/java/org/mockito/Mockito.java,after,pmd,ExcessivePublicCount,1
+p071,control,mockito-core/src/main/java/org/mockito/Mockito.java,after,pmd,GodClass,1
+p071,control,mockito-core/src/main/java/org/mockito/Mockito.java,after,pmd,LawOfDemeter,4
+p071,control,mockito-core/src/main/java/org/mockito/Mockito.java,after,pmd,TooManyMethods,1
 p071,control,mockito-core/src/main/java/org/mockito/Mockito.java,before,designite,Broken Hierarchy,1
 p071,control,mockito-core/src/main/java/org/mockito/Mockito.java,before,designite,Cyclic-Dependent Modularization,1
 p071,control,mockito-core/src/main/java/org/mockito/Mockito.java,before,designite,Deficient Encapsulation,1
@@ -468,33 +452,34 @@ p071,control,mockito-core/src/main/java/org/mockito/Mockito.java,after,designite
 p071,control,mockito-core/src/main/java/org/mockito/Mockito.java,after,designite,Cyclic-Dependent Modularization,1
 p071,control,mockito-core/src/main/java/org/mockito/Mockito.java,after,designite,Deficient Encapsulation,1
 p071,control,mockito-core/src/main/java/org/mockito/Mockito.java,after,designite,Insufficient Modularization,1
-p072,control,src/org/mockito/internal/IMockMaker.java,before,pmd,UnnecessaryModifier,2
 p073,treated,buildSrc/src/main/groovy/org/mockito/release/version/VersionTool.java,before,designite,Unutilized Abstraction,1
 p073,treated,buildSrc/src/main/groovy/org/mockito/release/version/VersionTool.java,after,designite,Unutilized Abstraction,1
 p073,control,buildSrc/src/main/groovy/org/mockito/release/version/Version.java,before,pmd,UseUtilityClass,1
 p073,control,buildSrc/src/main/groovy/org/mockito/release/version/Version.java,after,pmd,UseUtilityClass,1
 p073,control,buildSrc/src/main/groovy/org/mockito/release/version/Version.java,before,designite,Unutilized Abstraction,1
 p073,control,buildSrc/src/main/groovy/org/mockito/release/version/Version.java,after,designite,Unutilized Abstraction,1
-p074,treated,src/main/java/org/mockito/internal/util/JavaEightUtil.java,before,pmd,AssignmentInOperand,1
-p074,treated,src/main/java/org/mockito/internal/util/JavaEightUtil.java,after,pmd,AssignmentInOperand,4
-p074,control,src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java,before,pmd,UnnecessaryImport,1
-p074,control,src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java,after,pmd,UnnecessaryImport,1
-p075,treated,src/org/mockito/internal/invocation/InvocationMatcher.java,before,pmd,MissingOverride,1
+p074,treated,src/main/java/org/mockito/internal/util/JavaEightUtil.java,before,pmd,AvoidCatchingGenericException,2
+p074,treated,src/main/java/org/mockito/internal/util/JavaEightUtil.java,after,pmd,AvoidCatchingGenericException,1
+p074,control,src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java,before,pmd,CognitiveComplexity,1
+p074,control,src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java,before,pmd,CyclomaticComplexity,1
+p074,control,src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java,after,pmd,CognitiveComplexity,1
+p074,control,src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java,after,pmd,CyclomaticComplexity,1
+p074,control,src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java,after,pmd,NcssCount,1
 p075,treated,src/org/mockito/internal/invocation/InvocationMatcher.java,before,pmd,SimplifyBooleanReturns,1
-p075,treated,src/org/mockito/internal/invocation/InvocationMatcher.java,after,pmd,MissingOverride,1
 p075,treated,src/org/mockito/internal/invocation/InvocationMatcher.java,after,pmd,SimplifyBooleanReturns,1
 p075,treated,src/org/mockito/internal/invocation/InvocationMatcher.java,before,designite,Cyclic-Dependent Modularization,1
 p075,treated,src/org/mockito/internal/invocation/InvocationMatcher.java,after,designite,Cyclic-Dependent Modularization,1
-p075,control,src/org/mockito/internal/invocation/Invocation.java,before,pmd,LiteralsFirstInComparisons,1
-p075,control,src/org/mockito/internal/invocation/Invocation.java,before,pmd,MissingOverride,3
-p075,control,src/org/mockito/internal/invocation/Invocation.java,after,pmd,LiteralsFirstInComparisons,1
-p075,control,src/org/mockito/internal/invocation/Invocation.java,after,pmd,MissingOverride,3
+p075,control,src/org/mockito/internal/invocation/Invocation.java,before,pmd,AvoidThrowingRawExceptionTypes,1
+p075,control,src/org/mockito/internal/invocation/Invocation.java,before,pmd,GodClass,1
+p075,control,src/org/mockito/internal/invocation/Invocation.java,before,pmd,TooManyMethods,1
+p075,control,src/org/mockito/internal/invocation/Invocation.java,after,pmd,AvoidThrowingRawExceptionTypes,1
+p075,control,src/org/mockito/internal/invocation/Invocation.java,after,pmd,GodClass,1
+p075,control,src/org/mockito/internal/invocation/Invocation.java,after,pmd,ImmutableField,1
+p075,control,src/org/mockito/internal/invocation/Invocation.java,after,pmd,TooManyMethods,1
 p075,control,src/org/mockito/internal/invocation/Invocation.java,before,designite,Cyclic-Dependent Modularization,1
 p075,control,src/org/mockito/internal/invocation/Invocation.java,before,designite,Insufficient Modularization,1
 p075,control,src/org/mockito/internal/invocation/Invocation.java,after,designite,Cyclic-Dependent Modularization,1
 p075,control,src/org/mockito/internal/invocation/Invocation.java,after,designite,Insufficient Modularization,1
-p076,treated,src/org/mockito/internal/verification/VerificationModeImpl.java,before,pmd,UnnecessarySemicolon,1
-p076,treated,src/org/mockito/internal/verification/VerificationModeImpl.java,after,pmd,UnnecessarySemicolon,1
 p076,treated,src/org/mockito/internal/verification/VerificationModeImpl.java,before,designite,Cyclic-Dependent Modularization,1
 p076,control,src/org/mockito/internal/verification/NoMoreInteractionsMode.java,before,designite,Broken Hierarchy,1
 p076,control,src/org/mockito/internal/verification/NoMoreInteractionsMode.java,before,designite,Multipath Hierarchy,1
@@ -502,191 +487,178 @@ p076,control,src/org/mockito/internal/verification/NoMoreInteractionsMode.java,b
 p076,control,src/org/mockito/internal/verification/NoMoreInteractionsMode.java,after,designite,Broken Hierarchy,1
 p076,control,src/org/mockito/internal/verification/NoMoreInteractionsMode.java,after,designite,Multipath Hierarchy,1
 p076,control,src/org/mockito/internal/verification/NoMoreInteractionsMode.java,after,designite,Unutilized Abstraction,1
+p077,treated,src/org/mockito/exceptions/base/MockitoException.java,before,pmd,ImmutableField,1
 p077,treated,src/org/mockito/exceptions/base/MockitoException.java,before,designite,Broken Hierarchy,1
 p077,treated,src/org/mockito/exceptions/base/MockitoException.java,before,designite,Unutilized Abstraction,1
 p077,treated,src/org/mockito/exceptions/base/MockitoException.java,after,designite,Broken Hierarchy,1
 p077,treated,src/org/mockito/exceptions/base/MockitoException.java,after,designite,Unutilized Abstraction,1
-p077,control,src/org/mockito/Mockito.java,before,pmd,VariableCanBeInlined,1
-p077,control,src/org/mockito/Mockito.java,after,pmd,VariableCanBeInlined,1
+p077,control,src/org/mockito/Mockito.java,before,pmd,TooManyMethods,1
+p077,control,src/org/mockito/Mockito.java,after,pmd,TooManyMethods,1
 p077,control,src/org/mockito/Mockito.java,before,designite,Broken Hierarchy,1
 p077,control,src/org/mockito/Mockito.java,after,designite,Broken Hierarchy,1
 p078,treated,src/org/mockito/internal/creation/instance/ObjenesisInstantiator.java,after,designite,Unutilized Abstraction,1
-p078,control,src/org/mockito/internal/creation/AcrossJVMSerializationFeature.java,before,pmd,LiteralsFirstInComparisons,1
-p078,control,src/org/mockito/internal/creation/AcrossJVMSerializationFeature.java,before,pmd,OptimizableToArrayCall,1
-p078,control,src/org/mockito/internal/creation/AcrossJVMSerializationFeature.java,before,pmd,UnnecessaryFullyQualifiedName,1
-p078,control,src/org/mockito/internal/creation/AcrossJVMSerializationFeature.java,before,pmd,UnnecessaryModifier,1
-p078,control,src/org/mockito/internal/creation/AcrossJVMSerializationFeature.java,after,pmd,LiteralsFirstInComparisons,1
-p078,control,src/org/mockito/internal/creation/AcrossJVMSerializationFeature.java,after,pmd,OptimizableToArrayCall,1
-p078,control,src/org/mockito/internal/creation/AcrossJVMSerializationFeature.java,after,pmd,UnnecessaryFullyQualifiedName,1
-p078,control,src/org/mockito/internal/creation/AcrossJVMSerializationFeature.java,after,pmd,UnnecessaryModifier,1
 p080,treated,buildSrc/src/main/groovy/org/mockito/release/notes/vcs/GitContributionsProvider.java,before,designite,Unutilized Abstraction,1
 p080,treated,buildSrc/src/main/groovy/org/mockito/release/notes/vcs/GitContributionsProvider.java,after,designite,Unutilized Abstraction,1
 p080,control,buildSrc/src/main/groovy/org/mockito/release/notes/vcs/DefaultContributionSet.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
-p080,control,buildSrc/src/main/groovy/org/mockito/release/notes/vcs/DefaultContributionSet.java,before,pmd,MissingOverride,1
 p080,control,buildSrc/src/main/groovy/org/mockito/release/notes/vcs/DefaultContributionSet.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
-p080,control,buildSrc/src/main/groovy/org/mockito/release/notes/vcs/DefaultContributionSet.java,after,pmd,MissingOverride,1
 p080,control,buildSrc/src/main/groovy/org/mockito/release/notes/vcs/DefaultContributionSet.java,before,designite,Unutilized Abstraction,1
 p080,control,buildSrc/src/main/groovy/org/mockito/release/notes/vcs/DefaultContributionSet.java,after,designite,Unutilized Abstraction,1
-p081,treated,mockmaker/bytebuddy/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java,before,pmd,CompareObjectsWithEquals,1
-p081,treated,mockmaker/bytebuddy/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java,before,pmd,UnnecessaryModifier,1
+p081,treated,mockmaker/bytebuddy/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java,before,pmd,LawOfDemeter,1
 p081,treated,mockmaker/bytebuddy/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java,before,pmd,UseUtilityClass,3
-p081,treated,mockmaker/bytebuddy/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java,after,pmd,CompareObjectsWithEquals,1
-p081,treated,mockmaker/bytebuddy/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java,after,pmd,UnnecessaryModifier,1
+p081,treated,mockmaker/bytebuddy/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java,after,pmd,LawOfDemeter,1
 p081,treated,mockmaker/bytebuddy/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java,after,pmd,UseUtilityClass,3
 p081,treated,mockmaker/bytebuddy/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java,before,designite,Cyclic-Dependent Modularization,1
 p081,treated,mockmaker/bytebuddy/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java,after,designite,Cyclic-Dependent Modularization,1
-p081,control,mockmaker/bytebuddy/main/java/org/mockito/internal/creation/bytebuddy/MockBytecodeGenerator.java,before,pmd,AssignmentInOperand,1
-p081,control,mockmaker/bytebuddy/main/java/org/mockito/internal/creation/bytebuddy/MockBytecodeGenerator.java,after,pmd,AssignmentInOperand,1
-p082,treated,src/org/mockito/internal/creation/MethodInterceptorFilter.java,before,pmd,CompareObjectsWithEquals,1
-p082,treated,src/org/mockito/internal/creation/MethodInterceptorFilter.java,before,pmd,ControlStatementBraces,1
-p082,treated,src/org/mockito/internal/creation/MethodInterceptorFilter.java,before,pmd,UnnecessaryImport,1
-p082,treated,src/org/mockito/internal/creation/MethodInterceptorFilter.java,after,pmd,CompareObjectsWithEquals,1
-p082,treated,src/org/mockito/internal/creation/MethodInterceptorFilter.java,after,pmd,ControlStatementBraces,1
-p082,treated,src/org/mockito/internal/creation/MethodInterceptorFilter.java,after,pmd,UnnecessaryImport,1
-p082,control,src/org/mockito/internal/MockHandler.java,before,pmd,UnnecessaryImport,3
-p082,control,src/org/mockito/internal/MockHandler.java,after,pmd,UnnecessaryImport,3
-p083,treated,src/org/mockito/internal/MockitoCore.java,before,pmd,UnnecessaryImport,1
-p083,treated,src/org/mockito/internal/MockitoCore.java,before,pmd,UselessParentheses,1
-p083,treated,src/org/mockito/internal/MockitoCore.java,after,pmd,UnnecessaryImport,1
-p083,treated,src/org/mockito/internal/MockitoCore.java,after,pmd,UselessParentheses,1
-p083,control,src/org/mockito/Mockito.java,before,pmd,UnnecessaryImport,3
-p083,control,src/org/mockito/Mockito.java,after,pmd,UnnecessaryImport,3
+p081,control,mockmaker/bytebuddy/main/java/org/mockito/internal/creation/bytebuddy/MockBytecodeGenerator.java,before,pmd,LawOfDemeter,6
+p081,control,mockmaker/bytebuddy/main/java/org/mockito/internal/creation/bytebuddy/MockBytecodeGenerator.java,after,pmd,LawOfDemeter,6
+p083,treated,src/org/mockito/internal/MockitoCore.java,before,pmd,CouplingBetweenObjects,1
+p083,treated,src/org/mockito/internal/MockitoCore.java,before,pmd,TooManyMethods,1
+p083,treated,src/org/mockito/internal/MockitoCore.java,after,pmd,CouplingBetweenObjects,1
+p083,treated,src/org/mockito/internal/MockitoCore.java,after,pmd,TooManyMethods,1
+p083,control,src/org/mockito/Mockito.java,before,pmd,CouplingBetweenObjects,1
+p083,control,src/org/mockito/Mockito.java,before,pmd,TooManyMethods,1
+p083,control,src/org/mockito/Mockito.java,after,pmd,CouplingBetweenObjects,1
+p083,control,src/org/mockito/Mockito.java,after,pmd,TooManyMethods,1
 p083,control,src/org/mockito/Mockito.java,before,designite,Broken Hierarchy,1
 p083,control,src/org/mockito/Mockito.java,before,designite,Deficient Encapsulation,1
 p083,control,src/org/mockito/Mockito.java,before,designite,Insufficient Modularization,1
 p083,control,src/org/mockito/Mockito.java,after,designite,Broken Hierarchy,1
 p083,control,src/org/mockito/Mockito.java,after,designite,Deficient Encapsulation,1
 p083,control,src/org/mockito/Mockito.java,after,designite,Insufficient Modularization,1
-p084,treated,src/org/mockito/internal/verification/VerificationModeImpl.java,before,pmd,UnnecessarySemicolon,1
-p084,treated,src/org/mockito/internal/verification/VerificationModeImpl.java,after,pmd,UnnecessarySemicolon,1
-p085,treated,src/org/mockito/internal/MockitoCore.java,before,pmd,VariableCanBeInlined,1
-p085,treated,src/org/mockito/internal/MockitoCore.java,after,pmd,VariableCanBeInlined,1
+p084,control,src/org/mockito/internal/verification/VerificationModeDecoder.java,before,pmd,TooManyMethods,1
+p085,treated,src/org/mockito/internal/MockitoCore.java,before,pmd,TooManyMethods,1
+p085,treated,src/org/mockito/internal/MockitoCore.java,after,pmd,TooManyMethods,1
 p085,treated,src/org/mockito/internal/MockitoCore.java,before,designite,Cyclic-Dependent Modularization,1
 p085,treated,src/org/mockito/internal/MockitoCore.java,before,designite,Deficient Encapsulation,1
 p085,treated,src/org/mockito/internal/MockitoCore.java,after,designite,Cyclic-Dependent Modularization,1
 p085,treated,src/org/mockito/internal/MockitoCore.java,after,designite,Deficient Encapsulation,1
+p085,control,src/org/mockito/internal/returnvalues/MockReturnValues.java,before,pmd,ImmutableField,2
+p085,control,src/org/mockito/internal/returnvalues/MockReturnValues.java,after,pmd,ImmutableField,2
 p085,control,src/org/mockito/internal/returnvalues/MockReturnValues.java,before,designite,Unutilized Abstraction,1
 p085,control,src/org/mockito/internal/returnvalues/MockReturnValues.java,after,designite,Unutilized Abstraction,1
+p086,treated,src/org/mockito/internal/debugging/MockitoDebuggerImpl.java,after,pmd,ImmutableField,2
 p086,treated,src/org/mockito/internal/debugging/MockitoDebuggerImpl.java,before,designite,Unutilized Abstraction,1
 p086,treated,src/org/mockito/internal/debugging/MockitoDebuggerImpl.java,after,designite,Unutilized Abstraction,1
 p086,control,src/org/mockito/internal/verification/InOrderWrapper.java,before,designite,Unutilized Abstraction,1
 p086,control,src/org/mockito/internal/verification/InOrderWrapper.java,after,designite,Unutilized Abstraction,1
-p087,treated,src/org/mockito/exceptions/Exceptions.java,before,pmd,UnnecessaryImport,4
+p087,treated,src/org/mockito/exceptions/Exceptions.java,before,pmd,TooManyMethods,1
 p087,treated,src/org/mockito/exceptions/Exceptions.java,before,pmd,UseUtilityClass,1
-p087,treated,src/org/mockito/exceptions/Exceptions.java,after,pmd,UnnecessaryImport,4
+p087,treated,src/org/mockito/exceptions/Exceptions.java,after,pmd,TooManyMethods,1
 p087,treated,src/org/mockito/exceptions/Exceptions.java,after,pmd,UseUtilityClass,1
-p087,control,src/org/mockito/internal/MockitoBehavior.java,before,pmd,LooseCoupling,1
-p087,control,src/org/mockito/internal/MockitoBehavior.java,before,pmd,UnnecessaryImport,1
-p087,control,src/org/mockito/internal/MockitoBehavior.java,after,pmd,LooseCoupling,1
-p087,control,src/org/mockito/internal/MockitoBehavior.java,after,pmd,UnnecessaryImport,1
-p088,treated,src/org/mockito/internal/progress/MockingProgressImpl.java,before,pmd,AssignmentInOperand,1
-p088,treated,src/org/mockito/internal/progress/MockingProgressImpl.java,before,pmd,MissingOverride,1
-p088,treated,src/org/mockito/internal/progress/MockingProgressImpl.java,after,pmd,AssignmentInOperand,1
-p088,treated,src/org/mockito/internal/progress/MockingProgressImpl.java,after,pmd,MissingOverride,1
+p087,control,src/org/mockito/internal/MockitoBehavior.java,before,pmd,CyclomaticComplexity,1
+p087,control,src/org/mockito/internal/MockitoBehavior.java,before,pmd,ImmutableField,2
+p087,control,src/org/mockito/internal/MockitoBehavior.java,before,pmd,TooManyMethods,1
+p087,control,src/org/mockito/internal/MockitoBehavior.java,after,pmd,CyclomaticComplexity,1
+p087,control,src/org/mockito/internal/MockitoBehavior.java,after,pmd,ImmutableField,2
+p087,control,src/org/mockito/internal/MockitoBehavior.java,after,pmd,TooManyMethods,1
 p088,treated,src/org/mockito/internal/progress/MockingProgressImpl.java,before,designite,Unutilized Abstraction,1
 p088,treated,src/org/mockito/internal/progress/MockingProgressImpl.java,after,designite,Unutilized Abstraction,1
-p089,treated,src/main/java/org/mockito/internal/configuration/plugins/PluginLoader.java,before,pmd,AvoidCatchingThrowable,1
-p089,treated,src/main/java/org/mockito/internal/configuration/plugins/PluginLoader.java,before,pmd,TypeParameterNamingConventions,2
-p089,treated,src/main/java/org/mockito/internal/configuration/plugins/PluginLoader.java,after,pmd,AvoidCatchingThrowable,1
-p089,treated,src/main/java/org/mockito/internal/configuration/plugins/PluginLoader.java,after,pmd,TypeParameterNamingConventions,2
+p088,control,src/org/mockito/exceptions/Reporter.java,before,pmd,TooManyMethods,1
+p088,control,src/org/mockito/exceptions/Reporter.java,after,pmd,TooManyMethods,1
 p089,treated,src/main/java/org/mockito/internal/configuration/plugins/PluginLoader.java,before,designite,Unutilized Abstraction,1
 p089,treated,src/main/java/org/mockito/internal/configuration/plugins/PluginLoader.java,after,designite,Unutilized Abstraction,1
+p089,control,src/main/java/org/mockito/internal/configuration/plugins/PluginInitializer.java,before,pmd,AvoidCatchingGenericException,1
+p089,control,src/main/java/org/mockito/internal/configuration/plugins/PluginInitializer.java,before,pmd,LawOfDemeter,3
+p089,control,src/main/java/org/mockito/internal/configuration/plugins/PluginInitializer.java,after,pmd,AvoidCatchingGenericException,1
+p089,control,src/main/java/org/mockito/internal/configuration/plugins/PluginInitializer.java,after,pmd,LawOfDemeter,3
 p090,treated,src/org/mockito/MockitoOperations.java,before,pmd,UseUtilityClass,1
 p090,treated,src/org/mockito/MockitoOperations.java,after,pmd,UseUtilityClass,1
 p090,treated,src/org/mockito/MockitoOperations.java,before,designite,Cyclic-Dependent Modularization,1
 p090,treated,src/org/mockito/MockitoOperations.java,after,designite,Cyclic-Dependent Modularization,1
-p090,control,src/org/mockito/MockitoControl.java,before,pmd,MissingOverride,1
-p090,control,src/org/mockito/MockitoControl.java,before,pmd,UncommentedEmptyConstructor,1
-p090,control,src/org/mockito/MockitoControl.java,before,pmd,UnnecessaryConstructor,1
-p090,control,src/org/mockito/MockitoControl.java,before,pmd,UnnecessaryImport,1
-p090,control,src/org/mockito/MockitoControl.java,after,pmd,MissingOverride,1
-p090,control,src/org/mockito/MockitoControl.java,after,pmd,UncommentedEmptyConstructor,1
-p090,control,src/org/mockito/MockitoControl.java,after,pmd,UnnecessaryConstructor,1
-p090,control,src/org/mockito/MockitoControl.java,after,pmd,UnnecessaryImport,1
+p090,control,src/org/mockito/MockitoControl.java,before,pmd,ImmutableField,1
+p090,control,src/org/mockito/MockitoControl.java,after,pmd,ImmutableField,1
 p090,control,src/org/mockito/MockitoControl.java,before,designite,Cyclic-Dependent Modularization,1
 p090,control,src/org/mockito/MockitoControl.java,after,designite,Cyclic-Dependent Modularization,1
-p091,treated,src/main/java/org/mockito/exceptions/Reporter.java,before,pmd,ControlStatementBraces,1
-p091,treated,src/main/java/org/mockito/exceptions/Reporter.java,before,pmd,UnnecessaryImport,1
-p091,treated,src/main/java/org/mockito/exceptions/Reporter.java,before,pmd,VariableCanBeInlined,2
+p091,treated,src/main/java/org/mockito/exceptions/Reporter.java,before,pmd,CyclomaticComplexity,1
+p091,treated,src/main/java/org/mockito/exceptions/Reporter.java,before,pmd,ExcessiveImports,1
+p091,treated,src/main/java/org/mockito/exceptions/Reporter.java,before,pmd,ExcessivePublicCount,1
+p091,treated,src/main/java/org/mockito/exceptions/Reporter.java,before,pmd,GodClass,1
+p091,treated,src/main/java/org/mockito/exceptions/Reporter.java,before,pmd,TooManyMethods,1
 p091,treated,src/main/java/org/mockito/exceptions/Reporter.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
-p091,treated,src/main/java/org/mockito/exceptions/Reporter.java,after,pmd,ControlStatementBraces,1
-p091,treated,src/main/java/org/mockito/exceptions/Reporter.java,after,pmd,UnnecessaryImport,1
-p091,treated,src/main/java/org/mockito/exceptions/Reporter.java,after,pmd,UnnecessarySemicolon,1
-p091,treated,src/main/java/org/mockito/exceptions/Reporter.java,after,pmd,VariableCanBeInlined,2
+p091,treated,src/main/java/org/mockito/exceptions/Reporter.java,after,pmd,CyclomaticComplexity,1
+p091,treated,src/main/java/org/mockito/exceptions/Reporter.java,after,pmd,ExcessiveImports,1
+p091,treated,src/main/java/org/mockito/exceptions/Reporter.java,after,pmd,ExcessivePublicCount,1
+p091,treated,src/main/java/org/mockito/exceptions/Reporter.java,after,pmd,GodClass,1
+p091,treated,src/main/java/org/mockito/exceptions/Reporter.java,after,pmd,TooManyMethods,1
 p091,treated,src/main/java/org/mockito/exceptions/Reporter.java,before,designite,Insufficient Modularization,1
 p091,treated,src/main/java/org/mockito/exceptions/Reporter.java,after,designite,Insufficient Modularization,1
-p091,control,src/main/java/org/mockito/internal/MockitoCore.java,before,pmd,UnnecessaryImport,1
-p091,control,src/main/java/org/mockito/internal/MockitoCore.java,before,pmd,UselessParentheses,1
-p091,control,src/main/java/org/mockito/internal/MockitoCore.java,after,pmd,PreserveStackTrace,1
-p091,control,src/main/java/org/mockito/internal/MockitoCore.java,after,pmd,UselessParentheses,1
+p091,control,src/main/java/org/mockito/internal/MockitoCore.java,before,pmd,CouplingBetweenObjects,1
+p091,control,src/main/java/org/mockito/internal/MockitoCore.java,before,pmd,TooManyMethods,1
+p091,control,src/main/java/org/mockito/internal/MockitoCore.java,after,pmd,CouplingBetweenObjects,1
+p091,control,src/main/java/org/mockito/internal/MockitoCore.java,after,pmd,ExceptionAsFlowControl,1
+p091,control,src/main/java/org/mockito/internal/MockitoCore.java,after,pmd,ExcessiveImports,1
+p091,control,src/main/java/org/mockito/internal/MockitoCore.java,after,pmd,TooManyMethods,1
 p091,control,src/main/java/org/mockito/internal/MockitoCore.java,before,designite,Cyclic-Dependent Modularization,1
 p091,control,src/main/java/org/mockito/internal/MockitoCore.java,after,designite,Cyclic-Dependent Modularization,1
-p092,treated,src/org/mockito/internal/progress/MockingProgressImpl.java,before,pmd,MissingOverride,1
-p092,treated,src/org/mockito/internal/progress/MockingProgressImpl.java,after,pmd,MissingOverride,1
 p092,treated,src/org/mockito/internal/progress/MockingProgressImpl.java,before,designite,Unutilized Abstraction,1
 p092,treated,src/org/mockito/internal/progress/MockingProgressImpl.java,after,designite,Unutilized Abstraction,1
+p092,control,src/org/mockito/exceptions/Reporter.java,before,pmd,GodClass,1
+p092,control,src/org/mockito/exceptions/Reporter.java,before,pmd,TooManyMethods,1
+p092,control,src/org/mockito/exceptions/Reporter.java,after,pmd,GodClass,1
+p092,control,src/org/mockito/exceptions/Reporter.java,after,pmd,TooManyMethods,1
 p092,control,src/org/mockito/exceptions/Reporter.java,before,designite,Insufficient Modularization,1
 p092,control,src/org/mockito/exceptions/Reporter.java,after,designite,Insufficient Modularization,1
-p093,treated,src/main/java/org/mockito/internal/util/reflection/SuperTypesLastSorter.java,before,pmd,MissingOverride,1
 p093,treated,src/main/java/org/mockito/internal/util/reflection/SuperTypesLastSorter.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
 p093,treated,src/main/java/org/mockito/internal/util/reflection/SuperTypesLastSorter.java,before,designite,Unutilized Abstraction,1
 p093,treated,src/main/java/org/mockito/internal/util/reflection/SuperTypesLastSorter.java,after,designite,Unutilized Abstraction,1
-p093,control,src/main/java/org/mockito/internal/configuration/injection/PropertyAndSetterInjection.java,before,pmd,PreserveStackTrace,1
-p093,control,src/main/java/org/mockito/internal/configuration/injection/PropertyAndSetterInjection.java,after,pmd,PreserveStackTrace,1
-p093,control,src/main/java/org/mockito/internal/configuration/injection/PropertyAndSetterInjection.java,after,pmd,UnnecessaryImport,1
 p093,control,src/main/java/org/mockito/internal/configuration/injection/PropertyAndSetterInjection.java,before,designite,Unutilized Abstraction,1
 p093,control,src/main/java/org/mockito/internal/configuration/injection/PropertyAndSetterInjection.java,after,designite,Unutilized Abstraction,1
-p094,treated,src/org/mockito/internal/configuration/ClassPathLoader.java,before,pmd,AvoidBranchingStatementAsLastInLoop,1
-p094,treated,src/org/mockito/internal/configuration/ClassPathLoader.java,before,pmd,CloseResource,1
-p094,treated,src/org/mockito/internal/configuration/ClassPathLoader.java,after,pmd,UnnecessaryImport,8
+p094,treated,src/org/mockito/internal/configuration/ClassPathLoader.java,before,pmd,AvoidCatchingGenericException,3
+p094,treated,src/org/mockito/internal/configuration/ClassPathLoader.java,before,pmd,LawOfDemeter,3
+p094,treated,src/org/mockito/internal/configuration/ClassPathLoader.java,after,pmd,AvoidCatchingGenericException,1
 p094,treated,src/org/mockito/internal/configuration/ClassPathLoader.java,before,designite,Deficient Encapsulation,1
 p094,treated,src/org/mockito/internal/configuration/ClassPathLoader.java,after,designite,Deficient Encapsulation,1
 p094,treated,src/org/mockito/internal/configuration/ClassPathLoader.java,after,designite,Unutilized Abstraction,1
-p094,control,src/org/mockito/internal/exceptions/stacktrace/StackTraceFilter.java,after,pmd,UnnecessaryImport,1
-p095,treated,src/main/java/org/mockito/invocation/MockHandler.java,after,pmd,UnnecessaryImport,2
 p095,control,src/main/java/org/mockito/internal/handler/NullResultGuardian.java,before,designite,Unutilized Abstraction,1
 p095,control,src/main/java/org/mockito/internal/handler/NullResultGuardian.java,after,designite,Unutilized Abstraction,1
+p097,treated,src/org/mockito/internal/verification/InOrderVerificationMode.java,after,pmd,LawOfDemeter,1
 p097,treated,src/org/mockito/internal/verification/InOrderVerificationMode.java,before,designite,Broken Hierarchy,1
 p097,treated,src/org/mockito/internal/verification/InOrderVerificationMode.java,before,designite,Multipath Hierarchy,1
 p097,treated,src/org/mockito/internal/verification/InOrderVerificationMode.java,before,designite,Unutilized Abstraction,1
 p097,treated,src/org/mockito/internal/verification/InOrderVerificationMode.java,after,designite,Broken Hierarchy,1
 p097,treated,src/org/mockito/internal/verification/InOrderVerificationMode.java,after,designite,Multipath Hierarchy,1
 p097,treated,src/org/mockito/internal/verification/InOrderVerificationMode.java,after,designite,Unutilized Abstraction,1
-p097,control,src/org/mockito/internal/verification/VerifyingRecorder.java,before,pmd,UnusedPrivateField,2
+p097,control,src/org/mockito/internal/verification/VerifyingRecorder.java,before,pmd,ImmutableField,1
+p097,control,src/org/mockito/internal/verification/VerifyingRecorder.java,after,pmd,ImmutableField,1
 p097,control,src/org/mockito/internal/verification/VerifyingRecorder.java,before,designite,Cyclic-Dependent Modularization,1
 p097,control,src/org/mockito/internal/verification/VerifyingRecorder.java,after,designite,Cyclic-Dependent Modularization,1
 p098,treated,src/org/mockito/internal/progress/VerificationMode.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
-p098,treated,src/org/mockito/internal/progress/VerificationMode.java,before,pmd,MethodNamingConventions,1
-p098,treated,src/org/mockito/internal/progress/VerificationMode.java,before,pmd,UncommentedEmptyMethodBody,1
 p098,treated,src/org/mockito/internal/progress/VerificationMode.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
-p098,treated,src/org/mockito/internal/progress/VerificationMode.java,after,pmd,MethodNamingConventions,1
-p098,treated,src/org/mockito/internal/progress/VerificationMode.java,after,pmd,UncommentedEmptyMethodBody,1
-p098,treated,src/org/mockito/internal/progress/VerificationMode.java,after,pmd,UnnecessarySemicolon,1
-p098,treated,src/org/mockito/internal/progress/VerificationMode.java,after,pmd,UnusedPrivateField,1
-p098,control,src/org/mockito/internal/verification/VerifyingRecorder.java,before,pmd,LooseCoupling,1
-p098,control,src/org/mockito/internal/verification/VerifyingRecorder.java,after,pmd,LooseCoupling,1
-p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,AvoidCatchingThrowable,3
-p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,AvoidUsingVolatile,1
+p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,AvoidCatchingGenericException,3
 p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,2
-p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,OneDeclarationPerLine,3
-p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,OptimizableToArrayCall,1
-p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,ReturnEmptyCollectionRatherThanNull,2
-p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,AvoidCatchingThrowable,3
-p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,AvoidUsingVolatile,1
+p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,CognitiveComplexity,1
+p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,CouplingBetweenObjects,1
+p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,CyclomaticComplexity,1
+p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,ExceptionAsFlowControl,1
+p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,ExcessiveImports,1
+p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,GodClass,1
+p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,LawOfDemeter,12
+p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,before,pmd,TooManyMethods,1
+p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,AvoidCatchingGenericException,3
 p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,2
-p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,OneDeclarationPerLine,3
-p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,OptimizableToArrayCall,1
-p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,ReturnEmptyCollectionRatherThanNull,2
+p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,CognitiveComplexity,1
+p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,CouplingBetweenObjects,1
+p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,CyclomaticComplexity,1
+p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,ExceptionAsFlowControl,1
+p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,ExcessiveImports,1
+p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,GodClass,1
+p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,LawOfDemeter,12
+p099,treated,mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,after,pmd,TooManyMethods,1
+p099,control,mockito-core/src/main/java/org/mockito/internal/util/MockUtil.java,before,pmd,AvoidCatchingGenericException,2
 p099,control,mockito-core/src/main/java/org/mockito/internal/util/MockUtil.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
-p099,control,mockito-core/src/main/java/org/mockito/internal/util/MockUtil.java,before,pmd,CompareObjectsWithEquals,2
+p099,control,mockito-core/src/main/java/org/mockito/internal/util/MockUtil.java,before,pmd,LawOfDemeter,3
 p099,control,mockito-core/src/main/java/org/mockito/internal/util/MockUtil.java,before,pmd,SimplifyBooleanReturns,1
+p099,control,mockito-core/src/main/java/org/mockito/internal/util/MockUtil.java,before,pmd,TooManyMethods,1
+p099,control,mockito-core/src/main/java/org/mockito/internal/util/MockUtil.java,after,pmd,AvoidCatchingGenericException,2
 p099,control,mockito-core/src/main/java/org/mockito/internal/util/MockUtil.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
-p099,control,mockito-core/src/main/java/org/mockito/internal/util/MockUtil.java,after,pmd,CompareObjectsWithEquals,2
+p099,control,mockito-core/src/main/java/org/mockito/internal/util/MockUtil.java,after,pmd,CouplingBetweenObjects,1
+p099,control,mockito-core/src/main/java/org/mockito/internal/util/MockUtil.java,after,pmd,LawOfDemeter,3
 p099,control,mockito-core/src/main/java/org/mockito/internal/util/MockUtil.java,after,pmd,SimplifyBooleanReturns,1
+p099,control,mockito-core/src/main/java/org/mockito/internal/util/MockUtil.java,after,pmd,TooManyMethods,1
 p099,control,mockito-core/src/main/java/org/mockito/internal/util/MockUtil.java,before,designite,Cyclic-Dependent Modularization,1
 p099,control,mockito-core/src/main/java/org/mockito/internal/util/MockUtil.java,after,designite,Cyclic-Dependent Modularization,1
-p100,treated,src/org/mockito/internal/configuration/ClassPathLoader.java,before,pmd,AvoidBranchingStatementAsLastInLoop,1
-p100,treated,src/org/mockito/internal/configuration/ClassPathLoader.java,after,pmd,AvoidBranchingStatementAsLastInLoop,1
+p100,treated,src/org/mockito/internal/configuration/ClassPathLoader.java,before,pmd,AvoidCatchingGenericException,1
+p100,treated,src/org/mockito/internal/configuration/ClassPathLoader.java,after,pmd,AvoidCatchingGenericException,1
 p100,treated,src/org/mockito/internal/configuration/ClassPathLoader.java,before,designite,Unutilized Abstraction,1
 p100,treated,src/org/mockito/internal/configuration/ClassPathLoader.java,after,designite,Unutilized Abstraction,1
 p100,control,src/org/mockito/internal/creation/CglibMockMaker.java,before,designite,Unutilized Abstraction,1

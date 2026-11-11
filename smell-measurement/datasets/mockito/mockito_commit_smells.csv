@@ -1,101 +1,101 @@
 sample_id,project,commit,parent_commit,commit_date,production_refactorings,refactoring_types,java_files_before,java_files_after,designite_before,designite_after,pmd_before,pmd_after,pmd_unparsed_files_before,pmd_unparsed_files_after
-c001,mockito,ccd5e85a0c60e7f3ae10ac86db1e5110966e9d41,482731ec4d25f7a340e16f80d2931e1d77f22d06,2017-03-19,3,Add Parameter;Extract Method,431,431,301,301,413,416,1,1
-c002,mockito,a21ff2d1b4a6cb0b668a4e1946b76be3561d0eed,1b8674b476d489802b8fc3bbd552d175d2e07f08,2014-11-20,5,Add Method Modifier;Change Method Access Modifier;Change Parameter Type;Move And Rename Method;Rename Parameter,556,557,501,501,1441,1441,1,1
-c003,mockito,5652d1733e12aa10927f3bbe1dff42d016105957,bd37bc544ddac2837b14a36601da1942353a9895,2012-03-09,3,Change Parameter Type;Change Return Type;Rename Method,467,467,420,420,1349,1348,1,1
-c004,mockito,66d928dcbb23f24349f10066d0dc54b6a4925f1b,a10d9c323124ca47f7d57d4545f4d9f5587f7da5,2009-06-05,8,Change Attribute Type;Change Parameter Type;Change Return Type;Change Variable Type;Rename Method,369,369,354,354,1253,1254,0,0
-c005,mockito,ee69291df4613e46f4832ee8d12c18e35f8ecff3,57a33209a8de98ac74e1ac2d5e5816dacfdc92c5,2013-10-06,2,Remove Parameter;Split Parameter,506,506,466,466,1417,1417,1,1
-c006,mockito,3c4edc6b49ce4a30dcaf00a78cf014c245f2eefa,b11e3a973d27abe546f4b4337418423548762506,2016-06-16,4,Add Method Modifier;Remove Parameter,384,384,282,282,413,412,1,1
-c007,mockito,cf70fd9047253bd4e25387e9bd97cea4cc1ac25b,c596aef9fc79e0ce4f9af029be9ef191d6b22da1,2020-11-10,1,Rename Variable,487,487,363,363,462,463,1,1
-c008,mockito,7894efe188838a75c766876ad60944e25fb45b05,7d926aa078ee16b17104c114c1e81f52905158bc,2018-04-01,22,Add Method Annotation,445,445,315,315,391,391,0,0
-c009,mockito,94c3b4ade7347ee4047fcc4c8552d0e8365efa90,21f80c8de824fc9a8c3d56fff029f6909d4b5b84,2016-07-24,15,Change Attribute Type;Change Parameter Type;Change Return Type;Remove Class Annotation;Remove Method Annotation,392,392,287,287,363,363,1,1
-c010,mockito,2f92126a765bbb6f5e6551fa50e007f9c8a14acc,2ed01d44abfa8fc1ca45b1ba16d4fc11c3897ab6,2016-06-19,48,Add Method Annotation;Add Method Modifier;Add Variable Annotation;Change Attribute Access Modifier;Change Attribute Type;Change Method Access Modifier;Change Parameter Type;Change Return Type;Change Variable Type;Remove Class Annotation;Remove Parameter Modifier,384,384,281,281,422,430,1,1
-c011,mockito,81508672b727bfd979d7debf4e067d3a3d20614e,d4d12abca4e376cc92f20b970ccd7461cbe58286,2018-07-24,6,Change Method Access Modifier;Rename Attribute;Rename Method;Rename Parameter,452,451,320,320,395,394,0,0
-c012,mockito,49e6311fcf774f6931ffbb627702e4fb99ef3604,7c8aae0055b082b4cffb2739e4145b023d1603e9,2019-03-23,2,Add Parameter Modifier,463,463,325,325,431,432,0,0
-c013,mockito,ff43fde23061fcf7e6b11d0094b30aebd587e7dd,6da1e65a4ea014b1594efc90ab0841b254efee2a,2016-08-27,5,Change Attribute Type;Change Parameter Type;Change Variable Type,391,391,299,299,384,383,1,1
-c014,mockito,42b391d4209024292b6101048389570e4ec36b2a,c25cb6bff7eb4774efda345e8bf9eaad4c66a652,2015-04-19,3,Extract Method,588,588,531,531,1483,1483,1,1
-c015,mockito,02e1445f304a1c4ad41ed71b3cd0096a3be52292,423bfff5fe09d44a7d229bed17404d2bee4aaa6c,2019-01-11,5,Add Parameter;Rename Method,454,454,323,323,405,403,0,0
-c016,mockito,9952454f4efc6a8734149b5e81e4f66c0349dcbb,2f7bf91d24a85ab28749e80effeb1252d8442ff9,2007-12-11,89,Add Attribute Modifier;Change Attribute Type;Change Method Access Modifier;Change Parameter Type;Change Return Type;Change Variable Type;Encapsulate Attribute;Move And Rename Class;Move Class;Rename Attribute;Rename Method;Rename Parameter;Rename Variable,88,88,77,73,81,74,0,0
-c017,mockito,e8dd6d114e332e1c235a30ade1e4bf7ba29661f5,ab10ef00cdfe24cfe3dad94c7e57397945cdbdc9,2014-10-17,3,Move Method;Parameterize Variable;Remove Parameter,522,521,489,487,1407,1407,1,1
-c018,mockito,ab03b6366fc68287f6756c4e6d0bb140ba5450d6,8912aa176ea8414c2fc57df0d9b030b918630e9f,2014-11-16,4,Add Method Annotation,529,529,492,492,1425,1425,1,1
-c019,mockito,ec06ddbc742aa8e756d4a5205baafaaff3b71c3a,5738366c738107f096d26fda30d15e2a0dabff84,2018-03-11,1,Change Attribute Type,443,443,315,314,389,390,0,0
-c020,mockito,d7b85d08283e9e21fb6c77c61b6d5e3d1d8e4c8d,65d31f4c035b7c2fd869785412ecc7a81a9ba220,2009-01-20,3,Add Parameter;Change Parameter Type;Remove Parameter,143,143,117,117,89,90,0,0
-c021,mockito,af7f19ccf9fc5232ed5cc289ec4ac50cb606c679,fe7c33b8e548666065423c05e3bdf59717914cc8,2009-11-08,4,Change Return Type;Extract Method,390,390,377,376,1282,1280,0,0
-c022,mockito,fb99122f85627ea07de33a38c8f125d0dcd867ce,868fcb0ee8ce06bb7ebdc5957e33aac466c32200,2008-03-19,4,Extract Method;Extract Variable;Rename Method,96,96,73,73,73,73,0,0
-c023,mockito,4ef3ce8563eb1800b0d68e47271d8ff1d95bc5f9,1eb47bcebde6dcf11ff9e4a43da81be0dbc2e638,2022-12-29,4,Add Method Annotation;Change Attribute Type;Remove Class Annotation;Replace Generic With Diamond,485,485,355,355,354,354,0,0
-c024,mockito,eddbfa4ec788e85a3ba96d6c7425cb048ed1a228,5c1306b054c0101a19a061b9791ebc8ec361a820,2009-08-24,1,Extract And Move Method,378,378,358,358,1256,1256,0,0
-c025,mockito,bb4c78c2debe7087882e3a6dd66de037590b40f0,40892948c225caa7fa8bdf4c5c9306b8b689d491,2017-10-21,39,Add Method Annotation;Add Parameter;Change Attribute Type;Change Variable Type;Rename Class,434,434,310,310,386,386,0,0
-c026,mockito,d23dc0e57a8360c8d80f69096cee24c20e4c7c26,8314824b2c83aff91db140b58de7d9e7d9be5ebf,2022-04-19,2,Remove Parameter,479,479,348,349,351,352,1,1
-c027,mockito,6e53f34a3f54d2b7dc23595566b9331a94b57263,a66dfa081c3703fcda9618f507d30248361f5e7b,2024-12-07,1,Extract Variable,494,494,362,362,357,357,0,0
-c028,mockito,ccb377aaa7ff9a755e10cc83dd4c73e98c559e1c,80279d6b0928f5af520dfe3bc10e0bcd46f64516,2007-11-24,6,Add Method Modifier;Change Attribute Type;Encapsulate Attribute;Extract Method;Extract Variable,65,66,65,66,77,80,0,0
-c029,mockito,1a4a77996e54057ab294ce3e22fa4005d0da7132,51aca5035ea543ecdd109a77b30d34006cb98f29,2009-02-21,3,Extract Variable;Remove Parameter,145,145,117,118,90,90,0,0
-c030,mockito,3a1a19ee40f1234048880393343405046fc3fa60,f3c957a74e39a78c31b7fd2e48bf9f4c3a13112c,2025-09-20,2,Invert Condition;Replace Conditional With Ternary,496,496,362,362,351,351,0,0
-c031,mockito,682d92aef2e0262825c913784a6ad53618d813d0,98a997f7d3577e3f1c37bc9d88f18abd0a4bf9e4,2008-10-12,2,Remove Method Annotation,122,122,109,109,86,86,0,0
-c032,mockito,0307f92995e165bd1d360f6b91e545e2ee60fe54,b1d270c2bb0705741bbe33c8ea4f2b9dead48334,2016-06-19,39,Change Attribute Type;Change Parameter Type;Change Return Type;Change Variable Type;Remove Parameter,384,384,281,281,429,426,1,1
-c033,mockito,4c1a6c2d1012c34ce9e72f9fd29d2346cec6dc72,b796d2046e74d89f0beb821b330bce972fa4eab5,2012-03-30,5,Change Method Access Modifier;Extract Attribute,480,480,426,427,1378,1378,1,1
-c034,mockito,f6d3fdae07e95483f6969ae04dc2c1925d4b53c0,b317fc20c19964580d29c73208bb3838c8b053dc,2007-12-14,10,Add Attribute Modifier;Rename Attribute;Rename Method;Rename Parameter,84,84,65,65,68,68,0,0
-c035,mockito,183167dbd20a85fa1106c300b304684ddec5f3d8,816c0325d9b1e7d51d42bd0ce5f918b60f46f04f,2008-07-16,7,Change Attribute Type;Change Return Type;Move Method;Rename Attribute;Rename Class,111,111,100,100,89,89,0,0
-c036,mockito,da0481fd74a2f49bfe364d420ceecce774be6a4d,7bcc5486d86002274775b7bba05db2929534784d,2018-07-24,2,Add Method Annotation,451,451,320,320,394,394,0,0
-c037,mockito,bd6f6fe42e7a411815993d2496616dbfcffaea68,575cd64380180ccff06dbb74f98ce60d7ae1fd8f,2010-10-31,2,Remove Method Modifier;Remove Parameter,435,435,395,395,1317,1317,0,0
-c038,mockito,b93f85ea372a0e8b2de01a920b797455b8201b87,039d365570338eb608ef4c1167d3e8ec660c97ab,2007-12-24,2,Rename Class;Rename Method,88,88,71,71,57,57,0,0
-c039,mockito,a258ae81a164f794ca58fe197da33b8101823135,5a1bbd884bc860aa3787ba65fcb49c0032a1cdfa,2015-06-05,3,Add Method Annotation,595,595,538,538,1508,1508,1,1
-c040,mockito,922c9c4cb45d385377c0c94d347693ac80372662,c58fe2ffc3c8f253d98eb7224a5b38964c40fcb0,2016-12-10,1,Extract Variable,415,415,285,285,418,419,0,0
-c041,mockito,31ca6e48e75ca5b2c6d60c07845bdb1f3034c306,427bc00158d56d9e11ac49c76104b40e4a6e4b66,2012-04-09,7,Change Attribute Type;Change Return Type;Change Variable Type;Rename Class,490,490,443,443,1396,1395,1,1
-c042,mockito,ad7afcacb03f13d4eff507fb9cab5f2ed3e4a0e4,4fead36c46a99f9c95e5c3ddeec1c0127268bb43,2007-12-26,1,Split Class,91,92,73,74,67,64,0,0
-c043,mockito,f32973d4e709830a5a9fb19c54f32659023d2b03,5891de126d398ec09a040711b688176ff27b7d7c,2021-08-02,49,Add Class Annotation;Remove Method Annotation,489,489,362,362,350,350,1,1
-c044,mockito,e40088f906af0a00dce8720091a9391e885026f3,e79f9c7472235eadc992250683423737f31683e3,2008-01-05,31,Change Attribute Type;Change Parameter Type;Change Return Type;Change Variable Type;Rename Class,90,90,74,74,61,61,0,0
-c045,mockito,bd2e4bd041e87f29c0ef479982c3abc3b8044e52,f74715a2d87962b6d3ad7d6524b344c5895c0cec,2019-01-11,1,Invert Condition,454,454,323,323,406,406,0,0
-c046,mockito,aaceba748af32e986e27c7b2d58bc030c61474be,1bad4142641ec8ad1591dc9f4354203345e3be69,2008-01-28,1,Change Class Access Modifier,97,97,75,75,74,73,0,0
-c047,mockito,5d74ab11bc7358b195429e275c9fe8f29fb55ffe,f9f6d21974d530030ea731f21ad2da016ce14ada,2016-10-24,14,Add Thrown Exception Type;Change Parameter Type;Rename Parameter,419,419,313,313,414,444,1,1
-c048,mockito,ab19d0faf94ed0b8bf74e5a91fd2c98d74a468fc,4a53794decc902a16f6641f9d9eb6b3bee470a42,2008-10-14,2,Change Variable Type;Rename Class,122,124,109,110,88,88,0,0
-c049,mockito,fb48e093c06c2a0ee45f432cc12d8328ebd73e6d,597e9020ce56eb2ae6c50f19311978d3e96abd57,2023-10-06,3,Add Class Annotation;Add Method Annotation;Change Method Access Modifier,484,484,350,353,349,349,0,0
-c050,mockito,fe3257bdea95c88d4efe7b1f9f6b5403168d4968,98d682f40c5eb6700a7f52aea651b46309db076e,2007-12-16,9,Change Return Type;Rename Class;Rename Method;Rename Variable,85,85,64,64,56,56,0,0
-c051,mockito,3b1f415288dbf1489ee00c8e883feb24bfac4a24,54cbd1deab18310f352c1d32775b92d682fcba7f,2009-11-15,2,Change Return Type,398,398,378,378,1293,1293,0,0
-c052,mockito,86ce62abf7e60d27937f29fe8df8ffde95959e3f,ab9e9f347705bf9f4ebace4b07b085088275a256,2014-03-11,3,Remove Method Modifier;Rename Method;Replace Anonymous With Class,509,509,475,476,1427,1429,1,1
-c053,mockito,fb8d63e528bee6a2c43f2b752dd52be642fc38bf,25c3eec3161db88b0c25e2d98a4fcace53782d1d,2016-09-01,20,Add Class Annotation;Add Method Annotation,402,402,299,299,382,382,1,1
-c054,mockito,65d31f4c035b7c2fd869785412ecc7a81a9ba220,d5fb4ee089a859e0bff7ea0ffa2d6b3717b0b43b,2009-01-20,1,Add Parameter Modifier,143,143,117,117,89,89,0,0
-c055,mockito,0e8d5f0b9dafdaccafe34e8bca81e43809bfe9d4,fcb244157a0c14d15f291564a6b95f6f65ce1dfd,2010-03-14,2,Add Method Annotation;Modify Class Annotation,420,420,391,391,1305,1305,0,0
-c056,mockito,349323d67a065c9fb0bbd28f8ec7adfdb8a169cd,3883113eeb14d6a6b2e8cf89847f7217190798fb,2015-06-20,17,Add Method Modifier;Change Return Type;Change Variable Type;Move Method;Rename Class;Rename Method;Rename Parameter;Rename Variable,596,599,538,539,1508,1516,1,1
-c057,mockito,5de4f2dae5b489a176d377e328856dfb6db3f4a7,6fa82bae6c14000864575cbe3df185cac732b42d,2014-12-29,4,Change Return Type;Rename Method,583,583,526,526,1473,1473,1,1
-c058,mockito,ffe666846c985a6c8ea5a9928ef12f50089a84dd,a949768f733e1ca803de1ab71c51070717501307,2016-10-15,1,Move Class,416,416,313,313,412,412,1,1
-c059,mockito,96eb120024a113e4f3a974f4ab98ce8f200232ef,7040f2deb4b36f73d14bb2e08feb6b1e5cb83422,2009-06-05,3,Add Class Annotation;Add Parameter,368,369,354,354,1258,1252,0,0
-c060,mockito,e19cb56fdf5a90711cd5b936c29a98f81083c363,9ad80915fada08d8e5da0efabbf1c249ffabd28f,2009-05-01,3,Rename Class;Rename Method,148,148,118,118,92,92,0,0
-c061,mockito,84dead8d443751d0a148c1cc0812618b4b5aee7c,899fd91f31246e569eea833b129eacd4b57bb9f7,2012-04-08,4,Change Attribute Type;Change Parameter Type;Extract Variable;Push Down Method,490,490,440,441,1392,1393,1,1
-c062,mockito,b0bedc5159f04054a5664c0a817100860b4c6e4a,1e5562a8c03c85b54b1e2ab18deea9163863b2d0,2016-08-27,6,Add Parameter;Change Return Type,391,392,298,298,382,382,1,1
-c063,mockito,3615f6e7231df1cff60672d130ca6789a61c5924,449db8621dd7300993d523faae31e0688fa2f6c9,2007-12-26,4,Change Attribute Type;Change Parameter Type;Change Return Type,92,92,77,77,63,63,0,0
-c064,mockito,93d5bd942652239b2242f1d7e3e652a4ef515454,6996c4f04e7e02a9e13ca5fc54c38d0cccd70e09,2017-06-10,1,Change Parameter Type,430,430,300,300,392,392,1,1
-c065,mockito,750d980f3da4b8a33e36e244cb9fd4d985979d04,747e6a792993eba5b710632b336dcc98db77083a,2014-12-29,5,Add Parameter;Change Return Type;Move Class,582,583,525,526,1474,1473,1,1
-c066,mockito,ad2f3526a347f37dd00c53ee664c5cd9f3738814,b89b4ec9d51802b639833b9a1b5bf614347ea3b6,2019-11-20,10,Remove Class Annotation;Remove Method Annotation,466,466,331,331,429,429,0,0
-c067,mockito,cbc530c6a55b947a6008dcd4e511794c93cad513,117fceb72441aa42a0dcd2f5a68942d7a20d4e19,2009-10-30,5,Change Attribute Type;Change Parameter Type;Remove Class Annotation,384,387,367,370,1257,1270,0,0
-c068,mockito,68a59a0fac18b4cc2879a64d537845a6676b315c,e84fe2cfdf0db7b7fb28c3e5c2667e0b228ed4de,2008-10-09,35,Change Attribute Access Modifier;Change Attribute Type;Change Parameter Type;Change Return Type;Change Variable Type;Inline Method,117,117,105,103,86,86,0,0
-c069,mockito,9b46745009f598eb035cee663bdeba858fe4c3e3,a323b8132de6f6e1c29d738de245469f8ce009b0,2019-03-18,1,Inline Method,458,458,323,323,417,418,0,0
-c070,mockito,73f1d17e5b0ec1410e54a72334639da077e984f4,b745b5d48e9c110fa419fd007b3159ff612b8643,2019-03-04,1,Change Variable Type,457,457,323,323,414,414,0,0
-c071,mockito,0bd952981dfd9ca00254c6e181b653a6c11a43b2,baa3ffa052110cdb9666077dabba4d59b2a3046f,2008-07-17,5,Rename Attribute;Rename Method;Rename Parameter,113,113,99,99,91,91,0,0
-c072,mockito,7f2c7dc9584b8bcc931a88191d8908d4561618a3,2628fd9373dc49649c0a32fe957860e20cc0b71c,2016-11-11,6,Change Variable Type;Rename Attribute;Rename Variable;Replace Anonymous With Class,417,417,311,312,443,443,1,1
-c073,mockito,f668427341272626209d0b21d1cb1e349a7186ad,46158895587c8386aa9ecde36fb1d49189aacc5d,2013-10-11,26,Add Attribute Modifier;Add Parameter;Change Attribute Access Modifier;Change Method Access Modifier;Merge Class;Move And Rename Method;Move Attribute;Move Method;Rename Parameter,510,509,474,473,1425,1423,1,1
-c074,mockito,53e8a93141e1f8c41d6b6d4fd72c20488826269a,b6f0fcffbb97a8af2a1b93c1b126c0021ad5be35,2019-05-06,4,Add Class Annotation;Rename Method,464,465,326,328,430,430,0,0
-c075,mockito,af098cc912eb51ba8c457c68c8dcf97fa4dbb9f2,3fbc68266d4908bcd77fc1179840173a9aadebc9,2008-07-20,5,Change Parameter Type;Rename Class;Rename Method,113,113,99,99,91,91,0,0
-c076,mockito,665472c81ec3368f3a80a4b2df91c14ffc5cda9e,d8aeefbc4a30f324c0a6fcec5c2609c85d7a6a81,2007-11-25,16,Change Method Access Modifier;Change Return Type;Change Variable Type;Extract Interface;Invert Condition;Rename Attribute;Rename Method;Rename Parameter,66,67,67,67,80,83,0,0
-c077,mockito,9eebf1cfb0062e36634fd6d5bcbc047af0ae8fcc,f4a654fd26bfe2afac6b7fd03347dde79b882840,2012-04-01,24,Add Class Annotation;Change Attribute Type;Change Parameter Type;Change Return Type;Change Variable Type;Extract Interface;Pull Up Method,487,488,435,438,1385,1388,1,1
-c078,mockito,3eec7451d6c83c280743c39b39c77a179abb30f9,4e9d7607825c3c668fd43f19507bfead566c528c,2015-06-04,2,Extract Method;Rename Variable,595,595,540,540,1506,1504,1,1
-c079,mockito,d6d4dd14a6fcec610b5ccc79e9f65d5af1544178,04a2a289a4222f80ad20717c25144981210d2eac,2018-04-21,3,Extract Attribute;Inline Attribute;Remove Thrown Exception Type,446,446,317,317,396,396,0,0
-c080,mockito,b513df833a7bf4f2ae08a68b88535b5891a6e370,0acfb6f8bf329c328b4c7b4d9866ea4fd31bf23c,2007-11-19,3,Add Attribute Modifier;Rename Attribute;Replace Variable With Attribute,59,59,55,55,81,81,0,0
-c081,mockito,d9e4b70afbe7d670d61ba6523d286f04a25089b8,a24855be24229a45d7343172ba0410e8e83067c0,2014-02-18,2,Change Class Access Modifier;Rename Parameter,509,509,475,475,1427,1428,1,1
-c082,mockito,0080ff67e46ebed2a7d6c0e4bab7503215f9ea2c,efb014bc25ab77491ed270869d5c41ad79bccab2,2019-01-16,2,Change Attribute Access Modifier;Move Class,455,455,325,325,413,413,0,0
-c083,mockito,5dd0f71ae37f75f3abc9b3d9ba7ad5cb4b79f38a,d74da0dbf4ad3e4d2be86c1556be1a5f34e71d02,2016-07-10,2,Add Method Annotation;Remove Class Annotation,385,383,281,278,360,357,1,1
-c084,mockito,51c5fcd126afeb3e2b3eb8e9fa91a76339a8277f,816561007544d1f280557f4c09cf288181642f1c,2009-04-03,1,Remove Parameter,144,144,114,114,91,91,0,0
-c085,mockito,c8124d11952f2af795d0ca07cb588eb272431b63,722e7fa98c78505893080f7557e2e97655b0d225,2014-12-12,1,Inline Method,563,563,513,513,1469,1469,1,1
-c086,mockito,5f6a3cb640bf97b1df8d75a81af4a4eb8c24c036,7fb9c8a3ac09e9f807bdec1dd0ffeecc8e5bc53b,2014-11-15,8,Change Attribute Type;Change Method Access Modifier;Change Return Type;Rename Attribute;Rename Class;Rename Method,528,528,492,490,1410,1410,1,1
-c087,mockito,eaa3fe7fcb0d2bf7b5b7d3e34a304f6e45863543,faf7250a7a79709faf698fd09f3ef9480ebcd107,2012-03-31,4,Change Method Access Modifier;Extract Class;Move Method,481,482,429,429,1378,1379,1,1
-c088,mockito,4c8640b68f7c88cdb953afa82d53604d6369ad40,383a6af9a6c1fbc68bd2c3efbb67cbe2eb6e6673,2017-08-29,1,Add Class Annotation,432,432,309,309,387,387,1,1
-c089,mockito,7454526686afe3509e8472643beead42d1d4e24c,8a6aaec0cc675ffdff66e45712d82f9667612275,2008-07-22,3,Extract Method;Extract Variable;Move Method,113,112,99,98,91,89,0,0
-c090,mockito,19afb6535b8dbe3b0c9bf923b37d89ab9bf4cbb1,53ea39293089e525139df7b41deb7220a87bd2c3,2016-12-10,3,Rename Parameter;Rename Variable,410,410,285,285,409,409,0,0
-c091,mockito,d8b4b48d5d1c6500bcdf0ff741f6fde9c5c6e9c9,6ee91f4afcacb7d7390cca7d0c681f041cc00d5e,2008-10-14,2,Change Attribute Type;Rename Attribute,123,123,110,110,88,88,0,0
-c092,mockito,3d1405f1c431888b2641a003868ba5b9300aa611,7e942c40bfad5335bb6a7219c31b4e44580f96be,2020-08-21,2,Extract Method,486,486,362,362,458,458,1,1
-c093,mockito,8626ba8d9aa11eccfba0e9b6d442d877b9b99b28,6a56f6e0995732a14772630701d979c5759bdbe6,2018-03-11,7,Add Parameter;Change Attribute Type;Rename Attribute,440,443,313,314,389,389,0,0
-c094,mockito,f00adf79925cd424394da4bb471c98326d3b5017,bb4a1660d133f256e43fd7938b9b8fced112868d,2009-06-17,34,Change Attribute Type;Change Parameter Type;Change Return Type;Change Variable Type;Rename Attribute;Rename Class;Rename Parameter,369,369,354,354,1253,1253,0,0
-c095,mockito,bf4eec3e73c82a3eff75acce0921f766a33f535f,71450e563fb547a0c3a0fccced3f533dd994ffa8,2008-02-10,44,Change Attribute Type;Change Parameter Type;Change Return Type;Change Variable Type;Remove Method Annotation;Remove Parameter Modifier;Rename Class;Rename Parameter,96,95,74,73,72,72,0,0
-c096,mockito,dd8b078871ea2f1f7f730f62105f55d915c6acbf,089e8170d92efbaf3fe854eb5268fa95eaac6635,2020-01-14,1,Add Class Annotation,473,473,338,338,431,431,0,0
-c097,mockito,0b883e189676b7362b39f7a3ec97af7005e024dd,1aacef02780cb9f8702ccb43f61ab2574fed6740,2017-01-20,2,Extract Variable;Rename Parameter,431,431,298,298,410,410,0,0
-c098,mockito,3b81618b206863646f28c0cff016d820b5cac32e,6015e7e80f1d9d4b957e6d62e7fbce3c9d305af2,2016-12-10,1,Add Method Annotation,414,414,284,284,418,418,0,0
-c099,mockito,42ef705a404dbe0a92816c79535c0a1379fac30f,f002d3678187e65a7d3db323cbc1aa636bb33a28,2008-10-14,2,Rename Method,123,123,103,103,85,85,0,0
-c100,mockito,c06b6578886cf98470cac5313f30a57c759b13e7,fea25a2ce90605923ea7c48a3a56bb884fa48995,2016-07-23,3,Change Variable Type;Rename Class,390,391,287,287,365,367,1,1
+c001,mockito,ccd5e85a0c60e7f3ae10ac86db1e5110966e9d41,482731ec4d25f7a340e16f80d2931e1d77f22d06,2017-03-19,3,Add Parameter;Extract Method,431,431,301,301,234,234,0,0
+c002,mockito,a21ff2d1b4a6cb0b668a4e1946b76be3561d0eed,1b8674b476d489802b8fc3bbd552d175d2e07f08,2014-11-20,5,Add Method Modifier;Change Method Access Modifier;Change Parameter Type;Move And Rename Method;Rename Parameter,556,557,501,501,1485,1487,0,0
+c003,mockito,5652d1733e12aa10927f3bbe1dff42d016105957,bd37bc544ddac2837b14a36601da1942353a9895,2012-03-09,3,Change Parameter Type;Change Return Type;Rename Method,467,467,420,420,1518,1518,0,0
+c004,mockito,66d928dcbb23f24349f10066d0dc54b6a4925f1b,a10d9c323124ca47f7d57d4545f4d9f5587f7da5,2009-06-05,8,Change Attribute Type;Change Parameter Type;Change Return Type;Change Variable Type;Rename Method,369,369,354,354,1436,1436,0,0
+c005,mockito,ee69291df4613e46f4832ee8d12c18e35f8ecff3,57a33209a8de98ac74e1ac2d5e5816dacfdc92c5,2013-10-06,2,Remove Parameter;Split Parameter,506,506,466,466,1557,1557,0,0
+c006,mockito,3c4edc6b49ce4a30dcaf00a78cf014c245f2eefa,b11e3a973d27abe546f4b4337418423548762506,2016-06-16,4,Add Method Modifier;Remove Parameter,384,384,282,282,202,203,0,0
+c007,mockito,cf70fd9047253bd4e25387e9bd97cea4cc1ac25b,c596aef9fc79e0ce4f9af029be9ef191d6b22da1,2020-11-10,1,Rename Variable,487,487,363,363,333,333,0,0
+c008,mockito,7894efe188838a75c766876ad60944e25fb45b05,7d926aa078ee16b17104c114c1e81f52905158bc,2018-04-01,22,Add Method Annotation,445,445,315,315,242,242,0,0
+c009,mockito,94c3b4ade7347ee4047fcc4c8552d0e8365efa90,21f80c8de824fc9a8c3d56fff029f6909d4b5b84,2016-07-24,15,Change Attribute Type;Change Parameter Type;Change Return Type;Remove Class Annotation;Remove Method Annotation,392,392,287,287,208,208,0,0
+c010,mockito,2f92126a765bbb6f5e6551fa50e007f9c8a14acc,2ed01d44abfa8fc1ca45b1ba16d4fc11c3897ab6,2016-06-19,48,Add Method Annotation;Add Method Modifier;Add Variable Annotation;Change Attribute Access Modifier;Change Attribute Type;Change Method Access Modifier;Change Parameter Type;Change Return Type;Change Variable Type;Remove Class Annotation;Remove Parameter Modifier,384,384,281,281,207,206,0,0
+c011,mockito,81508672b727bfd979d7debf4e067d3a3d20614e,d4d12abca4e376cc92f20b970ccd7461cbe58286,2018-07-24,6,Change Method Access Modifier;Rename Attribute;Rename Method;Rename Parameter,452,451,320,320,249,248,0,0
+c012,mockito,49e6311fcf774f6931ffbb627702e4fb99ef3604,7c8aae0055b082b4cffb2739e4145b023d1603e9,2019-03-23,2,Add Parameter Modifier,463,463,325,325,275,275,0,0
+c013,mockito,ff43fde23061fcf7e6b11d0094b30aebd587e7dd,6da1e65a4ea014b1594efc90ab0841b254efee2a,2016-08-27,5,Change Attribute Type;Change Parameter Type;Change Variable Type,391,391,299,299,220,220,0,0
+c014,mockito,42b391d4209024292b6101048389570e4ec36b2a,c25cb6bff7eb4774efda345e8bf9eaad4c66a652,2015-04-19,3,Extract Method,588,588,531,531,1512,1512,0,0
+c015,mockito,02e1445f304a1c4ad41ed71b3cd0096a3be52292,423bfff5fe09d44a7d229bed17404d2bee4aaa6c,2019-01-11,5,Add Parameter;Rename Method,454,454,323,323,255,262,0,0
+c016,mockito,9952454f4efc6a8734149b5e81e4f66c0349dcbb,2f7bf91d24a85ab28749e80effeb1252d8442ff9,2007-12-11,89,Add Attribute Modifier;Change Attribute Type;Change Method Access Modifier;Change Parameter Type;Change Return Type;Change Variable Type;Encapsulate Attribute;Move And Rename Class;Move Class;Rename Attribute;Rename Method;Rename Parameter;Rename Variable,88,88,77,73,46,45,0,0
+c017,mockito,e8dd6d114e332e1c235a30ade1e4bf7ba29661f5,ab10ef00cdfe24cfe3dad94c7e57397945cdbdc9,2014-10-17,3,Move Method;Parameterize Variable;Remove Parameter,522,521,489,487,1468,1468,0,0
+c018,mockito,ab03b6366fc68287f6756c4e6d0bb140ba5450d6,8912aa176ea8414c2fc57df0d9b030b918630e9f,2014-11-16,4,Add Method Annotation,529,529,492,492,1477,1477,0,0
+c019,mockito,ec06ddbc742aa8e756d4a5205baafaaff3b71c3a,5738366c738107f096d26fda30d15e2a0dabff84,2018-03-11,1,Change Attribute Type,443,443,315,314,241,241,0,0
+c020,mockito,d7b85d08283e9e21fb6c77c61b6d5e3d1d8e4c8d,65d31f4c035b7c2fd869785412ecc7a81a9ba220,2009-01-20,3,Add Parameter;Change Parameter Type;Remove Parameter,143,143,117,117,79,79,0,0
+c021,mockito,af7f19ccf9fc5232ed5cc289ec4ac50cb606c679,fe7c33b8e548666065423c05e3bdf59717914cc8,2009-11-08,4,Change Return Type;Extract Method,390,390,377,376,1457,1457,0,0
+c022,mockito,fb99122f85627ea07de33a38c8f125d0dcd867ce,868fcb0ee8ce06bb7ebdc5957e33aac466c32200,2008-03-19,4,Extract Method;Extract Variable;Rename Method,96,96,73,73,71,71,0,0
+c023,mockito,4ef3ce8563eb1800b0d68e47271d8ff1d95bc5f9,1eb47bcebde6dcf11ff9e4a43da81be0dbc2e638,2022-12-29,4,Add Method Annotation;Change Attribute Type;Remove Class Annotation;Replace Generic With Diamond,485,485,355,355,352,352,0,0
+c024,mockito,eddbfa4ec788e85a3ba96d6c7425cb048ed1a228,5c1306b054c0101a19a061b9791ebc8ec361a820,2009-08-24,1,Extract And Move Method,378,378,358,358,1440,1439,0,0
+c025,mockito,bb4c78c2debe7087882e3a6dd66de037590b40f0,40892948c225caa7fa8bdf4c5c9306b8b689d491,2017-10-21,39,Add Method Annotation;Add Parameter;Change Attribute Type;Change Variable Type;Rename Class,434,434,310,310,238,241,0,0
+c026,mockito,d23dc0e57a8360c8d80f69096cee24c20e4c7c26,8314824b2c83aff91db140b58de7d9e7d9be5ebf,2022-04-19,2,Remove Parameter,479,479,348,349,310,323,0,0
+c027,mockito,6e53f34a3f54d2b7dc23595566b9331a94b57263,a66dfa081c3703fcda9618f507d30248361f5e7b,2024-12-07,1,Extract Variable,494,494,362,362,361,361,0,0
+c028,mockito,ccb377aaa7ff9a755e10cc83dd4c73e98c559e1c,80279d6b0928f5af520dfe3bc10e0bcd46f64516,2007-11-24,6,Add Method Modifier;Change Attribute Type;Encapsulate Attribute;Extract Method;Extract Variable,65,66,65,66,38,41,0,0
+c029,mockito,1a4a77996e54057ab294ce3e22fa4005d0da7132,51aca5035ea543ecdd109a77b30d34006cb98f29,2009-02-21,3,Extract Variable;Remove Parameter,145,145,117,118,80,80,0,0
+c030,mockito,3a1a19ee40f1234048880393343405046fc3fa60,f3c957a74e39a78c31b7fd2e48bf9f4c3a13112c,2025-09-20,2,Invert Condition;Replace Conditional With Ternary,496,496,362,362,369,368,0,0
+c031,mockito,682d92aef2e0262825c913784a6ad53618d813d0,98a997f7d3577e3f1c37bc9d88f18abd0a4bf9e4,2008-10-12,2,Remove Method Annotation,122,122,109,109,73,73,0,0
+c032,mockito,0307f92995e165bd1d360f6b91e545e2ee60fe54,b1d270c2bb0705741bbe33c8ea4f2b9dead48334,2016-06-19,39,Change Attribute Type;Change Parameter Type;Change Return Type;Change Variable Type;Remove Parameter,384,384,281,281,208,208,0,0
+c033,mockito,4c1a6c2d1012c34ce9e72f9fd29d2346cec6dc72,b796d2046e74d89f0beb821b330bce972fa4eab5,2012-03-30,5,Change Method Access Modifier;Extract Attribute,480,480,426,427,1531,1531,0,0
+c034,mockito,f6d3fdae07e95483f6969ae04dc2c1925d4b53c0,b317fc20c19964580d29c73208bb3838c8b053dc,2007-12-14,10,Add Attribute Modifier;Rename Attribute;Rename Method;Rename Parameter,84,84,65,65,44,43,0,0
+c035,mockito,183167dbd20a85fa1106c300b304684ddec5f3d8,816c0325d9b1e7d51d42bd0ce5f918b60f46f04f,2008-07-16,7,Change Attribute Type;Change Return Type;Move Method;Rename Attribute;Rename Class,111,111,100,100,79,79,0,0
+c036,mockito,da0481fd74a2f49bfe364d420ceecce774be6a4d,7bcc5486d86002274775b7bba05db2929534784d,2018-07-24,2,Add Method Annotation,451,451,320,320,248,248,0,0
+c037,mockito,bd6f6fe42e7a411815993d2496616dbfcffaea68,575cd64380180ccff06dbb74f98ce60d7ae1fd8f,2010-10-31,2,Remove Method Modifier;Remove Parameter,435,435,395,395,1480,1480,0,0
+c038,mockito,b93f85ea372a0e8b2de01a920b797455b8201b87,039d365570338eb608ef4c1167d3e8ec660c97ab,2007-12-24,2,Rename Class;Rename Method,88,88,71,71,41,41,0,0
+c039,mockito,a258ae81a164f794ca58fe197da33b8101823135,5a1bbd884bc860aa3787ba65fcb49c0032a1cdfa,2015-06-05,3,Add Method Annotation,595,595,538,538,1534,1534,0,0
+c040,mockito,922c9c4cb45d385377c0c94d347693ac80372662,c58fe2ffc3c8f253d98eb7224a5b38964c40fcb0,2016-12-10,1,Extract Variable,415,415,285,285,221,221,0,0
+c041,mockito,31ca6e48e75ca5b2c6d60c07845bdb1f3034c306,427bc00158d56d9e11ac49c76104b40e4a6e4b66,2012-04-09,7,Change Attribute Type;Change Return Type;Change Variable Type;Rename Class,490,490,443,443,1536,1536,0,0
+c042,mockito,ad7afcacb03f13d4eff507fb9cab5f2ed3e4a0e4,4fead36c46a99f9c95e5c3ddeec1c0127268bb43,2007-12-26,1,Split Class,91,92,73,74,43,42,0,0
+c043,mockito,f32973d4e709830a5a9fb19c54f32659023d2b03,5891de126d398ec09a040711b688176ff27b7d7c,2021-08-02,49,Add Class Annotation;Remove Method Annotation,489,489,362,362,311,311,0,0
+c044,mockito,e40088f906af0a00dce8720091a9391e885026f3,e79f9c7472235eadc992250683423737f31683e3,2008-01-05,31,Change Attribute Type;Change Parameter Type;Change Return Type;Change Variable Type;Rename Class,90,90,74,74,44,44,0,0
+c045,mockito,bd2e4bd041e87f29c0ef479982c3abc3b8044e52,f74715a2d87962b6d3ad7d6524b344c5895c0cec,2019-01-11,1,Invert Condition,454,454,323,323,266,267,0,0
+c046,mockito,aaceba748af32e986e27c7b2d58bc030c61474be,1bad4142641ec8ad1591dc9f4354203345e3be69,2008-01-28,1,Change Class Access Modifier,97,97,75,75,70,70,0,0
+c047,mockito,5d74ab11bc7358b195429e275c9fe8f29fb55ffe,f9f6d21974d530030ea731f21ad2da016ce14ada,2016-10-24,14,Add Thrown Exception Type;Change Parameter Type;Rename Parameter,419,419,313,313,254,254,0,0
+c048,mockito,ab19d0faf94ed0b8bf74e5a91fd2c98d74a468fc,4a53794decc902a16f6641f9d9eb6b3bee470a42,2008-10-14,2,Change Variable Type;Rename Class,122,124,109,110,72,72,0,0
+c049,mockito,fb48e093c06c2a0ee45f432cc12d8328ebd73e6d,597e9020ce56eb2ae6c50f19311978d3e96abd57,2023-10-06,3,Add Class Annotation;Add Method Annotation;Change Method Access Modifier,484,484,350,353,354,354,0,0
+c050,mockito,fe3257bdea95c88d4efe7b1f9f6b5403168d4968,98d682f40c5eb6700a7f52aea651b46309db076e,2007-12-16,9,Change Return Type;Rename Class;Rename Method;Rename Variable,85,85,64,64,40,40,0,0
+c051,mockito,3b1f415288dbf1489ee00c8e883feb24bfac4a24,54cbd1deab18310f352c1d32775b92d682fcba7f,2009-11-15,2,Change Return Type,398,398,378,378,1460,1460,0,0
+c052,mockito,86ce62abf7e60d27937f29fe8df8ffde95959e3f,ab9e9f347705bf9f4ebace4b07b085088275a256,2014-03-11,3,Remove Method Modifier;Rename Method;Replace Anonymous With Class,509,509,475,476,1553,1554,0,0
+c053,mockito,fb8d63e528bee6a2c43f2b752dd52be642fc38bf,25c3eec3161db88b0c25e2d98a4fcace53782d1d,2016-09-01,20,Add Class Annotation;Add Method Annotation,402,402,299,299,224,224,0,0
+c054,mockito,65d31f4c035b7c2fd869785412ecc7a81a9ba220,d5fb4ee089a859e0bff7ea0ffa2d6b3717b0b43b,2009-01-20,1,Add Parameter Modifier,143,143,117,117,79,79,0,0
+c055,mockito,0e8d5f0b9dafdaccafe34e8bca81e43809bfe9d4,fcb244157a0c14d15f291564a6b95f6f65ce1dfd,2010-03-14,2,Add Method Annotation;Modify Class Annotation,420,420,391,391,1478,1478,0,0
+c056,mockito,349323d67a065c9fb0bbd28f8ec7adfdb8a169cd,3883113eeb14d6a6b2e8cf89847f7217190798fb,2015-06-20,17,Add Method Modifier;Change Return Type;Change Variable Type;Move Method;Rename Class;Rename Method;Rename Parameter;Rename Variable,596,599,538,539,1541,1543,0,0
+c057,mockito,5de4f2dae5b489a176d377e328856dfb6db3f4a7,6fa82bae6c14000864575cbe3df185cac732b42d,2014-12-29,4,Change Return Type;Rename Method,583,583,526,526,1500,1500,0,0
+c058,mockito,ffe666846c985a6c8ea5a9928ef12f50089a84dd,a949768f733e1ca803de1ab71c51070717501307,2016-10-15,1,Move Class,416,416,313,313,256,256,0,0
+c059,mockito,96eb120024a113e4f3a974f4ab98ce8f200232ef,7040f2deb4b36f73d14bb2e08feb6b1e5cb83422,2009-06-05,3,Add Class Annotation;Add Parameter,368,369,354,354,1437,1436,0,0
+c060,mockito,e19cb56fdf5a90711cd5b936c29a98f81083c363,9ad80915fada08d8e5da0efabbf1c249ffabd28f,2009-05-01,3,Rename Class;Rename Method,148,148,118,118,90,90,0,0
+c061,mockito,84dead8d443751d0a148c1cc0812618b4b5aee7c,899fd91f31246e569eea833b129eacd4b57bb9f7,2012-04-08,4,Change Attribute Type;Change Parameter Type;Extract Variable;Push Down Method,490,490,440,441,1536,1536,0,0
+c062,mockito,b0bedc5159f04054a5664c0a817100860b4c6e4a,1e5562a8c03c85b54b1e2ab18deea9163863b2d0,2016-08-27,6,Add Parameter;Change Return Type,391,392,298,298,220,223,0,0
+c063,mockito,3615f6e7231df1cff60672d130ca6789a61c5924,449db8621dd7300993d523faae31e0688fa2f6c9,2007-12-26,4,Change Attribute Type;Change Parameter Type;Change Return Type,92,92,77,77,43,43,0,0
+c064,mockito,93d5bd942652239b2242f1d7e3e652a4ef515454,6996c4f04e7e02a9e13ca5fc54c38d0cccd70e09,2017-06-10,1,Change Parameter Type,430,430,300,300,234,234,0,0
+c065,mockito,750d980f3da4b8a33e36e244cb9fd4d985979d04,747e6a792993eba5b710632b336dcc98db77083a,2014-12-29,5,Add Parameter;Change Return Type;Move Class,582,583,525,526,1500,1500,0,0
+c066,mockito,ad2f3526a347f37dd00c53ee664c5cd9f3738814,b89b4ec9d51802b639833b9a1b5bf614347ea3b6,2019-11-20,10,Remove Class Annotation;Remove Method Annotation,466,466,331,331,279,279,0,0
+c067,mockito,cbc530c6a55b947a6008dcd4e511794c93cad513,117fceb72441aa42a0dcd2f5a68942d7a20d4e19,2009-10-30,5,Change Attribute Type;Change Parameter Type;Remove Class Annotation,384,387,367,370,1439,1451,0,0
+c068,mockito,68a59a0fac18b4cc2879a64d537845a6676b315c,e84fe2cfdf0db7b7fb28c3e5c2667e0b228ed4de,2008-10-09,35,Change Attribute Access Modifier;Change Attribute Type;Change Parameter Type;Change Return Type;Change Variable Type;Inline Method,117,117,105,103,74,74,0,0
+c069,mockito,9b46745009f598eb035cee663bdeba858fe4c3e3,a323b8132de6f6e1c29d738de245469f8ce009b0,2019-03-18,1,Inline Method,458,458,323,323,275,274,0,0
+c070,mockito,73f1d17e5b0ec1410e54a72334639da077e984f4,b745b5d48e9c110fa419fd007b3159ff612b8643,2019-03-04,1,Change Variable Type,457,457,323,323,275,275,0,0
+c071,mockito,0bd952981dfd9ca00254c6e181b653a6c11a43b2,baa3ffa052110cdb9666077dabba4d59b2a3046f,2008-07-17,5,Rename Attribute;Rename Method;Rename Parameter,113,113,99,99,79,79,0,0
+c072,mockito,7f2c7dc9584b8bcc931a88191d8908d4561618a3,2628fd9373dc49649c0a32fe957860e20cc0b71c,2016-11-11,6,Change Variable Type;Rename Attribute;Rename Variable;Replace Anonymous With Class,417,417,311,312,256,256,0,0
+c073,mockito,f668427341272626209d0b21d1cb1e349a7186ad,46158895587c8386aa9ecde36fb1d49189aacc5d,2013-10-11,26,Add Attribute Modifier;Add Parameter;Change Attribute Access Modifier;Change Method Access Modifier;Merge Class;Move And Rename Method;Move Attribute;Move Method;Rename Parameter,510,509,474,473,1560,1557,0,0
+c074,mockito,53e8a93141e1f8c41d6b6d4fd72c20488826269a,b6f0fcffbb97a8af2a1b93c1b126c0021ad5be35,2019-05-06,4,Add Class Annotation;Rename Method,464,465,326,328,278,278,0,0
+c075,mockito,af098cc912eb51ba8c457c68c8dcf97fa4dbb9f2,3fbc68266d4908bcd77fc1179840173a9aadebc9,2008-07-20,5,Change Parameter Type;Rename Class;Rename Method,113,113,99,99,79,79,0,0
+c076,mockito,665472c81ec3368f3a80a4b2df91c14ffc5cda9e,d8aeefbc4a30f324c0a6fcec5c2609c85d7a6a81,2007-11-25,16,Change Method Access Modifier;Change Return Type;Change Variable Type;Extract Interface;Invert Condition;Rename Attribute;Rename Method;Rename Parameter,66,67,67,67,40,42,0,0
+c077,mockito,9eebf1cfb0062e36634fd6d5bcbc047af0ae8fcc,f4a654fd26bfe2afac6b7fd03347dde79b882840,2012-04-01,24,Add Class Annotation;Change Attribute Type;Change Parameter Type;Change Return Type;Change Variable Type;Extract Interface;Pull Up Method,487,488,435,438,1532,1532,0,0
+c078,mockito,3eec7451d6c83c280743c39b39c77a179abb30f9,4e9d7607825c3c668fd43f19507bfead566c528c,2015-06-04,2,Extract Method;Rename Variable,595,595,540,540,1534,1533,0,0
+c079,mockito,d6d4dd14a6fcec610b5ccc79e9f65d5af1544178,04a2a289a4222f80ad20717c25144981210d2eac,2018-04-21,3,Extract Attribute;Inline Attribute;Remove Thrown Exception Type,446,446,317,317,249,249,0,0
+c080,mockito,b513df833a7bf4f2ae08a68b88535b5891a6e370,0acfb6f8bf329c328b4c7b4d9866ea4fd31bf23c,2007-11-19,3,Add Attribute Modifier;Rename Attribute;Replace Variable With Attribute,59,59,55,55,38,37,0,0
+c081,mockito,d9e4b70afbe7d670d61ba6523d286f04a25089b8,a24855be24229a45d7343172ba0410e8e83067c0,2014-02-18,2,Change Class Access Modifier;Rename Parameter,509,509,475,475,1557,1558,0,0
+c082,mockito,0080ff67e46ebed2a7d6c0e4bab7503215f9ea2c,efb014bc25ab77491ed270869d5c41ad79bccab2,2019-01-16,2,Change Attribute Access Modifier;Move Class,455,455,325,325,274,274,0,0
+c083,mockito,5dd0f71ae37f75f3abc9b3d9ba7ad5cb4b79f38a,d74da0dbf4ad3e4d2be86c1556be1a5f34e71d02,2016-07-10,2,Add Method Annotation;Remove Class Annotation,385,383,281,278,204,204,0,0
+c084,mockito,51c5fcd126afeb3e2b3eb8e9fa91a76339a8277f,816561007544d1f280557f4c09cf288181642f1c,2009-04-03,1,Remove Parameter,144,144,114,114,81,81,0,0
+c085,mockito,c8124d11952f2af795d0ca07cb588eb272431b63,722e7fa98c78505893080f7557e2e97655b0d225,2014-12-12,1,Inline Method,563,563,513,513,1493,1493,0,0
+c086,mockito,5f6a3cb640bf97b1df8d75a81af4a4eb8c24c036,7fb9c8a3ac09e9f807bdec1dd0ffeecc8e5bc53b,2014-11-15,8,Change Attribute Type;Change Method Access Modifier;Change Return Type;Rename Attribute;Rename Class;Rename Method,528,528,492,490,1474,1474,0,0
+c087,mockito,eaa3fe7fcb0d2bf7b5b7d3e34a304f6e45863543,faf7250a7a79709faf698fd09f3ef9480ebcd107,2012-03-31,4,Change Method Access Modifier;Extract Class;Move Method,481,482,429,429,1531,1531,0,0
+c088,mockito,4c8640b68f7c88cdb953afa82d53604d6369ad40,383a6af9a6c1fbc68bd2c3efbb67cbe2eb6e6673,2017-08-29,1,Add Class Annotation,432,432,309,309,233,233,0,0
+c089,mockito,7454526686afe3509e8472643beead42d1d4e24c,8a6aaec0cc675ffdff66e45712d82f9667612275,2008-07-22,3,Extract Method;Extract Variable;Move Method,113,112,99,98,79,77,0,0
+c090,mockito,19afb6535b8dbe3b0c9bf923b37d89ab9bf4cbb1,53ea39293089e525139df7b41deb7220a87bd2c3,2016-12-10,3,Rename Parameter;Rename Variable,410,410,285,285,222,222,0,0
+c091,mockito,d8b4b48d5d1c6500bcdf0ff741f6fde9c5c6e9c9,6ee91f4afcacb7d7390cca7d0c681f041cc00d5e,2008-10-14,2,Change Attribute Type;Rename Attribute,123,123,110,110,73,73,0,0
+c092,mockito,3d1405f1c431888b2641a003868ba5b9300aa611,7e942c40bfad5335bb6a7219c31b4e44580f96be,2020-08-21,2,Extract Method,486,486,362,362,327,327,0,0
+c093,mockito,8626ba8d9aa11eccfba0e9b6d442d877b9b99b28,6a56f6e0995732a14772630701d979c5759bdbe6,2018-03-11,7,Add Parameter;Change Attribute Type;Rename Attribute,440,443,313,314,241,241,0,0
+c094,mockito,f00adf79925cd424394da4bb471c98326d3b5017,bb4a1660d133f256e43fd7938b9b8fced112868d,2009-06-17,34,Change Attribute Type;Change Parameter Type;Change Return Type;Change Variable Type;Rename Attribute;Rename Class;Rename Parameter,369,369,354,354,1436,1436,0,0
+c095,mockito,bf4eec3e73c82a3eff75acce0921f766a33f535f,71450e563fb547a0c3a0fccced3f533dd994ffa8,2008-02-10,44,Change Attribute Type;Change Parameter Type;Change Return Type;Change Variable Type;Remove Method Annotation;Remove Parameter Modifier;Rename Class;Rename Parameter,96,95,74,73,73,68,0,0
+c096,mockito,dd8b078871ea2f1f7f730f62105f55d915c6acbf,089e8170d92efbaf3fe854eb5268fa95eaac6635,2020-01-14,1,Add Class Annotation,473,473,338,338,289,289,0,0
+c097,mockito,0b883e189676b7362b39f7a3ec97af7005e024dd,1aacef02780cb9f8702ccb43f61ab2574fed6740,2017-01-20,2,Extract Variable;Rename Parameter,431,431,298,298,232,233,0,0
+c098,mockito,3b81618b206863646f28c0cff016d820b5cac32e,6015e7e80f1d9d4b957e6d62e7fbce3c9d305af2,2016-12-10,1,Add Method Annotation,414,414,284,284,221,221,0,0
+c099,mockito,42ef705a404dbe0a92816c79535c0a1379fac30f,f002d3678187e65a7d3db323cbc1aa636bb33a28,2008-10-14,2,Rename Method,123,123,103,103,72,72,0,0
+c100,mockito,c06b6578886cf98470cac5313f30a57c759b13e7,fea25a2ce90605923ea7c48a3a56bb884fa48995,2016-07-23,3,Change Variable Type;Rename Class,390,391,287,287,208,208,0,0

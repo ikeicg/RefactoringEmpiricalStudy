@@ -1,14 +1,14 @@
 # datasets
 
-Code smells (DesigniteJava) and rule violations (PMD) before and after refactoring commits, produced with
+Design smells (DesigniteJava) and design rule violations (PMD, Design category) before and after refactoring commits, produced with
 the [`smell-measurement`](../) tool from the refactoring CSVs in
 [`refactoring-extraction/datasets`](../../refactoring-extraction/datasets/). Seed `6491`, 100 commits per project.
 
 | Project | Sampling frame | Commit totals: examined / recorded | File pairs: examined / recorded | Snapshots analysed | Failed snapshots |
 |---|---|---|---|---|---|
 | [checkstyle](checkstyle/) | 2,220 | 100 / 100 | 354 / 100 | 335 | 0 |
-| [mockito](mockito/) | 1,221 | 100 / 100 | 198 / 100 | 297 | 0 |
-| [jabref](jabref/) | 5,085 | 100 / 100 | 173 / 100 | 283 | 0 |
+| [mockito](mockito/) | 1,221 | 100 / 100 | 198 / 100 | 298 | 0 |
+| [jabref](jabref/) | 5,085 | 100 / 100 | 173 / 100 | 284 | 0 |
 
 The sampling frame is every commit with at least one refactoring in production code. Commits are taken in
 the seeded order. Every commit examined could be recorded for the commit totals. For the file pairs, a
@@ -31,8 +31,8 @@ snapshot is not included; running the tool with the same CSV and seed produces i
 
 ## Known limits
 
-- PMD cannot analyse Mockito's `Mockito.java`, and in some Checkstyle versions `ConfigurationLoader.java`,
-  `XpathFilter.java`, `XpathFilterElement.java` and `XpathUtil.java` (a type it cannot resolve). These files
+- In some Checkstyle versions PMD cannot analyse `ConfigurationLoader.java`, `XpathFilter.java`,
+  `XpathFilterElement.java` and `XpathUtil.java` (a type it cannot resolve). These files
   are counted in `pmd_unparsed_files_before` / `_after`, their violations are not counted, and they are never
   used in a file pair.
 - DesigniteJava reports nested classes under their simple name. Their smells count in the commit totals
