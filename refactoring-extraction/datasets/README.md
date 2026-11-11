@@ -36,3 +36,10 @@ in either column: 1 in Checkstyle and Mockito, 6 in JabRef.
 
 Two rows can carry the same description when RefactoringMiner reports the same refactoring at
 different places in the code, for example a method extracted from several call sites.
+
+## Known limits
+
+- `code_kind` is decided by folder only (`/test/`, `/tests/`, `/src/it/`, ...), not by file name, because
+  production code also has classes with "Test" in their names. Test code in other folders is marked
+  `production`: Checkstyle's `src/testinputs/` (193 rows, used until 2014) and JabRef's `src/databaseTest/`
+  (34 rows) and `src/integration-test/` (1 row).
