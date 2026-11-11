@@ -1,7 +1,7 @@
 # datasets
 
 Every refactoring detected in the full history of each project, produced with the
-[`refactoring-extraction`](../refactoring-extraction/) tool (RefactoringMiner 3.0.9).
+[`refactoring-extraction`](../) tool (RefactoringMiner 3.0.9).
 
 | Project | Snapshot commit | Non-merge commits | Analyzed | Not analyzed | Commits with refactorings | Refactoring instances |
 |---|---|---|---|---|---|---|

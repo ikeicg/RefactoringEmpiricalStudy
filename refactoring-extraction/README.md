@@ -3,6 +3,8 @@
 Mines a Git repository's full history with [RefactoringMiner](https://github.com/tsantalis/RefactoringMiner)
 and writes a CSV of every refactoring instance, plus a CSV of the repository's Git tags and a run log.
 
+The results for Checkstyle, Mockito and JabRef are in [`datasets/`](datasets/).
+
 ## Build
 
 Requires Java 17+ and Maven.

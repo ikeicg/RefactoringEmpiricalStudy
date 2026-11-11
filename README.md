@@ -6,5 +6,8 @@ Java projects: Checkstyle, Mockito, JabRef.
 ## Contents
 
 - [`refactoring-extraction/`](refactoring-extraction/) — standalone tool that mines a repo's full
-  history with RefactoringMiner and writes a CSV of every refactoring instance.
-- [`datasets/`](datasets/) — the extracted refactorings, Git tags and run logs for each project.
+  history with RefactoringMiner and writes a CSV of every refactoring instance. Its
+  [`datasets/`](refactoring-extraction/datasets/) folder holds the extracted refactorings, Git tags and
+  run logs for each project.
+- [`smell-measurement/`](smell-measurement/) — standalone tool that reads that CSV and records code smells
+  (DesigniteJava) and rule violations (PMD) before and after a random sample of refactoring commits.
