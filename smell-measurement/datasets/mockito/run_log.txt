@@ -1,0 +1,34 @@
+started: 2026-11-11T10:55:10.166223656Z
+project: mockito
+refactoring CSV: mockito_extraction.csv (14334 rows, 1600 commits)
+seed: 6491, commits to record: 100, threads: 1
+PMD: PMD 7.17.0 (d2942d5ded8e3f967ba8872f3dc58a7bdffa73bf, 2025-09-12T07:17:26Z), ruleset rulesets/java/quickstart.xml (bundled, unmodified)
+DesigniteJava: DesigniteJava.jar (default thresholds)
+test code: left out of every snapshot, never a refactored or control file
+repository: https://github.com/mockito/mockito.git
+commits with a production-code refactoring (sampling frame): 1221
+
+commits in the sampling frame: 1221
+
+== commit totals ==
+commits examined, in seeded order: 100
+  recorded: 100
+
+== file pairs ==
+commits examined, in seeded order: 198
+  recorded: 100
+  skipped: no control file passes the file checks: 85
+  skipped: no refactored production file passes the file checks: 13
+changed files left out by the file checks:
+  file added in the commit (nothing before): 106
+  file deleted in the commit (nothing after): 58
+  file renamed or moved in the commit: 104
+  test file: 595
+  top-level type is an annotation type (DesigniteJava does not model it): 7
+  top-level type is an enum (DesigniteJava does not model it): 1
+
+== Snapshots ==
+analysed: 297 (ok 297, failed 0)
+
+RESULT: COMPLETE - 100 commits with totals and 100 file pairs recorded.
+finished: 2026-11-11T10:55:26.575164375Z

@@ -1,0 +1,1368 @@
+pair_id,group,file_path,snapshot,detector,detection,count
+p001,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/PackageDeclarationCheck.java,before,pmd,DanglingJavadoc,1
+p001,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/PackageDeclarationCheck.java,after,pmd,DanglingJavadoc,1
+p001,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/PackageDeclarationCheck.java,before,designite,Deficient Encapsulation,1
+p001,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/PackageDeclarationCheck.java,before,designite,Unutilized Abstraction,1
+p001,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/PackageDeclarationCheck.java,after,designite,Deficient Encapsulation,1
+p001,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/PackageDeclarationCheck.java,after,designite,Unutilized Abstraction,1
+p001,control,src/main/java/com/puppycrawl/tools/checkstyle/filters/SuppressionXpathFilter.java,before,pmd,DanglingJavadoc,1
+p001,control,src/main/java/com/puppycrawl/tools/checkstyle/filters/SuppressionXpathFilter.java,after,pmd,DanglingJavadoc,1
+p002,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,CloseResource,1
+p002,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,DanglingJavadoc,13
+p002,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,LiteralsFirstInComparisons,3
+p002,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,LooseCoupling,3
+p002,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,PreserveStackTrace,2
+p002,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,PrimitiveWrapperInstantiation,2
+p002,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,UseLocaleWithCaseConversions,1
+p002,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,CloseResource,1
+p002,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,DanglingJavadoc,13
+p002,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,LiteralsFirstInComparisons,3
+p002,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,LooseCoupling,3
+p002,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,PreserveStackTrace,2
+p002,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,PrimitiveWrapperInstantiation,2
+p002,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,UseLocaleWithCaseConversions,1
+p002,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,designite,Broken Hierarchy,1
+p002,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,designite,Insufficient Modularization,1
+p002,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,designite,Unutilized Abstraction,1
+p002,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,designite,Broken Hierarchy,1
+p002,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,designite,Insufficient Modularization,1
+p002,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,designite,Unutilized Abstraction,1
+p002,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,pmd,DanglingJavadoc,5
+p002,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,pmd,ForLoopCanBeForeach,2
+p002,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,pmd,LooseCoupling,1
+p002,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,pmd,UnusedPrivateField,1
+p002,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,pmd,UseCollectionIsEmpty,2
+p002,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,pmd,DanglingJavadoc,5
+p002,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,pmd,ForLoopCanBeForeach,2
+p002,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,pmd,LooseCoupling,1
+p002,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,pmd,UseCollectionIsEmpty,2
+p002,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,designite,Insufficient Modularization,1
+p002,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,designite,Unutilized Abstraction,1
+p002,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,designite,Insufficient Modularization,1
+p002,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,designite,Unutilized Abstraction,1
+p003,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressionsLoader.java,before,pmd,CloseResource,1
+p003,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressionsLoader.java,before,pmd,DanglingJavadoc,1
+p003,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressionsLoader.java,before,pmd,LiteralsFirstInComparisons,1
+p003,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressionsLoader.java,before,pmd,PreserveStackTrace,1
+p003,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressionsLoader.java,after,pmd,CloseResource,1
+p003,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressionsLoader.java,after,pmd,DanglingJavadoc,1
+p003,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressionsLoader.java,after,pmd,LiteralsFirstInComparisons,1
+p003,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressionsLoader.java,after,pmd,PreserveStackTrace,1
+p003,control,src/checkstyle/com/puppycrawl/tools/checkstyle/api/AbstractViolationReporter.java,before,pmd,DanglingJavadoc,1
+p003,control,src/checkstyle/com/puppycrawl/tools/checkstyle/api/AbstractViolationReporter.java,after,pmd,DanglingJavadoc,1
+p003,control,src/checkstyle/com/puppycrawl/tools/checkstyle/api/AbstractViolationReporter.java,before,designite,Broken Hierarchy,1
+p003,control,src/checkstyle/com/puppycrawl/tools/checkstyle/api/AbstractViolationReporter.java,before,designite,Unutilized Abstraction,1
+p003,control,src/checkstyle/com/puppycrawl/tools/checkstyle/api/AbstractViolationReporter.java,after,designite,Broken Hierarchy,1
+p003,control,src/checkstyle/com/puppycrawl/tools/checkstyle/api/AbstractViolationReporter.java,after,designite,Unutilized Abstraction,1
+p004,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/VariableDeclarationUsageDistanceCheck.java,before,pmd,DanglingJavadoc,1
+p004,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/VariableDeclarationUsageDistanceCheck.java,after,pmd,DanglingJavadoc,1
+p004,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/VariableDeclarationUsageDistanceCheck.java,before,designite,Deficient Encapsulation,1
+p004,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/VariableDeclarationUsageDistanceCheck.java,after,designite,Deficient Encapsulation,1
+p004,control,src/main/java/com/puppycrawl/tools/checkstyle/api/Comment.java,before,pmd,DanglingJavadoc,1
+p004,control,src/main/java/com/puppycrawl/tools/checkstyle/api/Comment.java,after,pmd,DanglingJavadoc,1
+p005,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,DanglingJavadoc,11
+p005,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,EmptyControlStatement,3
+p005,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,LiteralsFirstInComparisons,2
+p005,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,LooseCoupling,2
+p005,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,OptimizableToArrayCall,1
+p005,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,PrimitiveWrapperInstantiation,2
+p005,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,UseCollectionIsEmpty,1
+p005,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,UselessParentheses,3
+p005,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,DanglingJavadoc,11
+p005,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,EmptyControlStatement,3
+p005,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,LiteralsFirstInComparisons,2
+p005,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,LooseCoupling,2
+p005,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,OptimizableToArrayCall,1
+p005,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,PrimitiveWrapperInstantiation,2
+p005,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,UseCollectionIsEmpty,1
+p005,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,UselessParentheses,3
+p005,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,designite,Insufficient Modularization,1
+p005,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,designite,Insufficient Modularization,1
+p005,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,pmd,DanglingJavadoc,7
+p005,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,pmd,ForLoopCanBeForeach,2
+p005,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,pmd,LooseCoupling,2
+p005,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,pmd,MissingOverride,35
+p005,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,pmd,UnusedPrivateField,1
+p005,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,pmd,UseCollectionIsEmpty,2
+p005,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,pmd,DanglingJavadoc,7
+p005,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,pmd,ForLoopCanBeForeach,2
+p005,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,pmd,LooseCoupling,2
+p005,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,pmd,MissingOverride,36
+p005,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,pmd,UnusedPrivateField,1
+p005,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,pmd,UseCollectionIsEmpty,2
+p005,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,designite,Insufficient Modularization,1
+p005,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,designite,Unutilized Abstraction,1
+p005,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,designite,Insufficient Modularization,1
+p005,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,designite,Unutilized Abstraction,1
+p006,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlLoader.java,before,pmd,CloseResource,1
+p006,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlLoader.java,before,pmd,DanglingJavadoc,1
+p006,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlLoader.java,after,pmd,CloseResource,1
+p006,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlLoader.java,after,pmd,DanglingJavadoc,1
+p006,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/ImportControl.java,before,pmd,DanglingJavadoc,1
+p006,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/ImportControl.java,after,pmd,DanglingJavadoc,1
+p007,treated,contrib/bcel/src/checkstyle/com/puppycrawl/tools/checkstyle/bcel/checks/AbstractReferenceCheck.java,before,pmd,UselessParentheses,5
+p007,treated,contrib/bcel/src/checkstyle/com/puppycrawl/tools/checkstyle/bcel/checks/AbstractReferenceCheck.java,after,pmd,UselessParentheses,5
+p007,treated,contrib/bcel/src/checkstyle/com/puppycrawl/tools/checkstyle/bcel/checks/AbstractReferenceCheck.java,before,designite,Unutilized Abstraction,1
+p007,treated,contrib/bcel/src/checkstyle/com/puppycrawl/tools/checkstyle/bcel/checks/AbstractReferenceCheck.java,after,designite,Unutilized Abstraction,1
+p007,control,src/checkstyle/com/puppycrawl/tools/checkstyle/api/Comment.java,before,pmd,DanglingJavadoc,1
+p007,control,src/checkstyle/com/puppycrawl/tools/checkstyle/api/Comment.java,after,pmd,DanglingJavadoc,1
+p007,control,src/checkstyle/com/puppycrawl/tools/checkstyle/api/Comment.java,after,pmd,MissingOverride,1
+p008,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/MyModifierSet.java,before,pmd,DanglingJavadoc,1
+p008,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/MyModifierSet.java,before,pmd,ForLoopCanBeForeach,1
+p008,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/MyModifierSet.java,before,pmd,MissingOverride,1
+p008,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/MyModifierSet.java,after,pmd,DanglingJavadoc,1
+p008,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/MyModifierSet.java,after,pmd,ForLoopCanBeForeach,1
+p008,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/MyModifierSet.java,after,pmd,MissingOverride,1
+p008,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,DanglingJavadoc,9
+p008,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,EmptyControlStatement,1
+p008,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,LiteralsFirstInComparisons,2
+p008,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,LooseCoupling,2
+p008,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,OptimizableToArrayCall,1
+p008,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,PrimitiveWrapperInstantiation,2
+p008,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,UseCollectionIsEmpty,1
+p008,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,UselessParentheses,2
+p008,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,DanglingJavadoc,9
+p008,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,EmptyControlStatement,1
+p008,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,LiteralsFirstInComparisons,2
+p008,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,LooseCoupling,2
+p008,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,OptimizableToArrayCall,1
+p008,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,PrimitiveWrapperInstantiation,2
+p008,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,UseCollectionIsEmpty,1
+p008,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,UselessParentheses,2
+p008,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,designite,Insufficient Modularization,1
+p008,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,designite,Insufficient Modularization,1
+p009,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/GenericIllegalRegexpCheck.java,before,pmd,DanglingJavadoc,1
+p009,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/GenericIllegalRegexpCheck.java,after,pmd,DanglingJavadoc,1
+p009,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/GenericIllegalRegexpCheck.java,after,pmd,SimplifyBooleanReturns,1
+p009,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/GenericIllegalRegexpCheck.java,before,designite,Unutilized Abstraction,1
+p009,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/GenericIllegalRegexpCheck.java,after,designite,Unutilized Abstraction,1
+p009,control,src/checkstyle/com/puppycrawl/tools/checkstyle/api/FileContents.java,before,pmd,DanglingJavadoc,1
+p009,control,src/checkstyle/com/puppycrawl/tools/checkstyle/api/FileContents.java,before,pmd,PrimitiveWrapperInstantiation,4
+p009,control,src/checkstyle/com/puppycrawl/tools/checkstyle/api/FileContents.java,after,pmd,DanglingJavadoc,1
+p009,control,src/checkstyle/com/puppycrawl/tools/checkstyle/api/FileContents.java,after,pmd,PrimitiveWrapperInstantiation,5
+p010,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/IndentationCheck.java,before,pmd,DanglingJavadoc,1
+p010,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/IndentationCheck.java,before,pmd,UncommentedEmptyConstructor,1
+p010,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/IndentationCheck.java,before,pmd,UnnecessaryConstructor,1
+p010,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/IndentationCheck.java,after,pmd,DanglingJavadoc,1
+p010,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/IndentationCheck.java,after,pmd,UncommentedEmptyConstructor,1
+p010,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/IndentationCheck.java,after,pmd,UnnecessaryConstructor,1
+p010,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/IndentationCheck.java,before,designite,Cyclic-Dependent Modularization,1
+p010,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/IndentationCheck.java,after,designite,Cyclic-Dependent Modularization,1
+p010,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/ExpressionHandler.java,before,pmd,CompareObjectsWithEquals,1
+p010,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/ExpressionHandler.java,before,pmd,DanglingJavadoc,1
+p010,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/ExpressionHandler.java,before,pmd,PrimitiveWrapperInstantiation,5
+p010,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/ExpressionHandler.java,before,pmd,UseEqualsToCompareStrings,1
+p010,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/ExpressionHandler.java,before,pmd,UselessParentheses,1
+p010,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/ExpressionHandler.java,after,pmd,CompareObjectsWithEquals,1
+p010,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/ExpressionHandler.java,after,pmd,DanglingJavadoc,1
+p010,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/ExpressionHandler.java,after,pmd,PrimitiveWrapperInstantiation,5
+p010,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/ExpressionHandler.java,after,pmd,UseEqualsToCompareStrings,1
+p010,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/ExpressionHandler.java,after,pmd,UselessParentheses,1
+p010,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/ExpressionHandler.java,before,designite,Cyclic-Dependent Modularization,1
+p010,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/ExpressionHandler.java,after,designite,Cyclic-Dependent Modularization,1
+p011,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/IndentationCheck.java,before,pmd,DanglingJavadoc,1
+p011,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/IndentationCheck.java,before,pmd,UncommentedEmptyConstructor,1
+p011,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/IndentationCheck.java,before,pmd,UnnecessaryConstructor,1
+p011,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/IndentationCheck.java,after,pmd,DanglingJavadoc,1
+p011,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/IndentationCheck.java,after,pmd,UncommentedEmptyConstructor,1
+p011,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/IndentationCheck.java,after,pmd,UnnecessaryConstructor,1
+p011,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/IndentationCheck.java,before,designite,Cyclic-Dependent Modularization,1
+p011,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/IndentationCheck.java,after,designite,Cyclic-Dependent Modularization,1
+p011,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/BlockParentHandler.java,before,pmd,DanglingJavadoc,1
+p011,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/BlockParentHandler.java,after,pmd,DanglingJavadoc,1
+p011,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/BlockParentHandler.java,before,designite,Unutilized Abstraction,1
+p011,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/BlockParentHandler.java,before,designite,Wide Hierarchy,1
+p011,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/BlockParentHandler.java,after,designite,Unutilized Abstraction,1
+p011,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/BlockParentHandler.java,after,designite,Wide Hierarchy,1
+p012,treated,src/main/java/com/puppycrawl/tools/checkstyle/xpath/ElementNode.java,before,pmd,DanglingJavadoc,1
+p012,treated,src/main/java/com/puppycrawl/tools/checkstyle/xpath/ElementNode.java,after,pmd,DanglingJavadoc,1
+p012,treated,src/main/java/com/puppycrawl/tools/checkstyle/xpath/ElementNode.java,before,designite,Cyclic-Dependent Modularization,1
+p012,treated,src/main/java/com/puppycrawl/tools/checkstyle/xpath/ElementNode.java,after,designite,Cyclic-Dependent Modularization,1
+p012,control,src/main/java/com/puppycrawl/tools/checkstyle/utils/XpathUtil.java,before,pmd,DanglingJavadoc,1
+p012,control,src/main/java/com/puppycrawl/tools/checkstyle/utils/XpathUtil.java,after,pmd,DanglingJavadoc,1
+p012,control,src/main/java/com/puppycrawl/tools/checkstyle/utils/XpathUtil.java,before,designite,Cyclic-Dependent Modularization,1
+p012,control,src/main/java/com/puppycrawl/tools/checkstyle/utils/XpathUtil.java,after,designite,Cyclic-Dependent Modularization,1
+p013,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/IndentLevel.java,before,pmd,DanglingJavadoc,1
+p013,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/IndentLevel.java,after,pmd,DanglingJavadoc,1
+p013,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/ExpressionHandler.java,before,pmd,DanglingJavadoc,1
+p013,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/ExpressionHandler.java,after,pmd,DanglingJavadoc,1
+p013,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/ExpressionHandler.java,before,designite,Cyclic-Dependent Modularization,1
+p013,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/ExpressionHandler.java,before,designite,Deficient Encapsulation,1
+p013,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/ExpressionHandler.java,before,designite,Insufficient Modularization,1
+p013,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/ExpressionHandler.java,after,designite,Cyclic-Dependent Modularization,1
+p013,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/ExpressionHandler.java,after,designite,Deficient Encapsulation,1
+p013,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/ExpressionHandler.java,after,designite,Insufficient Modularization,1
+p014,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/AbstractNameCheck.java,before,pmd,DanglingJavadoc,1
+p014,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/AbstractNameCheck.java,after,pmd,DanglingJavadoc,1
+p014,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/AbstractNameCheck.java,before,designite,Deficient Encapsulation,1
+p014,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/AbstractNameCheck.java,before,designite,Unutilized Abstraction,1
+p014,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/AbstractNameCheck.java,before,designite,Wide Hierarchy,1
+p014,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/AbstractNameCheck.java,after,designite,Unutilized Abstraction,1
+p014,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/AbstractNameCheck.java,after,designite,Wide Hierarchy,1
+p014,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/CatchParameterNameCheck.java,before,pmd,DanglingJavadoc,1
+p014,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/CatchParameterNameCheck.java,after,pmd,DanglingJavadoc,1
+p014,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/CatchParameterNameCheck.java,before,designite,Broken Hierarchy,1
+p014,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/CatchParameterNameCheck.java,before,designite,Unutilized Abstraction,1
+p014,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/CatchParameterNameCheck.java,after,designite,Broken Hierarchy,1
+p014,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/CatchParameterNameCheck.java,after,designite,Deficient Encapsulation,1
+p014,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/CatchParameterNameCheck.java,after,designite,Unutilized Abstraction,1
+p015,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/j2ee/MethodChecker.java,before,pmd,DanglingJavadoc,1
+p015,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/j2ee/MethodChecker.java,after,pmd,DanglingJavadoc,1
+p015,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/j2ee/MethodChecker.java,before,designite,Cyclic-Dependent Modularization,1
+p015,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/j2ee/MethodChecker.java,after,designite,Cyclic-Dependent Modularization,1
+p015,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/whitespace/WhitespaceAroundCheck.java,before,pmd,DanglingJavadoc,1
+p015,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/whitespace/WhitespaceAroundCheck.java,after,pmd,DanglingJavadoc,1
+p015,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/whitespace/WhitespaceAroundCheck.java,before,designite,Unutilized Abstraction,1
+p015,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/whitespace/WhitespaceAroundCheck.java,after,designite,Unutilized Abstraction,1
+p016,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/AbbreviationAsWordInNameCheck.java,before,pmd,DanglingJavadoc,1
+p016,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/AbbreviationAsWordInNameCheck.java,after,pmd,DanglingJavadoc,1
+p016,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/AbbreviationAsWordInNameCheck.java,before,designite,Deficient Encapsulation,1
+p016,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/AbbreviationAsWordInNameCheck.java,after,designite,Deficient Encapsulation,1
+p016,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/RequireThisCheck.java,before,pmd,DanglingJavadoc,1
+p016,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/RequireThisCheck.java,before,pmd,LooseCoupling,3
+p016,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/RequireThisCheck.java,after,pmd,DanglingJavadoc,1
+p016,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/RequireThisCheck.java,after,pmd,LooseCoupling,3
+p016,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/RequireThisCheck.java,before,designite,Deficient Encapsulation,1
+p016,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/RequireThisCheck.java,before,designite,Insufficient Modularization,1
+p016,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/RequireThisCheck.java,after,designite,Deficient Encapsulation,1
+p016,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/RequireThisCheck.java,after,designite,Insufficient Modularization,1
+p017,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/blocks/NeedBracesCheck.java,before,pmd,DanglingJavadoc,1
+p017,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/blocks/NeedBracesCheck.java,after,pmd,DanglingJavadoc,1
+p017,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/blocks/NeedBracesCheck.java,before,designite,Deficient Encapsulation,1
+p017,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/blocks/NeedBracesCheck.java,after,designite,Deficient Encapsulation,1
+p017,control,src/main/java/com/puppycrawl/tools/checkstyle/Main.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p017,control,src/main/java/com/puppycrawl/tools/checkstyle/Main.java,before,pmd,DanglingJavadoc,1
+p017,control,src/main/java/com/puppycrawl/tools/checkstyle/Main.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p017,control,src/main/java/com/puppycrawl/tools/checkstyle/Main.java,after,pmd,DanglingJavadoc,1
+p017,control,src/main/java/com/puppycrawl/tools/checkstyle/Main.java,before,designite,Deficient Encapsulation,1
+p017,control,src/main/java/com/puppycrawl/tools/checkstyle/Main.java,after,designite,Deficient Encapsulation,1
+p018,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/j2ee/AbstractJ2eeCheck.java,before,pmd,DanglingJavadoc,1
+p018,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/j2ee/AbstractJ2eeCheck.java,after,pmd,DanglingJavadoc,1
+p018,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/j2ee/AbstractJ2eeCheck.java,before,designite,Cyclic-Dependent Modularization,1
+p018,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/j2ee/AbstractJ2eeCheck.java,after,designite,Cyclic-Dependent Modularization,1
+p018,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/ArrayTypeStyleCheck.java,before,pmd,DanglingJavadoc,1
+p018,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/ArrayTypeStyleCheck.java,after,pmd,DanglingJavadoc,1
+p018,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/ArrayTypeStyleCheck.java,before,designite,Unutilized Abstraction,1
+p018,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/ArrayTypeStyleCheck.java,after,designite,Unutilized Abstraction,1
+p019,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/javadoc/HtmlTag.java,before,pmd,DanglingJavadoc,1
+p019,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/javadoc/HtmlTag.java,before,pmd,MissingOverride,1
+p019,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/javadoc/HtmlTag.java,before,pmd,UnnecessaryFullyQualifiedName,1
+p019,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/javadoc/HtmlTag.java,before,pmd,UselessParentheses,1
+p019,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/javadoc/HtmlTag.java,after,pmd,DanglingJavadoc,1
+p019,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/javadoc/HtmlTag.java,after,pmd,MissingOverride,1
+p019,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/javadoc/HtmlTag.java,after,pmd,UnnecessaryFullyQualifiedName,1
+p019,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/javadoc/HtmlTag.java,after,pmd,UselessParentheses,1
+p019,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocStyleCheck.java,before,pmd,DanglingJavadoc,1
+p019,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocStyleCheck.java,before,pmd,ForLoopCanBeForeach,3
+p019,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocStyleCheck.java,before,pmd,LooseCoupling,4
+p019,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocStyleCheck.java,after,pmd,DanglingJavadoc,1
+p019,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocStyleCheck.java,after,pmd,ForLoopCanBeForeach,3
+p019,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocStyleCheck.java,after,pmd,LooseCoupling,4
+p019,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocStyleCheck.java,before,designite,Unutilized Abstraction,1
+p019,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocStyleCheck.java,after,designite,Unutilized Abstraction,1
+p020,treated,src/main/java/com/puppycrawl/tools/checkstyle/gui/ParseTreeInfoPanel.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p020,treated,src/main/java/com/puppycrawl/tools/checkstyle/gui/ParseTreeInfoPanel.java,before,pmd,DanglingJavadoc,1
+p020,treated,src/main/java/com/puppycrawl/tools/checkstyle/gui/ParseTreeInfoPanel.java,before,pmd,UnnecessaryFullyQualifiedName,2
+p020,treated,src/main/java/com/puppycrawl/tools/checkstyle/gui/ParseTreeInfoPanel.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p020,treated,src/main/java/com/puppycrawl/tools/checkstyle/gui/ParseTreeInfoPanel.java,after,pmd,DanglingJavadoc,1
+p020,treated,src/main/java/com/puppycrawl/tools/checkstyle/gui/ParseTreeInfoPanel.java,after,pmd,UnnecessaryFullyQualifiedName,2
+p020,treated,src/main/java/com/puppycrawl/tools/checkstyle/gui/ParseTreeInfoPanel.java,before,designite,Cyclic-Dependent Modularization,1
+p020,treated,src/main/java/com/puppycrawl/tools/checkstyle/gui/ParseTreeInfoPanel.java,after,designite,Cyclic-Dependent Modularization,1
+p020,control,src/main/java/com/puppycrawl/tools/checkstyle/gui/Main.java,before,pmd,DanglingJavadoc,1
+p020,control,src/main/java/com/puppycrawl/tools/checkstyle/gui/Main.java,after,pmd,DanglingJavadoc,1
+p020,control,src/main/java/com/puppycrawl/tools/checkstyle/gui/Main.java,before,designite,Cyclic-Dependent Modularization,1
+p020,control,src/main/java/com/puppycrawl/tools/checkstyle/gui/Main.java,after,designite,Cyclic-Dependent Modularization,1
+p021,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/VerifierSingleton.java,before,pmd,DanglingJavadoc,1
+p021,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/VerifierSingleton.java,after,pmd,DanglingJavadoc,1
+p021,control,src/checkstyle/com/puppycrawl/tools/checkstyle/XMLLogger.java,before,pmd,DanglingJavadoc,1
+p021,control,src/checkstyle/com/puppycrawl/tools/checkstyle/XMLLogger.java,before,pmd,ForLoopCanBeForeach,1
+p021,control,src/checkstyle/com/puppycrawl/tools/checkstyle/XMLLogger.java,before,pmd,LogicInversion,1
+p021,control,src/checkstyle/com/puppycrawl/tools/checkstyle/XMLLogger.java,before,pmd,UncommentedEmptyConstructor,1
+p021,control,src/checkstyle/com/puppycrawl/tools/checkstyle/XMLLogger.java,after,pmd,DanglingJavadoc,1
+p021,control,src/checkstyle/com/puppycrawl/tools/checkstyle/XMLLogger.java,after,pmd,ForLoopCanBeForeach,1
+p021,control,src/checkstyle/com/puppycrawl/tools/checkstyle/XMLLogger.java,after,pmd,LogicInversion,1
+p021,control,src/checkstyle/com/puppycrawl/tools/checkstyle/XMLLogger.java,after,pmd,UncommentedEmptyConstructor,1
+p021,control,src/checkstyle/com/puppycrawl/tools/checkstyle/XMLLogger.java,before,designite,Unutilized Abstraction,1
+p021,control,src/checkstyle/com/puppycrawl/tools/checkstyle/XMLLogger.java,after,designite,Unutilized Abstraction,1
+p022,treated,src/main/java/com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,before,pmd,DanglingJavadoc,1
+p022,treated,src/main/java/com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,after,pmd,DanglingJavadoc,1
+p022,treated,src/main/java/com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,before,designite,Cyclic-Dependent Modularization,1
+p022,treated,src/main/java/com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,after,designite,Cyclic-Dependent Modularization,1
+p022,control,src/main/java/com/puppycrawl/tools/checkstyle/gui/CodeSelectorPresentation.java,before,pmd,DanglingJavadoc,1
+p022,control,src/main/java/com/puppycrawl/tools/checkstyle/gui/CodeSelectorPresentation.java,after,pmd,DanglingJavadoc,1
+p023,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,CloseResource,1
+p023,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,DanglingJavadoc,13
+p023,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,LiteralsFirstInComparisons,3
+p023,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,LooseCoupling,2
+p023,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,NonStaticInitializer,5
+p023,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,PreserveStackTrace,2
+p023,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,PrimitiveWrapperInstantiation,9
+p023,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,UseLocaleWithCaseConversions,1
+p023,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,CloseResource,1
+p023,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,DanglingJavadoc,13
+p023,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,LiteralsFirstInComparisons,3
+p023,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,LooseCoupling,2
+p023,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,NonStaticInitializer,5
+p023,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,PreserveStackTrace,2
+p023,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,PrimitiveWrapperInstantiation,9
+p023,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,UseLocaleWithCaseConversions,1
+p023,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,designite,Insufficient Modularization,1
+p023,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,designite,Insufficient Modularization,1
+p023,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,pmd,CloseResource,2
+p023,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,pmd,DanglingJavadoc,7
+p023,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,pmd,ForLoopCanBeForeach,2
+p023,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,pmd,LooseCoupling,2
+p023,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,pmd,MissingOverride,12
+p023,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,pmd,UseCollectionIsEmpty,2
+p023,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,pmd,CloseResource,2
+p023,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,pmd,DanglingJavadoc,7
+p023,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,pmd,ForLoopCanBeForeach,2
+p023,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,pmd,LooseCoupling,2
+p023,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,pmd,MissingOverride,4
+p023,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,pmd,UseCollectionIsEmpty,2
+p023,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,designite,Insufficient Modularization,1
+p023,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,designite,Unutilized Abstraction,1
+p023,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,designite,Insufficient Modularization,1
+p023,control,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,designite,Unutilized Abstraction,1
+p024,treated,src/main/java/com/puppycrawl/tools/checkstyle/api/AbstractFileSetCheck.java,before,pmd,DanglingJavadoc,1
+p024,treated,src/main/java/com/puppycrawl/tools/checkstyle/api/AbstractFileSetCheck.java,before,pmd,LooseCoupling,1
+p024,treated,src/main/java/com/puppycrawl/tools/checkstyle/api/AbstractFileSetCheck.java,before,pmd,UncommentedEmptyMethodBody,4
+p024,treated,src/main/java/com/puppycrawl/tools/checkstyle/api/AbstractFileSetCheck.java,after,pmd,DanglingJavadoc,1
+p024,treated,src/main/java/com/puppycrawl/tools/checkstyle/api/AbstractFileSetCheck.java,after,pmd,LooseCoupling,1
+p024,treated,src/main/java/com/puppycrawl/tools/checkstyle/api/AbstractFileSetCheck.java,after,pmd,UncommentedEmptyMethodBody,4
+p024,treated,src/main/java/com/puppycrawl/tools/checkstyle/api/AbstractFileSetCheck.java,before,designite,Unutilized Abstraction,1
+p024,treated,src/main/java/com/puppycrawl/tools/checkstyle/api/AbstractFileSetCheck.java,after,designite,Unutilized Abstraction,1
+p024,control,src/main/java/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,DanglingJavadoc,1
+p024,control,src/main/java/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,UselessParentheses,1
+p024,control,src/main/java/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,DanglingJavadoc,1
+p024,control,src/main/java/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,UselessParentheses,1
+p024,control,src/main/java/com/puppycrawl/tools/checkstyle/Checker.java,before,designite,Insufficient Modularization,1
+p024,control,src/main/java/com/puppycrawl/tools/checkstyle/Checker.java,after,designite,Insufficient Modularization,1
+p025,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p025,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,before,pmd,DanglingJavadoc,1
+p025,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,before,pmd,UncommentedEmptyMethodBody,5
+p025,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,before,pmd,UseStandardCharsets,1
+p025,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p025,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,after,pmd,DanglingJavadoc,1
+p025,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,after,pmd,UncommentedEmptyMethodBody,5
+p025,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,after,pmd,UseStandardCharsets,1
+p025,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,before,designite,Deficient Encapsulation,1
+p025,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,before,designite,Insufficient Modularization,1
+p025,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,after,designite,Deficient Encapsulation,1
+p025,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,after,designite,Insufficient Modularization,1
+p025,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocNodeImpl.java,before,pmd,DanglingJavadoc,1
+p025,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocNodeImpl.java,after,pmd,DanglingJavadoc,1
+p026,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/HandlerFactory.java,before,pmd,AssignmentInOperand,1
+p026,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/HandlerFactory.java,before,pmd,DanglingJavadoc,5
+p026,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/HandlerFactory.java,before,pmd,GuardLogStatement,4
+p026,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/HandlerFactory.java,before,pmd,IdenticalCatchBranches,1
+p026,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/HandlerFactory.java,before,pmd,PreserveStackTrace,5
+p026,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/HandlerFactory.java,before,pmd,PrimitiveWrapperInstantiation,3
+p026,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/HandlerFactory.java,after,pmd,AssignmentInOperand,1
+p026,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/HandlerFactory.java,after,pmd,DanglingJavadoc,5
+p026,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/HandlerFactory.java,after,pmd,GuardLogStatement,4
+p026,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/HandlerFactory.java,after,pmd,IdenticalCatchBranches,1
+p026,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/HandlerFactory.java,after,pmd,PreserveStackTrace,5
+p026,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/HandlerFactory.java,before,designite,Cyclic-Dependent Modularization,1
+p026,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/HandlerFactory.java,after,designite,Cyclic-Dependent Modularization,1
+p026,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/sizes/AnonInnerLengthCheck.java,before,pmd,DanglingJavadoc,1
+p026,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/sizes/AnonInnerLengthCheck.java,before,pmd,PrimitiveWrapperInstantiation,2
+p026,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/sizes/AnonInnerLengthCheck.java,after,pmd,DanglingJavadoc,1
+p026,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/sizes/AnonInnerLengthCheck.java,before,designite,Unutilized Abstraction,1
+p026,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/sizes/AnonInnerLengthCheck.java,after,designite,Unutilized Abstraction,1
+p027,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlLoader.java,before,pmd,CloseResource,1
+p027,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlLoader.java,before,pmd,DanglingJavadoc,1
+p027,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlLoader.java,before,pmd,LiteralsFirstInComparisons,6
+p027,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlLoader.java,before,pmd,LooseCoupling,1
+p027,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlLoader.java,before,pmd,UseCollectionIsEmpty,2
+p027,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlLoader.java,before,pmd,UselessParentheses,2
+p027,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlLoader.java,after,pmd,CloseResource,1
+p027,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlLoader.java,after,pmd,DanglingJavadoc,1
+p027,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlLoader.java,after,pmd,LiteralsFirstInComparisons,6
+p027,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlLoader.java,after,pmd,LooseCoupling,1
+p027,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlLoader.java,after,pmd,UseCollectionIsEmpty,2
+p027,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlLoader.java,after,pmd,UselessParentheses,2
+p027,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlCheck.java,before,pmd,DanglingJavadoc,1
+p027,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlCheck.java,after,pmd,DanglingJavadoc,1
+p027,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlCheck.java,before,designite,Unutilized Abstraction,1
+p027,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlCheck.java,after,designite,Unutilized Abstraction,1
+p028,treated,src/main/java/com/puppycrawl/tools/checkstyle/utils/ScopeUtil.java,before,pmd,DanglingJavadoc,1
+p028,treated,src/main/java/com/puppycrawl/tools/checkstyle/utils/ScopeUtil.java,after,pmd,DanglingJavadoc,1
+p028,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/CyclomaticComplexityCheck.java,before,pmd,DanglingJavadoc,1
+p028,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/CyclomaticComplexityCheck.java,after,pmd,DanglingJavadoc,1
+p028,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/CyclomaticComplexityCheck.java,before,designite,Deficient Encapsulation,1
+p028,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/CyclomaticComplexityCheck.java,before,designite,Unutilized Abstraction,1
+p028,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/CyclomaticComplexityCheck.java,after,designite,Deficient Encapsulation,1
+p028,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/CyclomaticComplexityCheck.java,after,designite,Unutilized Abstraction,1
+p029,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/BlockParentHandler.java,before,pmd,DanglingJavadoc,1
+p029,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/BlockParentHandler.java,after,pmd,DanglingJavadoc,1
+p029,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/BlockParentHandler.java,before,designite,Unutilized Abstraction,1
+p029,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/BlockParentHandler.java,before,designite,Wide Hierarchy,1
+p029,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/BlockParentHandler.java,after,designite,Unutilized Abstraction,1
+p029,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/BlockParentHandler.java,after,designite,Wide Hierarchy,1
+p029,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/BooleanExpressionComplexityCheck.java,before,pmd,DanglingJavadoc,1
+p029,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/BooleanExpressionComplexityCheck.java,after,pmd,DanglingJavadoc,1
+p029,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/BooleanExpressionComplexityCheck.java,before,designite,Deficient Encapsulation,1
+p029,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/BooleanExpressionComplexityCheck.java,after,designite,Deficient Encapsulation,1
+p030,treated,src/main/java/com/puppycrawl/tools/checkstyle/utils/JavadocUtil.java,before,pmd,DanglingJavadoc,1
+p030,treated,src/main/java/com/puppycrawl/tools/checkstyle/utils/JavadocUtil.java,after,pmd,DanglingJavadoc,1
+p030,control,src/main/java/com/puppycrawl/tools/checkstyle/meta/JavadocMetadataScraper.java,before,pmd,DanglingJavadoc,1
+p030,control,src/main/java/com/puppycrawl/tools/checkstyle/meta/JavadocMetadataScraper.java,after,pmd,DanglingJavadoc,1
+p030,control,src/main/java/com/puppycrawl/tools/checkstyle/meta/JavadocMetadataScraper.java,before,designite,Deficient Encapsulation,1
+p030,control,src/main/java/com/puppycrawl/tools/checkstyle/meta/JavadocMetadataScraper.java,before,designite,Insufficient Modularization,1
+p030,control,src/main/java/com/puppycrawl/tools/checkstyle/meta/JavadocMetadataScraper.java,after,designite,Deficient Encapsulation,1
+p030,control,src/main/java/com/puppycrawl/tools/checkstyle/meta/JavadocMetadataScraper.java,after,designite,Insufficient Modularization,1
+p031,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p031,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,DanglingJavadoc,1
+p031,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,ForLoopCanBeForeach,3
+p031,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,LooseCoupling,2
+p031,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,PreserveStackTrace,1
+p031,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,UncommentedEmptyMethodBody,3
+p031,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p031,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,DanglingJavadoc,1
+p031,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,ForLoopCanBeForeach,3
+p031,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,LooseCoupling,2
+p031,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,PreserveStackTrace,1
+p031,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,UncommentedEmptyMethodBody,3
+p031,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,designite,Broken Hierarchy,1
+p031,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,designite,Broken Hierarchy,1
+p031,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p031,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,CloseResource,2
+p031,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,DanglingJavadoc,1
+p031,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,ForLoopCanBeForeach,5
+p031,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,IdenticalCatchBranches,2
+p031,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,LooseCoupling,4
+p031,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,PreserveStackTrace,3
+p031,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,UncommentedEmptyMethodBody,3
+p031,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,UnnecessaryFullyQualifiedName,1
+p031,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,VariableCanBeInlined,1
+p031,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p031,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,CloseResource,2
+p031,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,DanglingJavadoc,1
+p031,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,ForLoopCanBeForeach,5
+p031,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,IdenticalCatchBranches,2
+p031,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,LooseCoupling,4
+p031,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,PreserveStackTrace,3
+p031,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,UncommentedEmptyMethodBody,3
+p031,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,UnnecessaryFullyQualifiedName,1
+p031,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,UnusedPrivateMethod,1
+p031,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,VariableCanBeInlined,1
+p032,treated,src/main/java/com/puppycrawl/tools/checkstyle/site/ExampleMacro.java,before,pmd,DanglingJavadoc,1
+p032,treated,src/main/java/com/puppycrawl/tools/checkstyle/site/ExampleMacro.java,after,pmd,DanglingJavadoc,1
+p032,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/whitespace/EmptyForInitializerPadCheck.java,before,pmd,DanglingJavadoc,1
+p032,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/whitespace/EmptyForInitializerPadCheck.java,after,pmd,DanglingJavadoc,1
+p032,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/whitespace/EmptyForInitializerPadCheck.java,before,designite,Deficient Encapsulation,1
+p032,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/whitespace/EmptyForInitializerPadCheck.java,before,designite,Unutilized Abstraction,1
+p032,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/whitespace/EmptyForInitializerPadCheck.java,after,designite,Deficient Encapsulation,1
+p032,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/whitespace/EmptyForInitializerPadCheck.java,after,designite,Unutilized Abstraction,1
+p033,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/IllegalInstantiationCheck.java,before,pmd,DanglingJavadoc,1
+p033,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/IllegalInstantiationCheck.java,after,pmd,DanglingJavadoc,1
+p033,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/IllegalInstantiationCheck.java,before,designite,Deficient Encapsulation,1
+p033,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/IllegalInstantiationCheck.java,before,designite,Unutilized Abstraction,1
+p033,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/IllegalInstantiationCheck.java,after,designite,Deficient Encapsulation,1
+p033,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/IllegalInstantiationCheck.java,after,designite,Unutilized Abstraction,1
+p033,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/LocalVariableNameCheck.java,before,pmd,DanglingJavadoc,1
+p033,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/LocalVariableNameCheck.java,after,pmd,DanglingJavadoc,1
+p033,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/LocalVariableNameCheck.java,before,designite,Broken Hierarchy,1
+p033,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/LocalVariableNameCheck.java,before,designite,Unutilized Abstraction,1
+p033,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/LocalVariableNameCheck.java,after,designite,Broken Hierarchy,1
+p033,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/LocalVariableNameCheck.java,after,designite,Unutilized Abstraction,1
+p034,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/LambdaHandler.java,before,pmd,DanglingJavadoc,1
+p034,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/LambdaHandler.java,after,pmd,DanglingJavadoc,1
+p034,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/LambdaHandler.java,before,designite,Missing Hierarchy,1
+p034,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/LambdaHandler.java,before,designite,Unexploited Encapsulation,1
+p034,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/LambdaHandler.java,before,designite,Unutilized Abstraction,1
+p034,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/LambdaHandler.java,after,designite,Missing Hierarchy,1
+p034,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/LambdaHandler.java,after,designite,Unexploited Encapsulation,1
+p034,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/LambdaHandler.java,after,designite,Unutilized Abstraction,1
+p034,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/SwitchRuleHandler.java,before,pmd,DanglingJavadoc,1
+p034,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/SwitchRuleHandler.java,after,pmd,DanglingJavadoc,1
+p034,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/SwitchRuleHandler.java,before,designite,Unutilized Abstraction,1
+p034,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/SwitchRuleHandler.java,after,designite,Unutilized Abstraction,1
+p035,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/BooleanExpressionComplexityCheck.java,before,pmd,DanglingJavadoc,1
+p035,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/BooleanExpressionComplexityCheck.java,after,pmd,DanglingJavadoc,1
+p035,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/BooleanExpressionComplexityCheck.java,before,designite,Unutilized Abstraction,1
+p035,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/BooleanExpressionComplexityCheck.java,after,designite,Deficient Encapsulation,1
+p035,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/BooleanExpressionComplexityCheck.java,after,designite,Unutilized Abstraction,1
+p035,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/ClassDataAbstractionCouplingCheck.java,before,pmd,DanglingJavadoc,1
+p035,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/ClassDataAbstractionCouplingCheck.java,after,pmd,DanglingJavadoc,1
+p035,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/ClassDataAbstractionCouplingCheck.java,before,designite,Broken Hierarchy,1
+p035,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/ClassDataAbstractionCouplingCheck.java,before,designite,Unutilized Abstraction,1
+p035,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/ClassDataAbstractionCouplingCheck.java,after,designite,Broken Hierarchy,1
+p035,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/ClassDataAbstractionCouplingCheck.java,after,designite,Deficient Encapsulation,1
+p035,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/ClassDataAbstractionCouplingCheck.java,after,designite,Unutilized Abstraction,1
+p036,treated,src/main/java/com/puppycrawl/tools/checkstyle/api/DetailAST.java,before,pmd,DanglingJavadoc,1
+p036,treated,src/main/java/com/puppycrawl/tools/checkstyle/api/DetailAST.java,after,pmd,DanglingJavadoc,1
+p036,treated,src/main/java/com/puppycrawl/tools/checkstyle/api/DetailAST.java,before,designite,Insufficient Modularization,1
+p036,treated,src/main/java/com/puppycrawl/tools/checkstyle/api/DetailAST.java,after,designite,Insufficient Modularization,1
+p036,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ReturnCountCheck.java,before,pmd,DanglingJavadoc,1
+p036,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ReturnCountCheck.java,after,pmd,DanglingJavadoc,1
+p036,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ReturnCountCheck.java,before,designite,Deficient Encapsulation,1
+p036,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ReturnCountCheck.java,before,designite,Unutilized Abstraction,1
+p036,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ReturnCountCheck.java,after,designite,Deficient Encapsulation,1
+p036,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ReturnCountCheck.java,after,designite,Unutilized Abstraction,1
+p037,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/imports/AccessResult.java,before,pmd,DanglingJavadoc,1
+p037,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/imports/AccessResult.java,before,pmd,SingletonClassReturningNewInstance,1
+p037,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/imports/AccessResult.java,after,pmd,DanglingJavadoc,1
+p037,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/imports/AccessResult.java,after,pmd,LooseCoupling,1
+p037,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/imports/AccessResult.java,after,pmd,SingletonClassReturningNewInstance,1
+p037,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/imports/AccessResult.java,before,designite,Deficient Encapsulation,1
+p037,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/imports/AccessResult.java,after,designite,Deficient Encapsulation,1
+p037,control,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressWithNearbyCommentFilter.java,before,pmd,DanglingJavadoc,3
+p037,control,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressWithNearbyCommentFilter.java,before,pmd,ForLoopCanBeForeach,1
+p037,control,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressWithNearbyCommentFilter.java,before,pmd,MissingOverride,1
+p037,control,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressWithNearbyCommentFilter.java,before,pmd,OverrideBothEqualsAndHashCodeOnComparable,1
+p037,control,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressWithNearbyCommentFilter.java,before,pmd,UnusedFormalParameter,1
+p037,control,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressWithNearbyCommentFilter.java,before,pmd,UselessParentheses,1
+p037,control,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressWithNearbyCommentFilter.java,after,pmd,DanglingJavadoc,3
+p037,control,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressWithNearbyCommentFilter.java,after,pmd,ForLoopCanBeForeach,1
+p037,control,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressWithNearbyCommentFilter.java,after,pmd,MissingOverride,1
+p037,control,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressWithNearbyCommentFilter.java,after,pmd,OverrideBothEqualsAndHashCodeOnComparable,1
+p037,control,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressWithNearbyCommentFilter.java,after,pmd,UnusedFormalParameter,1
+p037,control,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressWithNearbyCommentFilter.java,after,pmd,UselessParentheses,1
+p037,control,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressWithNearbyCommentFilter.java,before,designite,Unutilized Abstraction,1
+p037,control,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressWithNearbyCommentFilter.java,after,designite,Unutilized Abstraction,1
+p038,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p038,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,DanglingJavadoc,1
+p038,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,ForLoopCanBeForeach,2
+p038,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,LooseCoupling,2
+p038,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,UncommentedEmptyMethodBody,3
+p038,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p038,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,DanglingJavadoc,1
+p038,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,ForLoopCanBeForeach,2
+p038,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,LooseCoupling,2
+p038,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,UncommentedEmptyMethodBody,3
+p038,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,designite,Insufficient Modularization,1
+p038,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,designite,Insufficient Modularization,1
+p038,control,src/checkstyle/com/puppycrawl/tools/checkstyle/filter/SuppressionFilter.java,before,pmd,DanglingJavadoc,1
+p038,control,src/checkstyle/com/puppycrawl/tools/checkstyle/filter/SuppressionFilter.java,before,pmd,MissingOverride,3
+p038,control,src/checkstyle/com/puppycrawl/tools/checkstyle/filter/SuppressionFilter.java,after,pmd,DanglingJavadoc,1
+p038,control,src/checkstyle/com/puppycrawl/tools/checkstyle/filter/SuppressionFilter.java,after,pmd,MissingOverride,3
+p039,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/BlockParentHandler.java,before,pmd,DanglingJavadoc,1
+p039,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/BlockParentHandler.java,after,pmd,DanglingJavadoc,1
+p039,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/BlockParentHandler.java,before,designite,Unutilized Abstraction,1
+p039,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/BlockParentHandler.java,before,designite,Wide Hierarchy,1
+p039,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/BlockParentHandler.java,after,designite,Unutilized Abstraction,1
+p039,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/BlockParentHandler.java,after,designite,Wide Hierarchy,1
+p039,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/AbstractExpressionHandler.java,before,pmd,DanglingJavadoc,1
+p039,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/AbstractExpressionHandler.java,after,pmd,DanglingJavadoc,1
+p039,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/AbstractExpressionHandler.java,before,designite,Cyclic-Dependent Modularization,1
+p039,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/AbstractExpressionHandler.java,before,designite,Deficient Encapsulation,1
+p039,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/AbstractExpressionHandler.java,before,designite,Insufficient Modularization,1
+p039,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/AbstractExpressionHandler.java,after,designite,Cyclic-Dependent Modularization,1
+p039,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/AbstractExpressionHandler.java,after,designite,Deficient Encapsulation,1
+p039,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/AbstractExpressionHandler.java,after,designite,Insufficient Modularization,1
+p040,treated,src/main/java/com/puppycrawl/tools/checkstyle/JavaParser.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p040,treated,src/main/java/com/puppycrawl/tools/checkstyle/JavaParser.java,before,pmd,DanglingJavadoc,1
+p040,treated,src/main/java/com/puppycrawl/tools/checkstyle/JavaParser.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p040,treated,src/main/java/com/puppycrawl/tools/checkstyle/JavaParser.java,after,pmd,DanglingJavadoc,1
+p040,control,src/main/java/com/puppycrawl/tools/checkstyle/api/TokenTypes.java,before,pmd,DanglingJavadoc,1
+p040,control,src/main/java/com/puppycrawl/tools/checkstyle/api/TokenTypes.java,after,pmd,DanglingJavadoc,1
+p040,control,src/main/java/com/puppycrawl/tools/checkstyle/api/TokenTypes.java,before,designite,Deficient Encapsulation,1
+p040,control,src/main/java/com/puppycrawl/tools/checkstyle/api/TokenTypes.java,after,designite,Deficient Encapsulation,1
+p041,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java,before,pmd,DanglingJavadoc,1
+p041,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java,before,pmd,LiteralsFirstInComparisons,4
+p041,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java,after,pmd,DanglingJavadoc,1
+p041,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java,after,pmd,LiteralsFirstInComparisons,4
+p041,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java,before,designite,Deficient Encapsulation,1
+p041,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java,before,designite,Insufficient Modularization,1
+p041,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java,after,designite,Deficient Encapsulation,1
+p041,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java,after,designite,Insufficient Modularization,1
+p041,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/ImportOrderCheck.java,before,pmd,DanglingJavadoc,1
+p041,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/ImportOrderCheck.java,after,pmd,DanglingJavadoc,1
+p041,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/ImportOrderCheck.java,before,designite,Deficient Encapsulation,1
+p041,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/ImportOrderCheck.java,after,designite,Deficient Encapsulation,1
+p042,treated,src/main/java/com/puppycrawl/tools/checkstyle/ModuleFactory.java,before,pmd,DanglingJavadoc,1
+p042,treated,src/main/java/com/puppycrawl/tools/checkstyle/ModuleFactory.java,after,pmd,DanglingJavadoc,1
+p042,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/AbstractTypeAwareCheck.java,before,pmd,DanglingJavadoc,1
+p042,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/AbstractTypeAwareCheck.java,before,pmd,UncommentedEmptyMethodBody,1
+p042,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/AbstractTypeAwareCheck.java,after,pmd,DanglingJavadoc,1
+p042,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/AbstractTypeAwareCheck.java,after,pmd,UncommentedEmptyMethodBody,1
+p042,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/AbstractTypeAwareCheck.java,before,designite,Insufficient Modularization,1
+p042,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/AbstractTypeAwareCheck.java,after,designite,Insufficient Modularization,1
+p043,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/header/AbstractHeaderCheck.java,before,pmd,DanglingJavadoc,1
+p043,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/header/AbstractHeaderCheck.java,after,pmd,DanglingJavadoc,1
+p043,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/header/AbstractHeaderCheck.java,before,designite,Unutilized Abstraction,1
+p043,control,src/main/java/com/puppycrawl/tools/checkstyle/api/Violation.java,before,pmd,DanglingJavadoc,2
+p043,control,src/main/java/com/puppycrawl/tools/checkstyle/api/Violation.java,after,pmd,DanglingJavadoc,2
+p043,control,src/main/java/com/puppycrawl/tools/checkstyle/api/Violation.java,before,designite,Insufficient Modularization,1
+p043,control,src/main/java/com/puppycrawl/tools/checkstyle/api/Violation.java,after,designite,Insufficient Modularization,1
+p044,treated,src/main/java/com/puppycrawl/tools/checkstyle/gui/CodeSelectorPModel.java,before,pmd,DanglingJavadoc,1
+p044,treated,src/main/java/com/puppycrawl/tools/checkstyle/gui/CodeSelectorPModel.java,after,pmd,DanglingJavadoc,1
+p044,control,src/main/java/com/puppycrawl/tools/checkstyle/gui/JTreeTable.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p044,control,src/main/java/com/puppycrawl/tools/checkstyle/gui/JTreeTable.java,before,pmd,DanglingJavadoc,1
+p044,control,src/main/java/com/puppycrawl/tools/checkstyle/gui/JTreeTable.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p044,control,src/main/java/com/puppycrawl/tools/checkstyle/gui/JTreeTable.java,after,pmd,DanglingJavadoc,1
+p044,control,src/main/java/com/puppycrawl/tools/checkstyle/gui/JTreeTable.java,before,designite,Cyclic-Dependent Modularization,1
+p044,control,src/main/java/com/puppycrawl/tools/checkstyle/gui/JTreeTable.java,after,designite,Cyclic-Dependent Modularization,1
+p045,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,DanglingJavadoc,9
+p045,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,EmptyControlStatement,1
+p045,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,LiteralsFirstInComparisons,2
+p045,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,LooseCoupling,2
+p045,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,PrimitiveWrapperInstantiation,2
+p045,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,UseCollectionIsEmpty,1
+p045,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,UselessParentheses,2
+p045,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,DanglingJavadoc,9
+p045,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,EmptyControlStatement,1
+p045,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,LiteralsFirstInComparisons,2
+p045,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,LooseCoupling,2
+p045,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,PrimitiveWrapperInstantiation,2
+p045,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,UseCollectionIsEmpty,1
+p045,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,UselessParentheses,2
+p045,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,designite,Insufficient Modularization,1
+p045,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,designite,Insufficient Modularization,1
+p045,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,CloseResource,1
+p045,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,DanglingJavadoc,13
+p045,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,LiteralsFirstInComparisons,3
+p045,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,LooseCoupling,1
+p045,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,PreserveStackTrace,1
+p045,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,UseLocaleWithCaseConversions,1
+p045,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,CloseResource,1
+p045,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,DanglingJavadoc,13
+p045,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,LiteralsFirstInComparisons,3
+p045,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,LooseCoupling,1
+p045,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,PreserveStackTrace,1
+p045,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,UseLocaleWithCaseConversions,1
+p045,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,designite,Broken Hierarchy,1
+p045,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,designite,Insufficient Modularization,1
+p045,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,designite,Unutilized Abstraction,1
+p045,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,designite,Broken Hierarchy,1
+p045,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,designite,Insufficient Modularization,1
+p045,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,designite,Unutilized Abstraction,1
+p046,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/HiddenFieldCheck.java,before,pmd,DanglingJavadoc,1
+p046,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/HiddenFieldCheck.java,after,pmd,DanglingJavadoc,1
+p046,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/HiddenFieldCheck.java,before,designite,Deficient Encapsulation,1
+p046,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/HiddenFieldCheck.java,after,designite,Deficient Encapsulation,1
+p046,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/HiddenFieldCheck.java,after,designite,Insufficient Modularization,1
+p046,control,src/main/java/com/puppycrawl/tools/checkstyle/utils/ScopeUtils.java,before,pmd,DanglingJavadoc,1
+p046,control,src/main/java/com/puppycrawl/tools/checkstyle/utils/ScopeUtils.java,after,pmd,DanglingJavadoc,1
+p047,treated,src/main/java/com/puppycrawl/tools/checkstyle/filters/SuppressWithNearbyCommentFilter.java,before,pmd,DanglingJavadoc,1
+p047,treated,src/main/java/com/puppycrawl/tools/checkstyle/filters/SuppressWithNearbyCommentFilter.java,after,pmd,DanglingJavadoc,1
+p047,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/TrailingCommentCheck.java,before,pmd,DanglingJavadoc,1
+p047,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/TrailingCommentCheck.java,after,pmd,DanglingJavadoc,1
+p047,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/TrailingCommentCheck.java,before,designite,Deficient Encapsulation,1
+p047,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/TrailingCommentCheck.java,before,designite,Unutilized Abstraction,1
+p047,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/TrailingCommentCheck.java,after,designite,Deficient Encapsulation,1
+p047,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/TrailingCommentCheck.java,after,designite,Unutilized Abstraction,1
+p048,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/api/FileContents.java,before,pmd,PrimitiveWrapperInstantiation,3
+p048,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/api/FileContents.java,after,pmd,PrimitiveWrapperInstantiation,4
+p048,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/GenericIllegalRegexpCheck.java,before,pmd,DanglingJavadoc,1
+p048,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/GenericIllegalRegexpCheck.java,after,pmd,DanglingJavadoc,1
+p048,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/GenericIllegalRegexpCheck.java,before,designite,Broken Hierarchy,1
+p048,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/GenericIllegalRegexpCheck.java,before,designite,Unutilized Abstraction,1
+p048,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/GenericIllegalRegexpCheck.java,after,designite,Broken Hierarchy,1
+p048,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/GenericIllegalRegexpCheck.java,after,designite,Unutilized Abstraction,1
+p049,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,AvoidAccessibilityAlteration,1
+p049,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,AvoidCatchingThrowable,1
+p049,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p049,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,CloseResource,2
+p049,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,DanglingJavadoc,1
+p049,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,ForLoopCanBeForeach,5
+p049,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,IdenticalCatchBranches,1
+p049,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,LooseCoupling,3
+p049,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,PreserveStackTrace,1
+p049,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,UncommentedEmptyMethodBody,3
+p049,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,UnnecessaryFullyQualifiedName,1
+p049,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,AvoidAccessibilityAlteration,1
+p049,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,AvoidCatchingThrowable,1
+p049,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p049,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,CloseResource,2
+p049,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,DanglingJavadoc,1
+p049,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,ForLoopCanBeForeach,5
+p049,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,IdenticalCatchBranches,1
+p049,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,LooseCoupling,3
+p049,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,PreserveStackTrace,1
+p049,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,UncommentedEmptyMethodBody,3
+p049,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,UnnecessaryFullyQualifiedName,1
+p049,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p049,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,DanglingJavadoc,1
+p049,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,ForLoopCanBeForeach,2
+p049,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,LooseCoupling,2
+p049,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,UncommentedEmptyMethodBody,3
+p049,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p049,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,DanglingJavadoc,1
+p049,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,ForLoopCanBeForeach,2
+p049,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,LooseCoupling,2
+p049,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,UncommentedEmptyMethodBody,3
+p049,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,designite,Insufficient Modularization,1
+p050,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/PackageDeclarationCheck.java,before,pmd,DanglingJavadoc,1
+p050,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/PackageDeclarationCheck.java,after,pmd,DanglingJavadoc,1
+p050,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/PackageDeclarationCheck.java,before,designite,Deficient Encapsulation,1
+p050,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/PackageDeclarationCheck.java,before,designite,Unutilized Abstraction,1
+p050,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/PackageDeclarationCheck.java,after,designite,Deficient Encapsulation,1
+p050,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/PackageDeclarationCheck.java,after,designite,Unutilized Abstraction,1
+p050,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/regexp/RegexpMultilineCheck.java,before,pmd,DanglingJavadoc,1
+p050,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/regexp/RegexpMultilineCheck.java,after,pmd,DanglingJavadoc,1
+p050,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/regexp/RegexpMultilineCheck.java,before,designite,Unutilized Abstraction,1
+p050,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/regexp/RegexpMultilineCheck.java,after,designite,Unutilized Abstraction,1
+p051,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/ImportOrderCheck.java,before,pmd,DanglingJavadoc,1
+p051,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/ImportOrderCheck.java,after,pmd,DanglingJavadoc,1
+p051,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/ImportOrderCheck.java,before,designite,Deficient Encapsulation,1
+p051,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/ImportOrderCheck.java,after,designite,Deficient Encapsulation,1
+p051,control,src/main/java/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,AvoidCatchingThrowable,1
+p051,control,src/main/java/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,CloseResource,1
+p051,control,src/main/java/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,DanglingJavadoc,1
+p051,control,src/main/java/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,UnnecessaryFullyQualifiedName,1
+p051,control,src/main/java/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,UnnecessaryModifier,1
+p051,control,src/main/java/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,AvoidCatchingThrowable,1
+p051,control,src/main/java/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,CloseResource,1
+p051,control,src/main/java/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,DanglingJavadoc,1
+p051,control,src/main/java/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,UnnecessaryFullyQualifiedName,1
+p051,control,src/main/java/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,UnnecessaryModifier,1
+p052,treated,src/main/java/com/puppycrawl/tools/checkstyle/api/DetailAST.java,before,pmd,DanglingJavadoc,1
+p052,treated,src/main/java/com/puppycrawl/tools/checkstyle/api/DetailAST.java,before,pmd,UselessParentheses,1
+p052,treated,src/main/java/com/puppycrawl/tools/checkstyle/api/DetailAST.java,after,pmd,DanglingJavadoc,1
+p052,treated,src/main/java/com/puppycrawl/tools/checkstyle/api/DetailAST.java,after,pmd,UselessParentheses,1
+p052,treated,src/main/java/com/puppycrawl/tools/checkstyle/api/DetailAST.java,after,designite,Insufficient Modularization,1
+p052,control,src/main/java/com/puppycrawl/tools/checkstyle/api/TokenTypes.java,before,pmd,DanglingJavadoc,5
+p052,control,src/main/java/com/puppycrawl/tools/checkstyle/api/TokenTypes.java,before,pmd,IdenticalCatchBranches,1
+p052,control,src/main/java/com/puppycrawl/tools/checkstyle/api/TokenTypes.java,before,pmd,LooseCoupling,1
+p052,control,src/main/java/com/puppycrawl/tools/checkstyle/api/TokenTypes.java,before,pmd,UnnecessaryFullyQualifiedName,4
+p052,control,src/main/java/com/puppycrawl/tools/checkstyle/api/TokenTypes.java,after,pmd,DanglingJavadoc,5
+p052,control,src/main/java/com/puppycrawl/tools/checkstyle/api/TokenTypes.java,after,pmd,IdenticalCatchBranches,1
+p052,control,src/main/java/com/puppycrawl/tools/checkstyle/api/TokenTypes.java,after,pmd,LooseCoupling,1
+p052,control,src/main/java/com/puppycrawl/tools/checkstyle/api/TokenTypes.java,after,pmd,UnnecessaryFullyQualifiedName,4
+p052,control,src/main/java/com/puppycrawl/tools/checkstyle/api/TokenTypes.java,before,designite,Deficient Encapsulation,1
+p052,control,src/main/java/com/puppycrawl/tools/checkstyle/api/TokenTypes.java,after,designite,Deficient Encapsulation,1
+p053,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/LeftCurlyCheck.java,before,pmd,EmptyControlStatement,2
+p053,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/LeftCurlyCheck.java,after,pmd,EmptyControlStatement,2
+p053,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/LeftCurlyCheck.java,before,designite,Unutilized Abstraction,1
+p053,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/LeftCurlyCheck.java,after,designite,Unutilized Abstraction,1
+p053,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeViewer.java,before,pmd,CloseResource,1
+p053,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeViewer.java,before,pmd,ControlStatementBraces,1
+p053,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeViewer.java,before,pmd,ForLoopCanBeForeach,1
+p053,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeViewer.java,before,pmd,MissingOverride,1
+p053,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeViewer.java,before,pmd,UseUtilityClass,1
+p053,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeViewer.java,after,pmd,CloseResource,1
+p053,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeViewer.java,after,pmd,ForLoopCanBeForeach,1
+p053,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeViewer.java,after,pmd,MissingOverride,1
+p053,control,src/checkstyle/com/puppycrawl/tools/checkstyle/TreeViewer.java,after,pmd,UseUtilityClass,1
+p054,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,DanglingJavadoc,11
+p054,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,EmptyControlStatement,3
+p054,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,LiteralsFirstInComparisons,2
+p054,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,LooseCoupling,2
+p054,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,OptimizableToArrayCall,1
+p054,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,PrimitiveWrapperInstantiation,2
+p054,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,UseCollectionIsEmpty,1
+p054,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,pmd,UselessParentheses,3
+p054,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,DanglingJavadoc,11
+p054,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,EmptyControlStatement,3
+p054,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,LiteralsFirstInComparisons,2
+p054,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,LooseCoupling,2
+p054,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,OptimizableToArrayCall,1
+p054,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,PrimitiveWrapperInstantiation,11
+p054,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,UseCollectionIsEmpty,1
+p054,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,pmd,UselessParentheses,3
+p054,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,before,designite,Insufficient Modularization,1
+p054,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Verifier.java,after,designite,Insufficient Modularization,1
+p054,control,src/checkstyle/com/puppycrawl/tools/checkstyle/MyToken.java,before,pmd,DanglingJavadoc,1
+p054,control,src/checkstyle/com/puppycrawl/tools/checkstyle/MyToken.java,after,pmd,DanglingJavadoc,1
+p055,treated,src/main/java/com/puppycrawl/tools/checkstyle/xpath/AbstractRootNode.java,before,pmd,DanglingJavadoc,1
+p055,treated,src/main/java/com/puppycrawl/tools/checkstyle/xpath/AbstractRootNode.java,after,pmd,DanglingJavadoc,1
+p055,control,src/main/java/com/puppycrawl/tools/checkstyle/xpath/AbstractNode.java,before,pmd,CompareObjectsWithEquals,1
+p055,control,src/main/java/com/puppycrawl/tools/checkstyle/xpath/AbstractNode.java,before,pmd,DanglingJavadoc,1
+p055,control,src/main/java/com/puppycrawl/tools/checkstyle/xpath/AbstractNode.java,after,pmd,CompareObjectsWithEquals,1
+p055,control,src/main/java/com/puppycrawl/tools/checkstyle/xpath/AbstractNode.java,after,pmd,DanglingJavadoc,1
+p055,control,src/main/java/com/puppycrawl/tools/checkstyle/xpath/AbstractNode.java,before,designite,Insufficient Modularization,1
+p055,control,src/main/java/com/puppycrawl/tools/checkstyle/xpath/AbstractNode.java,after,designite,Insufficient Modularization,1
+p056,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/annotation/AnnotationLocationCheck.java,before,pmd,DanglingJavadoc,1
+p056,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/annotation/AnnotationLocationCheck.java,after,pmd,DanglingJavadoc,1
+p056,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/annotation/AnnotationLocationCheck.java,before,designite,Deficient Encapsulation,1
+p056,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/annotation/AnnotationLocationCheck.java,after,designite,Deficient Encapsulation,1
+p056,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/whitespace/NoWhitespaceBeforeCheck.java,before,pmd,DanglingJavadoc,1
+p056,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/whitespace/NoWhitespaceBeforeCheck.java,after,pmd,DanglingJavadoc,1
+p056,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/whitespace/NoWhitespaceBeforeCheck.java,before,designite,Deficient Encapsulation,1
+p056,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/whitespace/NoWhitespaceBeforeCheck.java,before,designite,Unutilized Abstraction,1
+p056,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/whitespace/NoWhitespaceBeforeCheck.java,after,designite,Deficient Encapsulation,1
+p056,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/whitespace/NoWhitespaceBeforeCheck.java,after,designite,Unutilized Abstraction,1
+p057,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/coding/HiddenFieldCheck.java,before,pmd,DanglingJavadoc,1
+p057,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/coding/HiddenFieldCheck.java,before,pmd,LogicInversion,2
+p057,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/coding/HiddenFieldCheck.java,before,pmd,LooseCoupling,1
+p057,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/coding/HiddenFieldCheck.java,before,pmd,SimplifiedTernary,1
+p057,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/coding/HiddenFieldCheck.java,before,pmd,UseLocaleWithCaseConversions,1
+p057,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/coding/HiddenFieldCheck.java,before,pmd,UselessParentheses,1
+p057,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/coding/HiddenFieldCheck.java,after,pmd,DanglingJavadoc,1
+p057,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/coding/HiddenFieldCheck.java,after,pmd,LogicInversion,2
+p057,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/coding/HiddenFieldCheck.java,after,pmd,SimplifiedTernary,1
+p057,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/coding/HiddenFieldCheck.java,after,pmd,SimplifyBooleanReturns,1
+p057,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/coding/HiddenFieldCheck.java,after,pmd,UnusedLocalVariable,1
+p057,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/coding/HiddenFieldCheck.java,after,pmd,UseLocaleWithCaseConversions,1
+p057,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/coding/HiddenFieldCheck.java,after,pmd,UselessParentheses,1
+p057,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/coding/HiddenFieldCheck.java,before,designite,Unutilized Abstraction,1
+p057,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/coding/HiddenFieldCheck.java,after,designite,Unutilized Abstraction,1
+p057,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/coding/RedundantThrowsCheck.java,before,pmd,DanglingJavadoc,1
+p057,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/coding/RedundantThrowsCheck.java,after,pmd,DanglingJavadoc,1
+p057,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/coding/RedundantThrowsCheck.java,before,designite,Unutilized Abstraction,1
+p057,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/coding/RedundantThrowsCheck.java,after,designite,Unutilized Abstraction,1
+p058,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/SingleLineJavadocCheck.java,before,pmd,DanglingJavadoc,1
+p058,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/SingleLineJavadocCheck.java,after,pmd,DanglingJavadoc,1
+p058,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/SingleLineJavadocCheck.java,before,designite,Deficient Encapsulation,1
+p058,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/SingleLineJavadocCheck.java,before,designite,Unutilized Abstraction,1
+p058,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/SingleLineJavadocCheck.java,after,designite,Deficient Encapsulation,1
+p058,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/SingleLineJavadocCheck.java,after,designite,Unutilized Abstraction,1
+p058,control,src/main/java/com/puppycrawl/tools/checkstyle/PackageObjectFactory.java,before,pmd,DanglingJavadoc,1
+p058,control,src/main/java/com/puppycrawl/tools/checkstyle/PackageObjectFactory.java,after,pmd,DanglingJavadoc,1
+p058,control,src/main/java/com/puppycrawl/tools/checkstyle/PackageObjectFactory.java,before,designite,Deficient Encapsulation,1
+p058,control,src/main/java/com/puppycrawl/tools/checkstyle/PackageObjectFactory.java,before,designite,Insufficient Modularization,1
+p058,control,src/main/java/com/puppycrawl/tools/checkstyle/PackageObjectFactory.java,after,designite,Deficient Encapsulation,1
+p058,control,src/main/java/com/puppycrawl/tools/checkstyle/PackageObjectFactory.java,after,designite,Insufficient Modularization,1
+p059,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressionsLoader.java,before,pmd,CloseResource,1
+p059,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressionsLoader.java,before,pmd,DanglingJavadoc,1
+p059,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressionsLoader.java,before,pmd,PreserveStackTrace,1
+p059,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressionsLoader.java,after,pmd,CloseResource,1
+p059,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressionsLoader.java,after,pmd,DanglingJavadoc,1
+p059,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/filters/SuppressionsLoader.java,after,pmd,PreserveStackTrace,1
+p059,control,src/checkstyle/com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,before,pmd,DanglingJavadoc,1
+p059,control,src/checkstyle/com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,before,pmd,IdenticalCatchBranches,1
+p059,control,src/checkstyle/com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,before,pmd,LiteralsFirstInComparisons,4
+p059,control,src/checkstyle/com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,before,pmd,PreserveStackTrace,1
+p059,control,src/checkstyle/com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,before,pmd,UnnecessarySemicolon,1
+p059,control,src/checkstyle/com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,after,pmd,DanglingJavadoc,1
+p059,control,src/checkstyle/com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,after,pmd,IdenticalCatchBranches,1
+p059,control,src/checkstyle/com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,after,pmd,LiteralsFirstInComparisons,4
+p059,control,src/checkstyle/com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,after,pmd,PreserveStackTrace,2
+p059,control,src/checkstyle/com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,after,pmd,UnnecessarySemicolon,1
+p059,control,src/checkstyle/com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,before,designite,Cyclic-Dependent Modularization,1
+p059,control,src/checkstyle/com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,after,designite,Cyclic-Dependent Modularization,1
+p060,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,CloseResource,3
+p060,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,CompareObjectsWithEquals,2
+p060,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,DanglingJavadoc,1
+p060,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,ForLoopCanBeForeach,2
+p060,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,LooseCoupling,2
+p060,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,CloseResource,3
+p060,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,CompareObjectsWithEquals,2
+p060,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,DanglingJavadoc,1
+p060,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,ForLoopCanBeForeach,2
+p060,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,LooseCoupling,2
+p060,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,designite,Broken Hierarchy,1
+p060,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,designite,Unutilized Abstraction,1
+p060,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,designite,Broken Hierarchy,1
+p060,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,designite,Unutilized Abstraction,1
+p060,control,src/checkstyle/com/puppycrawl/tools/checkstyle/VerifierImpl.java,before,pmd,DanglingJavadoc,9
+p060,control,src/checkstyle/com/puppycrawl/tools/checkstyle/VerifierImpl.java,before,pmd,EmptyControlStatement,1
+p060,control,src/checkstyle/com/puppycrawl/tools/checkstyle/VerifierImpl.java,before,pmd,ForLoopCanBeForeach,1
+p060,control,src/checkstyle/com/puppycrawl/tools/checkstyle/VerifierImpl.java,before,pmd,LooseCoupling,2
+p060,control,src/checkstyle/com/puppycrawl/tools/checkstyle/VerifierImpl.java,before,pmd,PrimitiveWrapperInstantiation,2
+p060,control,src/checkstyle/com/puppycrawl/tools/checkstyle/VerifierImpl.java,before,pmd,SimplifiedTernary,1
+p060,control,src/checkstyle/com/puppycrawl/tools/checkstyle/VerifierImpl.java,before,pmd,UseCollectionIsEmpty,1
+p060,control,src/checkstyle/com/puppycrawl/tools/checkstyle/VerifierImpl.java,before,pmd,UselessParentheses,2
+p060,control,src/checkstyle/com/puppycrawl/tools/checkstyle/VerifierImpl.java,after,pmd,DanglingJavadoc,9
+p060,control,src/checkstyle/com/puppycrawl/tools/checkstyle/VerifierImpl.java,after,pmd,EmptyControlStatement,1
+p060,control,src/checkstyle/com/puppycrawl/tools/checkstyle/VerifierImpl.java,after,pmd,ForLoopCanBeForeach,1
+p060,control,src/checkstyle/com/puppycrawl/tools/checkstyle/VerifierImpl.java,after,pmd,LooseCoupling,2
+p060,control,src/checkstyle/com/puppycrawl/tools/checkstyle/VerifierImpl.java,after,pmd,PrimitiveWrapperInstantiation,2
+p060,control,src/checkstyle/com/puppycrawl/tools/checkstyle/VerifierImpl.java,after,pmd,SimplifiedTernary,1
+p060,control,src/checkstyle/com/puppycrawl/tools/checkstyle/VerifierImpl.java,after,pmd,UseCollectionIsEmpty,1
+p060,control,src/checkstyle/com/puppycrawl/tools/checkstyle/VerifierImpl.java,after,pmd,UselessParentheses,2
+p060,control,src/checkstyle/com/puppycrawl/tools/checkstyle/VerifierImpl.java,before,designite,Insufficient Modularization,1
+p060,control,src/checkstyle/com/puppycrawl/tools/checkstyle/VerifierImpl.java,after,designite,Insufficient Modularization,1
+p061,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/api/Comment.java,before,pmd,DanglingJavadoc,1
+p061,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/api/Comment.java,after,pmd,DanglingJavadoc,1
+p061,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/api/Comment.java,before,designite,Unutilized Abstraction,1
+p061,control,src/checkstyle/com/puppycrawl/tools/checkstyle/api/TextBlock.java,before,pmd,DanglingJavadoc,1
+p061,control,src/checkstyle/com/puppycrawl/tools/checkstyle/api/TextBlock.java,after,pmd,DanglingJavadoc,1
+p062,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/MethodSignature.java,before,pmd,DanglingJavadoc,1
+p062,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/MethodSignature.java,before,pmd,SimplifiedTernary,1
+p062,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/MethodSignature.java,before,pmd,UselessParentheses,1
+p062,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/MethodSignature.java,after,pmd,DanglingJavadoc,1
+p062,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/MethodSignature.java,after,pmd,SimplifiedTernary,1
+p062,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/MethodSignature.java,after,pmd,UselessParentheses,1
+p062,control,src/checkstyle/com/puppycrawl/tools/checkstyle/MyModifierSet.java,before,pmd,DanglingJavadoc,1
+p062,control,src/checkstyle/com/puppycrawl/tools/checkstyle/MyModifierSet.java,before,pmd,ForLoopCanBeForeach,1
+p062,control,src/checkstyle/com/puppycrawl/tools/checkstyle/MyModifierSet.java,before,pmd,MissingOverride,1
+p062,control,src/checkstyle/com/puppycrawl/tools/checkstyle/MyModifierSet.java,after,pmd,DanglingJavadoc,1
+p062,control,src/checkstyle/com/puppycrawl/tools/checkstyle/MyModifierSet.java,after,pmd,ForLoopCanBeForeach,1
+p062,control,src/checkstyle/com/puppycrawl/tools/checkstyle/MyModifierSet.java,after,pmd,MissingOverride,1
+p063,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/AbstractExpressionHandler.java,before,pmd,DanglingJavadoc,1
+p063,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/AbstractExpressionHandler.java,after,pmd,DanglingJavadoc,1
+p063,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/AbstractExpressionHandler.java,before,designite,Cyclic-Dependent Modularization,1
+p063,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/AbstractExpressionHandler.java,before,designite,Insufficient Modularization,1
+p063,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/AbstractExpressionHandler.java,before,designite,Wide Hierarchy,1
+p063,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/AbstractExpressionHandler.java,after,designite,Cyclic-Dependent Modularization,1
+p063,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/AbstractExpressionHandler.java,after,designite,Insufficient Modularization,1
+p063,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/AbstractExpressionHandler.java,after,designite,Wide Hierarchy,1
+p063,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/BlockParentHandler.java,before,pmd,DanglingJavadoc,1
+p063,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/BlockParentHandler.java,after,pmd,DanglingJavadoc,1
+p063,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/BlockParentHandler.java,before,designite,Unutilized Abstraction,1
+p063,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/BlockParentHandler.java,before,designite,Wide Hierarchy,1
+p063,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/BlockParentHandler.java,after,designite,Unutilized Abstraction,1
+p063,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/indentation/BlockParentHandler.java,after,designite,Wide Hierarchy,1
+p064,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p064,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,before,pmd,DanglingJavadoc,1
+p064,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,before,pmd,UncommentedEmptyMethodBody,5
+p064,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,before,pmd,UseStandardCharsets,1
+p064,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p064,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,after,pmd,DanglingJavadoc,1
+p064,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,after,pmd,UncommentedEmptyMethodBody,5
+p064,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,after,pmd,UseStandardCharsets,1
+p064,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,before,designite,Insufficient Modularization,1
+p064,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,after,designite,Deficient Encapsulation,1
+p064,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,after,designite,Insufficient Modularization,1
+p064,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/SingleLineJavadocCheck.java,before,pmd,DanglingJavadoc,1
+p064,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/SingleLineJavadocCheck.java,after,pmd,DanglingJavadoc,1
+p064,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/SingleLineJavadocCheck.java,before,designite,Unutilized Abstraction,1
+p064,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/SingleLineJavadocCheck.java,after,designite,Deficient Encapsulation,1
+p064,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/SingleLineJavadocCheck.java,after,designite,Unutilized Abstraction,1
+p065,treated,src/main/java/com/puppycrawl/tools/checkstyle/xpath/XpathQueryGenerator.java,before,pmd,DanglingJavadoc,1
+p065,treated,src/main/java/com/puppycrawl/tools/checkstyle/xpath/XpathQueryGenerator.java,after,pmd,DanglingJavadoc,1
+p065,control,src/main/java/com/puppycrawl/tools/checkstyle/xpath/RootNode.java,before,pmd,DanglingJavadoc,1
+p065,control,src/main/java/com/puppycrawl/tools/checkstyle/xpath/RootNode.java,after,pmd,DanglingJavadoc,1
+p066,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/IllegalTypeCheck.java,before,pmd,DanglingJavadoc,1
+p066,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/IllegalTypeCheck.java,after,pmd,DanglingJavadoc,1
+p066,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/IllegalTypeCheck.java,before,designite,Deficient Encapsulation,1
+p066,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/IllegalTypeCheck.java,after,designite,Deficient Encapsulation,1
+p066,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ExplicitInitializationCheck.java,before,pmd,DanglingJavadoc,1
+p066,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ExplicitInitializationCheck.java,after,pmd,DanglingJavadoc,1
+p066,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ExplicitInitializationCheck.java,before,designite,Deficient Encapsulation,1
+p066,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ExplicitInitializationCheck.java,after,designite,Deficient Encapsulation,1
+p067,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/HtmlTag.java,before,pmd,DanglingJavadoc,1
+p067,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/HtmlTag.java,before,pmd,SimplifyBooleanReturns,1
+p067,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/HtmlTag.java,before,pmd,UnnecessaryFullyQualifiedName,1
+p067,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/HtmlTag.java,after,pmd,DanglingJavadoc,1
+p067,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/HtmlTag.java,after,pmd,SimplifyBooleanReturns,1
+p067,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/HtmlTag.java,after,pmd,UnnecessaryFullyQualifiedName,1
+p067,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/OuterTypeFilenameCheck.java,before,pmd,DanglingJavadoc,1
+p067,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/OuterTypeFilenameCheck.java,after,pmd,DanglingJavadoc,1
+p067,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/OuterTypeFilenameCheck.java,before,designite,Unutilized Abstraction,1
+p067,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/OuterTypeFilenameCheck.java,after,designite,Unutilized Abstraction,1
+p068,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/annotation/MissingOverrideCheck.java,before,pmd,DanglingJavadoc,1
+p068,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/annotation/MissingOverrideCheck.java,after,pmd,DanglingJavadoc,1
+p068,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/annotation/MissingOverrideCheck.java,before,designite,Deficient Encapsulation,1
+p068,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/annotation/MissingOverrideCheck.java,after,designite,Deficient Encapsulation,1
+p068,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/MethodNameCheck.java,before,pmd,DanglingJavadoc,1
+p068,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/MethodNameCheck.java,after,pmd,DanglingJavadoc,1
+p068,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/MethodNameCheck.java,before,designite,Broken Hierarchy,1
+p068,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/MethodNameCheck.java,before,designite,Deficient Encapsulation,1
+p068,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/MethodNameCheck.java,before,designite,Unutilized Abstraction,1
+p068,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/MethodNameCheck.java,after,designite,Broken Hierarchy,1
+p068,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/MethodNameCheck.java,after,designite,Deficient Encapsulation,1
+p068,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/MethodNameCheck.java,after,designite,Unutilized Abstraction,1
+p069,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocNodeImpl.java,before,pmd,DanglingJavadoc,1
+p069,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocNodeImpl.java,after,pmd,DanglingJavadoc,1
+p069,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocNodeImpl.java,before,designite,Deficient Encapsulation,1
+p069,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocNodeImpl.java,after,designite,Deficient Encapsulation,1
+p069,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java,before,pmd,DanglingJavadoc,1
+p069,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java,after,pmd,DanglingJavadoc,1
+p069,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java,before,designite,Deficient Encapsulation,1
+p069,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java,before,designite,Insufficient Modularization,1
+p069,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java,after,designite,Deficient Encapsulation,1
+p069,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java,after,designite,Insufficient Modularization,1
+p070,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/api/AbstractFileSetCheck.java,before,pmd,DanglingJavadoc,1
+p070,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/api/AbstractFileSetCheck.java,before,pmd,ForLoopCanBeForeach,1
+p070,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/api/AbstractFileSetCheck.java,before,pmd,UncommentedEmptyMethodBody,1
+p070,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/api/AbstractFileSetCheck.java,after,pmd,DanglingJavadoc,1
+p070,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/api/AbstractFileSetCheck.java,after,pmd,ForLoopCanBeForeach,1
+p070,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/api/AbstractFileSetCheck.java,after,pmd,UncommentedEmptyMethodBody,1
+p070,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/api/AbstractFileSetCheck.java,before,designite,Broken Hierarchy,1
+p070,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/api/AbstractFileSetCheck.java,before,designite,Unutilized Abstraction,1
+p070,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/api/AbstractFileSetCheck.java,after,designite,Broken Hierarchy,1
+p070,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/api/AbstractFileSetCheck.java,after,designite,Unutilized Abstraction,1
+p070,control,src/checkstyle/com/puppycrawl/tools/checkstyle/api/FileSetCheck.java,before,pmd,DanglingJavadoc,1
+p070,control,src/checkstyle/com/puppycrawl/tools/checkstyle/api/FileSetCheck.java,after,pmd,DanglingJavadoc,1
+p070,control,src/checkstyle/com/puppycrawl/tools/checkstyle/api/FileSetCheck.java,before,designite,Unutilized Abstraction,1
+p070,control,src/checkstyle/com/puppycrawl/tools/checkstyle/api/FileSetCheck.java,after,designite,Unutilized Abstraction,1
+p071,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,before,pmd,AvoidStringBufferField,1
+p071,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,before,pmd,DanglingJavadoc,3
+p071,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,before,pmd,MissingOverride,4
+p071,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,after,pmd,AvoidStringBufferField,1
+p071,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,after,pmd,DanglingJavadoc,3
+p071,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,after,pmd,LooseCoupling,1
+p071,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,after,pmd,MissingOverride,3
+p071,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,after,pmd,OptimizableToArrayCall,1
+p071,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,before,designite,Unutilized Abstraction,1
+p071,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,before,pmd,AssignmentInOperand,4
+p071,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,before,pmd,CloseResource,2
+p071,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,before,pmd,DanglingJavadoc,1
+p071,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,before,pmd,ForLoopCanBeForeach,1
+p071,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,before,pmd,LooseCoupling,1
+p071,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,before,pmd,OptimizableToArrayCall,1
+p071,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,before,pmd,UseUtilityClass,1
+p071,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,after,pmd,AssignmentInOperand,4
+p071,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,after,pmd,CloseResource,2
+p071,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,after,pmd,DanglingJavadoc,1
+p071,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,after,pmd,ForLoopCanBeForeach,1
+p071,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,after,pmd,LooseCoupling,1
+p071,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,after,pmd,OptimizableToArrayCall,1
+p071,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,after,pmd,UnnecessaryImport,1
+p071,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,after,pmd,UseUtilityClass,1
+p071,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,before,designite,Imperative Abstraction,1
+p071,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,after,designite,Imperative Abstraction,1
+p072,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/OverloadMethodsDeclarationOrderCheck.java,before,pmd,DanglingJavadoc,1
+p072,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/OverloadMethodsDeclarationOrderCheck.java,after,pmd,DanglingJavadoc,1
+p072,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/OverloadMethodsDeclarationOrderCheck.java,before,designite,Deficient Encapsulation,1
+p072,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/OverloadMethodsDeclarationOrderCheck.java,before,designite,Unutilized Abstraction,1
+p072,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/OverloadMethodsDeclarationOrderCheck.java,after,designite,Deficient Encapsulation,1
+p072,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/OverloadMethodsDeclarationOrderCheck.java,after,designite,Unutilized Abstraction,1
+p072,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ParameterAssignmentCheck.java,before,pmd,DanglingJavadoc,1
+p072,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ParameterAssignmentCheck.java,after,pmd,DanglingJavadoc,1
+p072,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ParameterAssignmentCheck.java,before,designite,Deficient Encapsulation,1
+p072,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ParameterAssignmentCheck.java,before,designite,Unutilized Abstraction,1
+p072,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ParameterAssignmentCheck.java,after,designite,Deficient Encapsulation,1
+p072,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ParameterAssignmentCheck.java,after,designite,Unutilized Abstraction,1
+p073,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/gui/ParseTreeInfoPanel.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p073,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/gui/ParseTreeInfoPanel.java,before,pmd,DanglingJavadoc,1
+p073,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/gui/ParseTreeInfoPanel.java,before,pmd,MissingOverride,5
+p073,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/gui/ParseTreeInfoPanel.java,before,pmd,PrimitiveWrapperInstantiation,2
+p073,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/gui/ParseTreeInfoPanel.java,before,pmd,SingularField,1
+p073,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/gui/ParseTreeInfoPanel.java,before,pmd,UnnecessaryFullyQualifiedName,2
+p073,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/gui/ParseTreeInfoPanel.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p073,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/gui/ParseTreeInfoPanel.java,after,pmd,DanglingJavadoc,1
+p073,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/gui/ParseTreeInfoPanel.java,after,pmd,ForLoopCanBeForeach,1
+p073,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/gui/ParseTreeInfoPanel.java,after,pmd,MissingOverride,5
+p073,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/gui/ParseTreeInfoPanel.java,after,pmd,PrimitiveWrapperInstantiation,2
+p073,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/gui/ParseTreeInfoPanel.java,after,pmd,SingularField,1
+p073,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/gui/ParseTreeInfoPanel.java,after,pmd,UnnecessaryFullyQualifiedName,2
+p073,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/gui/ParseTreeInfoPanel.java,after,designite,Cyclic-Dependent Modularization,1
+p073,control,src/checkstyle/com/puppycrawl/tools/checkstyle/gui/JTreeTable.java,before,pmd,DanglingJavadoc,1
+p073,control,src/checkstyle/com/puppycrawl/tools/checkstyle/gui/JTreeTable.java,before,pmd,MissingOverride,13
+p073,control,src/checkstyle/com/puppycrawl/tools/checkstyle/gui/JTreeTable.java,before,pmd,UselessParentheses,1
+p073,control,src/checkstyle/com/puppycrawl/tools/checkstyle/gui/JTreeTable.java,after,pmd,DanglingJavadoc,1
+p073,control,src/checkstyle/com/puppycrawl/tools/checkstyle/gui/JTreeTable.java,after,pmd,MissingOverride,13
+p073,control,src/checkstyle/com/puppycrawl/tools/checkstyle/gui/JTreeTable.java,after,pmd,UselessParentheses,1
+p074,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/IllegalCatchCheck.java,before,pmd,DanglingJavadoc,1
+p074,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/IllegalCatchCheck.java,after,pmd,DanglingJavadoc,1
+p074,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/IllegalCatchCheck.java,before,designite,Deficient Encapsulation,1
+p074,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/IllegalCatchCheck.java,after,designite,Deficient Encapsulation,1
+p074,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/IllegalCatchCheck.java,after,designite,Unutilized Abstraction,1
+p074,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p074,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java,before,pmd,DanglingJavadoc,1
+p074,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p074,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java,after,pmd,DanglingJavadoc,1
+p074,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java,before,designite,Cyclic-Dependent Modularization,1
+p074,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java,before,designite,Deficient Encapsulation,1
+p074,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java,before,designite,Insufficient Modularization,1
+p074,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java,after,designite,Cyclic-Dependent Modularization,1
+p074,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java,after,designite,Deficient Encapsulation,1
+p074,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java,after,designite,Insufficient Modularization,1
+p075,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/metrics/AbstractComplexityCheck.java,before,pmd,DanglingJavadoc,1
+p075,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/metrics/AbstractComplexityCheck.java,before,pmd,LooseCoupling,1
+p075,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/metrics/AbstractComplexityCheck.java,before,pmd,PrimitiveWrapperInstantiation,3
+p075,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/metrics/AbstractComplexityCheck.java,before,pmd,UncommentedEmptyMethodBody,2
+p075,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/metrics/AbstractComplexityCheck.java,after,pmd,DanglingJavadoc,1
+p075,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/metrics/AbstractComplexityCheck.java,after,pmd,LooseCoupling,1
+p075,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/metrics/AbstractComplexityCheck.java,after,pmd,UncommentedEmptyMethodBody,2
+p075,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/metrics/AbstractComplexityCheck.java,before,designite,Unutilized Abstraction,1
+p075,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/metrics/AbstractComplexityCheck.java,after,designite,Unutilized Abstraction,1
+p075,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/metrics/NPathComplexityCheck.java,before,pmd,DanglingJavadoc,1
+p075,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/metrics/NPathComplexityCheck.java,before,pmd,UselessParentheses,1
+p075,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/metrics/NPathComplexityCheck.java,after,pmd,DanglingJavadoc,1
+p075,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/metrics/NPathComplexityCheck.java,before,designite,Rebellious Hierarchy,1
+p075,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/metrics/NPathComplexityCheck.java,before,designite,Unutilized Abstraction,1
+p075,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/metrics/NPathComplexityCheck.java,after,designite,Rebellious Hierarchy,1
+p075,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/metrics/NPathComplexityCheck.java,after,designite,Unutilized Abstraction,1
+p076,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/design/DesignForExtensionCheck.java,before,pmd,DanglingJavadoc,1
+p076,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/design/DesignForExtensionCheck.java,after,pmd,DanglingJavadoc,1
+p076,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/design/DesignForExtensionCheck.java,before,designite,Deficient Encapsulation,1
+p076,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/design/DesignForExtensionCheck.java,after,designite,Deficient Encapsulation,1
+p076,control,src/main/java/com/puppycrawl/tools/checkstyle/utils/TokenUtils.java,before,pmd,DanglingJavadoc,1
+p076,control,src/main/java/com/puppycrawl/tools/checkstyle/utils/TokenUtils.java,before,pmd,LooseCoupling,1
+p076,control,src/main/java/com/puppycrawl/tools/checkstyle/utils/TokenUtils.java,after,pmd,DanglingJavadoc,1
+p076,control,src/main/java/com/puppycrawl/tools/checkstyle/utils/TokenUtils.java,after,pmd,LooseCoupling,1
+p076,control,src/main/java/com/puppycrawl/tools/checkstyle/utils/TokenUtils.java,after,designite,Cyclic-Dependent Modularization,1
+p077,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,before,pmd,CloseResource,2
+p077,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,before,pmd,DanglingJavadoc,1
+p077,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,before,pmd,ForLoopCanBeForeach,3
+p077,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,before,pmd,OptimizableToArrayCall,1
+p077,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,before,pmd,UseUtilityClass,1
+p077,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,after,pmd,CloseResource,2
+p077,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,after,pmd,DanglingJavadoc,1
+p077,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,after,pmd,ForLoopCanBeForeach,3
+p077,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,after,pmd,OptimizableToArrayCall,1
+p077,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,after,pmd,UnusedLocalVariable,1
+p077,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,after,pmd,UseUtilityClass,1
+p077,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,before,designite,Imperative Abstraction,1
+p077,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,after,designite,Imperative Abstraction,1
+p077,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p077,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,CloseResource,2
+p077,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,DanglingJavadoc,1
+p077,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,ForLoopCanBeForeach,3
+p077,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,IdenticalCatchBranches,1
+p077,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,LooseCoupling,1
+p077,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,UncommentedEmptyMethodBody,3
+p077,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p077,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,CloseResource,2
+p077,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,DanglingJavadoc,1
+p077,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,ForLoopCanBeForeach,3
+p077,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,IdenticalCatchBranches,1
+p077,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,LooseCoupling,1
+p077,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,UncommentedEmptyMethodBody,3
+p077,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,designite,Broken Hierarchy,1
+p077,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,designite,Broken Hierarchy,1
+p078,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/usage/ASTManager.java,before,pmd,DanglingJavadoc,1
+p078,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/usage/ASTManager.java,before,pmd,UnusedLocalVariable,1
+p078,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/usage/ASTManager.java,after,pmd,DanglingJavadoc,1
+p078,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/usage/ASTManager.java,after,pmd,UnusedLocalVariable,1
+p078,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/usage/ASTManager.java,before,designite,Cyclic-Dependent Modularization,1
+p078,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/usage/ASTManager.java,after,designite,Cyclic-Dependent Modularization,1
+p078,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/usage/AbstractUsageCheck.java,before,pmd,DanglingJavadoc,1
+p078,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/usage/AbstractUsageCheck.java,before,pmd,UnusedLocalVariable,1
+p078,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/usage/AbstractUsageCheck.java,before,pmd,UnusedPrivateField,1
+p078,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/usage/AbstractUsageCheck.java,before,pmd,UnusedPrivateMethod,1
+p078,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/usage/AbstractUsageCheck.java,after,pmd,DanglingJavadoc,1
+p078,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/usage/AbstractUsageCheck.java,after,pmd,UnusedLocalVariable,1
+p078,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/usage/AbstractUsageCheck.java,after,pmd,UnusedPrivateField,1
+p078,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/usage/AbstractUsageCheck.java,after,pmd,UnusedPrivateMethod,1
+p078,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/usage/AbstractUsageCheck.java,before,designite,Cyclic-Dependent Modularization,1
+p078,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/usage/AbstractUsageCheck.java,after,designite,Cyclic-Dependent Modularization,1
+p079,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ReturnCountCheck.java,before,pmd,DanglingJavadoc,1
+p079,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ReturnCountCheck.java,after,pmd,DanglingJavadoc,1
+p079,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ReturnCountCheck.java,before,designite,Deficient Encapsulation,1
+p079,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ReturnCountCheck.java,before,designite,Unutilized Abstraction,1
+p079,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ReturnCountCheck.java,after,designite,Deficient Encapsulation,1
+p079,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ReturnCountCheck.java,after,designite,Unutilized Abstraction,1
+p079,control,src/main/java/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,AvoidCatchingThrowable,1
+p079,control,src/main/java/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,CloseResource,1
+p079,control,src/main/java/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,DanglingJavadoc,1
+p079,control,src/main/java/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,UnnecessaryFullyQualifiedName,1
+p079,control,src/main/java/com/puppycrawl/tools/checkstyle/TreeWalker.java,before,pmd,UnnecessaryModifier,1
+p079,control,src/main/java/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,AvoidCatchingThrowable,1
+p079,control,src/main/java/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,CloseResource,1
+p079,control,src/main/java/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,DanglingJavadoc,1
+p079,control,src/main/java/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,UnnecessaryFullyQualifiedName,1
+p079,control,src/main/java/com/puppycrawl/tools/checkstyle/TreeWalker.java,after,pmd,UnnecessaryModifier,1
+p080,treated,src/main/java/com/puppycrawl/tools/checkstyle/api/FileContents.java,before,pmd,DanglingJavadoc,1
+p080,treated,src/main/java/com/puppycrawl/tools/checkstyle/api/FileContents.java,after,pmd,DanglingJavadoc,1
+p080,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocTag.java,before,pmd,DanglingJavadoc,1
+p080,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocTag.java,after,pmd,DanglingJavadoc,1
+p081,treated,src/main/java/com/puppycrawl/tools/checkstyle/utils/CommonUtil.java,before,pmd,DanglingJavadoc,1
+p081,treated,src/main/java/com/puppycrawl/tools/checkstyle/utils/CommonUtil.java,after,pmd,DanglingJavadoc,1
+p081,treated,src/main/java/com/puppycrawl/tools/checkstyle/utils/CommonUtil.java,before,designite,Cyclic-Dependent Modularization,1
+p081,treated,src/main/java/com/puppycrawl/tools/checkstyle/utils/CommonUtil.java,before,designite,Deficient Encapsulation,1
+p081,treated,src/main/java/com/puppycrawl/tools/checkstyle/utils/CommonUtil.java,before,designite,Insufficient Modularization,1
+p081,treated,src/main/java/com/puppycrawl/tools/checkstyle/utils/CommonUtil.java,after,designite,Deficient Encapsulation,1
+p081,treated,src/main/java/com/puppycrawl/tools/checkstyle/utils/CommonUtil.java,after,designite,Insufficient Modularization,1
+p081,control,src/main/java/com/puppycrawl/tools/checkstyle/DetailNodeTreeStringPrinter.java,before,pmd,DanglingJavadoc,1
+p081,control,src/main/java/com/puppycrawl/tools/checkstyle/DetailNodeTreeStringPrinter.java,after,pmd,DanglingJavadoc,1
+p082,treated,src/main/java/com/puppycrawl/tools/checkstyle/site/ModuleJavadocParsingUtil.java,before,pmd,DanglingJavadoc,1
+p082,treated,src/main/java/com/puppycrawl/tools/checkstyle/site/ModuleJavadocParsingUtil.java,after,pmd,DanglingJavadoc,1
+p082,treated,src/main/java/com/puppycrawl/tools/checkstyle/site/ModuleJavadocParsingUtil.java,before,designite,Cyclic-Dependent Modularization,1
+p082,treated,src/main/java/com/puppycrawl/tools/checkstyle/site/ModuleJavadocParsingUtil.java,before,designite,Deficient Encapsulation,1
+p082,treated,src/main/java/com/puppycrawl/tools/checkstyle/site/ModuleJavadocParsingUtil.java,after,designite,Cyclic-Dependent Modularization,1
+p082,treated,src/main/java/com/puppycrawl/tools/checkstyle/site/ModuleJavadocParsingUtil.java,after,designite,Deficient Encapsulation,1
+p082,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/TrailingCommentCheck.java,before,pmd,DanglingJavadoc,1
+p082,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/TrailingCommentCheck.java,after,pmd,DanglingJavadoc,1
+p082,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/TrailingCommentCheck.java,before,designite,Deficient Encapsulation,1
+p082,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/TrailingCommentCheck.java,before,designite,Unutilized Abstraction,1
+p082,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/TrailingCommentCheck.java,after,designite,Deficient Encapsulation,1
+p082,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/TrailingCommentCheck.java,after,designite,Unutilized Abstraction,1
+p083,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/design/VisibilityModifierCheck.java,before,pmd,DanglingJavadoc,1
+p083,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/design/VisibilityModifierCheck.java,after,pmd,DanglingJavadoc,1
+p083,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/design/VisibilityModifierCheck.java,before,designite,Deficient Encapsulation,1
+p083,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/design/VisibilityModifierCheck.java,before,designite,Insufficient Modularization,1
+p083,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/design/VisibilityModifierCheck.java,after,designite,Deficient Encapsulation,1
+p083,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/design/VisibilityModifierCheck.java,after,designite,Insufficient Modularization,1
+p083,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/design/DesignForExtensionCheck.java,before,pmd,DanglingJavadoc,1
+p083,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/design/DesignForExtensionCheck.java,after,pmd,DanglingJavadoc,1
+p083,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/design/DesignForExtensionCheck.java,before,designite,Deficient Encapsulation,1
+p083,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/design/DesignForExtensionCheck.java,after,designite,Deficient Encapsulation,1
+p084,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/ObjectBlockHandler.java,before,pmd,DanglingJavadoc,1
+p084,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/ObjectBlockHandler.java,after,pmd,DanglingJavadoc,1
+p084,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/ObjectBlockHandler.java,before,designite,Unutilized Abstraction,1
+p084,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/ObjectBlockHandler.java,after,designite,Unutilized Abstraction,1
+p084,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/ClassDefHandler.java,before,pmd,DanglingJavadoc,1
+p084,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/ClassDefHandler.java,before,pmd,PrimitiveWrapperInstantiation,1
+p084,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/ClassDefHandler.java,after,pmd,DanglingJavadoc,1
+p084,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/ClassDefHandler.java,after,pmd,PrimitiveWrapperInstantiation,1
+p084,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/ClassDefHandler.java,before,designite,Unutilized Abstraction,1
+p084,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/indentation/ClassDefHandler.java,after,designite,Unutilized Abstraction,1
+p085,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,pmd,CloseResource,2
+p085,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,pmd,DanglingJavadoc,7
+p085,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,pmd,ForLoopCanBeForeach,3
+p085,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,pmd,LooseCoupling,1
+p085,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,pmd,UseCollectionIsEmpty,2
+p085,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,pmd,CloseResource,2
+p085,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,pmd,DanglingJavadoc,7
+p085,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,pmd,ForLoopCanBeForeach,3
+p085,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,pmd,LooseCoupling,1
+p085,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,pmd,UseCollectionIsEmpty,2
+p085,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,designite,Insufficient Modularization,1
+p085,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,before,designite,Unutilized Abstraction,1
+p085,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,designite,Insufficient Modularization,1
+p085,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/CheckStyleTask.java,after,designite,Unutilized Abstraction,1
+p085,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,before,pmd,CloseResource,2
+p085,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,before,pmd,DanglingJavadoc,1
+p085,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,before,pmd,ForLoopCanBeForeach,3
+p085,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,before,pmd,OptimizableToArrayCall,1
+p085,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,before,pmd,UnusedLocalVariable,1
+p085,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,before,pmd,UseUtilityClass,1
+p085,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,after,pmd,CloseResource,2
+p085,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,after,pmd,DanglingJavadoc,1
+p085,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,after,pmd,ForLoopCanBeForeach,3
+p085,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,after,pmd,OptimizableToArrayCall,1
+p085,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,after,pmd,UseUtilityClass,1
+p085,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,before,designite,Imperative Abstraction,1
+p085,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Main.java,after,designite,Imperative Abstraction,1
+p086,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/WriteTagCheck.java,before,pmd,DanglingJavadoc,1
+p086,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/WriteTagCheck.java,after,pmd,DanglingJavadoc,1
+p086,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/WriteTagCheck.java,before,designite,Deficient Encapsulation,1
+p086,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/WriteTagCheck.java,before,designite,Unutilized Abstraction,1
+p086,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/WriteTagCheck.java,after,designite,Deficient Encapsulation,1
+p086,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/WriteTagCheck.java,after,designite,Unutilized Abstraction,1
+p086,control,src/main/java/com/puppycrawl/tools/checkstyle/api/AutomaticBean.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,2
+p086,control,src/main/java/com/puppycrawl/tools/checkstyle/api/AutomaticBean.java,before,pmd,DanglingJavadoc,1
+p086,control,src/main/java/com/puppycrawl/tools/checkstyle/api/AutomaticBean.java,before,pmd,OptimizableToArrayCall,1
+p086,control,src/main/java/com/puppycrawl/tools/checkstyle/api/AutomaticBean.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,3
+p086,control,src/main/java/com/puppycrawl/tools/checkstyle/api/AutomaticBean.java,after,pmd,DanglingJavadoc,1
+p086,control,src/main/java/com/puppycrawl/tools/checkstyle/api/AutomaticBean.java,after,pmd,OptimizableToArrayCall,1
+p086,control,src/main/java/com/puppycrawl/tools/checkstyle/api/AutomaticBean.java,before,designite,Unutilized Abstraction,1
+p086,control,src/main/java/com/puppycrawl/tools/checkstyle/api/AutomaticBean.java,after,designite,Unutilized Abstraction,1
+p087,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/UnusedImportsCheck.java,before,pmd,DanglingJavadoc,1
+p087,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/UnusedImportsCheck.java,after,pmd,DanglingJavadoc,1
+p087,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/UnusedImportsCheck.java,before,designite,Deficient Encapsulation,1
+p087,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/UnusedImportsCheck.java,after,designite,Deficient Encapsulation,1
+p087,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/DescendantTokenCheck.java,before,pmd,DanglingJavadoc,1
+p087,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/DescendantTokenCheck.java,after,pmd,DanglingJavadoc,1
+p087,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/DescendantTokenCheck.java,before,designite,Deficient Encapsulation,1
+p087,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/DescendantTokenCheck.java,before,designite,Unutilized Abstraction,1
+p087,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/DescendantTokenCheck.java,after,designite,Deficient Encapsulation,1
+p087,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/DescendantTokenCheck.java,after,designite,Unutilized Abstraction,1
+p088,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlCheck.java,before,pmd,DanglingJavadoc,1
+p088,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlCheck.java,after,pmd,DanglingJavadoc,1
+p088,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlCheck.java,before,designite,Deficient Encapsulation,1
+p088,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlCheck.java,before,designite,Unutilized Abstraction,1
+p088,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlCheck.java,after,designite,Deficient Encapsulation,1
+p088,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/ImportControlCheck.java,after,designite,Unutilized Abstraction,1
+p088,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/regexp/DetectorOptions.java,before,pmd,DanglingJavadoc,1
+p088,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/regexp/DetectorOptions.java,after,pmd,DanglingJavadoc,1
+p089,treated,src/main/java/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,DanglingJavadoc,1
+p089,treated,src/main/java/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,DanglingJavadoc,1
+p089,treated,src/main/java/com/puppycrawl/tools/checkstyle/Checker.java,before,designite,Insufficient Modularization,1
+p089,treated,src/main/java/com/puppycrawl/tools/checkstyle/Checker.java,before,designite,Unutilized Abstraction,1
+p089,treated,src/main/java/com/puppycrawl/tools/checkstyle/Checker.java,after,designite,Deficient Encapsulation,1
+p089,treated,src/main/java/com/puppycrawl/tools/checkstyle/Checker.java,after,designite,Insufficient Modularization,1
+p089,treated,src/main/java/com/puppycrawl/tools/checkstyle/Checker.java,after,designite,Unutilized Abstraction,1
+p089,control,src/main/java/com/puppycrawl/tools/checkstyle/api/LocalizedMessage.java,before,pmd,CloseResource,1
+p089,control,src/main/java/com/puppycrawl/tools/checkstyle/api/LocalizedMessage.java,before,pmd,DanglingJavadoc,2
+p089,control,src/main/java/com/puppycrawl/tools/checkstyle/api/LocalizedMessage.java,after,pmd,CloseResource,1
+p089,control,src/main/java/com/puppycrawl/tools/checkstyle/api/LocalizedMessage.java,after,pmd,DanglingJavadoc,2
+p090,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/modifier/ClassMemberImpliedModifierCheck.java,before,pmd,DanglingJavadoc,1
+p090,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/modifier/ClassMemberImpliedModifierCheck.java,after,pmd,DanglingJavadoc,1
+p090,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/modifier/ClassMemberImpliedModifierCheck.java,before,designite,Deficient Encapsulation,1
+p090,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/modifier/ClassMemberImpliedModifierCheck.java,before,designite,Unutilized Abstraction,1
+p090,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/modifier/ClassMemberImpliedModifierCheck.java,after,designite,Deficient Encapsulation,1
+p090,control,src/main/java/com/puppycrawl/tools/checkstyle/utils/ScopeUtil.java,before,pmd,DanglingJavadoc,1
+p090,control,src/main/java/com/puppycrawl/tools/checkstyle/utils/ScopeUtil.java,after,pmd,DanglingJavadoc,1
+p091,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Defn.java,before,pmd,ConstantsInInterface,58
+p091,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Defn.java,before,pmd,DanglingJavadoc,1
+p091,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Defn.java,after,pmd,ConstantsInInterface,58
+p091,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Defn.java,after,pmd,DanglingJavadoc,1
+p091,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Defn.java,before,designite,Broken Modularization,1
+p091,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/Defn.java,after,designite,Broken Modularization,1
+p091,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,CloseResource,1
+p091,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,DanglingJavadoc,13
+p091,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,LiteralsFirstInComparisons,3
+p091,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,LooseCoupling,2
+p091,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,NonStaticInitializer,5
+p091,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,PreserveStackTrace,2
+p091,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,PrimitiveWrapperInstantiation,9
+p091,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,pmd,UseLocaleWithCaseConversions,1
+p091,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,CloseResource,1
+p091,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,DanglingJavadoc,13
+p091,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,LiteralsFirstInComparisons,3
+p091,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,LooseCoupling,2
+p091,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,NonStaticInitializer,5
+p091,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,PreserveStackTrace,2
+p091,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,PrimitiveWrapperInstantiation,9
+p091,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,pmd,UseLocaleWithCaseConversions,1
+p091,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,before,designite,Insufficient Modularization,1
+p091,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Configuration.java,after,designite,Insufficient Modularization,1
+p092,treated,src/main/java/com/puppycrawl/tools/checkstyle/meta/JavadocMetadataScraper.java,before,pmd,DanglingJavadoc,1
+p092,treated,src/main/java/com/puppycrawl/tools/checkstyle/meta/JavadocMetadataScraper.java,after,pmd,DanglingJavadoc,1
+p092,treated,src/main/java/com/puppycrawl/tools/checkstyle/meta/JavadocMetadataScraper.java,before,designite,Deficient Encapsulation,1
+p092,treated,src/main/java/com/puppycrawl/tools/checkstyle/meta/JavadocMetadataScraper.java,before,designite,Insufficient Modularization,1
+p092,treated,src/main/java/com/puppycrawl/tools/checkstyle/meta/JavadocMetadataScraper.java,after,designite,Deficient Encapsulation,1
+p092,treated,src/main/java/com/puppycrawl/tools/checkstyle/meta/JavadocMetadataScraper.java,after,designite,Insufficient Modularization,1
+p092,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/TodoCommentCheck.java,before,pmd,DanglingJavadoc,1
+p092,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/TodoCommentCheck.java,after,pmd,DanglingJavadoc,1
+p092,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/TodoCommentCheck.java,before,designite,Deficient Encapsulation,1
+p092,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/TodoCommentCheck.java,before,designite,Unutilized Abstraction,1
+p092,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/TodoCommentCheck.java,after,designite,Deficient Encapsulation,1
+p092,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/TodoCommentCheck.java,after,designite,Unutilized Abstraction,1
+p093,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/AvoidEscapedUnicodeCharactersCheck.java,before,pmd,DanglingJavadoc,1
+p093,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/AvoidEscapedUnicodeCharactersCheck.java,after,pmd,DanglingJavadoc,1
+p093,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/AbstractTypeAwareCheck.java,before,pmd,DanglingJavadoc,1
+p093,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/AbstractTypeAwareCheck.java,after,pmd,DanglingJavadoc,1
+p093,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/AbstractTypeAwareCheck.java,before,designite,Insufficient Modularization,1
+p093,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/AbstractTypeAwareCheck.java,after,designite,Insufficient Modularization,1
+p094,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p094,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,before,pmd,DanglingJavadoc,1
+p094,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,before,pmd,UseStandardCharsets,1
+p094,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p094,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,after,pmd,DanglingJavadoc,1
+p094,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,after,pmd,UseStandardCharsets,1
+p094,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,before,designite,Deficient Encapsulation,1
+p094,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,before,designite,Insufficient Modularization,1
+p094,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,after,designite,Deficient Encapsulation,1
+p094,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,after,designite,Insufficient Modularization,1
+p094,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocVariableCheck.java,before,pmd,DanglingJavadoc,1
+p094,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocVariableCheck.java,after,pmd,DanglingJavadoc,1
+p094,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocVariableCheck.java,before,designite,Deficient Encapsulation,1
+p094,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocVariableCheck.java,before,designite,Unutilized Abstraction,1
+p094,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocVariableCheck.java,after,designite,Deficient Encapsulation,1
+p094,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocVariableCheck.java,after,designite,Unutilized Abstraction,1
+p095,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,2
+p095,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,before,pmd,DanglingJavadoc,1
+p095,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,after,pmd,DanglingJavadoc,1
+p095,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,before,designite,Deficient Encapsulation,1
+p095,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,before,designite,Insufficient Modularization,1
+p095,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,after,designite,Deficient Encapsulation,1
+p095,control,src/main/java/com/puppycrawl/tools/checkstyle/Main.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p095,control,src/main/java/com/puppycrawl/tools/checkstyle/Main.java,before,pmd,CloseResource,2
+p095,control,src/main/java/com/puppycrawl/tools/checkstyle/Main.java,before,pmd,DanglingJavadoc,1
+p095,control,src/main/java/com/puppycrawl/tools/checkstyle/Main.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p095,control,src/main/java/com/puppycrawl/tools/checkstyle/Main.java,after,pmd,CloseResource,2
+p095,control,src/main/java/com/puppycrawl/tools/checkstyle/Main.java,after,pmd,DanglingJavadoc,1
+p095,control,src/main/java/com/puppycrawl/tools/checkstyle/Main.java,before,designite,Imperative Abstraction,1
+p095,control,src/main/java/com/puppycrawl/tools/checkstyle/Main.java,after,designite,Imperative Abstraction,1
+p096,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/TrailingCommentCheck.java,before,pmd,DanglingJavadoc,1
+p096,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/TrailingCommentCheck.java,after,pmd,DanglingJavadoc,1
+p096,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/TrailingCommentCheck.java,before,designite,Broken Hierarchy,1
+p096,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/TrailingCommentCheck.java,before,designite,Unutilized Abstraction,1
+p096,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/TrailingCommentCheck.java,after,designite,Broken Hierarchy,1
+p096,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/TrailingCommentCheck.java,after,designite,Unutilized Abstraction,1
+p096,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/coding/IllegalTypeCheck.java,before,pmd,DanglingJavadoc,1
+p096,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/coding/IllegalTypeCheck.java,before,pmd,ForLoopCanBeForeach,2
+p096,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/coding/IllegalTypeCheck.java,after,pmd,DanglingJavadoc,1
+p096,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/coding/IllegalTypeCheck.java,after,pmd,ForLoopCanBeForeach,3
+p096,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/coding/IllegalTypeCheck.java,before,designite,Unutilized Abstraction,1
+p096,control,src/checkstyle/com/puppycrawl/tools/checkstyle/checks/coding/IllegalTypeCheck.java,after,designite,Unutilized Abstraction,1
+p097,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/api/FileContents.java,before,pmd,DanglingJavadoc,1
+p097,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/api/FileContents.java,before,pmd,LooseCoupling,2
+p097,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/api/FileContents.java,after,pmd,DanglingJavadoc,1
+p097,treated,src/checkstyle/com/puppycrawl/tools/checkstyle/api/FileContents.java,after,pmd,LooseCoupling,2
+p097,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,DanglingJavadoc,1
+p097,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,LooseCoupling,2
+p097,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,pmd,UselessParentheses,1
+p097,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,DanglingJavadoc,1
+p097,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,LooseCoupling,2
+p097,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,pmd,UselessParentheses,1
+p097,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,before,designite,Insufficient Modularization,1
+p097,control,src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java,after,designite,Insufficient Modularization,1
+p098,treated,src/main/java/com/puppycrawl/tools/checkstyle/site/ExampleMacro.java,before,pmd,DanglingJavadoc,1
+p098,treated,src/main/java/com/puppycrawl/tools/checkstyle/site/ExampleMacro.java,after,pmd,DanglingJavadoc,1
+p098,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/regexp/RegexpSinglelineCheck.java,before,pmd,DanglingJavadoc,1
+p098,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/regexp/RegexpSinglelineCheck.java,after,pmd,DanglingJavadoc,1
+p098,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/regexp/RegexpSinglelineCheck.java,before,designite,Unutilized Abstraction,1
+p098,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/regexp/RegexpSinglelineCheck.java,after,designite,Unutilized Abstraction,1
+p099,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocPackageCheck.java,before,pmd,DanglingJavadoc,1
+p099,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocPackageCheck.java,after,pmd,DanglingJavadoc,1
+p099,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocPackageCheck.java,before,designite,Deficient Encapsulation,1
+p099,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocPackageCheck.java,before,designite,Unutilized Abstraction,1
+p099,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocPackageCheck.java,after,designite,Deficient Encapsulation,1
+p099,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocPackageCheck.java,after,designite,Unutilized Abstraction,1
+p099,control,src/main/java/com/puppycrawl/tools/checkstyle/site/SiteUtil.java,before,pmd,DanglingJavadoc,1
+p099,control,src/main/java/com/puppycrawl/tools/checkstyle/site/SiteUtil.java,after,pmd,DanglingJavadoc,1
+p099,control,src/main/java/com/puppycrawl/tools/checkstyle/site/SiteUtil.java,before,designite,Cyclic-Dependent Modularization,1
+p099,control,src/main/java/com/puppycrawl/tools/checkstyle/site/SiteUtil.java,before,designite,Deficient Encapsulation,1
+p099,control,src/main/java/com/puppycrawl/tools/checkstyle/site/SiteUtil.java,before,designite,Insufficient Modularization,1
+p099,control,src/main/java/com/puppycrawl/tools/checkstyle/site/SiteUtil.java,after,designite,Cyclic-Dependent Modularization,1
+p099,control,src/main/java/com/puppycrawl/tools/checkstyle/site/SiteUtil.java,after,designite,Deficient Encapsulation,1
+p099,control,src/main/java/com/puppycrawl/tools/checkstyle/site/SiteUtil.java,after,designite,Insufficient Modularization,1
+p100,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/regexp/SinglelineDetector.java,before,pmd,DanglingJavadoc,1
+p100,treated,src/main/java/com/puppycrawl/tools/checkstyle/checks/regexp/SinglelineDetector.java,after,pmd,DanglingJavadoc,1
+p100,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/JavaNCSSCheck.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p100,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/JavaNCSSCheck.java,before,pmd,DanglingJavadoc,1
+p100,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/JavaNCSSCheck.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p100,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/JavaNCSSCheck.java,after,pmd,DanglingJavadoc,1
+p100,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/JavaNCSSCheck.java,before,designite,Deficient Encapsulation,1
+p100,control,src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/JavaNCSSCheck.java,after,designite,Deficient Encapsulation,1

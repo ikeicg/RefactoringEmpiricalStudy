@@ -1,0 +1,1756 @@
+pair_id,group,file_path,snapshot,detector,detection,count
+p001,treated,src/main/java/org/jabref/model/entry/FieldName.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p001,treated,src/main/java/org/jabref/model/entry/FieldName.java,before,pmd,UnnecessaryFullyQualifiedName,26
+p001,treated,src/main/java/org/jabref/model/entry/FieldName.java,before,pmd,UnnecessaryImport,1
+p001,treated,src/main/java/org/jabref/model/entry/FieldName.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p001,treated,src/main/java/org/jabref/model/entry/FieldName.java,after,pmd,LooseCoupling,2
+p001,treated,src/main/java/org/jabref/model/entry/FieldName.java,after,pmd,UnnecessaryFullyQualifiedName,20
+p001,treated,src/main/java/org/jabref/model/entry/FieldName.java,before,designite,Deficient Encapsulation,1
+p001,treated,src/main/java/org/jabref/model/entry/FieldName.java,after,designite,Deficient Encapsulation,1
+p001,control,src/main/java/org/jabref/logic/bibtex/DuplicateCheck.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p001,control,src/main/java/org/jabref/logic/bibtex/DuplicateCheck.java,before,pmd,GuardLogStatement,1
+p001,control,src/main/java/org/jabref/logic/bibtex/DuplicateCheck.java,before,pmd,ProperLogger,1
+p001,control,src/main/java/org/jabref/logic/bibtex/DuplicateCheck.java,before,pmd,UnnecessaryFullyQualifiedName,20
+p001,control,src/main/java/org/jabref/logic/bibtex/DuplicateCheck.java,before,pmd,UnnecessaryImport,1
+p001,control,src/main/java/org/jabref/logic/bibtex/DuplicateCheck.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p001,control,src/main/java/org/jabref/logic/bibtex/DuplicateCheck.java,after,pmd,GuardLogStatement,1
+p001,control,src/main/java/org/jabref/logic/bibtex/DuplicateCheck.java,after,pmd,ProperLogger,1
+p001,control,src/main/java/org/jabref/logic/bibtex/DuplicateCheck.java,after,pmd,UnnecessaryFullyQualifiedName,20
+p001,control,src/main/java/org/jabref/logic/bibtex/DuplicateCheck.java,before,designite,Deficient Encapsulation,1
+p001,control,src/main/java/org/jabref/logic/bibtex/DuplicateCheck.java,after,designite,Deficient Encapsulation,1
+p002,treated,src/main/java/org/jabref/gui/collab/DatabaseChangeMonitor.java,before,designite,Unutilized Abstraction,1
+p002,treated,src/main/java/org/jabref/gui/collab/DatabaseChangeMonitor.java,after,designite,Unutilized Abstraction,1
+p002,control,src/main/java/org/jabref/gui/collab/DatabaseChangeList.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p002,control,src/main/java/org/jabref/gui/collab/DatabaseChangeList.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p003,treated,jablib/src/main/java/org/jabref/logic/importer/fetcher/CustomizableKeyFetcher.java,before,designite,Unutilized Abstraction,1
+p003,treated,jablib/src/main/java/org/jabref/logic/importer/fetcher/CustomizableKeyFetcher.java,after,designite,Unutilized Abstraction,1
+p003,control,jablib/src/main/java/org/jabref/logic/importer/fetcher/UnpaywallFetcher.java,before,designite,Deficient Encapsulation,1
+p003,control,jablib/src/main/java/org/jabref/logic/importer/fetcher/UnpaywallFetcher.java,before,designite,Unutilized Abstraction,1
+p003,control,jablib/src/main/java/org/jabref/logic/importer/fetcher/UnpaywallFetcher.java,after,designite,Deficient Encapsulation,1
+p003,control,jablib/src/main/java/org/jabref/logic/importer/fetcher/UnpaywallFetcher.java,after,designite,Unutilized Abstraction,1
+p004,treated,src/main/java/net/sf/jabref/gui/util/FileDialogConfiguration.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p005,control,src/main/java/org/jabref/logic/net/URLDownload.java,before,pmd,GuardLogStatement,1
+p005,control,src/main/java/org/jabref/logic/net/URLDownload.java,before,pmd,SimplifyBooleanReturns,1
+p005,control,src/main/java/org/jabref/logic/net/URLDownload.java,before,pmd,UncommentedEmptyMethodBody,2
+p005,control,src/main/java/org/jabref/logic/net/URLDownload.java,before,pmd,UnnecessaryFullyQualifiedName,1
+p005,control,src/main/java/org/jabref/logic/net/URLDownload.java,after,pmd,GuardLogStatement,1
+p005,control,src/main/java/org/jabref/logic/net/URLDownload.java,after,pmd,SimplifyBooleanReturns,1
+p005,control,src/main/java/org/jabref/logic/net/URLDownload.java,after,pmd,UncommentedEmptyMethodBody,2
+p005,control,src/main/java/org/jabref/logic/net/URLDownload.java,after,pmd,UnnecessaryFullyQualifiedName,1
+p005,control,src/main/java/org/jabref/logic/net/URLDownload.java,before,designite,Deficient Encapsulation,1
+p005,control,src/main/java/org/jabref/logic/net/URLDownload.java,before,designite,Insufficient Modularization,1
+p005,control,src/main/java/org/jabref/logic/net/URLDownload.java,after,designite,Deficient Encapsulation,1
+p005,control,src/main/java/org/jabref/logic/net/URLDownload.java,after,designite,Insufficient Modularization,1
+p006,treated,src/main/java/org/jabref/logic/formatter/casechanger/Word.java,after,pmd,SimplifyBooleanReturns,1
+p006,treated,src/main/java/org/jabref/logic/formatter/casechanger/Word.java,before,designite,Deficient Encapsulation,1
+p006,treated,src/main/java/org/jabref/logic/formatter/casechanger/Word.java,after,designite,Deficient Encapsulation,1
+p006,control,src/main/java/org/jabref/logic/formatter/casechanger/TitleCaseFormatter.java,before,designite,Unutilized Abstraction,1
+p006,control,src/main/java/org/jabref/logic/formatter/casechanger/TitleCaseFormatter.java,after,designite,Unutilized Abstraction,1
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,before,pmd,AvoidCatchingThrowable,1
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,before,pmd,CompareObjectsWithEquals,1
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,before,pmd,ControlStatementBraces,30
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,before,pmd,EmptyCatchBlock,1
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,before,pmd,ForLoopCanBeForeach,3
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,before,pmd,FormalParameterNamingConventions,3
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,before,pmd,LiteralsFirstInComparisons,1
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,before,pmd,LocalVariableNamingConventions,7
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,before,pmd,LooseCoupling,11
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,before,pmd,MissingOverride,22
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,before,pmd,UnnecessaryFullyQualifiedName,2
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,before,pmd,UnnecessaryImport,5
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,before,pmd,UnusedPrivateMethod,1
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,before,pmd,UseCollectionIsEmpty,1
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,before,pmd,UselessParentheses,6
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,before,pmd,VariableCanBeInlined,1
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,after,pmd,AvoidCatchingThrowable,1
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,after,pmd,CompareObjectsWithEquals,1
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,after,pmd,ControlStatementBraces,32
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,after,pmd,EmptyCatchBlock,1
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,after,pmd,ForLoopCanBeForeach,3
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,after,pmd,FormalParameterNamingConventions,3
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,after,pmd,LiteralsFirstInComparisons,1
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,after,pmd,LocalVariableNamingConventions,7
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,after,pmd,LooseCoupling,11
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,after,pmd,MissingOverride,22
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,after,pmd,UnnecessaryFullyQualifiedName,2
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,after,pmd,UnnecessaryImport,5
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,after,pmd,UnusedPrivateMethod,1
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,after,pmd,UseCollectionIsEmpty,1
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,after,pmd,UselessParentheses,6
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,after,pmd,VariableCanBeInlined,1
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,before,designite,Cyclic-Dependent Modularization,1
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,before,designite,Deficient Encapsulation,1
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,before,designite,Insufficient Modularization,1
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,after,designite,Cyclic-Dependent Modularization,1
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,after,designite,Deficient Encapsulation,1
+p007,treated,src/java/net/sf/jabref/JabRefFrame.java,after,designite,Insufficient Modularization,1
+p007,control,src/java/net/sf/jabref/EntryTable.java,before,pmd,ControlStatementBraces,14
+p007,control,src/java/net/sf/jabref/EntryTable.java,before,pmd,FinalFieldCouldBeStatic,2
+p007,control,src/java/net/sf/jabref/EntryTable.java,before,pmd,FormalParameterNamingConventions,2
+p007,control,src/java/net/sf/jabref/EntryTable.java,before,pmd,MissingOverride,3
+p007,control,src/java/net/sf/jabref/EntryTable.java,before,pmd,OneDeclarationPerLine,1
+p007,control,src/java/net/sf/jabref/EntryTable.java,after,pmd,ControlStatementBraces,14
+p007,control,src/java/net/sf/jabref/EntryTable.java,after,pmd,FinalFieldCouldBeStatic,2
+p007,control,src/java/net/sf/jabref/EntryTable.java,after,pmd,FormalParameterNamingConventions,2
+p007,control,src/java/net/sf/jabref/EntryTable.java,after,pmd,MissingOverride,3
+p007,control,src/java/net/sf/jabref/EntryTable.java,after,pmd,OneDeclarationPerLine,1
+p007,control,src/java/net/sf/jabref/EntryTable.java,before,designite,Cyclic-Dependent Modularization,1
+p007,control,src/java/net/sf/jabref/EntryTable.java,after,designite,Cyclic-Dependent Modularization,1
+p008,treated,src/main/java/net/sf/jabref/openoffice/OOPreFormatter.java,before,pmd,EmptyControlStatement,2
+p008,treated,src/main/java/net/sf/jabref/openoffice/OOPreFormatter.java,before,pmd,UnnecessaryFullyQualifiedName,6
+p008,treated,src/main/java/net/sf/jabref/openoffice/OOPreFormatter.java,after,pmd,EmptyControlStatement,2
+p008,treated,src/main/java/net/sf/jabref/openoffice/OOPreFormatter.java,after,pmd,UnnecessaryFullyQualifiedName,6
+p008,treated,src/main/java/net/sf/jabref/openoffice/OOPreFormatter.java,before,designite,Cyclic-Dependent Modularization,1
+p008,treated,src/main/java/net/sf/jabref/openoffice/OOPreFormatter.java,before,designite,Imperative Abstraction,1
+p008,treated,src/main/java/net/sf/jabref/openoffice/OOPreFormatter.java,after,designite,Cyclic-Dependent Modularization,1
+p008,treated,src/main/java/net/sf/jabref/openoffice/OOPreFormatter.java,after,designite,Imperative Abstraction,1
+p008,control,src/main/java/net/sf/jabref/openoffice/OOBibBase.java,before,pmd,AssignmentInOperand,1
+p008,control,src/main/java/net/sf/jabref/openoffice/OOBibBase.java,before,pmd,AvoidAccessibilityAlteration,1
+p008,control,src/main/java/net/sf/jabref/openoffice/OOBibBase.java,before,pmd,CloseResource,1
+p008,control,src/main/java/net/sf/jabref/openoffice/OOBibBase.java,before,pmd,GuardLogStatement,6
+p008,control,src/main/java/net/sf/jabref/openoffice/OOBibBase.java,before,pmd,OverrideBothEqualsAndHashCodeOnComparable,1
+p008,control,src/main/java/net/sf/jabref/openoffice/OOBibBase.java,before,pmd,PreserveStackTrace,6
+p008,control,src/main/java/net/sf/jabref/openoffice/OOBibBase.java,before,pmd,ProperLogger,1
+p008,control,src/main/java/net/sf/jabref/openoffice/OOBibBase.java,before,pmd,UnnecessaryFullyQualifiedName,17
+p008,control,src/main/java/net/sf/jabref/openoffice/OOBibBase.java,before,pmd,UnnecessaryImport,2
+p008,control,src/main/java/net/sf/jabref/openoffice/OOBibBase.java,before,pmd,UselessParentheses,1
+p008,control,src/main/java/net/sf/jabref/openoffice/OOBibBase.java,after,pmd,AssignmentInOperand,1
+p008,control,src/main/java/net/sf/jabref/openoffice/OOBibBase.java,after,pmd,AvoidAccessibilityAlteration,1
+p008,control,src/main/java/net/sf/jabref/openoffice/OOBibBase.java,after,pmd,CloseResource,1
+p008,control,src/main/java/net/sf/jabref/openoffice/OOBibBase.java,after,pmd,GuardLogStatement,6
+p008,control,src/main/java/net/sf/jabref/openoffice/OOBibBase.java,after,pmd,OverrideBothEqualsAndHashCodeOnComparable,1
+p008,control,src/main/java/net/sf/jabref/openoffice/OOBibBase.java,after,pmd,PreserveStackTrace,6
+p008,control,src/main/java/net/sf/jabref/openoffice/OOBibBase.java,after,pmd,ProperLogger,1
+p008,control,src/main/java/net/sf/jabref/openoffice/OOBibBase.java,after,pmd,UnnecessaryFullyQualifiedName,17
+p008,control,src/main/java/net/sf/jabref/openoffice/OOBibBase.java,after,pmd,UnnecessaryImport,2
+p008,control,src/main/java/net/sf/jabref/openoffice/OOBibBase.java,after,pmd,UselessParentheses,1
+p008,control,src/main/java/net/sf/jabref/openoffice/OOBibBase.java,before,designite,Cyclic-Dependent Modularization,1
+p008,control,src/main/java/net/sf/jabref/openoffice/OOBibBase.java,before,designite,Insufficient Modularization,1
+p008,control,src/main/java/net/sf/jabref/openoffice/OOBibBase.java,after,designite,Cyclic-Dependent Modularization,1
+p008,control,src/main/java/net/sf/jabref/openoffice/OOBibBase.java,after,designite,Insufficient Modularization,1
+p009,treated,src/main/java/org/jabref/preferences/AppearancePreferences.java,before,designite,Insufficient Modularization,1
+p009,treated,src/main/java/org/jabref/preferences/AppearancePreferences.java,after,designite,Insufficient Modularization,1
+p009,control,src/main/java/org/jabref/preferences/JabRefPreferences.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p009,control,src/main/java/org/jabref/preferences/JabRefPreferences.java,before,pmd,CloseResource,1
+p009,control,src/main/java/org/jabref/preferences/JabRefPreferences.java,before,pmd,GuardLogStatement,6
+p009,control,src/main/java/org/jabref/preferences/JabRefPreferences.java,before,pmd,LambdaCanBeMethodReference,1
+p009,control,src/main/java/org/jabref/preferences/JabRefPreferences.java,before,pmd,LooseCoupling,3
+p009,control,src/main/java/org/jabref/preferences/JabRefPreferences.java,before,pmd,NonExhaustiveSwitch,3
+p009,control,src/main/java/org/jabref/preferences/JabRefPreferences.java,before,pmd,NonThreadSafeSingleton,1
+p009,control,src/main/java/org/jabref/preferences/JabRefPreferences.java,before,pmd,UnnecessaryFullyQualifiedName,3
+p009,control,src/main/java/org/jabref/preferences/JabRefPreferences.java,before,pmd,UselessParentheses,3
+p009,control,src/main/java/org/jabref/preferences/JabRefPreferences.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p009,control,src/main/java/org/jabref/preferences/JabRefPreferences.java,after,pmd,CloseResource,1
+p009,control,src/main/java/org/jabref/preferences/JabRefPreferences.java,after,pmd,GuardLogStatement,6
+p009,control,src/main/java/org/jabref/preferences/JabRefPreferences.java,after,pmd,LambdaCanBeMethodReference,1
+p009,control,src/main/java/org/jabref/preferences/JabRefPreferences.java,after,pmd,LooseCoupling,3
+p009,control,src/main/java/org/jabref/preferences/JabRefPreferences.java,after,pmd,NonExhaustiveSwitch,3
+p009,control,src/main/java/org/jabref/preferences/JabRefPreferences.java,after,pmd,NonThreadSafeSingleton,1
+p009,control,src/main/java/org/jabref/preferences/JabRefPreferences.java,after,pmd,UnnecessaryFullyQualifiedName,3
+p009,control,src/main/java/org/jabref/preferences/JabRefPreferences.java,after,pmd,UselessParentheses,3
+p009,control,src/main/java/org/jabref/preferences/JabRefPreferences.java,before,designite,Cyclic-Dependent Modularization,1
+p009,control,src/main/java/org/jabref/preferences/JabRefPreferences.java,before,designite,Deficient Encapsulation,1
+p009,control,src/main/java/org/jabref/preferences/JabRefPreferences.java,before,designite,Insufficient Modularization,1
+p009,control,src/main/java/org/jabref/preferences/JabRefPreferences.java,after,designite,Cyclic-Dependent Modularization,1
+p009,control,src/main/java/org/jabref/preferences/JabRefPreferences.java,after,designite,Deficient Encapsulation,1
+p009,control,src/main/java/org/jabref/preferences/JabRefPreferences.java,after,designite,Insufficient Modularization,1
+p010,treated,src/main/java/org/jabref/gui/customentrytypes/CustomEntryTypeDialogViewModel.java,before,designite,Deficient Encapsulation,1
+p010,treated,src/main/java/org/jabref/gui/customentrytypes/CustomEntryTypeDialogViewModel.java,after,designite,Deficient Encapsulation,1
+p011,treated,src/main/java/net/sf/jabref/gui/FileListEntryEditor.java,before,pmd,ControlStatementBraces,9
+p011,treated,src/main/java/net/sf/jabref/gui/FileListEntryEditor.java,before,pmd,MissingOverride,10
+p011,treated,src/main/java/net/sf/jabref/gui/FileListEntryEditor.java,before,pmd,OneDeclarationPerLine,2
+p011,treated,src/main/java/net/sf/jabref/gui/FileListEntryEditor.java,before,pmd,UncommentedEmptyMethodBody,1
+p011,treated,src/main/java/net/sf/jabref/gui/FileListEntryEditor.java,before,pmd,UnnecessaryFullyQualifiedName,1
+p011,treated,src/main/java/net/sf/jabref/gui/FileListEntryEditor.java,before,pmd,UselessParentheses,2
+p011,treated,src/main/java/net/sf/jabref/gui/FileListEntryEditor.java,after,pmd,ControlStatementBraces,9
+p011,treated,src/main/java/net/sf/jabref/gui/FileListEntryEditor.java,after,pmd,MissingOverride,10
+p011,treated,src/main/java/net/sf/jabref/gui/FileListEntryEditor.java,after,pmd,OneDeclarationPerLine,2
+p011,treated,src/main/java/net/sf/jabref/gui/FileListEntryEditor.java,after,pmd,UncommentedEmptyMethodBody,1
+p011,treated,src/main/java/net/sf/jabref/gui/FileListEntryEditor.java,after,pmd,UnnecessaryFullyQualifiedName,1
+p011,treated,src/main/java/net/sf/jabref/gui/FileListEntryEditor.java,after,pmd,UselessParentheses,2
+p011,treated,src/main/java/net/sf/jabref/gui/FileListEntryEditor.java,before,designite,Cyclic-Dependent Modularization,1
+p011,treated,src/main/java/net/sf/jabref/gui/FileListEntryEditor.java,before,designite,Deficient Encapsulation,1
+p011,treated,src/main/java/net/sf/jabref/gui/FileListEntryEditor.java,before,designite,Insufficient Modularization,1
+p011,treated,src/main/java/net/sf/jabref/gui/FileListEntryEditor.java,after,designite,Cyclic-Dependent Modularization,1
+p011,treated,src/main/java/net/sf/jabref/gui/FileListEntryEditor.java,after,designite,Deficient Encapsulation,1
+p011,treated,src/main/java/net/sf/jabref/gui/FileListEntryEditor.java,after,designite,Insufficient Modularization,1
+p011,control,src/main/java/net/sf/jabref/AdvancedTab.java,before,pmd,ControlStatementBraces,2
+p011,control,src/main/java/net/sf/jabref/AdvancedTab.java,before,pmd,EmptyCatchBlock,1
+p011,control,src/main/java/net/sf/jabref/AdvancedTab.java,before,pmd,MissingOverride,1
+p011,control,src/main/java/net/sf/jabref/AdvancedTab.java,before,pmd,OneDeclarationPerLine,3
+p011,control,src/main/java/net/sf/jabref/AdvancedTab.java,before,pmd,OptimizableToArrayCall,1
+p011,control,src/main/java/net/sf/jabref/AdvancedTab.java,after,pmd,ControlStatementBraces,2
+p011,control,src/main/java/net/sf/jabref/AdvancedTab.java,after,pmd,EmptyCatchBlock,1
+p011,control,src/main/java/net/sf/jabref/AdvancedTab.java,after,pmd,MissingOverride,1
+p011,control,src/main/java/net/sf/jabref/AdvancedTab.java,after,pmd,OneDeclarationPerLine,3
+p011,control,src/main/java/net/sf/jabref/AdvancedTab.java,after,pmd,OptimizableToArrayCall,1
+p011,control,src/main/java/net/sf/jabref/AdvancedTab.java,before,designite,Deficient Encapsulation,1
+p011,control,src/main/java/net/sf/jabref/AdvancedTab.java,before,designite,Unutilized Abstraction,1
+p011,control,src/main/java/net/sf/jabref/AdvancedTab.java,after,designite,Deficient Encapsulation,1
+p011,control,src/main/java/net/sf/jabref/AdvancedTab.java,after,designite,Unutilized Abstraction,1
+p012,treated,src/main/java/net/sf/jabref/JabRefCLI.java,before,pmd,PreserveStackTrace,1
+p012,treated,src/main/java/net/sf/jabref/JabRefCLI.java,before,pmd,UnnecessaryFullyQualifiedName,1
+p012,treated,src/main/java/net/sf/jabref/JabRefCLI.java,before,pmd,UnnecessaryImport,1
+p012,treated,src/main/java/net/sf/jabref/JabRefCLI.java,after,pmd,PreserveStackTrace,1
+p012,treated,src/main/java/net/sf/jabref/JabRefCLI.java,after,pmd,UnnecessaryFullyQualifiedName,1
+p012,treated,src/main/java/net/sf/jabref/JabRefCLI.java,after,pmd,UnnecessaryImport,1
+p012,treated,src/main/java/net/sf/jabref/JabRefCLI.java,before,designite,Cyclic-Dependent Modularization,1
+p012,treated,src/main/java/net/sf/jabref/JabRefCLI.java,before,designite,Insufficient Modularization,1
+p012,treated,src/main/java/net/sf/jabref/JabRefCLI.java,after,designite,Cyclic-Dependent Modularization,1
+p012,treated,src/main/java/net/sf/jabref/JabRefCLI.java,after,designite,Insufficient Modularization,1
+p012,control,src/main/java/net/sf/jabref/JabRef.java,before,pmd,AvoidCatchingThrowable,2
+p012,control,src/main/java/net/sf/jabref/JabRef.java,before,pmd,GuardLogStatement,3
+p012,control,src/main/java/net/sf/jabref/JabRef.java,before,pmd,LooseCoupling,6
+p012,control,src/main/java/net/sf/jabref/JabRef.java,before,pmd,ProperLogger,1
+p012,control,src/main/java/net/sf/jabref/JabRef.java,before,pmd,UnnecessaryFullyQualifiedName,22
+p012,control,src/main/java/net/sf/jabref/JabRef.java,before,pmd,UnnecessaryImport,2
+p012,control,src/main/java/net/sf/jabref/JabRef.java,before,pmd,UseLocaleWithCaseConversions,2
+p012,control,src/main/java/net/sf/jabref/JabRef.java,before,pmd,UselessParentheses,1
+p012,control,src/main/java/net/sf/jabref/JabRef.java,after,pmd,AvoidCatchingThrowable,2
+p012,control,src/main/java/net/sf/jabref/JabRef.java,after,pmd,GuardLogStatement,4
+p012,control,src/main/java/net/sf/jabref/JabRef.java,after,pmd,LooseCoupling,6
+p012,control,src/main/java/net/sf/jabref/JabRef.java,after,pmd,ProperLogger,1
+p012,control,src/main/java/net/sf/jabref/JabRef.java,after,pmd,UnnecessaryFullyQualifiedName,22
+p012,control,src/main/java/net/sf/jabref/JabRef.java,after,pmd,UnnecessaryImport,2
+p012,control,src/main/java/net/sf/jabref/JabRef.java,after,pmd,UseLocaleWithCaseConversions,2
+p012,control,src/main/java/net/sf/jabref/JabRef.java,after,pmd,UselessParentheses,1
+p012,control,src/main/java/net/sf/jabref/JabRef.java,before,designite,Cyclic-Dependent Modularization,1
+p012,control,src/main/java/net/sf/jabref/JabRef.java,before,designite,Deficient Encapsulation,1
+p012,control,src/main/java/net/sf/jabref/JabRef.java,before,designite,Hub-like Modularization,1
+p012,control,src/main/java/net/sf/jabref/JabRef.java,before,designite,Insufficient Modularization,1
+p012,control,src/main/java/net/sf/jabref/JabRef.java,after,designite,Cyclic-Dependent Modularization,1
+p012,control,src/main/java/net/sf/jabref/JabRef.java,after,designite,Deficient Encapsulation,1
+p012,control,src/main/java/net/sf/jabref/JabRef.java,after,designite,Hub-like Modularization,1
+p012,control,src/main/java/net/sf/jabref/JabRef.java,after,designite,Insufficient Modularization,1
+p013,treated,src/main/java/net/sf/jabref/external/WriteXMPEntryEditorAction.java,before,pmd,UnnecessaryFullyQualifiedName,3
+p013,treated,src/main/java/net/sf/jabref/external/WriteXMPEntryEditorAction.java,before,pmd,UnnecessaryImport,1
+p013,treated,src/main/java/net/sf/jabref/external/WriteXMPEntryEditorAction.java,after,pmd,UnnecessaryFullyQualifiedName,3
+p013,treated,src/main/java/net/sf/jabref/external/WriteXMPEntryEditorAction.java,after,pmd,UnnecessaryImport,1
+p013,treated,src/main/java/net/sf/jabref/external/WriteXMPEntryEditorAction.java,before,designite,Unutilized Abstraction,1
+p013,treated,src/main/java/net/sf/jabref/external/WriteXMPEntryEditorAction.java,after,designite,Unutilized Abstraction,1
+p013,control,src/main/java/net/sf/jabref/importer/fileformat/FreeCiteImporter.java,before,pmd,CloseResource,1
+p013,control,src/main/java/net/sf/jabref/importer/fileformat/FreeCiteImporter.java,before,pmd,EmptyCatchBlock,1
+p013,control,src/main/java/net/sf/jabref/importer/fileformat/FreeCiteImporter.java,before,pmd,EmptyControlStatement,1
+p013,control,src/main/java/net/sf/jabref/importer/fileformat/FreeCiteImporter.java,before,pmd,IdenticalCatchBranches,1
+p013,control,src/main/java/net/sf/jabref/importer/fileformat/FreeCiteImporter.java,before,pmd,ReturnEmptyCollectionRatherThanNull,5
+p013,control,src/main/java/net/sf/jabref/importer/fileformat/FreeCiteImporter.java,after,pmd,CloseResource,1
+p013,control,src/main/java/net/sf/jabref/importer/fileformat/FreeCiteImporter.java,after,pmd,EmptyCatchBlock,1
+p013,control,src/main/java/net/sf/jabref/importer/fileformat/FreeCiteImporter.java,after,pmd,EmptyControlStatement,1
+p013,control,src/main/java/net/sf/jabref/importer/fileformat/FreeCiteImporter.java,after,pmd,IdenticalCatchBranches,1
+p013,control,src/main/java/net/sf/jabref/importer/fileformat/FreeCiteImporter.java,after,pmd,ProperLogger,1
+p013,control,src/main/java/net/sf/jabref/importer/fileformat/FreeCiteImporter.java,after,pmd,ReturnEmptyCollectionRatherThanNull,4
+p013,control,src/main/java/net/sf/jabref/importer/fileformat/FreeCiteImporter.java,before,designite,Cyclic-Dependent Modularization,1
+p013,control,src/main/java/net/sf/jabref/importer/fileformat/FreeCiteImporter.java,after,designite,Cyclic-Dependent Modularization,1
+p014,treated,src/java/net/sf/jabref/imports/IsiImporter.java,before,pmd,ControlStatementBraces,17
+p014,treated,src/java/net/sf/jabref/imports/IsiImporter.java,before,pmd,ForLoopCanBeForeach,2
+p014,treated,src/java/net/sf/jabref/imports/IsiImporter.java,before,pmd,LiteralsFirstInComparisons,21
+p014,treated,src/java/net/sf/jabref/imports/IsiImporter.java,before,pmd,LocalVariableNamingConventions,2
+p014,treated,src/java/net/sf/jabref/imports/IsiImporter.java,before,pmd,LooseCoupling,2
+p014,treated,src/java/net/sf/jabref/imports/IsiImporter.java,before,pmd,OneDeclarationPerLine,1
+p014,treated,src/java/net/sf/jabref/imports/IsiImporter.java,before,pmd,UnnecessaryImport,1
+p014,treated,src/java/net/sf/jabref/imports/IsiImporter.java,after,pmd,ControlStatementBraces,19
+p014,treated,src/java/net/sf/jabref/imports/IsiImporter.java,after,pmd,ForLoopCanBeForeach,2
+p014,treated,src/java/net/sf/jabref/imports/IsiImporter.java,after,pmd,LiteralsFirstInComparisons,21
+p014,treated,src/java/net/sf/jabref/imports/IsiImporter.java,after,pmd,LocalVariableNamingConventions,2
+p014,treated,src/java/net/sf/jabref/imports/IsiImporter.java,after,pmd,LooseCoupling,2
+p014,treated,src/java/net/sf/jabref/imports/IsiImporter.java,after,pmd,OneDeclarationPerLine,1
+p014,treated,src/java/net/sf/jabref/imports/IsiImporter.java,after,pmd,UnnecessaryImport,2
+p014,treated,src/java/net/sf/jabref/imports/IsiImporter.java,before,designite,Unutilized Abstraction,1
+p014,treated,src/java/net/sf/jabref/imports/IsiImporter.java,after,designite,Unutilized Abstraction,1
+p014,control,src/java/net/sf/jabref/JabRef.java,before,pmd,AvoidCatchingThrowable,4
+p014,control,src/java/net/sf/jabref/JabRef.java,before,pmd,ControlStatementBraces,10
+p014,control,src/java/net/sf/jabref/JabRef.java,before,pmd,EmptyCatchBlock,1
+p014,control,src/java/net/sf/jabref/JabRef.java,before,pmd,ForLoopCanBeForeach,2
+p014,control,src/java/net/sf/jabref/JabRef.java,before,pmd,LooseCoupling,1
+p014,control,src/java/net/sf/jabref/JabRef.java,before,pmd,SimplifyConditional,2
+p014,control,src/java/net/sf/jabref/JabRef.java,before,pmd,UnnecessaryImport,6
+p014,control,src/java/net/sf/jabref/JabRef.java,before,pmd,UseCollectionIsEmpty,5
+p014,control,src/java/net/sf/jabref/JabRef.java,before,pmd,UseUtilityClass,1
+p014,control,src/java/net/sf/jabref/JabRef.java,before,pmd,UselessParentheses,2
+p014,control,src/java/net/sf/jabref/JabRef.java,after,pmd,AvoidCatchingThrowable,4
+p014,control,src/java/net/sf/jabref/JabRef.java,after,pmd,ControlStatementBraces,12
+p014,control,src/java/net/sf/jabref/JabRef.java,after,pmd,EmptyCatchBlock,1
+p014,control,src/java/net/sf/jabref/JabRef.java,after,pmd,ForLoopCanBeForeach,2
+p014,control,src/java/net/sf/jabref/JabRef.java,after,pmd,LooseCoupling,1
+p014,control,src/java/net/sf/jabref/JabRef.java,after,pmd,SimplifyConditional,2
+p014,control,src/java/net/sf/jabref/JabRef.java,after,pmd,UnnecessaryFullyQualifiedName,1
+p014,control,src/java/net/sf/jabref/JabRef.java,after,pmd,UnnecessaryImport,6
+p014,control,src/java/net/sf/jabref/JabRef.java,after,pmd,UseCollectionIsEmpty,5
+p014,control,src/java/net/sf/jabref/JabRef.java,after,pmd,UseUtilityClass,1
+p014,control,src/java/net/sf/jabref/JabRef.java,after,pmd,UselessParentheses,2
+p015,treated,src/main/java/org/jabref/gui/icon/JabRefIconView.java,before,pmd,UnusedPrivateField,1
+p015,treated,src/main/java/org/jabref/gui/icon/JabRefIconView.java,before,designite,Unutilized Abstraction,1
+p015,treated,src/main/java/org/jabref/gui/icon/JabRefIconView.java,after,designite,Unutilized Abstraction,1
+p015,control,src/main/java/org/jabref/gui/util/ControlHelper.java,before,pmd,UseUtilityClass,1
+p015,control,src/main/java/org/jabref/gui/util/ControlHelper.java,before,pmd,UselessParentheses,1
+p015,control,src/main/java/org/jabref/gui/util/ControlHelper.java,after,pmd,UseUtilityClass,1
+p015,control,src/main/java/org/jabref/gui/util/ControlHelper.java,after,pmd,UselessParentheses,1
+p015,control,src/main/java/org/jabref/gui/util/ControlHelper.java,before,designite,Cyclic-Dependent Modularization,1
+p016,treated,src/java/net/sf/jabref/external/PushToVim.java,before,pmd,CloseResource,1
+p016,treated,src/java/net/sf/jabref/external/PushToVim.java,before,pmd,ControlStatementBraces,3
+p016,treated,src/java/net/sf/jabref/external/PushToVim.java,before,pmd,MissingOverride,1
+p016,treated,src/java/net/sf/jabref/external/PushToVim.java,before,pmd,OneDeclarationPerLine,1
+p016,treated,src/java/net/sf/jabref/external/PushToVim.java,before,pmd,UnnecessaryReturn,2
+p016,treated,src/java/net/sf/jabref/external/PushToVim.java,after,pmd,CloseResource,1
+p016,treated,src/java/net/sf/jabref/external/PushToVim.java,after,pmd,ControlStatementBraces,3
+p016,treated,src/java/net/sf/jabref/external/PushToVim.java,after,pmd,MissingOverride,1
+p016,treated,src/java/net/sf/jabref/external/PushToVim.java,after,pmd,OneDeclarationPerLine,1
+p016,treated,src/java/net/sf/jabref/external/PushToVim.java,after,pmd,UnnecessaryReturn,2
+p016,treated,src/java/net/sf/jabref/external/PushToVim.java,before,designite,Unutilized Abstraction,1
+p016,treated,src/java/net/sf/jabref/external/PushToVim.java,after,designite,Unutilized Abstraction,1
+p016,control,src/java/net/sf/jabref/ExternalTab.java,before,pmd,ControlStatementBraces,3
+p016,control,src/java/net/sf/jabref/ExternalTab.java,before,pmd,MissingOverride,1
+p016,control,src/java/net/sf/jabref/ExternalTab.java,before,pmd,OneDeclarationPerLine,1
+p016,control,src/java/net/sf/jabref/ExternalTab.java,after,pmd,ControlStatementBraces,3
+p016,control,src/java/net/sf/jabref/ExternalTab.java,after,pmd,MissingOverride,1
+p016,control,src/java/net/sf/jabref/ExternalTab.java,after,pmd,OneDeclarationPerLine,1
+p016,control,src/java/net/sf/jabref/ExternalTab.java,before,designite,Unutilized Abstraction,1
+p016,control,src/java/net/sf/jabref/ExternalTab.java,after,designite,Unutilized Abstraction,1
+p017,treated,src/main/java/org/jabref/gui/customentrytypes/CustomEntryTypeDialogViewModel.java,before,designite,Deficient Encapsulation,1
+p017,treated,src/main/java/org/jabref/gui/customentrytypes/CustomEntryTypeDialogViewModel.java,after,designite,Deficient Encapsulation,1
+p017,control,src/main/java/org/jabref/gui/customentrytypes/CustomEntryTypeViewModel.java,after,pmd,UselessParentheses,1
+p018,treated,src/main/java/org/jabref/gui/worker/CitationStyleToClipboardWorker.java,before,pmd,CloseResource,1
+p018,treated,src/main/java/org/jabref/gui/worker/CitationStyleToClipboardWorker.java,before,pmd,GuardLogStatement,1
+p018,treated,src/main/java/org/jabref/gui/worker/CitationStyleToClipboardWorker.java,after,pmd,CloseResource,1
+p018,treated,src/main/java/org/jabref/gui/worker/CitationStyleToClipboardWorker.java,after,pmd,GuardLogStatement,1
+p018,treated,src/main/java/org/jabref/gui/worker/CitationStyleToClipboardWorker.java,after,designite,Cyclic-Dependent Modularization,1
+p018,control,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,AvoidCatchingThrowable,1
+p018,control,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,8
+p018,control,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,CloseResource,1
+p018,control,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,GuardLogStatement,3
+p018,control,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,LambdaCanBeMethodReference,1
+p018,control,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,UselessParentheses,6
+p018,control,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,UselessQualifiedThis,3
+p018,control,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,AvoidCatchingThrowable,1
+p018,control,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,8
+p018,control,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,CloseResource,1
+p018,control,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,GuardLogStatement,3
+p018,control,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,LambdaCanBeMethodReference,1
+p018,control,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,UselessParentheses,6
+p018,control,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,UselessQualifiedThis,3
+p018,control,src/main/java/org/jabref/gui/BasePanel.java,before,designite,Cyclic-Dependent Modularization,1
+p018,control,src/main/java/org/jabref/gui/BasePanel.java,before,designite,Hub-like Modularization,1
+p018,control,src/main/java/org/jabref/gui/BasePanel.java,before,designite,Insufficient Modularization,1
+p018,control,src/main/java/org/jabref/gui/BasePanel.java,after,designite,Cyclic-Dependent Modularization,1
+p018,control,src/main/java/org/jabref/gui/BasePanel.java,after,designite,Hub-like Modularization,1
+p018,control,src/main/java/org/jabref/gui/BasePanel.java,after,designite,Insufficient Modularization,1
+p019,treated,src/main/java/org/jabref/gui/fieldeditors/LinkedEntriesEditorViewModel.java,before,designite,Broken Hierarchy,1
+p019,treated,src/main/java/org/jabref/gui/fieldeditors/LinkedEntriesEditorViewModel.java,before,designite,Unutilized Abstraction,1
+p019,treated,src/main/java/org/jabref/gui/fieldeditors/LinkedEntriesEditorViewModel.java,after,designite,Broken Hierarchy,1
+p019,treated,src/main/java/org/jabref/gui/fieldeditors/LinkedEntriesEditorViewModel.java,after,designite,Unutilized Abstraction,1
+p019,control,src/main/java/org/jabref/gui/fieldeditors/LinkedEntriesEditor.java,before,pmd,SingularField,1
+p019,control,src/main/java/org/jabref/gui/fieldeditors/LinkedEntriesEditor.java,after,pmd,SingularField,2
+p019,control,src/main/java/org/jabref/gui/fieldeditors/LinkedEntriesEditor.java,before,designite,Deficient Encapsulation,1
+p019,control,src/main/java/org/jabref/gui/fieldeditors/LinkedEntriesEditor.java,before,designite,Unutilized Abstraction,1
+p019,control,src/main/java/org/jabref/gui/fieldeditors/LinkedEntriesEditor.java,after,designite,Deficient Encapsulation,1
+p019,control,src/main/java/org/jabref/gui/fieldeditors/LinkedEntriesEditor.java,after,designite,Unutilized Abstraction,1
+p020,control,src/main/java/org/jabref/gui/actions/CleanupAction.java,before,pmd,UnusedPrivateField,1
+p020,control,src/main/java/org/jabref/gui/actions/CleanupAction.java,before,designite,Cyclic-Dependent Modularization,1
+p020,control,src/main/java/org/jabref/gui/actions/CleanupAction.java,after,designite,Cyclic-Dependent Modularization,1
+p021,treated,jablib/src/main/java/org/jabref/model/study/Study.java,after,pmd,UncommentedEmptyConstructor,1
+p021,treated,jablib/src/main/java/org/jabref/model/study/Study.java,after,designite,Insufficient Modularization,1
+p021,control,jablib/src/main/java/org/jabref/model/study/StudyQuery.java,before,pmd,UncommentedEmptyConstructor,1
+p022,treated,src/main/java/net/sf/jabref/logic/logging/GuiAppender.java,before,designite,Deficient Encapsulation,1
+p022,treated,src/main/java/net/sf/jabref/logic/logging/GuiAppender.java,after,designite,Unutilized Abstraction,1
+p022,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,AvoidCatchingThrowable,3
+p022,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,4
+p022,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,CompareObjectsWithEquals,1
+p022,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,EmptyCatchBlock,1
+p022,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,GuardLogStatement,5
+p022,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,ProperLogger,1
+p022,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,UnnecessaryFullyQualifiedName,19
+p022,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,UselessQualifiedThis,7
+p022,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,AvoidCatchingThrowable,3
+p022,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,4
+p022,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,CompareObjectsWithEquals,1
+p022,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,EmptyCatchBlock,1
+p022,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,GuardLogStatement,5
+p022,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,ProperLogger,1
+p022,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,UnnecessaryFullyQualifiedName,19
+p022,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,UselessQualifiedThis,7
+p022,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,designite,Cyclic-Dependent Modularization,1
+p022,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,designite,Deficient Encapsulation,1
+p022,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,designite,Hub-like Modularization,1
+p022,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,designite,Insufficient Modularization,1
+p022,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,designite,Cyclic-Dependent Modularization,1
+p022,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,designite,Deficient Encapsulation,1
+p022,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,designite,Hub-like Modularization,1
+p022,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,designite,Insufficient Modularization,1
+p023,treated,src/main/java/net/sf/jabref/gui/help/HelpAction.java,before,designite,Cyclic-Dependent Modularization,1
+p023,treated,src/main/java/net/sf/jabref/gui/help/HelpAction.java,after,designite,Cyclic-Dependent Modularization,1
+p023,control,src/main/java/net/sf/jabref/shared/MySQLProcessor.java,before,designite,Unutilized Abstraction,1
+p023,control,src/main/java/net/sf/jabref/shared/MySQLProcessor.java,after,designite,Unutilized Abstraction,1
+p024,treated,src/main/java/net/sf/jabref/MetaData.java,before,pmd,CloseResource,1
+p024,treated,src/main/java/net/sf/jabref/MetaData.java,before,pmd,UncommentedEmptyConstructor,1
+p024,treated,src/main/java/net/sf/jabref/MetaData.java,before,pmd,UnnecessaryFullyQualifiedName,7
+p024,treated,src/main/java/net/sf/jabref/MetaData.java,after,pmd,CloseResource,1
+p024,treated,src/main/java/net/sf/jabref/MetaData.java,after,pmd,UncommentedEmptyConstructor,1
+p024,treated,src/main/java/net/sf/jabref/MetaData.java,after,pmd,UnnecessaryFullyQualifiedName,7
+p024,treated,src/main/java/net/sf/jabref/MetaData.java,before,designite,Cyclic-Dependent Modularization,1
+p024,treated,src/main/java/net/sf/jabref/MetaData.java,before,designite,Deficient Encapsulation,1
+p024,treated,src/main/java/net/sf/jabref/MetaData.java,after,designite,Cyclic-Dependent Modularization,1
+p024,treated,src/main/java/net/sf/jabref/MetaData.java,after,designite,Deficient Encapsulation,1
+p024,control,src/main/java/net/sf/jabref/JabRef.java,before,pmd,AvoidCatchingThrowable,2
+p024,control,src/main/java/net/sf/jabref/JabRef.java,before,pmd,GuardLogStatement,4
+p024,control,src/main/java/net/sf/jabref/JabRef.java,before,pmd,LooseCoupling,8
+p024,control,src/main/java/net/sf/jabref/JabRef.java,before,pmd,ProperLogger,1
+p024,control,src/main/java/net/sf/jabref/JabRef.java,before,pmd,UnnecessaryFullyQualifiedName,20
+p024,control,src/main/java/net/sf/jabref/JabRef.java,before,pmd,UnnecessaryImport,3
+p024,control,src/main/java/net/sf/jabref/JabRef.java,before,pmd,UseLocaleWithCaseConversions,2
+p024,control,src/main/java/net/sf/jabref/JabRef.java,before,pmd,UselessParentheses,1
+p024,control,src/main/java/net/sf/jabref/JabRef.java,after,pmd,AvoidCatchingThrowable,2
+p024,control,src/main/java/net/sf/jabref/JabRef.java,after,pmd,GuardLogStatement,4
+p024,control,src/main/java/net/sf/jabref/JabRef.java,after,pmd,LooseCoupling,8
+p024,control,src/main/java/net/sf/jabref/JabRef.java,after,pmd,ProperLogger,1
+p024,control,src/main/java/net/sf/jabref/JabRef.java,after,pmd,UnnecessaryFullyQualifiedName,20
+p024,control,src/main/java/net/sf/jabref/JabRef.java,after,pmd,UnnecessaryImport,3
+p024,control,src/main/java/net/sf/jabref/JabRef.java,after,pmd,UseLocaleWithCaseConversions,2
+p024,control,src/main/java/net/sf/jabref/JabRef.java,after,pmd,UselessParentheses,1
+p024,control,src/main/java/net/sf/jabref/JabRef.java,before,designite,Cyclic-Dependent Modularization,1
+p024,control,src/main/java/net/sf/jabref/JabRef.java,before,designite,Deficient Encapsulation,1
+p024,control,src/main/java/net/sf/jabref/JabRef.java,before,designite,Insufficient Modularization,1
+p024,control,src/main/java/net/sf/jabref/JabRef.java,after,designite,Cyclic-Dependent Modularization,1
+p024,control,src/main/java/net/sf/jabref/JabRef.java,after,designite,Deficient Encapsulation,1
+p024,control,src/main/java/net/sf/jabref/JabRef.java,after,designite,Insufficient Modularization,1
+p025,treated,src/main/java/org/jabref/gui/importer/actions/OpenDatabaseAction.java,before,pmd,GuardLogStatement,2
+p025,treated,src/main/java/org/jabref/gui/importer/actions/OpenDatabaseAction.java,before,pmd,ProperLogger,1
+p025,treated,src/main/java/org/jabref/gui/importer/actions/OpenDatabaseAction.java,before,pmd,UnnecessaryFullyQualifiedName,2
+p025,treated,src/main/java/org/jabref/gui/importer/actions/OpenDatabaseAction.java,before,pmd,UselessParentheses,3
+p025,treated,src/main/java/org/jabref/gui/importer/actions/OpenDatabaseAction.java,after,pmd,GuardLogStatement,2
+p025,treated,src/main/java/org/jabref/gui/importer/actions/OpenDatabaseAction.java,after,pmd,ProperLogger,1
+p025,treated,src/main/java/org/jabref/gui/importer/actions/OpenDatabaseAction.java,after,pmd,UnnecessaryFullyQualifiedName,2
+p025,treated,src/main/java/org/jabref/gui/importer/actions/OpenDatabaseAction.java,after,pmd,UselessParentheses,3
+p025,treated,src/main/java/org/jabref/gui/importer/actions/OpenDatabaseAction.java,before,designite,Cyclic-Dependent Modularization,1
+p025,treated,src/main/java/org/jabref/gui/importer/actions/OpenDatabaseAction.java,before,designite,Deficient Encapsulation,1
+p025,treated,src/main/java/org/jabref/gui/importer/actions/OpenDatabaseAction.java,after,designite,Cyclic-Dependent Modularization,1
+p025,treated,src/main/java/org/jabref/gui/importer/actions/OpenDatabaseAction.java,after,designite,Deficient Encapsulation,1
+p025,control,src/main/java/org/jabref/migrations/FileLinksUpgradeWarning.java,before,pmd,UnnecessaryFullyQualifiedName,1
+p025,control,src/main/java/org/jabref/migrations/FileLinksUpgradeWarning.java,after,pmd,UnnecessaryFullyQualifiedName,1
+p026,treated,src/main/java/org/jabref/gui/collab/StringNameChangeViewModel.java,before,pmd,GuardLogStatement,2
+p026,treated,src/main/java/org/jabref/gui/collab/StringNameChangeViewModel.java,before,pmd,ProperLogger,1
+p026,treated,src/main/java/org/jabref/gui/collab/StringNameChangeViewModel.java,after,pmd,GuardLogStatement,2
+p026,treated,src/main/java/org/jabref/gui/collab/StringNameChangeViewModel.java,after,pmd,ProperLogger,1
+p026,treated,src/main/java/org/jabref/gui/collab/StringNameChangeViewModel.java,before,designite,Unutilized Abstraction,1
+p026,treated,src/main/java/org/jabref/gui/collab/StringNameChangeViewModel.java,after,designite,Unutilized Abstraction,1
+p026,control,src/main/java/org/jabref/model/database/BibDatabase.java,before,pmd,GuardLogStatement,1
+p026,control,src/main/java/org/jabref/model/database/BibDatabase.java,before,pmd,ProperLogger,1
+p026,control,src/main/java/org/jabref/model/database/BibDatabase.java,before,pmd,UnusedPrivateMethod,1
+p026,control,src/main/java/org/jabref/model/database/BibDatabase.java,after,pmd,GuardLogStatement,1
+p026,control,src/main/java/org/jabref/model/database/BibDatabase.java,after,pmd,ProperLogger,1
+p026,control,src/main/java/org/jabref/model/database/BibDatabase.java,after,pmd,UnusedPrivateMethod,1
+p026,control,src/main/java/org/jabref/model/database/BibDatabase.java,before,designite,Cyclic-Dependent Modularization,1
+p026,control,src/main/java/org/jabref/model/database/BibDatabase.java,before,designite,Insufficient Modularization,1
+p026,control,src/main/java/org/jabref/model/database/BibDatabase.java,after,designite,Cyclic-Dependent Modularization,1
+p026,control,src/main/java/org/jabref/model/database/BibDatabase.java,after,designite,Insufficient Modularization,1
+p027,treated,src/main/java/net/sf/jabref/logic/util/io/FileUtil.java,before,pmd,LooseCoupling,4
+p027,treated,src/main/java/net/sf/jabref/logic/util/io/FileUtil.java,before,pmd,UnusedNullCheckInEquals,1
+p027,treated,src/main/java/net/sf/jabref/logic/util/io/FileUtil.java,before,pmd,UseLocaleWithCaseConversions,3
+p027,treated,src/main/java/net/sf/jabref/logic/util/io/FileUtil.java,before,pmd,UseUtilityClass,1
+p027,treated,src/main/java/net/sf/jabref/logic/util/io/FileUtil.java,after,pmd,LooseCoupling,4
+p027,treated,src/main/java/net/sf/jabref/logic/util/io/FileUtil.java,after,pmd,UnusedNullCheckInEquals,1
+p027,treated,src/main/java/net/sf/jabref/logic/util/io/FileUtil.java,after,pmd,UseLocaleWithCaseConversions,3
+p027,treated,src/main/java/net/sf/jabref/logic/util/io/FileUtil.java,after,pmd,UseUtilityClass,1
+p027,treated,src/main/java/net/sf/jabref/logic/util/io/FileUtil.java,before,designite,Cyclic-Dependent Modularization,1
+p027,treated,src/main/java/net/sf/jabref/logic/util/io/FileUtil.java,after,designite,Cyclic-Dependent Modularization,1
+p027,control,src/main/java/net/sf/jabref/logic/integrity/IntegrityCheck.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,9
+p027,control,src/main/java/net/sf/jabref/logic/integrity/IntegrityCheck.java,before,pmd,UseLocaleWithCaseConversions,1
+p027,control,src/main/java/net/sf/jabref/logic/integrity/IntegrityCheck.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,9
+p027,control,src/main/java/net/sf/jabref/logic/integrity/IntegrityCheck.java,after,pmd,UseLocaleWithCaseConversions,1
+p027,control,src/main/java/net/sf/jabref/logic/integrity/IntegrityCheck.java,before,designite,Cyclic-Dependent Modularization,1
+p027,control,src/main/java/net/sf/jabref/logic/integrity/IntegrityCheck.java,after,designite,Cyclic-Dependent Modularization,1
+p028,control,src/main/java/org/jabref/gui/util/TaskExecutor.java,before,designite,Cyclic-Dependent Modularization,1
+p028,control,src/main/java/org/jabref/gui/util/TaskExecutor.java,after,designite,Cyclic-Dependent Modularization,1
+p029,treated,src/main/java/org/jabref/gui/externalfiles/UnlinkedFilesCrawler.java,before,pmd,GuardLogStatement,1
+p029,treated,src/main/java/org/jabref/gui/externalfiles/UnlinkedFilesCrawler.java,after,pmd,GuardLogStatement,1
+p029,treated,src/main/java/org/jabref/gui/externalfiles/UnlinkedFilesCrawler.java,before,designite,Unutilized Abstraction,1
+p029,treated,src/main/java/org/jabref/gui/externalfiles/UnlinkedFilesCrawler.java,after,designite,Unutilized Abstraction,1
+p029,control,src/main/java/org/jabref/gui/externalfiles/UnlinkedFilesDialogViewModel.java,after,designite,Insufficient Modularization,1
+p030,treated,src/main/java/net/sf/jabref/search/rules/BasicSearchRule.java,before,pmd,UnnecessaryFullyQualifiedName,1
+p030,treated,src/main/java/net/sf/jabref/search/rules/BasicSearchRule.java,before,pmd,UseLocaleWithCaseConversions,2
+p030,treated,src/main/java/net/sf/jabref/search/rules/BasicSearchRule.java,after,pmd,UnnecessaryFullyQualifiedName,1
+p030,treated,src/main/java/net/sf/jabref/search/rules/BasicSearchRule.java,after,pmd,UseLocaleWithCaseConversions,2
+p030,control,src/main/java/net/sf/jabref/SearchManager2.java,before,pmd,CompareObjectsWithEquals,5
+p030,control,src/main/java/net/sf/jabref/SearchManager2.java,before,pmd,EmptyControlStatement,2
+p030,control,src/main/java/net/sf/jabref/SearchManager2.java,before,pmd,LooseCoupling,4
+p030,control,src/main/java/net/sf/jabref/SearchManager2.java,before,pmd,OneDeclarationPerLine,1
+p030,control,src/main/java/net/sf/jabref/SearchManager2.java,before,pmd,UncommentedEmptyMethodBody,2
+p030,control,src/main/java/net/sf/jabref/SearchManager2.java,before,pmd,UnnecessaryImport,2
+p030,control,src/main/java/net/sf/jabref/SearchManager2.java,before,pmd,UselessParentheses,1
+p030,control,src/main/java/net/sf/jabref/SearchManager2.java,after,pmd,CompareObjectsWithEquals,5
+p030,control,src/main/java/net/sf/jabref/SearchManager2.java,after,pmd,EmptyControlStatement,2
+p030,control,src/main/java/net/sf/jabref/SearchManager2.java,after,pmd,LooseCoupling,4
+p030,control,src/main/java/net/sf/jabref/SearchManager2.java,after,pmd,OneDeclarationPerLine,1
+p030,control,src/main/java/net/sf/jabref/SearchManager2.java,after,pmd,UncommentedEmptyMethodBody,2
+p030,control,src/main/java/net/sf/jabref/SearchManager2.java,after,pmd,UnnecessaryImport,2
+p030,control,src/main/java/net/sf/jabref/SearchManager2.java,after,pmd,UselessParentheses,1
+p030,control,src/main/java/net/sf/jabref/SearchManager2.java,before,designite,Cyclic-Dependent Modularization,1
+p030,control,src/main/java/net/sf/jabref/SearchManager2.java,before,designite,Insufficient Modularization,1
+p030,control,src/main/java/net/sf/jabref/SearchManager2.java,after,designite,Cyclic-Dependent Modularization,1
+p030,control,src/main/java/net/sf/jabref/SearchManager2.java,after,designite,Insufficient Modularization,1
+p031,treated,jabgui/src/main/java/org/jabref/gui/groups/GroupTreeViewModel.java,before,pmd,DanglingJavadoc,1
+p031,treated,jabgui/src/main/java/org/jabref/gui/groups/GroupTreeViewModel.java,before,pmd,LooseCoupling,2
+p031,treated,jabgui/src/main/java/org/jabref/gui/groups/GroupTreeViewModel.java,after,pmd,DanglingJavadoc,1
+p031,treated,jabgui/src/main/java/org/jabref/gui/groups/GroupTreeViewModel.java,after,pmd,LooseCoupling,2
+p031,treated,jabgui/src/main/java/org/jabref/gui/groups/GroupTreeViewModel.java,before,designite,Insufficient Modularization,1
+p031,treated,jabgui/src/main/java/org/jabref/gui/groups/GroupTreeViewModel.java,after,designite,Insufficient Modularization,1
+p031,control,jabgui/src/main/java/org/jabref/gui/groups/GroupNodeViewModel.java,before,pmd,EmptyControlStatement,1
+p031,control,jabgui/src/main/java/org/jabref/gui/groups/GroupNodeViewModel.java,before,pmd,NonExhaustiveSwitch,1
+p031,control,jabgui/src/main/java/org/jabref/gui/groups/GroupNodeViewModel.java,after,pmd,EmptyControlStatement,1
+p031,control,jabgui/src/main/java/org/jabref/gui/groups/GroupNodeViewModel.java,after,pmd,NonExhaustiveSwitch,1
+p031,control,jabgui/src/main/java/org/jabref/gui/groups/GroupNodeViewModel.java,before,designite,Insufficient Modularization,1
+p031,control,jabgui/src/main/java/org/jabref/gui/groups/GroupNodeViewModel.java,after,designite,Insufficient Modularization,1
+p032,treated,src/main/java/net/sf/jabref/model/entry/Author.java,before,pmd,UnnecessaryFullyQualifiedName,3
+p032,treated,src/main/java/net/sf/jabref/model/entry/Author.java,after,pmd,UnnecessaryFullyQualifiedName,3
+p032,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,AvoidCatchingThrowable,3
+p032,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,4
+p032,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,CompareObjectsWithEquals,1
+p032,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,EmptyCatchBlock,1
+p032,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,GuardLogStatement,5
+p032,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,ProperLogger,1
+p032,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,UnnecessaryFullyQualifiedName,20
+p032,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,UselessQualifiedThis,7
+p032,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,AvoidCatchingThrowable,3
+p032,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,4
+p032,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,CompareObjectsWithEquals,1
+p032,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,EmptyCatchBlock,1
+p032,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,GuardLogStatement,5
+p032,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,ProperLogger,1
+p032,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,UnnecessaryFullyQualifiedName,20
+p032,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,UselessQualifiedThis,7
+p032,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,designite,Cyclic-Dependent Modularization,1
+p032,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,designite,Deficient Encapsulation,1
+p032,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,designite,Hub-like Modularization,1
+p032,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,designite,Insufficient Modularization,1
+p032,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,designite,Cyclic-Dependent Modularization,1
+p032,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,designite,Deficient Encapsulation,1
+p032,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,designite,Hub-like Modularization,1
+p032,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,designite,Insufficient Modularization,1
+p033,treated,jablib/src/main/java/org/jabref/logic/ai/chatting/AiChatLogic.java,before,pmd,GuardLogStatement,2
+p033,treated,jablib/src/main/java/org/jabref/logic/ai/chatting/AiChatLogic.java,after,pmd,GuardLogStatement,2
+p033,control,jabgui/src/main/java/org/jabref/gui/preferences/ai/AiTabViewModel.java,before,pmd,NonExhaustiveSwitch,5
+p033,control,jabgui/src/main/java/org/jabref/gui/preferences/ai/AiTabViewModel.java,after,pmd,NonExhaustiveSwitch,5
+p033,control,jabgui/src/main/java/org/jabref/gui/preferences/ai/AiTabViewModel.java,before,designite,Insufficient Modularization,1
+p033,control,jabgui/src/main/java/org/jabref/gui/preferences/ai/AiTabViewModel.java,before,designite,Unutilized Abstraction,1
+p033,control,jabgui/src/main/java/org/jabref/gui/preferences/ai/AiTabViewModel.java,after,designite,Insufficient Modularization,1
+p034,treated,jabgui/src/main/java/org/jabref/gui/preferences/JabRefGuiPreferences.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p034,treated,jabgui/src/main/java/org/jabref/gui/preferences/JabRefGuiPreferences.java,before,pmd,LambdaCanBeMethodReference,1
+p034,treated,jabgui/src/main/java/org/jabref/gui/preferences/JabRefGuiPreferences.java,before,pmd,NonThreadSafeSingleton,1
+p034,treated,jabgui/src/main/java/org/jabref/gui/preferences/JabRefGuiPreferences.java,before,pmd,UnnecessaryFullyQualifiedName,3
+p034,treated,jabgui/src/main/java/org/jabref/gui/preferences/JabRefGuiPreferences.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p034,treated,jabgui/src/main/java/org/jabref/gui/preferences/JabRefGuiPreferences.java,after,pmd,LambdaCanBeMethodReference,1
+p034,treated,jabgui/src/main/java/org/jabref/gui/preferences/JabRefGuiPreferences.java,after,pmd,NonThreadSafeSingleton,1
+p034,treated,jabgui/src/main/java/org/jabref/gui/preferences/JabRefGuiPreferences.java,after,pmd,UnnecessaryFullyQualifiedName,3
+p034,treated,jabgui/src/main/java/org/jabref/gui/preferences/JabRefGuiPreferences.java,before,designite,Deficient Encapsulation,1
+p034,treated,jabgui/src/main/java/org/jabref/gui/preferences/JabRefGuiPreferences.java,before,designite,Insufficient Modularization,1
+p034,treated,jabgui/src/main/java/org/jabref/gui/preferences/JabRefGuiPreferences.java,after,designite,Deficient Encapsulation,1
+p034,treated,jabgui/src/main/java/org/jabref/gui/preferences/JabRefGuiPreferences.java,after,designite,Insufficient Modularization,1
+p034,control,jabgui/src/main/java/org/jabref/gui/specialfields/SpecialFieldsPreferences.java,before,designite,Deficient Encapsulation,1
+p034,control,jabgui/src/main/java/org/jabref/gui/specialfields/SpecialFieldsPreferences.java,after,designite,Deficient Encapsulation,1
+p035,treated,jabgui/src/main/java/org/jabref/gui/mergeentries/UpdateWithBibliographicInformationByWebFetchers.java,before,designite,Unutilized Abstraction,1
+p035,treated,jabgui/src/main/java/org/jabref/gui/mergeentries/UpdateWithBibliographicInformationByWebFetchers.java,after,designite,Unutilized Abstraction,1
+p035,control,jabgui/src/main/java/org/jabref/gui/StateManager.java,before,designite,Cyclic-Dependent Modularization,1
+p035,control,jabgui/src/main/java/org/jabref/gui/StateManager.java,before,designite,Insufficient Modularization,1
+p035,control,jabgui/src/main/java/org/jabref/gui/StateManager.java,after,designite,Cyclic-Dependent Modularization,1
+p035,control,jabgui/src/main/java/org/jabref/gui/StateManager.java,after,designite,Insufficient Modularization,1
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,before,pmd,AssignmentInOperand,7
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,before,pmd,CloseResource,2
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,before,pmd,DanglingJavadoc,1
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,before,pmd,GuardLogStatement,1
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,before,pmd,LiteralsFirstInComparisons,1
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,before,pmd,LooseCoupling,15
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,before,pmd,ProperLogger,1
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,before,pmd,UnnecessaryFullyQualifiedName,21
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,before,pmd,UnnecessaryImport,1
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,before,pmd,UseLocaleWithCaseConversions,2
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,after,pmd,AssignmentInOperand,7
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,after,pmd,CloseResource,2
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,after,pmd,GuardLogStatement,1
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,after,pmd,LiteralsFirstInComparisons,1
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,after,pmd,LooseCoupling,15
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,after,pmd,ProperLogger,1
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,after,pmd,UnnecessaryFullyQualifiedName,21
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,after,pmd,UnnecessaryImport,1
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,after,pmd,UseLocaleWithCaseConversions,2
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,before,designite,Cyclic-Dependent Modularization,1
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,before,designite,Deficient Encapsulation,1
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,before,designite,Hub-like Modularization,1
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,before,designite,Insufficient Modularization,1
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,after,designite,Cyclic-Dependent Modularization,1
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,after,designite,Deficient Encapsulation,1
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,after,designite,Hub-like Modularization,1
+p036,treated,src/main/java/net/sf/jabref/util/Util.java,after,designite,Insufficient Modularization,1
+p036,control,src/main/java/net/sf/jabref/gui/desktop/JabRefDesktop.java,before,pmd,IdenticalCatchBranches,1
+p036,control,src/main/java/net/sf/jabref/gui/desktop/JabRefDesktop.java,before,pmd,LiteralsFirstInComparisons,10
+p036,control,src/main/java/net/sf/jabref/gui/desktop/JabRefDesktop.java,before,pmd,UnnecessaryImport,2
+p036,control,src/main/java/net/sf/jabref/gui/desktop/JabRefDesktop.java,before,pmd,UseLocaleWithCaseConversions,2
+p036,control,src/main/java/net/sf/jabref/gui/desktop/JabRefDesktop.java,before,pmd,UseUtilityClass,1
+p036,control,src/main/java/net/sf/jabref/gui/desktop/JabRefDesktop.java,after,pmd,IdenticalCatchBranches,1
+p036,control,src/main/java/net/sf/jabref/gui/desktop/JabRefDesktop.java,after,pmd,LiteralsFirstInComparisons,10
+p036,control,src/main/java/net/sf/jabref/gui/desktop/JabRefDesktop.java,after,pmd,UnnecessaryImport,2
+p036,control,src/main/java/net/sf/jabref/gui/desktop/JabRefDesktop.java,after,pmd,UseLocaleWithCaseConversions,2
+p036,control,src/main/java/net/sf/jabref/gui/desktop/JabRefDesktop.java,after,pmd,UseUtilityClass,1
+p036,control,src/main/java/net/sf/jabref/gui/desktop/JabRefDesktop.java,before,designite,Cyclic-Dependent Modularization,1
+p036,control,src/main/java/net/sf/jabref/gui/desktop/JabRefDesktop.java,after,designite,Cyclic-Dependent Modularization,1
+p037,treated,src/main/java/org/jabref/preferences/JabRefPreferences.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p037,treated,src/main/java/org/jabref/preferences/JabRefPreferences.java,before,pmd,CloseResource,1
+p037,treated,src/main/java/org/jabref/preferences/JabRefPreferences.java,before,pmd,GuardLogStatement,6
+p037,treated,src/main/java/org/jabref/preferences/JabRefPreferences.java,before,pmd,LambdaCanBeMethodReference,1
+p037,treated,src/main/java/org/jabref/preferences/JabRefPreferences.java,before,pmd,LooseCoupling,1
+p037,treated,src/main/java/org/jabref/preferences/JabRefPreferences.java,before,pmd,NonExhaustiveSwitch,2
+p037,treated,src/main/java/org/jabref/preferences/JabRefPreferences.java,before,pmd,NonThreadSafeSingleton,1
+p037,treated,src/main/java/org/jabref/preferences/JabRefPreferences.java,before,pmd,UnnecessaryFullyQualifiedName,3
+p037,treated,src/main/java/org/jabref/preferences/JabRefPreferences.java,before,pmd,UselessParentheses,5
+p037,treated,src/main/java/org/jabref/preferences/JabRefPreferences.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p037,treated,src/main/java/org/jabref/preferences/JabRefPreferences.java,after,pmd,CloseResource,1
+p037,treated,src/main/java/org/jabref/preferences/JabRefPreferences.java,after,pmd,GuardLogStatement,6
+p037,treated,src/main/java/org/jabref/preferences/JabRefPreferences.java,after,pmd,LambdaCanBeMethodReference,1
+p037,treated,src/main/java/org/jabref/preferences/JabRefPreferences.java,after,pmd,LooseCoupling,2
+p037,treated,src/main/java/org/jabref/preferences/JabRefPreferences.java,after,pmd,NonExhaustiveSwitch,2
+p037,treated,src/main/java/org/jabref/preferences/JabRefPreferences.java,after,pmd,NonThreadSafeSingleton,1
+p037,treated,src/main/java/org/jabref/preferences/JabRefPreferences.java,after,pmd,UnnecessaryFullyQualifiedName,3
+p037,treated,src/main/java/org/jabref/preferences/JabRefPreferences.java,after,pmd,UselessParentheses,5
+p037,treated,src/main/java/org/jabref/preferences/JabRefPreferences.java,before,designite,Cyclic-Dependent Modularization,1
+p037,treated,src/main/java/org/jabref/preferences/JabRefPreferences.java,before,designite,Deficient Encapsulation,1
+p037,treated,src/main/java/org/jabref/preferences/JabRefPreferences.java,before,designite,Insufficient Modularization,1
+p037,treated,src/main/java/org/jabref/preferences/JabRefPreferences.java,after,designite,Cyclic-Dependent Modularization,1
+p037,treated,src/main/java/org/jabref/preferences/JabRefPreferences.java,after,designite,Deficient Encapsulation,1
+p037,treated,src/main/java/org/jabref/preferences/JabRefPreferences.java,after,designite,Insufficient Modularization,1
+p038,treated,src/main/java/net/sf/jabref/gui/entryeditor/FileAnnotationTab.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p038,treated,src/main/java/net/sf/jabref/gui/entryeditor/FileAnnotationTab.java,before,pmd,LogicInversion,1
+p038,treated,src/main/java/net/sf/jabref/gui/entryeditor/FileAnnotationTab.java,before,pmd,UnusedPrivateField,1
+p038,treated,src/main/java/net/sf/jabref/gui/entryeditor/FileAnnotationTab.java,before,pmd,UselessParentheses,2
+p038,treated,src/main/java/net/sf/jabref/gui/entryeditor/FileAnnotationTab.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p038,treated,src/main/java/net/sf/jabref/gui/entryeditor/FileAnnotationTab.java,after,pmd,LogicInversion,1
+p038,treated,src/main/java/net/sf/jabref/gui/entryeditor/FileAnnotationTab.java,after,pmd,UnusedPrivateField,1
+p038,treated,src/main/java/net/sf/jabref/gui/entryeditor/FileAnnotationTab.java,after,pmd,UselessParentheses,2
+p038,treated,src/main/java/net/sf/jabref/gui/entryeditor/FileAnnotationTab.java,before,designite,Cyclic-Dependent Modularization,1
+p038,treated,src/main/java/net/sf/jabref/gui/entryeditor/FileAnnotationTab.java,after,designite,Cyclic-Dependent Modularization,1
+p038,control,src/main/java/net/sf/jabref/gui/entryeditor/EntryEditor.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,2
+p038,control,src/main/java/net/sf/jabref/gui/entryeditor/EntryEditor.java,before,pmd,CompareObjectsWithEquals,1
+p038,control,src/main/java/net/sf/jabref/gui/entryeditor/EntryEditor.java,before,pmd,DanglingJavadoc,2
+p038,control,src/main/java/net/sf/jabref/gui/entryeditor/EntryEditor.java,before,pmd,ProperLogger,1
+p038,control,src/main/java/net/sf/jabref/gui/entryeditor/EntryEditor.java,before,pmd,SingularField,1
+p038,control,src/main/java/net/sf/jabref/gui/entryeditor/EntryEditor.java,before,pmd,UnnecessaryFullyQualifiedName,13
+p038,control,src/main/java/net/sf/jabref/gui/entryeditor/EntryEditor.java,before,pmd,UnusedPrivateMethod,1
+p038,control,src/main/java/net/sf/jabref/gui/entryeditor/EntryEditor.java,before,pmd,UselessParentheses,2
+p038,control,src/main/java/net/sf/jabref/gui/entryeditor/EntryEditor.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,2
+p038,control,src/main/java/net/sf/jabref/gui/entryeditor/EntryEditor.java,after,pmd,CompareObjectsWithEquals,1
+p038,control,src/main/java/net/sf/jabref/gui/entryeditor/EntryEditor.java,after,pmd,DanglingJavadoc,2
+p038,control,src/main/java/net/sf/jabref/gui/entryeditor/EntryEditor.java,after,pmd,ProperLogger,1
+p038,control,src/main/java/net/sf/jabref/gui/entryeditor/EntryEditor.java,after,pmd,SingularField,1
+p038,control,src/main/java/net/sf/jabref/gui/entryeditor/EntryEditor.java,after,pmd,UnnecessaryFullyQualifiedName,13
+p038,control,src/main/java/net/sf/jabref/gui/entryeditor/EntryEditor.java,after,pmd,UnusedPrivateMethod,1
+p038,control,src/main/java/net/sf/jabref/gui/entryeditor/EntryEditor.java,after,pmd,UselessParentheses,2
+p038,control,src/main/java/net/sf/jabref/gui/entryeditor/EntryEditor.java,before,designite,Cyclic-Dependent Modularization,1
+p038,control,src/main/java/net/sf/jabref/gui/entryeditor/EntryEditor.java,before,designite,Insufficient Modularization,1
+p038,control,src/main/java/net/sf/jabref/gui/entryeditor/EntryEditor.java,before,designite,Missing Hierarchy,1
+p038,control,src/main/java/net/sf/jabref/gui/entryeditor/EntryEditor.java,after,designite,Cyclic-Dependent Modularization,1
+p038,control,src/main/java/net/sf/jabref/gui/entryeditor/EntryEditor.java,after,designite,Insufficient Modularization,1
+p038,control,src/main/java/net/sf/jabref/gui/entryeditor/EntryEditor.java,after,designite,Missing Hierarchy,1
+p039,treated,jablib/src/main/java/org/jabref/logic/ai/embedding/AsyncEmbeddingModel.java,before,designite,Unutilized Abstraction,1
+p039,treated,jablib/src/main/java/org/jabref/logic/ai/embedding/AsyncEmbeddingModel.java,after,designite,Unutilized Abstraction,1
+p039,control,jablib/src/main/java/org/jabref/logic/preferences/JabRefCliPreferences.java,before,pmd,EmptyCatchBlock,1
+p039,control,jablib/src/main/java/org/jabref/logic/preferences/JabRefCliPreferences.java,before,pmd,GuardLogStatement,5
+p039,control,jablib/src/main/java/org/jabref/logic/preferences/JabRefCliPreferences.java,before,pmd,LooseCoupling,1
+p039,control,jablib/src/main/java/org/jabref/logic/preferences/JabRefCliPreferences.java,before,pmd,NonThreadSafeSingleton,1
+p039,control,jablib/src/main/java/org/jabref/logic/preferences/JabRefCliPreferences.java,before,pmd,UnnecessaryFullyQualifiedName,3
+p039,control,jablib/src/main/java/org/jabref/logic/preferences/JabRefCliPreferences.java,after,pmd,EmptyCatchBlock,1
+p039,control,jablib/src/main/java/org/jabref/logic/preferences/JabRefCliPreferences.java,after,pmd,GuardLogStatement,5
+p039,control,jablib/src/main/java/org/jabref/logic/preferences/JabRefCliPreferences.java,after,pmd,LooseCoupling,1
+p039,control,jablib/src/main/java/org/jabref/logic/preferences/JabRefCliPreferences.java,after,pmd,NonThreadSafeSingleton,1
+p039,control,jablib/src/main/java/org/jabref/logic/preferences/JabRefCliPreferences.java,after,pmd,UnnecessaryFullyQualifiedName,3
+p039,control,jablib/src/main/java/org/jabref/logic/preferences/JabRefCliPreferences.java,before,designite,Deficient Encapsulation,1
+p039,control,jablib/src/main/java/org/jabref/logic/preferences/JabRefCliPreferences.java,before,designite,Insufficient Modularization,1
+p039,control,jablib/src/main/java/org/jabref/logic/preferences/JabRefCliPreferences.java,after,designite,Deficient Encapsulation,1
+p039,control,jablib/src/main/java/org/jabref/logic/preferences/JabRefCliPreferences.java,after,designite,Insufficient Modularization,1
+p040,treated,src/main/java/net/sf/jabref/openoffice/OpenOfficePanel.java,before,pmd,AvoidAccessibilityAlteration,1
+p040,treated,src/main/java/net/sf/jabref/openoffice/OpenOfficePanel.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p040,treated,src/main/java/net/sf/jabref/openoffice/OpenOfficePanel.java,before,pmd,CloseResource,3
+p040,treated,src/main/java/net/sf/jabref/openoffice/OpenOfficePanel.java,before,pmd,NonThreadSafeSingleton,1
+p040,treated,src/main/java/net/sf/jabref/openoffice/OpenOfficePanel.java,before,pmd,PreserveStackTrace,1
+p040,treated,src/main/java/net/sf/jabref/openoffice/OpenOfficePanel.java,before,pmd,ProperLogger,1
+p040,treated,src/main/java/net/sf/jabref/openoffice/OpenOfficePanel.java,before,pmd,UnnecessaryFullyQualifiedName,3
+p040,treated,src/main/java/net/sf/jabref/openoffice/OpenOfficePanel.java,before,pmd,UnnecessaryImport,2
+p040,treated,src/main/java/net/sf/jabref/openoffice/OpenOfficePanel.java,before,pmd,UnnecessaryReturn,1
+p040,treated,src/main/java/net/sf/jabref/openoffice/OpenOfficePanel.java,after,pmd,AvoidAccessibilityAlteration,1
+p040,treated,src/main/java/net/sf/jabref/openoffice/OpenOfficePanel.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p040,treated,src/main/java/net/sf/jabref/openoffice/OpenOfficePanel.java,after,pmd,CloseResource,3
+p040,treated,src/main/java/net/sf/jabref/openoffice/OpenOfficePanel.java,after,pmd,NonThreadSafeSingleton,1
+p040,treated,src/main/java/net/sf/jabref/openoffice/OpenOfficePanel.java,after,pmd,PreserveStackTrace,1
+p040,treated,src/main/java/net/sf/jabref/openoffice/OpenOfficePanel.java,after,pmd,ProperLogger,1
+p040,treated,src/main/java/net/sf/jabref/openoffice/OpenOfficePanel.java,after,pmd,UnnecessaryFullyQualifiedName,3
+p040,treated,src/main/java/net/sf/jabref/openoffice/OpenOfficePanel.java,after,pmd,UnnecessaryImport,2
+p040,treated,src/main/java/net/sf/jabref/openoffice/OpenOfficePanel.java,after,pmd,UnnecessaryReturn,1
+p040,treated,src/main/java/net/sf/jabref/openoffice/OpenOfficePanel.java,after,pmd,UselessParentheses,1
+p040,treated,src/main/java/net/sf/jabref/openoffice/OpenOfficePanel.java,before,designite,Cyclic-Dependent Modularization,1
+p040,treated,src/main/java/net/sf/jabref/openoffice/OpenOfficePanel.java,before,designite,Deficient Encapsulation,1
+p040,treated,src/main/java/net/sf/jabref/openoffice/OpenOfficePanel.java,before,designite,Insufficient Modularization,1
+p040,treated,src/main/java/net/sf/jabref/openoffice/OpenOfficePanel.java,after,designite,Cyclic-Dependent Modularization,1
+p040,treated,src/main/java/net/sf/jabref/openoffice/OpenOfficePanel.java,after,designite,Deficient Encapsulation,1
+p040,control,src/main/java/net/sf/jabref/openoffice/OOBibStyle.java,before,pmd,DanglingJavadoc,1
+p040,control,src/main/java/net/sf/jabref/openoffice/OOBibStyle.java,before,pmd,LiteralsFirstInComparisons,6
+p040,control,src/main/java/net/sf/jabref/openoffice/OOBibStyle.java,before,pmd,ProperLogger,1
+p040,control,src/main/java/net/sf/jabref/openoffice/OOBibStyle.java,before,pmd,SimplifyBooleanReturns,2
+p040,control,src/main/java/net/sf/jabref/openoffice/OOBibStyle.java,before,pmd,UnnecessaryFullyQualifiedName,14
+p040,control,src/main/java/net/sf/jabref/openoffice/OOBibStyle.java,before,pmd,UseLocaleWithCaseConversions,2
+p040,control,src/main/java/net/sf/jabref/openoffice/OOBibStyle.java,before,pmd,UselessParentheses,1
+p040,control,src/main/java/net/sf/jabref/openoffice/OOBibStyle.java,after,pmd,DanglingJavadoc,1
+p040,control,src/main/java/net/sf/jabref/openoffice/OOBibStyle.java,after,pmd,LiteralsFirstInComparisons,6
+p040,control,src/main/java/net/sf/jabref/openoffice/OOBibStyle.java,after,pmd,ProperLogger,1
+p040,control,src/main/java/net/sf/jabref/openoffice/OOBibStyle.java,after,pmd,SimplifyBooleanReturns,2
+p040,control,src/main/java/net/sf/jabref/openoffice/OOBibStyle.java,after,pmd,UnnecessaryFullyQualifiedName,14
+p040,control,src/main/java/net/sf/jabref/openoffice/OOBibStyle.java,after,pmd,UseLocaleWithCaseConversions,2
+p040,control,src/main/java/net/sf/jabref/openoffice/OOBibStyle.java,after,pmd,UselessParentheses,1
+p040,control,src/main/java/net/sf/jabref/openoffice/OOBibStyle.java,before,designite,Cyclic-Dependent Modularization,1
+p040,control,src/main/java/net/sf/jabref/openoffice/OOBibStyle.java,before,designite,Deficient Encapsulation,1
+p040,control,src/main/java/net/sf/jabref/openoffice/OOBibStyle.java,before,designite,Insufficient Modularization,1
+p040,control,src/main/java/net/sf/jabref/openoffice/OOBibStyle.java,after,designite,Cyclic-Dependent Modularization,1
+p040,control,src/main/java/net/sf/jabref/openoffice/OOBibStyle.java,after,designite,Deficient Encapsulation,1
+p040,control,src/main/java/net/sf/jabref/openoffice/OOBibStyle.java,after,designite,Insufficient Modularization,1
+p041,treated,src/main/java/net/sf/jabref/Util.java,before,pmd,AssignmentInOperand,10
+p041,treated,src/main/java/net/sf/jabref/Util.java,before,pmd,CloseResource,2
+p041,treated,src/main/java/net/sf/jabref/Util.java,before,pmd,DanglingJavadoc,1
+p041,treated,src/main/java/net/sf/jabref/Util.java,before,pmd,IdenticalCatchBranches,1
+p041,treated,src/main/java/net/sf/jabref/Util.java,before,pmd,LiteralsFirstInComparisons,13
+p041,treated,src/main/java/net/sf/jabref/Util.java,before,pmd,LogicInversion,1
+p041,treated,src/main/java/net/sf/jabref/Util.java,before,pmd,LooseCoupling,22
+p041,treated,src/main/java/net/sf/jabref/Util.java,before,pmd,MethodNamingConventions,2
+p041,treated,src/main/java/net/sf/jabref/Util.java,before,pmd,OneDeclarationPerLine,9
+p041,treated,src/main/java/net/sf/jabref/Util.java,before,pmd,OptimizableToArrayCall,2
+p041,treated,src/main/java/net/sf/jabref/Util.java,before,pmd,ReturnEmptyCollectionRatherThanNull,1
+p041,treated,src/main/java/net/sf/jabref/Util.java,before,pmd,SuspiciousEqualsMethodName,1
+p041,treated,src/main/java/net/sf/jabref/Util.java,before,pmd,UnnecessaryFullyQualifiedName,50
+p041,treated,src/main/java/net/sf/jabref/Util.java,before,pmd,UnusedFormalParameter,1
+p041,treated,src/main/java/net/sf/jabref/Util.java,before,pmd,UseCollectionIsEmpty,3
+p041,treated,src/main/java/net/sf/jabref/Util.java,before,pmd,UseLocaleWithCaseConversions,12
+p041,treated,src/main/java/net/sf/jabref/Util.java,before,pmd,UseUtilityClass,1
+p041,treated,src/main/java/net/sf/jabref/Util.java,before,pmd,UselessParentheses,8
+p041,treated,src/main/java/net/sf/jabref/Util.java,after,pmd,AssignmentInOperand,7
+p041,treated,src/main/java/net/sf/jabref/Util.java,after,pmd,CloseResource,2
+p041,treated,src/main/java/net/sf/jabref/Util.java,after,pmd,DanglingJavadoc,1
+p041,treated,src/main/java/net/sf/jabref/Util.java,after,pmd,IdenticalCatchBranches,1
+p041,treated,src/main/java/net/sf/jabref/Util.java,after,pmd,LiteralsFirstInComparisons,12
+p041,treated,src/main/java/net/sf/jabref/Util.java,after,pmd,LooseCoupling,19
+p041,treated,src/main/java/net/sf/jabref/Util.java,after,pmd,OneDeclarationPerLine,6
+p041,treated,src/main/java/net/sf/jabref/Util.java,after,pmd,OptimizableToArrayCall,1
+p041,treated,src/main/java/net/sf/jabref/Util.java,after,pmd,SuspiciousEqualsMethodName,1
+p041,treated,src/main/java/net/sf/jabref/Util.java,after,pmd,UnnecessaryFullyQualifiedName,33
+p041,treated,src/main/java/net/sf/jabref/Util.java,after,pmd,UnusedFormalParameter,1
+p041,treated,src/main/java/net/sf/jabref/Util.java,after,pmd,UseCollectionIsEmpty,3
+p041,treated,src/main/java/net/sf/jabref/Util.java,after,pmd,UseLocaleWithCaseConversions,4
+p041,treated,src/main/java/net/sf/jabref/Util.java,after,pmd,UseUtilityClass,1
+p041,treated,src/main/java/net/sf/jabref/Util.java,after,pmd,UselessParentheses,5
+p041,treated,src/main/java/net/sf/jabref/Util.java,before,designite,Cyclic-Dependent Modularization,1
+p041,treated,src/main/java/net/sf/jabref/Util.java,before,designite,Hub-like Modularization,1
+p041,treated,src/main/java/net/sf/jabref/Util.java,before,designite,Insufficient Modularization,1
+p041,treated,src/main/java/net/sf/jabref/Util.java,after,designite,Cyclic-Dependent Modularization,1
+p041,treated,src/main/java/net/sf/jabref/Util.java,after,designite,Hub-like Modularization,1
+p041,treated,src/main/java/net/sf/jabref/Util.java,after,designite,Insufficient Modularization,1
+p041,control,src/main/java/net/sf/jabref/groups/KeywordGroup.java,before,pmd,AvoidCatchingThrowable,1
+p041,control,src/main/java/net/sf/jabref/groups/KeywordGroup.java,before,pmd,OneDeclarationPerLine,1
+p041,control,src/main/java/net/sf/jabref/groups/KeywordGroup.java,before,pmd,OverrideBothEqualsAndHashcode,1
+p041,control,src/main/java/net/sf/jabref/groups/KeywordGroup.java,before,pmd,UnnecessaryFullyQualifiedName,7
+p041,control,src/main/java/net/sf/jabref/groups/KeywordGroup.java,before,pmd,UnnecessaryImport,1
+p041,control,src/main/java/net/sf/jabref/groups/KeywordGroup.java,before,pmd,UseLocaleWithCaseConversions,4
+p041,control,src/main/java/net/sf/jabref/groups/KeywordGroup.java,before,pmd,UselessParentheses,1
+p041,control,src/main/java/net/sf/jabref/groups/KeywordGroup.java,after,pmd,AvoidCatchingThrowable,1
+p041,control,src/main/java/net/sf/jabref/groups/KeywordGroup.java,after,pmd,OneDeclarationPerLine,1
+p041,control,src/main/java/net/sf/jabref/groups/KeywordGroup.java,after,pmd,OverrideBothEqualsAndHashcode,1
+p041,control,src/main/java/net/sf/jabref/groups/KeywordGroup.java,after,pmd,UnnecessaryFullyQualifiedName,7
+p041,control,src/main/java/net/sf/jabref/groups/KeywordGroup.java,after,pmd,UnnecessaryImport,1
+p041,control,src/main/java/net/sf/jabref/groups/KeywordGroup.java,after,pmd,UseLocaleWithCaseConversions,4
+p041,control,src/main/java/net/sf/jabref/groups/KeywordGroup.java,after,pmd,UselessParentheses,1
+p041,control,src/main/java/net/sf/jabref/groups/KeywordGroup.java,before,designite,Cyclic-Dependent Modularization,1
+p041,control,src/main/java/net/sf/jabref/groups/KeywordGroup.java,before,designite,Deficient Encapsulation,1
+p041,control,src/main/java/net/sf/jabref/groups/KeywordGroup.java,before,designite,Insufficient Modularization,1
+p041,control,src/main/java/net/sf/jabref/groups/KeywordGroup.java,before,designite,Rebellious Hierarchy,1
+p041,control,src/main/java/net/sf/jabref/groups/KeywordGroup.java,after,designite,Cyclic-Dependent Modularization,1
+p041,control,src/main/java/net/sf/jabref/groups/KeywordGroup.java,after,designite,Deficient Encapsulation,1
+p041,control,src/main/java/net/sf/jabref/groups/KeywordGroup.java,after,designite,Insufficient Modularization,1
+p041,control,src/main/java/net/sf/jabref/groups/KeywordGroup.java,after,designite,Rebellious Hierarchy,1
+p042,treated,src/main/java/org/jabref/logic/importer/fetcher/ArXiv.java,before,pmd,UseCollectionIsEmpty,1
+p042,treated,src/main/java/org/jabref/logic/importer/fetcher/ArXiv.java,after,pmd,UseCollectionIsEmpty,1
+p042,treated,src/main/java/org/jabref/logic/importer/fetcher/ArXiv.java,before,designite,Unutilized Abstraction,1
+p042,treated,src/main/java/org/jabref/logic/importer/fetcher/ArXiv.java,after,designite,Unutilized Abstraction,1
+p042,control,src/main/java/org/jabref/model/strings/StringUtil.java,before,pmd,AssignmentInOperand,15
+p042,control,src/main/java/org/jabref/model/strings/StringUtil.java,before,pmd,UseUtilityClass,1
+p042,control,src/main/java/org/jabref/model/strings/StringUtil.java,before,pmd,UselessParentheses,2
+p042,control,src/main/java/org/jabref/model/strings/StringUtil.java,after,pmd,AssignmentInOperand,15
+p042,control,src/main/java/org/jabref/model/strings/StringUtil.java,after,pmd,UseUtilityClass,1
+p042,control,src/main/java/org/jabref/model/strings/StringUtil.java,after,pmd,UselessParentheses,2
+p042,control,src/main/java/org/jabref/model/strings/StringUtil.java,before,designite,Deficient Encapsulation,1
+p042,control,src/main/java/org/jabref/model/strings/StringUtil.java,before,designite,Insufficient Modularization,1
+p042,control,src/main/java/org/jabref/model/strings/StringUtil.java,after,designite,Deficient Encapsulation,1
+p042,control,src/main/java/org/jabref/model/strings/StringUtil.java,after,designite,Insufficient Modularization,1
+p043,treated,src/main/java/org/jabref/gui/groups/GroupNodeViewModel.java,before,pmd,SimplifyBooleanReturns,1
+p043,treated,src/main/java/org/jabref/gui/groups/GroupNodeViewModel.java,after,pmd,SimplifyBooleanReturns,1
+p043,treated,src/main/java/org/jabref/gui/groups/GroupNodeViewModel.java,before,designite,Insufficient Modularization,1
+p043,treated,src/main/java/org/jabref/gui/groups/GroupNodeViewModel.java,after,designite,Insufficient Modularization,1
+p043,control,src/main/java/org/jabref/gui/groups/GroupTreeController.java,before,pmd,AvoidAccessibilityAlteration,1
+p043,control,src/main/java/org/jabref/gui/groups/GroupTreeController.java,before,pmd,ProperLogger,1
+p043,control,src/main/java/org/jabref/gui/groups/GroupTreeController.java,after,pmd,AvoidAccessibilityAlteration,1
+p043,control,src/main/java/org/jabref/gui/groups/GroupTreeController.java,after,pmd,ProperLogger,1
+p043,control,src/main/java/org/jabref/gui/groups/GroupTreeController.java,before,designite,Unutilized Abstraction,1
+p043,control,src/main/java/org/jabref/gui/groups/GroupTreeController.java,after,designite,Unutilized Abstraction,1
+p044,treated,src/java/net/sf/jabref/GUIGlobals.java,before,pmd,CompareObjectsWithEquals,1
+p044,treated,src/java/net/sf/jabref/GUIGlobals.java,before,pmd,ControlStatementBraces,9
+p044,treated,src/java/net/sf/jabref/GUIGlobals.java,before,pmd,EmptyCatchBlock,1
+p044,treated,src/java/net/sf/jabref/GUIGlobals.java,before,pmd,ForLoopCanBeForeach,1
+p044,treated,src/java/net/sf/jabref/GUIGlobals.java,before,pmd,LiteralsFirstInComparisons,1
+p044,treated,src/java/net/sf/jabref/GUIGlobals.java,before,pmd,LooseCoupling,4
+p044,treated,src/java/net/sf/jabref/GUIGlobals.java,before,pmd,OneDeclarationPerLine,2
+p044,treated,src/java/net/sf/jabref/GUIGlobals.java,before,pmd,UnnecessaryFullyQualifiedName,1
+p044,treated,src/java/net/sf/jabref/GUIGlobals.java,before,pmd,UseUtilityClass,1
+p044,treated,src/java/net/sf/jabref/GUIGlobals.java,before,pmd,UselessParentheses,1
+p044,treated,src/java/net/sf/jabref/GUIGlobals.java,after,pmd,CompareObjectsWithEquals,1
+p044,treated,src/java/net/sf/jabref/GUIGlobals.java,after,pmd,ControlStatementBraces,9
+p044,treated,src/java/net/sf/jabref/GUIGlobals.java,after,pmd,EmptyCatchBlock,1
+p044,treated,src/java/net/sf/jabref/GUIGlobals.java,after,pmd,ForLoopCanBeForeach,1
+p044,treated,src/java/net/sf/jabref/GUIGlobals.java,after,pmd,LiteralsFirstInComparisons,1
+p044,treated,src/java/net/sf/jabref/GUIGlobals.java,after,pmd,LooseCoupling,4
+p044,treated,src/java/net/sf/jabref/GUIGlobals.java,after,pmd,OneDeclarationPerLine,2
+p044,treated,src/java/net/sf/jabref/GUIGlobals.java,after,pmd,UnnecessaryFullyQualifiedName,1
+p044,treated,src/java/net/sf/jabref/GUIGlobals.java,after,pmd,UseUtilityClass,1
+p044,treated,src/java/net/sf/jabref/GUIGlobals.java,after,pmd,UselessParentheses,1
+p044,treated,src/java/net/sf/jabref/GUIGlobals.java,before,designite,Cyclic-Dependent Modularization,1
+p044,treated,src/java/net/sf/jabref/GUIGlobals.java,before,designite,Deficient Encapsulation,1
+p044,treated,src/java/net/sf/jabref/GUIGlobals.java,after,designite,Cyclic-Dependent Modularization,1
+p044,treated,src/java/net/sf/jabref/GUIGlobals.java,after,designite,Deficient Encapsulation,1
+p044,control,src/java/net/sf/jabref/AdvancedTab.java,before,pmd,ControlStatementBraces,2
+p044,control,src/java/net/sf/jabref/AdvancedTab.java,before,pmd,MissingOverride,1
+p044,control,src/java/net/sf/jabref/AdvancedTab.java,before,pmd,OneDeclarationPerLine,3
+p044,control,src/java/net/sf/jabref/AdvancedTab.java,after,pmd,ControlStatementBraces,2
+p044,control,src/java/net/sf/jabref/AdvancedTab.java,after,pmd,MissingOverride,1
+p044,control,src/java/net/sf/jabref/AdvancedTab.java,after,pmd,OneDeclarationPerLine,3
+p044,control,src/java/net/sf/jabref/AdvancedTab.java,before,designite,Deficient Encapsulation,1
+p044,control,src/java/net/sf/jabref/AdvancedTab.java,before,designite,Unutilized Abstraction,1
+p044,control,src/java/net/sf/jabref/AdvancedTab.java,after,designite,Deficient Encapsulation,1
+p044,control,src/java/net/sf/jabref/AdvancedTab.java,after,designite,Unutilized Abstraction,1
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,before,pmd,AvoidCatchingThrowable,1
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,before,pmd,CloneMethodMustImplementCloneable,1
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,before,pmd,CloneMethodReturnTypeMustMatchClassName,1
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,before,pmd,ControlStatementBraces,8
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,before,pmd,LooseCoupling,2
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,before,pmd,MissingOverride,2
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,before,pmd,OneDeclarationPerLine,2
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,before,pmd,PreserveStackTrace,4
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,before,pmd,ProperCloneImplementation,1
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,before,pmd,UseLocaleWithCaseConversions,3
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,before,pmd,UselessParentheses,2
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,after,pmd,AvoidCatchingThrowable,1
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,after,pmd,CloneMethodMustImplementCloneable,1
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,after,pmd,CloneMethodReturnTypeMustMatchClassName,1
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,after,pmd,ControlStatementBraces,13
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,after,pmd,ForLoopCanBeForeach,2
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,after,pmd,ImplicitSwitchFallThrough,1
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,after,pmd,LooseCoupling,6
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,after,pmd,MissingOverride,2
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,after,pmd,NonExhaustiveSwitch,1
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,after,pmd,OneDeclarationPerLine,3
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,after,pmd,PreserveStackTrace,4
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,after,pmd,ProperCloneImplementation,1
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,after,pmd,UseLocaleWithCaseConversions,3
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,after,pmd,UselessParentheses,4
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,before,designite,Cyclic-Dependent Modularization,1
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,before,designite,Deficient Encapsulation,1
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,before,designite,Insufficient Modularization,1
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,after,designite,Cyclic-Dependent Modularization,1
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,after,designite,Deficient Encapsulation,1
+p045,treated,src/main/java/net/sf/jabref/BibtexEntry.java,after,designite,Insufficient Modularization,1
+p045,control,src/main/java/net/sf/jabref/FileTab.java,before,pmd,ControlStatementBraces,1
+p045,control,src/main/java/net/sf/jabref/FileTab.java,before,pmd,MissingOverride,1
+p045,control,src/main/java/net/sf/jabref/FileTab.java,before,pmd,OneDeclarationPerLine,4
+p045,control,src/main/java/net/sf/jabref/FileTab.java,after,pmd,ControlStatementBraces,1
+p045,control,src/main/java/net/sf/jabref/FileTab.java,after,pmd,LocalVariableNamingConventions,9
+p045,control,src/main/java/net/sf/jabref/FileTab.java,after,pmd,LooseCoupling,1
+p045,control,src/main/java/net/sf/jabref/FileTab.java,after,pmd,MissingOverride,1
+p045,control,src/main/java/net/sf/jabref/FileTab.java,after,pmd,OneDeclarationPerLine,4
+p045,control,src/main/java/net/sf/jabref/FileTab.java,after,pmd,UnnecessaryImport,3
+p045,control,src/main/java/net/sf/jabref/FileTab.java,before,designite,Rebellious Hierarchy,1
+p045,control,src/main/java/net/sf/jabref/FileTab.java,before,designite,Unutilized Abstraction,1
+p045,control,src/main/java/net/sf/jabref/FileTab.java,after,designite,Rebellious Hierarchy,1
+p045,control,src/main/java/net/sf/jabref/FileTab.java,after,designite,Unutilized Abstraction,1
+p046,treated,src/main/java/org/jabref/model/entry/CanonicalBibtexEntry.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p046,treated,src/main/java/org/jabref/model/entry/CanonicalBibtexEntry.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p046,treated,src/main/java/org/jabref/model/entry/CanonicalBibtexEntry.java,before,designite,Cyclic-Dependent Modularization,1
+p046,treated,src/main/java/org/jabref/model/entry/CanonicalBibtexEntry.java,after,designite,Cyclic-Dependent Modularization,1
+p046,control,src/main/java/org/jabref/model/entry/BibEntry.java,before,pmd,CloneMethodReturnTypeMustMatchClassName,1
+p046,control,src/main/java/org/jabref/model/entry/BibEntry.java,before,pmd,GuardLogStatement,1
+p046,control,src/main/java/org/jabref/model/entry/BibEntry.java,before,pmd,LooseCoupling,1
+p046,control,src/main/java/org/jabref/model/entry/BibEntry.java,before,pmd,ProperCloneImplementation,1
+p046,control,src/main/java/org/jabref/model/entry/BibEntry.java,before,pmd,ProperLogger,1
+p046,control,src/main/java/org/jabref/model/entry/BibEntry.java,before,pmd,UnnecessaryFullyQualifiedName,3
+p046,control,src/main/java/org/jabref/model/entry/BibEntry.java,before,pmd,UselessParentheses,1
+p046,control,src/main/java/org/jabref/model/entry/BibEntry.java,after,pmd,CloneMethodReturnTypeMustMatchClassName,1
+p046,control,src/main/java/org/jabref/model/entry/BibEntry.java,after,pmd,GuardLogStatement,1
+p046,control,src/main/java/org/jabref/model/entry/BibEntry.java,after,pmd,LooseCoupling,1
+p046,control,src/main/java/org/jabref/model/entry/BibEntry.java,after,pmd,ProperCloneImplementation,1
+p046,control,src/main/java/org/jabref/model/entry/BibEntry.java,after,pmd,ProperLogger,1
+p046,control,src/main/java/org/jabref/model/entry/BibEntry.java,after,pmd,UnnecessaryFullyQualifiedName,3
+p046,control,src/main/java/org/jabref/model/entry/BibEntry.java,after,pmd,UselessParentheses,1
+p046,control,src/main/java/org/jabref/model/entry/BibEntry.java,before,designite,Cyclic-Dependent Modularization,1
+p046,control,src/main/java/org/jabref/model/entry/BibEntry.java,before,designite,Deficient Encapsulation,1
+p046,control,src/main/java/org/jabref/model/entry/BibEntry.java,before,designite,Hub-like Modularization,1
+p046,control,src/main/java/org/jabref/model/entry/BibEntry.java,before,designite,Insufficient Modularization,1
+p046,control,src/main/java/org/jabref/model/entry/BibEntry.java,after,designite,Cyclic-Dependent Modularization,1
+p046,control,src/main/java/org/jabref/model/entry/BibEntry.java,after,designite,Deficient Encapsulation,1
+p046,control,src/main/java/org/jabref/model/entry/BibEntry.java,after,designite,Hub-like Modularization,1
+p046,control,src/main/java/org/jabref/model/entry/BibEntry.java,after,designite,Insufficient Modularization,1
+p047,treated,src/main/java/org/jabref/logic/importer/fileformat/PdfContentImporter.java,before,pmd,EmptyControlStatement,2
+p047,treated,src/main/java/org/jabref/logic/importer/fileformat/PdfContentImporter.java,before,pmd,LocalVariableNamingConventions,1
+p047,treated,src/main/java/org/jabref/logic/importer/fileformat/PdfContentImporter.java,before,pmd,LooseCoupling,1
+p047,treated,src/main/java/org/jabref/logic/importer/fileformat/PdfContentImporter.java,after,pmd,EmptyControlStatement,2
+p047,treated,src/main/java/org/jabref/logic/importer/fileformat/PdfContentImporter.java,after,pmd,LocalVariableNamingConventions,1
+p047,treated,src/main/java/org/jabref/logic/importer/fileformat/PdfContentImporter.java,after,pmd,LooseCoupling,1
+p047,control,src/main/java/org/jabref/logic/importer/fileformat/BibTeXMLImporter.java,before,pmd,LiteralsFirstInComparisons,2
+p047,control,src/main/java/org/jabref/logic/importer/fileformat/BibTeXMLImporter.java,after,pmd,LiteralsFirstInComparisons,2
+p047,control,src/main/java/org/jabref/logic/importer/fileformat/BibTeXMLImporter.java,before,designite,Unutilized Abstraction,1
+p047,control,src/main/java/org/jabref/logic/importer/fileformat/BibTeXMLImporter.java,after,designite,Unutilized Abstraction,1
+p048,treated,src/main/java/org/jabref/logic/shared/PostgreSQLProcessor.java,before,pmd,SingularField,1
+p048,treated,src/main/java/org/jabref/logic/shared/PostgreSQLProcessor.java,after,pmd,SingularField,1
+p048,treated,src/main/java/org/jabref/logic/shared/PostgreSQLProcessor.java,before,designite,Unutilized Abstraction,1
+p048,treated,src/main/java/org/jabref/logic/shared/PostgreSQLProcessor.java,after,designite,Unutilized Abstraction,1
+p048,control,src/main/java/org/jabref/gui/shared/ConnectToSharedDatabaseDialog.java,before,pmd,AvoidCatchingThrowable,1
+p048,control,src/main/java/org/jabref/gui/shared/ConnectToSharedDatabaseDialog.java,before,pmd,DanglingJavadoc,1
+p048,control,src/main/java/org/jabref/gui/shared/ConnectToSharedDatabaseDialog.java,before,pmd,OptimizableToArrayCall,1
+p048,control,src/main/java/org/jabref/gui/shared/ConnectToSharedDatabaseDialog.java,before,pmd,UselessParentheses,1
+p048,control,src/main/java/org/jabref/gui/shared/ConnectToSharedDatabaseDialog.java,before,pmd,UselessQualifiedThis,1
+p048,control,src/main/java/org/jabref/gui/shared/ConnectToSharedDatabaseDialog.java,after,pmd,AvoidCatchingThrowable,1
+p048,control,src/main/java/org/jabref/gui/shared/ConnectToSharedDatabaseDialog.java,after,pmd,DanglingJavadoc,1
+p048,control,src/main/java/org/jabref/gui/shared/ConnectToSharedDatabaseDialog.java,after,pmd,OptimizableToArrayCall,1
+p048,control,src/main/java/org/jabref/gui/shared/ConnectToSharedDatabaseDialog.java,after,pmd,UselessParentheses,1
+p049,treated,src/main/java/net/sf/jabref/imports/IsiImporter.java,before,pmd,ControlStatementBraces,26
+p049,treated,src/main/java/net/sf/jabref/imports/IsiImporter.java,before,pmd,DanglingJavadoc,1
+p049,treated,src/main/java/net/sf/jabref/imports/IsiImporter.java,before,pmd,LiteralsFirstInComparisons,32
+p049,treated,src/main/java/net/sf/jabref/imports/IsiImporter.java,before,pmd,LocalVariableNamingConventions,2
+p049,treated,src/main/java/net/sf/jabref/imports/IsiImporter.java,before,pmd,LooseCoupling,5
+p049,treated,src/main/java/net/sf/jabref/imports/IsiImporter.java,before,pmd,UnnecessaryImport,1
+p049,treated,src/main/java/net/sf/jabref/imports/IsiImporter.java,before,pmd,UseCollectionIsEmpty,1
+p049,treated,src/main/java/net/sf/jabref/imports/IsiImporter.java,before,pmd,UseLocaleWithCaseConversions,4
+p049,treated,src/main/java/net/sf/jabref/imports/IsiImporter.java,after,pmd,ControlStatementBraces,26
+p049,treated,src/main/java/net/sf/jabref/imports/IsiImporter.java,after,pmd,DanglingJavadoc,1
+p049,treated,src/main/java/net/sf/jabref/imports/IsiImporter.java,after,pmd,LiteralsFirstInComparisons,32
+p049,treated,src/main/java/net/sf/jabref/imports/IsiImporter.java,after,pmd,LocalVariableNamingConventions,2
+p049,treated,src/main/java/net/sf/jabref/imports/IsiImporter.java,after,pmd,LooseCoupling,5
+p049,treated,src/main/java/net/sf/jabref/imports/IsiImporter.java,after,pmd,UseCollectionIsEmpty,1
+p049,treated,src/main/java/net/sf/jabref/imports/IsiImporter.java,after,pmd,UseLocaleWithCaseConversions,4
+p049,control,src/main/java/net/sf/jabref/journals/JournalAbbreviations.java,before,pmd,ControlStatementBraces,15
+p049,control,src/main/java/net/sf/jabref/journals/JournalAbbreviations.java,before,pmd,IdenticalCatchBranches,1
+p049,control,src/main/java/net/sf/jabref/journals/JournalAbbreviations.java,before,pmd,LooseCoupling,4
+p049,control,src/main/java/net/sf/jabref/journals/JournalAbbreviations.java,before,pmd,MissingOverride,2
+p049,control,src/main/java/net/sf/jabref/journals/JournalAbbreviations.java,before,pmd,UncommentedEmptyConstructor,1
+p049,control,src/main/java/net/sf/jabref/journals/JournalAbbreviations.java,before,pmd,UnnecessaryImport,1
+p049,control,src/main/java/net/sf/jabref/journals/JournalAbbreviations.java,before,pmd,UseLocaleWithCaseConversions,7
+p049,control,src/main/java/net/sf/jabref/journals/JournalAbbreviations.java,before,pmd,UselessParentheses,2
+p049,control,src/main/java/net/sf/jabref/journals/JournalAbbreviations.java,before,pmd,VariableCanBeInlined,1
+p049,control,src/main/java/net/sf/jabref/journals/JournalAbbreviations.java,after,pmd,ControlStatementBraces,15
+p049,control,src/main/java/net/sf/jabref/journals/JournalAbbreviations.java,after,pmd,IdenticalCatchBranches,1
+p049,control,src/main/java/net/sf/jabref/journals/JournalAbbreviations.java,after,pmd,LooseCoupling,4
+p049,control,src/main/java/net/sf/jabref/journals/JournalAbbreviations.java,after,pmd,MissingOverride,2
+p049,control,src/main/java/net/sf/jabref/journals/JournalAbbreviations.java,after,pmd,UncommentedEmptyConstructor,1
+p049,control,src/main/java/net/sf/jabref/journals/JournalAbbreviations.java,after,pmd,UnnecessaryImport,1
+p049,control,src/main/java/net/sf/jabref/journals/JournalAbbreviations.java,after,pmd,UseLocaleWithCaseConversions,7
+p049,control,src/main/java/net/sf/jabref/journals/JournalAbbreviations.java,after,pmd,UselessParentheses,2
+p049,control,src/main/java/net/sf/jabref/journals/JournalAbbreviations.java,after,pmd,VariableCanBeInlined,1
+p050,treated,jabgui/src/main/java/org/jabref/gui/entryeditor/AiChatTab.java,before,designite,Unutilized Abstraction,1
+p050,treated,jabgui/src/main/java/org/jabref/gui/entryeditor/AiChatTab.java,after,designite,Unutilized Abstraction,1
+p051,control,src/main/java/org/jabref/gui/journals/AbbreviationViewModel.java,before,pmd,SimplifyBooleanReturns,1
+p051,control,src/main/java/org/jabref/gui/journals/AbbreviationViewModel.java,after,pmd,SimplifyBooleanReturns,1
+p052,treated,src/main/java/org/jabref/gui/preferences/FileTabView.java,before,designite,Unutilized Abstraction,1
+p052,treated,src/main/java/org/jabref/gui/preferences/FileTabView.java,after,designite,Unutilized Abstraction,1
+p052,control,src/main/java/org/jabref/gui/preferences/PreferencesDialogViewModel.java,before,pmd,GuardLogStatement,1
+p052,control,src/main/java/org/jabref/gui/preferences/PreferencesDialogViewModel.java,before,pmd,UnusedPrivateField,1
+p052,control,src/main/java/org/jabref/gui/preferences/PreferencesDialogViewModel.java,after,pmd,GuardLogStatement,1
+p052,control,src/main/java/org/jabref/gui/preferences/PreferencesDialogViewModel.java,after,pmd,UnusedPrivateField,1
+p053,treated,jablib/src/main/java/org/jabref/model/openoffice/uno/UnoRedlines.java,before,pmd,PreserveStackTrace,1
+p053,treated,jablib/src/main/java/org/jabref/model/openoffice/uno/UnoRedlines.java,before,pmd,UnnecessaryFullyQualifiedName,1
+p053,treated,jablib/src/main/java/org/jabref/model/openoffice/uno/UnoRedlines.java,before,pmd,UseUtilityClass,1
+p053,treated,jablib/src/main/java/org/jabref/model/openoffice/uno/UnoRedlines.java,after,pmd,PreserveStackTrace,1
+p053,treated,jablib/src/main/java/org/jabref/model/openoffice/uno/UnoRedlines.java,after,pmd,UseUtilityClass,1
+p053,control,jablib/src/main/java/org/jabref/logic/openoffice/oocsltext/BSTReferenceMarkManager.java,before,pmd,AssignmentInOperand,2
+p053,control,jablib/src/main/java/org/jabref/logic/openoffice/oocsltext/BSTReferenceMarkManager.java,before,pmd,GuardLogStatement,2
+p053,control,jablib/src/main/java/org/jabref/logic/openoffice/oocsltext/BSTReferenceMarkManager.java,before,pmd,UselessParentheses,1
+p053,control,jablib/src/main/java/org/jabref/logic/openoffice/oocsltext/BSTReferenceMarkManager.java,after,pmd,AssignmentInOperand,2
+p053,control,jablib/src/main/java/org/jabref/logic/openoffice/oocsltext/BSTReferenceMarkManager.java,after,pmd,GuardLogStatement,3
+p053,control,jablib/src/main/java/org/jabref/logic/openoffice/oocsltext/BSTReferenceMarkManager.java,after,pmd,UselessParentheses,1
+p054,treated,src/main/java/net/sf/jabref/importer/fetcher/DiVAtoBibTeXFetcher.java,before,pmd,UnnecessaryFullyQualifiedName,1
+p054,treated,src/main/java/net/sf/jabref/importer/fetcher/DiVAtoBibTeXFetcher.java,before,pmd,UnnecessaryImport,1
+p054,treated,src/main/java/net/sf/jabref/importer/fetcher/DiVAtoBibTeXFetcher.java,before,pmd,UnusedPrivateField,1
+p054,treated,src/main/java/net/sf/jabref/importer/fetcher/DiVAtoBibTeXFetcher.java,after,pmd,UnnecessaryFullyQualifiedName,1
+p054,treated,src/main/java/net/sf/jabref/importer/fetcher/DiVAtoBibTeXFetcher.java,after,pmd,UnnecessaryImport,1
+p054,control,src/main/java/net/sf/jabref/importer/fetcher/ISBNtoBibTeXFetcher.java,before,pmd,UnnecessaryFullyQualifiedName,1
+p054,control,src/main/java/net/sf/jabref/importer/fetcher/ISBNtoBibTeXFetcher.java,after,pmd,UnnecessaryFullyQualifiedName,1
+p055,treated,jabgui/src/main/java/org/jabref/gui/icon/IkonliIcon.java,before,pmd,CompareObjectsWithEquals,1
+p055,treated,jabgui/src/main/java/org/jabref/gui/icon/IkonliIcon.java,after,pmd,CompareObjectsWithEquals,1
+p055,treated,jabgui/src/main/java/org/jabref/gui/icon/IkonliIcon.java,before,designite,Cyclic-Dependent Modularization,1
+p055,treated,jabgui/src/main/java/org/jabref/gui/icon/IkonliIcon.java,after,designite,Cyclic-Dependent Modularization,1
+p055,control,jabgui/src/main/java/org/jabref/gui/groups/GroupTreeView.java,before,pmd,AvoidAccessibilityAlteration,1
+p055,control,jabgui/src/main/java/org/jabref/gui/groups/GroupTreeView.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p055,control,jabgui/src/main/java/org/jabref/gui/groups/GroupTreeView.java,before,pmd,GuardLogStatement,1
+p055,control,jabgui/src/main/java/org/jabref/gui/groups/GroupTreeView.java,before,pmd,LocalVariableNamingConventions,1
+p055,control,jabgui/src/main/java/org/jabref/gui/groups/GroupTreeView.java,before,pmd,NonExhaustiveSwitch,1
+p055,control,jabgui/src/main/java/org/jabref/gui/groups/GroupTreeView.java,before,pmd,UnusedFormalParameter,5
+p055,control,jabgui/src/main/java/org/jabref/gui/groups/GroupTreeView.java,before,pmd,UselessParentheses,1
+p055,control,jabgui/src/main/java/org/jabref/gui/groups/GroupTreeView.java,after,pmd,AvoidAccessibilityAlteration,1
+p055,control,jabgui/src/main/java/org/jabref/gui/groups/GroupTreeView.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p055,control,jabgui/src/main/java/org/jabref/gui/groups/GroupTreeView.java,after,pmd,GuardLogStatement,1
+p055,control,jabgui/src/main/java/org/jabref/gui/groups/GroupTreeView.java,after,pmd,NonExhaustiveSwitch,1
+p055,control,jabgui/src/main/java/org/jabref/gui/groups/GroupTreeView.java,after,pmd,UnusedFormalParameter,5
+p055,control,jabgui/src/main/java/org/jabref/gui/groups/GroupTreeView.java,after,pmd,UselessParentheses,1
+p056,treated,jablib/src/main/java/org/jabref/logic/citationstyle/CSLStyleUtils.java,before,pmd,AssignmentInOperand,2
+p056,treated,jablib/src/main/java/org/jabref/logic/citationstyle/CSLStyleUtils.java,before,pmd,GuardLogStatement,1
+p056,treated,jablib/src/main/java/org/jabref/logic/citationstyle/CSLStyleUtils.java,before,pmd,NonExhaustiveSwitch,1
+p056,treated,jablib/src/main/java/org/jabref/logic/citationstyle/CSLStyleUtils.java,after,pmd,AssignmentInOperand,2
+p056,treated,jablib/src/main/java/org/jabref/logic/citationstyle/CSLStyleUtils.java,after,pmd,GuardLogStatement,1
+p056,treated,jablib/src/main/java/org/jabref/logic/citationstyle/CSLStyleUtils.java,after,pmd,NonExhaustiveSwitch,1
+p056,control,build-support/src/main/java/CitationStyleCatalogGenerator.java,before,pmd,GuardLogStatement,2
+p056,control,build-support/src/main/java/CitationStyleCatalogGenerator.java,before,pmd,NoPackage,1
+p056,control,build-support/src/main/java/CitationStyleCatalogGenerator.java,before,pmd,UseUtilityClass,1
+p056,control,build-support/src/main/java/CitationStyleCatalogGenerator.java,after,pmd,GuardLogStatement,2
+p056,control,build-support/src/main/java/CitationStyleCatalogGenerator.java,after,pmd,NoPackage,1
+p056,control,build-support/src/main/java/CitationStyleCatalogGenerator.java,after,pmd,UseUtilityClass,1
+p056,control,build-support/src/main/java/CitationStyleCatalogGenerator.java,before,designite,Unutilized Abstraction,1
+p056,control,build-support/src/main/java/CitationStyleCatalogGenerator.java,after,designite,Unutilized Abstraction,1
+p057,treated,src/java/net/sf/jabref/DatabaseChangeEvent.java,after,pmd,UnnecessarySemicolon,1
+p057,treated,src/java/net/sf/jabref/DatabaseChangeEvent.java,before,designite,Cyclic-Dependent Modularization,1
+p057,treated,src/java/net/sf/jabref/DatabaseChangeEvent.java,before,designite,Deficient Encapsulation,1
+p057,treated,src/java/net/sf/jabref/DatabaseChangeEvent.java,after,designite,Cyclic-Dependent Modularization,1
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,before,pmd,AssignmentInOperand,1
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,before,pmd,ControlStatementBraces,21
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,before,pmd,LiteralsFirstInComparisons,3
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,before,pmd,LooseCoupling,6
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,before,pmd,MisplacedNullCheck,1
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,before,pmd,MissingOverride,1
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,before,pmd,OneDeclarationPerLine,1
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,before,pmd,OptimizableToArrayCall,1
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,before,pmd,PrimitiveWrapperInstantiation,3
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,before,pmd,UseLocaleWithCaseConversions,2
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,before,pmd,UselessParentheses,1
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,after,pmd,AssignmentInOperand,1
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,after,pmd,ControlStatementBraces,21
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,after,pmd,LiteralsFirstInComparisons,3
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,after,pmd,LooseCoupling,6
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,after,pmd,MisplacedNullCheck,1
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,after,pmd,MissingOverride,1
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,after,pmd,OneDeclarationPerLine,1
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,after,pmd,OptimizableToArrayCall,1
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,after,pmd,PrimitiveWrapperInstantiation,3
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,after,pmd,UseLocaleWithCaseConversions,2
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,after,pmd,UselessParentheses,1
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,before,designite,Cyclic-Dependent Modularization,1
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,before,designite,Insufficient Modularization,1
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,after,designite,Cyclic-Dependent Modularization,1
+p057,control,src/java/net/sf/jabref/BibtexDatabase.java,after,designite,Insufficient Modularization,1
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,AvoidCatchingThrowable,4
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,AvoidUsingVolatile,1
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,CompareObjectsWithEquals,1
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,DoNotCallGarbageCollectionExplicitly,1
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,EmptyCatchBlock,1
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,GuardLogStatement,3
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,LooseCoupling,4
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,ProperLogger,1
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,SimplifyConditional,2
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,UnnecessaryFullyQualifiedName,20
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,UnnecessaryImport,3
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,UselessQualifiedThis,3
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,AvoidCatchingThrowable,4
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,AvoidUsingVolatile,1
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,CompareObjectsWithEquals,1
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,DoNotCallGarbageCollectionExplicitly,1
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,EmptyCatchBlock,1
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,GuardLogStatement,3
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,LooseCoupling,4
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,ProperLogger,1
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,SimplifyConditional,2
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,UnnecessaryFullyQualifiedName,20
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,UnnecessaryImport,3
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,UselessQualifiedThis,3
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,designite,Cyclic-Dependent Modularization,1
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,designite,Deficient Encapsulation,1
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,designite,Hub-like Modularization,1
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,designite,Insufficient Modularization,1
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,designite,Cyclic-Dependent Modularization,1
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,designite,Deficient Encapsulation,1
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,designite,Hub-like Modularization,1
+p058,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,designite,Insufficient Modularization,1
+p058,control,src/main/java/net/sf/jabref/exporter/SaveDatabaseAction.java,before,pmd,EmptyCatchBlock,1
+p058,control,src/main/java/net/sf/jabref/exporter/SaveDatabaseAction.java,before,pmd,EmptyControlStatement,1
+p058,control,src/main/java/net/sf/jabref/exporter/SaveDatabaseAction.java,before,pmd,LooseCoupling,1
+p058,control,src/main/java/net/sf/jabref/exporter/SaveDatabaseAction.java,before,pmd,PreserveStackTrace,2
+p058,control,src/main/java/net/sf/jabref/exporter/SaveDatabaseAction.java,before,pmd,ProperLogger,1
+p058,control,src/main/java/net/sf/jabref/exporter/SaveDatabaseAction.java,before,pmd,UnnecessaryImport,1
+p058,control,src/main/java/net/sf/jabref/exporter/SaveDatabaseAction.java,after,pmd,EmptyCatchBlock,1
+p058,control,src/main/java/net/sf/jabref/exporter/SaveDatabaseAction.java,after,pmd,EmptyControlStatement,1
+p058,control,src/main/java/net/sf/jabref/exporter/SaveDatabaseAction.java,after,pmd,LooseCoupling,1
+p058,control,src/main/java/net/sf/jabref/exporter/SaveDatabaseAction.java,after,pmd,PreserveStackTrace,2
+p058,control,src/main/java/net/sf/jabref/exporter/SaveDatabaseAction.java,after,pmd,ProperLogger,1
+p058,control,src/main/java/net/sf/jabref/exporter/SaveDatabaseAction.java,after,pmd,UnnecessaryImport,1
+p058,control,src/main/java/net/sf/jabref/exporter/SaveDatabaseAction.java,before,designite,Unutilized Abstraction,1
+p058,control,src/main/java/net/sf/jabref/exporter/SaveDatabaseAction.java,after,designite,Unutilized Abstraction,1
+p059,treated,src/main/java/net/sf/jabref/bst/BibtexWidth.java,before,pmd,NonThreadSafeSingleton,1
+p059,treated,src/main/java/net/sf/jabref/bst/BibtexWidth.java,before,pmd,UnnecessaryFullyQualifiedName,103
+p059,treated,src/main/java/net/sf/jabref/bst/BibtexWidth.java,before,pmd,UseUtilityClass,1
+p059,treated,src/main/java/net/sf/jabref/bst/BibtexWidth.java,after,pmd,GuardLogStatement,2
+p059,treated,src/main/java/net/sf/jabref/bst/BibtexWidth.java,after,pmd,NonThreadSafeSingleton,1
+p059,treated,src/main/java/net/sf/jabref/bst/BibtexWidth.java,after,pmd,ProperLogger,1
+p059,treated,src/main/java/net/sf/jabref/bst/BibtexWidth.java,after,pmd,UnnecessaryFullyQualifiedName,103
+p059,treated,src/main/java/net/sf/jabref/bst/BibtexWidth.java,after,pmd,UseUtilityClass,1
+p059,control,src/main/java/net/sf/jabref/bst/WidthFunction.java,before,pmd,LooseCoupling,1
+p059,control,src/main/java/net/sf/jabref/bst/WidthFunction.java,before,pmd,UseCollectionIsEmpty,1
+p059,control,src/main/java/net/sf/jabref/bst/WidthFunction.java,after,pmd,LooseCoupling,1
+p059,control,src/main/java/net/sf/jabref/bst/WidthFunction.java,after,pmd,UseCollectionIsEmpty,1
+p059,control,src/main/java/net/sf/jabref/bst/WidthFunction.java,before,designite,Unutilized Abstraction,1
+p059,control,src/main/java/net/sf/jabref/bst/WidthFunction.java,after,designite,Unutilized Abstraction,1
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,AvoidCatchingThrowable,4
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,AvoidUsingVolatile,1
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,CompareObjectsWithEquals,1
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,EmptyCatchBlock,1
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,ForLoopCanBeForeach,1
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,GuardLogStatement,3
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,LooseCoupling,5
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,ProperLogger,1
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,SimplifyConditional,2
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,UnnecessaryFullyQualifiedName,20
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,UnnecessaryImport,3
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,UselessQualifiedThis,3
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,VariableCanBeInlined,1
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,AvoidCatchingThrowable,4
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,AvoidUsingVolatile,1
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,CompareObjectsWithEquals,1
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,EmptyCatchBlock,1
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,ForLoopCanBeForeach,1
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,GuardLogStatement,3
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,LooseCoupling,5
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,ProperLogger,1
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,SimplifyConditional,2
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,UnnecessaryFullyQualifiedName,20
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,UnnecessaryImport,3
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,UselessQualifiedThis,3
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,VariableCanBeInlined,1
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,designite,Cyclic-Dependent Modularization,1
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,designite,Deficient Encapsulation,1
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,designite,Hub-like Modularization,1
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,designite,Insufficient Modularization,1
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,designite,Cyclic-Dependent Modularization,1
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,designite,Deficient Encapsulation,1
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,designite,Hub-like Modularization,1
+p060,treated,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,designite,Insufficient Modularization,1
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,before,pmd,AvoidCatchingThrowable,1
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,before,pmd,CloseResource,1
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,before,pmd,GuardLogStatement,4
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,before,pmd,LiteralsFirstInComparisons,2
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,before,pmd,LooseCoupling,10
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,before,pmd,NonThreadSafeSingleton,1
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,before,pmd,OptimizableToArrayCall,2
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,before,pmd,ProperLogger,1
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,before,pmd,ReturnEmptyCollectionRatherThanNull,1
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,before,pmd,SingularField,1
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,before,pmd,UnnecessaryFullyQualifiedName,23
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,before,pmd,UnnecessaryImport,1
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,before,pmd,UseLocaleWithCaseConversions,1
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,after,pmd,AvoidCatchingThrowable,1
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,after,pmd,CloseResource,1
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,after,pmd,GuardLogStatement,4
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,after,pmd,LiteralsFirstInComparisons,2
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,after,pmd,LooseCoupling,10
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,after,pmd,NonThreadSafeSingleton,1
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,after,pmd,OptimizableToArrayCall,2
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,after,pmd,ProperLogger,1
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,after,pmd,ReturnEmptyCollectionRatherThanNull,1
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,after,pmd,SingularField,1
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,after,pmd,UnnecessaryFullyQualifiedName,23
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,after,pmd,UnnecessaryImport,1
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,after,pmd,UseLocaleWithCaseConversions,1
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,before,designite,Cyclic-Dependent Modularization,1
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,before,designite,Deficient Encapsulation,1
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,before,designite,Insufficient Modularization,1
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,after,designite,Cyclic-Dependent Modularization,1
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,after,designite,Deficient Encapsulation,1
+p060,control,src/main/java/net/sf/jabref/JabRefPreferences.java,after,designite,Insufficient Modularization,1
+p061,treated,src/main/java/org/jabref/model/database/BibDatabaseContext.java,before,pmd,GuardLogStatement,1
+p061,treated,src/main/java/org/jabref/model/database/BibDatabaseContext.java,after,pmd,GuardLogStatement,1
+p061,treated,src/main/java/org/jabref/model/database/BibDatabaseContext.java,after,pmd,LambdaCanBeMethodReference,2
+p061,treated,src/main/java/org/jabref/model/database/BibDatabaseContext.java,after,pmd,LooseCoupling,1
+p061,treated,src/main/java/org/jabref/model/database/BibDatabaseContext.java,before,designite,Cyclic-Dependent Modularization,1
+p061,treated,src/main/java/org/jabref/model/database/BibDatabaseContext.java,before,designite,Insufficient Modularization,1
+p061,treated,src/main/java/org/jabref/model/database/BibDatabaseContext.java,after,designite,Cyclic-Dependent Modularization,1
+p061,treated,src/main/java/org/jabref/model/database/BibDatabaseContext.java,after,designite,Insufficient Modularization,1
+p061,control,src/main/java/org/jabref/logic/util/io/CitationKeyBasedFileFinder.java,before,designite,Unutilized Abstraction,1
+p061,control,src/main/java/org/jabref/logic/util/io/CitationKeyBasedFileFinder.java,after,designite,Unutilized Abstraction,1
+p062,treated,jablib/src/main/java/org/jabref/logic/ai/ingestion/logic/parsing/PdfContentParser.java,before,designite,Unutilized Abstraction,1
+p062,treated,jablib/src/main/java/org/jabref/logic/ai/ingestion/logic/parsing/PdfContentParser.java,after,designite,Unutilized Abstraction,1
+p062,control,jablib/src/main/java/org/jabref/logic/ai/embedding/MVStoreEmbeddingStore.java,before,pmd,LooseCoupling,1
+p062,control,jablib/src/main/java/org/jabref/logic/ai/embedding/MVStoreEmbeddingStore.java,after,pmd,LooseCoupling,1
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,AssignmentInOperand,1
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,AvoidCatchingThrowable,1
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,8
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,CloseResource,1
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,GuardLogStatement,4
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,LambdaCanBeMethodReference,6
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,LocalVariableNamingConventions,1
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,PreserveStackTrace,2
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,SimplifyConditional,1
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,SingularField,1
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,UnnecessaryReturn,1
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,UselessParentheses,6
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,UselessQualifiedThis,10
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,AssignmentInOperand,1
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,AvoidCatchingThrowable,1
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,8
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,CloseResource,1
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,GuardLogStatement,4
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,LambdaCanBeMethodReference,6
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,LocalVariableNamingConventions,1
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,PreserveStackTrace,2
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,SimplifyConditional,1
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,SingularField,1
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,UnnecessaryReturn,1
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,UselessParentheses,6
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,UselessQualifiedThis,11
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,before,designite,Cyclic-Dependent Modularization,1
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,before,designite,Hub-like Modularization,1
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,before,designite,Insufficient Modularization,1
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,after,designite,Cyclic-Dependent Modularization,1
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,after,designite,Hub-like Modularization,1
+p063,control,src/main/java/org/jabref/gui/BasePanel.java,after,designite,Insufficient Modularization,1
+p064,control,src/main/java/org/jabref/gui/importer/GenerateEntryFromIdDialog.java,before,pmd,UnusedPrivateMethod,1
+p064,control,src/main/java/org/jabref/gui/importer/GenerateEntryFromIdDialog.java,after,pmd,UnusedPrivateMethod,1
+p064,control,src/main/java/org/jabref/gui/importer/GenerateEntryFromIdDialog.java,before,designite,Unutilized Abstraction,1
+p064,control,src/main/java/org/jabref/gui/importer/GenerateEntryFromIdDialog.java,after,designite,Unutilized Abstraction,1
+p066,treated,src/java/net/sf/jabref/export/layout/format/AuthorLastFirstAbbreviator.java,before,pmd,ControlStatementBraces,1
+p066,treated,src/java/net/sf/jabref/export/layout/format/AuthorLastFirstAbbreviator.java,before,pmd,LocalVariableNamingConventions,1
+p066,treated,src/java/net/sf/jabref/export/layout/format/AuthorLastFirstAbbreviator.java,before,pmd,UselessParentheses,1
+p066,treated,src/java/net/sf/jabref/export/layout/format/AuthorLastFirstAbbreviator.java,after,pmd,ControlStatementBraces,1
+p066,treated,src/java/net/sf/jabref/export/layout/format/AuthorLastFirstAbbreviator.java,after,pmd,ForLoopCanBeForeach,2
+p066,treated,src/java/net/sf/jabref/export/layout/format/AuthorLastFirstAbbreviator.java,after,pmd,OneDeclarationPerLine,1
+p066,treated,src/java/net/sf/jabref/export/layout/format/AuthorLastFirstAbbreviator.java,before,designite,Unutilized Abstraction,1
+p066,treated,src/java/net/sf/jabref/export/layout/format/AuthorLastFirstAbbreviator.java,after,designite,Unutilized Abstraction,1
+p066,control,src/java/net/sf/jabref/groups/EntryTableTransferHandler.java,before,pmd,MissingOverride,7
+p066,control,src/java/net/sf/jabref/groups/EntryTableTransferHandler.java,before,pmd,UselessOverridingMethod,1
+p066,control,src/java/net/sf/jabref/groups/EntryTableTransferHandler.java,after,pmd,CloseResource,1
+p066,control,src/java/net/sf/jabref/groups/EntryTableTransferHandler.java,after,pmd,ControlStatementBraces,6
+p066,control,src/java/net/sf/jabref/groups/EntryTableTransferHandler.java,after,pmd,ForLoopCanBeForeach,4
+p066,control,src/java/net/sf/jabref/groups/EntryTableTransferHandler.java,after,pmd,MissingOverride,7
+p066,control,src/java/net/sf/jabref/groups/EntryTableTransferHandler.java,after,pmd,UnnecessaryFullyQualifiedName,2
+p066,control,src/java/net/sf/jabref/groups/EntryTableTransferHandler.java,after,pmd,UnnecessaryImport,1
+p066,control,src/java/net/sf/jabref/groups/EntryTableTransferHandler.java,after,pmd,UselessOverridingMethod,1
+p066,control,src/java/net/sf/jabref/groups/EntryTableTransferHandler.java,before,designite,Unutilized Abstraction,1
+p066,control,src/java/net/sf/jabref/groups/EntryTableTransferHandler.java,after,designite,Unutilized Abstraction,1
+p067,treated,src/main/java/org/jabref/gui/mergeentries/newmergedialog/ThreeWayMergeView.java,after,pmd,LiteralsFirstInComparisons,1
+p067,treated,src/main/java/org/jabref/gui/mergeentries/newmergedialog/ThreeWayMergeView.java,before,designite,Deficient Encapsulation,1
+p067,treated,src/main/java/org/jabref/gui/mergeentries/newmergedialog/ThreeWayMergeView.java,after,designite,Deficient Encapsulation,1
+p067,control,src/main/java/org/jabref/gui/collab/DatabaseChangeMonitor.java,before,designite,Unutilized Abstraction,1
+p067,control,src/main/java/org/jabref/gui/collab/DatabaseChangeMonitor.java,after,designite,Unutilized Abstraction,1
+p068,treated,src/main/java/org/jabref/gui/preftabs/AppearancePrefsTab.java,before,pmd,OptimizableToArrayCall,1
+p068,treated,src/main/java/org/jabref/gui/preftabs/AppearancePrefsTab.java,before,pmd,SimplifyBooleanReturns,1
+p068,treated,src/main/java/org/jabref/gui/preftabs/AppearancePrefsTab.java,before,pmd,UseUtilityClass,1
+p068,treated,src/main/java/org/jabref/gui/preftabs/AppearancePrefsTab.java,after,pmd,OptimizableToArrayCall,1
+p068,treated,src/main/java/org/jabref/gui/preftabs/AppearancePrefsTab.java,after,pmd,SimplifyBooleanReturns,1
+p068,treated,src/main/java/org/jabref/gui/preftabs/AppearancePrefsTab.java,after,pmd,UseUtilityClass,1
+p068,treated,src/main/java/org/jabref/gui/preftabs/AppearancePrefsTab.java,before,designite,Unutilized Abstraction,1
+p068,treated,src/main/java/org/jabref/gui/preftabs/AppearancePrefsTab.java,after,designite,Unutilized Abstraction,1
+p068,control,src/main/java/org/jabref/gui/preftabs/AdvancedTab.java,before,designite,Unutilized Abstraction,1
+p068,control,src/main/java/org/jabref/gui/preftabs/AdvancedTab.java,after,designite,Unutilized Abstraction,1
+p069,treated,src/main/java/net/sf/jabref/gui/desktop/os/Windows.java,before,pmd,UnnecessaryImport,1
+p069,treated,src/main/java/net/sf/jabref/gui/desktop/os/Windows.java,before,designite,Unutilized Abstraction,1
+p069,treated,src/main/java/net/sf/jabref/gui/desktop/os/Windows.java,after,designite,Unutilized Abstraction,1
+p069,control,src/main/java/net/sf/jabref/gui/desktop/os/DefaultDesktop.java,before,pmd,ProperLogger,1
+p069,control,src/main/java/net/sf/jabref/gui/desktop/os/DefaultDesktop.java,after,pmd,ProperLogger,1
+p069,control,src/main/java/net/sf/jabref/gui/desktop/os/DefaultDesktop.java,before,designite,Unutilized Abstraction,1
+p069,control,src/main/java/net/sf/jabref/gui/desktop/os/DefaultDesktop.java,after,designite,Unutilized Abstraction,1
+p070,treated,src/main/java/net/sf/jabref/external/SynchronizeFileField.java,before,pmd,AssignmentInOperand,1
+p070,treated,src/main/java/net/sf/jabref/external/SynchronizeFileField.java,before,pmd,EmptyControlStatement,1
+p070,treated,src/main/java/net/sf/jabref/external/SynchronizeFileField.java,before,pmd,LooseCoupling,1
+p070,treated,src/main/java/net/sf/jabref/external/SynchronizeFileField.java,before,pmd,UnnecessaryImport,2
+p070,treated,src/main/java/net/sf/jabref/external/SynchronizeFileField.java,before,pmd,UselessParentheses,1
+p070,treated,src/main/java/net/sf/jabref/external/SynchronizeFileField.java,after,pmd,AssignmentInOperand,1
+p070,treated,src/main/java/net/sf/jabref/external/SynchronizeFileField.java,after,pmd,EmptyControlStatement,1
+p070,treated,src/main/java/net/sf/jabref/external/SynchronizeFileField.java,after,pmd,UnnecessaryImport,2
+p070,treated,src/main/java/net/sf/jabref/external/SynchronizeFileField.java,after,pmd,UselessParentheses,1
+p070,control,src/main/java/net/sf/jabref/exporter/ExportFileFilter.java,before,pmd,OverrideBothEqualsAndHashCodeOnComparable,1
+p070,control,src/main/java/net/sf/jabref/exporter/ExportFileFilter.java,before,pmd,SimplifyBooleanReturns,1
+p070,control,src/main/java/net/sf/jabref/exporter/ExportFileFilter.java,before,pmd,UseLocaleWithCaseConversions,1
+p070,control,src/main/java/net/sf/jabref/exporter/ExportFileFilter.java,after,pmd,OverrideBothEqualsAndHashCodeOnComparable,1
+p070,control,src/main/java/net/sf/jabref/exporter/ExportFileFilter.java,after,pmd,SimplifyBooleanReturns,1
+p070,control,src/main/java/net/sf/jabref/exporter/ExportFileFilter.java,after,pmd,SimplifyConditional,1
+p070,control,src/main/java/net/sf/jabref/exporter/ExportFileFilter.java,after,pmd,UseLocaleWithCaseConversions,1
+p070,control,src/main/java/net/sf/jabref/exporter/ExportFileFilter.java,before,designite,Cyclic-Dependent Modularization,1
+p070,control,src/main/java/net/sf/jabref/exporter/ExportFileFilter.java,after,designite,Cyclic-Dependent Modularization,1
+p071,treated,src/main/java/org/jabref/gui/maintable/ColumnPreferences.java,after,pmd,ProperLogger,1
+p071,treated,src/main/java/org/jabref/gui/maintable/ColumnPreferences.java,before,designite,Cyclic-Dependent Modularization,1
+p071,treated,src/main/java/org/jabref/gui/maintable/ColumnPreferences.java,after,designite,Cyclic-Dependent Modularization,1
+p071,control,src/main/java/org/jabref/gui/maintable/MainTable.java,before,pmd,EmptyControlStatement,1
+p071,control,src/main/java/org/jabref/gui/maintable/MainTable.java,before,pmd,ProperLogger,1
+p071,control,src/main/java/org/jabref/gui/maintable/MainTable.java,before,pmd,SingularField,3
+p071,control,src/main/java/org/jabref/gui/maintable/MainTable.java,before,pmd,UnnecessaryFullyQualifiedName,18
+p071,control,src/main/java/org/jabref/gui/maintable/MainTable.java,before,pmd,UnusedPrivateField,11
+p071,control,src/main/java/org/jabref/gui/maintable/MainTable.java,before,pmd,UnusedPrivateMethod,2
+p071,control,src/main/java/org/jabref/gui/maintable/MainTable.java,after,pmd,EmptyControlStatement,1
+p071,control,src/main/java/org/jabref/gui/maintable/MainTable.java,after,pmd,ProperLogger,1
+p071,control,src/main/java/org/jabref/gui/maintable/MainTable.java,after,pmd,SingularField,3
+p071,control,src/main/java/org/jabref/gui/maintable/MainTable.java,after,pmd,UnnecessaryFullyQualifiedName,18
+p071,control,src/main/java/org/jabref/gui/maintable/MainTable.java,after,pmd,UnusedPrivateField,11
+p071,control,src/main/java/org/jabref/gui/maintable/MainTable.java,after,pmd,UnusedPrivateMethod,2
+p071,control,src/main/java/org/jabref/gui/maintable/MainTable.java,before,designite,Cyclic-Dependent Modularization,1
+p071,control,src/main/java/org/jabref/gui/maintable/MainTable.java,after,designite,Cyclic-Dependent Modularization,1
+p072,treated,src/main/java/org/jabref/logic/shared/PostgreSQLProcessor.java,before,pmd,CheckResultSet,1
+p072,treated,src/main/java/org/jabref/logic/shared/PostgreSQLProcessor.java,after,pmd,CheckResultSet,1
+p072,treated,src/main/java/org/jabref/logic/shared/PostgreSQLProcessor.java,after,pmd,FinalFieldCouldBeStatic,1
+p072,treated,src/main/java/org/jabref/logic/shared/PostgreSQLProcessor.java,before,designite,Unutilized Abstraction,1
+p072,treated,src/main/java/org/jabref/logic/shared/PostgreSQLProcessor.java,after,designite,Unutilized Abstraction,1
+p072,control,src/main/java/org/jabref/logic/citationstyle/CitationStyle.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p072,control,src/main/java/org/jabref/logic/citationstyle/CitationStyle.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p072,control,src/main/java/org/jabref/logic/citationstyle/CitationStyle.java,before,designite,Deficient Encapsulation,1
+p072,control,src/main/java/org/jabref/logic/citationstyle/CitationStyle.java,after,designite,Deficient Encapsulation,1
+p073,treated,src/main/java/net/sf/jabref/gui/FileListTableModel.java,before,pmd,ForLoopCanBeForeach,1
+p073,treated,src/main/java/net/sf/jabref/gui/FileListTableModel.java,before,pmd,LooseCoupling,5
+p073,treated,src/main/java/net/sf/jabref/gui/FileListTableModel.java,after,pmd,LooseCoupling,5
+p073,treated,src/main/java/net/sf/jabref/gui/FileListTableModel.java,before,designite,Cyclic-Dependent Modularization,1
+p073,treated,src/main/java/net/sf/jabref/gui/FileListTableModel.java,after,designite,Cyclic-Dependent Modularization,1
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,AvoidCatchingThrowable,4
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,AvoidUsingVolatile,1
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,CompareObjectsWithEquals,1
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,EmptyCatchBlock,2
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,ForLoopCanBeForeach,1
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,GuardLogStatement,3
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,LooseCoupling,5
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,ProperLogger,1
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,UnnecessaryFullyQualifiedName,21
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,UnnecessaryImport,5
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,UnusedLocalVariable,1
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,UnusedPrivateMethod,1
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,UselessParentheses,2
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,UselessQualifiedThis,3
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,pmd,VariableCanBeInlined,1
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,AvoidCatchingThrowable,4
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,AvoidUsingVolatile,1
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,CompareObjectsWithEquals,1
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,EmptyCatchBlock,2
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,GuardLogStatement,3
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,LooseCoupling,5
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,ProperLogger,1
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,UnnecessaryFullyQualifiedName,21
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,UnnecessaryImport,5
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,UnusedLocalVariable,1
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,UnusedPrivateMethod,1
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,UselessParentheses,2
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,UselessQualifiedThis,3
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,pmd,VariableCanBeInlined,1
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,designite,Cyclic-Dependent Modularization,1
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,designite,Deficient Encapsulation,1
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,designite,Hub-like Modularization,1
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,before,designite,Insufficient Modularization,1
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,designite,Cyclic-Dependent Modularization,1
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,designite,Deficient Encapsulation,1
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,designite,Hub-like Modularization,1
+p073,control,src/main/java/net/sf/jabref/gui/JabRefFrame.java,after,designite,Insufficient Modularization,1
+p074,treated,src/main/java/org/jabref/gui/StateManager.java,before,designite,Insufficient Modularization,1
+p074,treated,src/main/java/org/jabref/gui/StateManager.java,after,designite,Insufficient Modularization,1
+p074,control,src/main/java/org/jabref/gui/util/BackgroundTask.java,before,pmd,LooseCoupling,1
+p074,control,src/main/java/org/jabref/gui/util/BackgroundTask.java,before,pmd,UnnecessaryFullyQualifiedName,3
+p074,control,src/main/java/org/jabref/gui/util/BackgroundTask.java,after,pmd,LooseCoupling,1
+p074,control,src/main/java/org/jabref/gui/util/BackgroundTask.java,after,pmd,UnnecessaryFullyQualifiedName,3
+p074,control,src/main/java/org/jabref/gui/util/BackgroundTask.java,before,designite,Cyclic-Dependent Modularization,1
+p074,control,src/main/java/org/jabref/gui/util/BackgroundTask.java,before,designite,Deficient Encapsulation,1
+p074,control,src/main/java/org/jabref/gui/util/BackgroundTask.java,before,designite,Insufficient Modularization,1
+p074,control,src/main/java/org/jabref/gui/util/BackgroundTask.java,after,designite,Cyclic-Dependent Modularization,1
+p074,control,src/main/java/org/jabref/gui/util/BackgroundTask.java,after,designite,Deficient Encapsulation,1
+p074,control,src/main/java/org/jabref/gui/util/BackgroundTask.java,after,designite,Insufficient Modularization,1
+p075,treated,jabgui/src/main/java/org/jabref/gui/openoffice/StyleSelectDialogViewModel.java,before,pmd,UseLocaleWithCaseConversions,1
+p075,treated,jabgui/src/main/java/org/jabref/gui/openoffice/StyleSelectDialogViewModel.java,after,pmd,UseLocaleWithCaseConversions,1
+p075,treated,jabgui/src/main/java/org/jabref/gui/openoffice/StyleSelectDialogViewModel.java,after,designite,Insufficient Modularization,1
+p075,control,jablib/src/main/java/org/jabref/logic/preview/BstPreviewLayout.java,before,pmd,GuardLogStatement,2
+p075,control,jablib/src/main/java/org/jabref/logic/preview/BstPreviewLayout.java,after,pmd,GuardLogStatement,2
+p076,treated,src/main/java/org/jabref/gui/JabRefGUI.java,before,pmd,AssignmentToNonFinalStatic,3
+p076,treated,src/main/java/org/jabref/gui/JabRefGUI.java,before,pmd,UnnecessaryFullyQualifiedName,4
+p076,treated,src/main/java/org/jabref/gui/JabRefGUI.java,after,pmd,UnnecessaryFullyQualifiedName,4
+p076,control,src/main/java/org/jabref/cli/ArgumentProcessor.java,before,pmd,AssignmentInOperand,2
+p076,control,src/main/java/org/jabref/cli/ArgumentProcessor.java,before,pmd,GuardLogStatement,2
+p076,control,src/main/java/org/jabref/cli/ArgumentProcessor.java,before,pmd,UselessParentheses,1
+p076,control,src/main/java/org/jabref/cli/ArgumentProcessor.java,after,pmd,AssignmentInOperand,2
+p076,control,src/main/java/org/jabref/cli/ArgumentProcessor.java,after,pmd,GuardLogStatement,2
+p076,control,src/main/java/org/jabref/cli/ArgumentProcessor.java,after,pmd,UselessParentheses,1
+p076,control,src/main/java/org/jabref/cli/ArgumentProcessor.java,before,designite,Insufficient Modularization,1
+p076,control,src/main/java/org/jabref/cli/ArgumentProcessor.java,after,designite,Insufficient Modularization,1
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,AvoidCatchingThrowable,2
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,8
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,CloseResource,1
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,GuardLogStatement,4
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,LambdaCanBeMethodReference,6
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,LocalVariableNamingConventions,1
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,PreserveStackTrace,2
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,SimplifyConditional,1
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,SingularField,1
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,UnnecessaryReturn,1
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,UnusedLocalVariable,1
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,UselessParentheses,5
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,before,pmd,UselessQualifiedThis,15
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,AvoidCatchingThrowable,2
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,8
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,CloseResource,1
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,GuardLogStatement,4
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,LambdaCanBeMethodReference,6
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,LocalVariableNamingConventions,1
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,PreserveStackTrace,2
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,SimplifyConditional,1
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,SingularField,1
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,UnnecessaryReturn,1
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,UnusedLocalVariable,1
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,UselessParentheses,5
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,after,pmd,UselessQualifiedThis,15
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,before,designite,Cyclic-Dependent Modularization,1
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,before,designite,Deficient Encapsulation,1
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,before,designite,Hub-like Modularization,1
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,before,designite,Insufficient Modularization,1
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,after,designite,Cyclic-Dependent Modularization,1
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,after,designite,Hub-like Modularization,1
+p077,treated,src/main/java/org/jabref/gui/BasePanel.java,after,designite,Insufficient Modularization,1
+p077,control,src/main/java/org/jabref/Globals.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p077,control,src/main/java/org/jabref/Globals.java,before,pmd,UnnecessaryFullyQualifiedName,9
+p077,control,src/main/java/org/jabref/Globals.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p077,control,src/main/java/org/jabref/Globals.java,after,pmd,UnnecessaryFullyQualifiedName,9
+p077,control,src/main/java/org/jabref/Globals.java,before,designite,Cyclic-Dependent Modularization,1
+p077,control,src/main/java/org/jabref/Globals.java,before,designite,Deficient Encapsulation,1
+p077,control,src/main/java/org/jabref/Globals.java,after,designite,Cyclic-Dependent Modularization,1
+p077,control,src/main/java/org/jabref/Globals.java,after,designite,Deficient Encapsulation,1
+p078,treated,src/main/java/org/jabref/gui/preferences/GeneralTab.java,before,designite,Unutilized Abstraction,1
+p078,treated,src/main/java/org/jabref/gui/preferences/GeneralTab.java,after,designite,Unutilized Abstraction,1
+p078,control,src/main/java/org/jabref/gui/help/HelpAction.java,before,designite,Cyclic-Dependent Modularization,1
+p078,control,src/main/java/org/jabref/gui/help/HelpAction.java,after,designite,Cyclic-Dependent Modularization,1
+p079,treated,src/main/java/net/sf/jabref/logic/layout/format/EntryTypeFormatter.java,before,designite,Unutilized Abstraction,1
+p079,treated,src/main/java/net/sf/jabref/logic/layout/format/EntryTypeFormatter.java,after,designite,Unutilized Abstraction,1
+p079,control,src/main/java/net/sf/jabref/logic/layout/LayoutEntry.java,before,pmd,GuardLogStatement,1
+p079,control,src/main/java/net/sf/jabref/logic/layout/LayoutEntry.java,before,pmd,ProperLogger,1
+p079,control,src/main/java/net/sf/jabref/logic/layout/LayoutEntry.java,after,pmd,GuardLogStatement,1
+p079,control,src/main/java/net/sf/jabref/logic/layout/LayoutEntry.java,after,pmd,ProperLogger,1
+p079,control,src/main/java/net/sf/jabref/logic/layout/LayoutEntry.java,before,designite,Cyclic-Dependent Modularization,1
+p079,control,src/main/java/net/sf/jabref/logic/layout/LayoutEntry.java,before,designite,Insufficient Modularization,1
+p079,control,src/main/java/net/sf/jabref/logic/layout/LayoutEntry.java,after,designite,Cyclic-Dependent Modularization,1
+p079,control,src/main/java/net/sf/jabref/logic/layout/LayoutEntry.java,after,designite,Insufficient Modularization,1
+p080,treated,src/main/java/org/jabref/logic/importer/fileformat/PdfContentImporter.java,before,pmd,EmptyControlStatement,2
+p080,treated,src/main/java/org/jabref/logic/importer/fileformat/PdfContentImporter.java,before,pmd,LocalVariableNamingConventions,1
+p080,treated,src/main/java/org/jabref/logic/importer/fileformat/PdfContentImporter.java,before,pmd,LooseCoupling,1
+p080,treated,src/main/java/org/jabref/logic/importer/fileformat/PdfContentImporter.java,after,pmd,EmptyControlStatement,2
+p080,treated,src/main/java/org/jabref/logic/importer/fileformat/PdfContentImporter.java,after,pmd,LocalVariableNamingConventions,1
+p080,treated,src/main/java/org/jabref/logic/importer/fileformat/PdfContentImporter.java,after,pmd,LooseCoupling,1
+p080,treated,src/main/java/org/jabref/logic/importer/fileformat/PdfContentImporter.java,before,designite,Unutilized Abstraction,1
+p080,treated,src/main/java/org/jabref/logic/importer/fileformat/PdfContentImporter.java,after,designite,Unutilized Abstraction,1
+p080,control,src/main/java/org/jabref/gui/texparser/ParseLatexDialogViewModel.java,before,pmd,GuardLogStatement,1
+p080,control,src/main/java/org/jabref/gui/texparser/ParseLatexDialogViewModel.java,after,pmd,GuardLogStatement,1
+p081,treated,src/java/net/sf/jabref/external/DownloadExternalFile.java,before,pmd,ControlStatementBraces,8
+p081,treated,src/java/net/sf/jabref/external/DownloadExternalFile.java,before,pmd,EmptyCatchBlock,1
+p081,treated,src/java/net/sf/jabref/external/DownloadExternalFile.java,before,pmd,LiteralsFirstInComparisons,1
+p081,treated,src/java/net/sf/jabref/external/DownloadExternalFile.java,before,pmd,MissingOverride,2
+p081,treated,src/java/net/sf/jabref/external/DownloadExternalFile.java,before,pmd,SimplifyBooleanReturns,1
+p081,treated,src/java/net/sf/jabref/external/DownloadExternalFile.java,before,pmd,UnnecessaryImport,1
+p081,treated,src/java/net/sf/jabref/external/DownloadExternalFile.java,before,pmd,UnnecessaryModifier,1
+p081,treated,src/java/net/sf/jabref/external/DownloadExternalFile.java,before,pmd,UselessParentheses,1
+p081,treated,src/java/net/sf/jabref/external/DownloadExternalFile.java,after,pmd,ControlStatementBraces,11
+p081,treated,src/java/net/sf/jabref/external/DownloadExternalFile.java,after,pmd,EmptyCatchBlock,1
+p081,treated,src/java/net/sf/jabref/external/DownloadExternalFile.java,after,pmd,LiteralsFirstInComparisons,1
+p081,treated,src/java/net/sf/jabref/external/DownloadExternalFile.java,after,pmd,MissingOverride,2
+p081,treated,src/java/net/sf/jabref/external/DownloadExternalFile.java,after,pmd,SimplifyBooleanReturns,1
+p081,treated,src/java/net/sf/jabref/external/DownloadExternalFile.java,after,pmd,UnnecessaryImport,1
+p081,treated,src/java/net/sf/jabref/external/DownloadExternalFile.java,after,pmd,UnnecessaryModifier,1
+p081,treated,src/java/net/sf/jabref/external/DownloadExternalFile.java,after,pmd,UnusedLocalVariable,1
+p081,treated,src/java/net/sf/jabref/external/DownloadExternalFile.java,after,pmd,UselessParentheses,1
+p081,treated,src/java/net/sf/jabref/external/DownloadExternalFile.java,before,designite,Cyclic-Dependent Modularization,1
+p081,treated,src/java/net/sf/jabref/external/DownloadExternalFile.java,after,designite,Cyclic-Dependent Modularization,1
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,before,pmd,CloseResource,1
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,before,pmd,ControlStatementBraces,17
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,before,pmd,DanglingJavadoc,2
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,before,pmd,ForLoopCanBeForeach,1
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,before,pmd,LiteralsFirstInComparisons,1
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,before,pmd,MethodNamingConventions,1
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,before,pmd,OneDeclarationPerLine,1
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,before,pmd,PreserveStackTrace,1
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,before,pmd,UnnecessaryConstructor,1
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,before,pmd,UnnecessaryImport,1
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,before,pmd,UselessParentheses,2
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,before,pmd,VariableCanBeInlined,1
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,after,pmd,CloseResource,1
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,after,pmd,ControlStatementBraces,17
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,after,pmd,DanglingJavadoc,2
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,after,pmd,EmptyCatchBlock,1
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,after,pmd,ForLoopCanBeForeach,1
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,after,pmd,LiteralsFirstInComparisons,1
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,after,pmd,MethodNamingConventions,1
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,after,pmd,OneDeclarationPerLine,1
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,after,pmd,PreserveStackTrace,1
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,after,pmd,UnnecessaryConstructor,1
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,after,pmd,UnnecessaryImport,1
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,after,pmd,UselessParentheses,2
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,after,pmd,VariableCanBeInlined,1
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,before,designite,Cyclic-Dependent Modularization,1
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,before,designite,Deficient Encapsulation,1
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,after,designite,Cyclic-Dependent Modularization,1
+p081,control,src/java/net/sf/jabref/imports/ImportFormatReader.java,after,designite,Deficient Encapsulation,1
+p082,treated,jabgui/src/main/java/org/jabref/gui/preferences/ai/AiTabViewModel.java,before,pmd,NonExhaustiveSwitch,5
+p082,treated,jabgui/src/main/java/org/jabref/gui/preferences/ai/AiTabViewModel.java,after,pmd,NonExhaustiveSwitch,5
+p082,treated,jabgui/src/main/java/org/jabref/gui/preferences/ai/AiTabViewModel.java,before,designite,Insufficient Modularization,1
+p082,treated,jabgui/src/main/java/org/jabref/gui/preferences/ai/AiTabViewModel.java,after,designite,Insufficient Modularization,1
+p082,control,jabgui/src/main/java/org/jabref/gui/preferences/ai/AiTab.java,before,pmd,UnusedPrivateMethod,3
+p082,control,jabgui/src/main/java/org/jabref/gui/preferences/ai/AiTab.java,after,pmd,UnusedPrivateMethod,3
+p083,treated,src/main/java/net/sf/jabref/export/layout/format/HTMLChars.java,before,pmd,EmptyControlStatement,2
+p083,treated,src/main/java/net/sf/jabref/export/layout/format/HTMLChars.java,before,pmd,LiteralsFirstInComparisons,4
+p083,treated,src/main/java/net/sf/jabref/export/layout/format/HTMLChars.java,before,pmd,OneDeclarationPerLine,1
+p083,treated,src/main/java/net/sf/jabref/export/layout/format/HTMLChars.java,before,pmd,UselessParentheses,2
+p083,treated,src/main/java/net/sf/jabref/export/layout/format/HTMLChars.java,after,pmd,EmptyControlStatement,2
+p083,treated,src/main/java/net/sf/jabref/export/layout/format/HTMLChars.java,after,pmd,LiteralsFirstInComparisons,4
+p083,treated,src/main/java/net/sf/jabref/export/layout/format/HTMLChars.java,after,pmd,OneDeclarationPerLine,1
+p083,treated,src/main/java/net/sf/jabref/export/layout/format/HTMLChars.java,before,designite,Imperative Abstraction,1
+p083,treated,src/main/java/net/sf/jabref/export/layout/format/HTMLChars.java,before,designite,Unutilized Abstraction,1
+p083,treated,src/main/java/net/sf/jabref/export/layout/format/HTMLChars.java,after,designite,Imperative Abstraction,1
+p083,treated,src/main/java/net/sf/jabref/export/layout/format/HTMLChars.java,after,designite,Unutilized Abstraction,1
+p083,control,src/main/java/net/sf/jabref/EntryEditorPrefsTab.java,before,pmd,LocalVariableNamingConventions,1
+p083,control,src/main/java/net/sf/jabref/EntryEditorPrefsTab.java,before,pmd,MissingOverride,1
+p083,control,src/main/java/net/sf/jabref/EntryEditorPrefsTab.java,before,pmd,UselessParentheses,4
+p083,control,src/main/java/net/sf/jabref/EntryEditorPrefsTab.java,after,pmd,LocalVariableNamingConventions,1
+p083,control,src/main/java/net/sf/jabref/EntryEditorPrefsTab.java,after,pmd,MissingOverride,1
+p083,control,src/main/java/net/sf/jabref/EntryEditorPrefsTab.java,before,designite,Unutilized Abstraction,1
+p083,control,src/main/java/net/sf/jabref/EntryEditorPrefsTab.java,after,designite,Unutilized Abstraction,1
+p084,treated,src/main/java/org/jabref/gui/importer/ImportEntriesViewModel.java,before,pmd,EmptyControlStatement,3
+p084,treated,src/main/java/org/jabref/gui/importer/ImportEntriesViewModel.java,after,pmd,EmptyControlStatement,3
+p084,treated,src/main/java/org/jabref/gui/importer/ImportEntriesViewModel.java,before,designite,Cyclic-Dependent Modularization,1
+p084,treated,src/main/java/org/jabref/gui/importer/ImportEntriesViewModel.java,after,designite,Cyclic-Dependent Modularization,1
+p084,control,src/main/java/org/jabref/gui/importer/ImportAction.java,before,pmd,UnusedPrivateField,1
+p085,treated,src/main/java/net/sf/jabref/gui/preftabs/FileSortTab.java,before,pmd,CompareObjectsWithEquals,2
+p085,treated,src/main/java/net/sf/jabref/gui/preftabs/FileSortTab.java,before,pmd,LooseCoupling,2
+p085,treated,src/main/java/net/sf/jabref/gui/preftabs/FileSortTab.java,before,pmd,OptimizableToArrayCall,2
+p085,treated,src/main/java/net/sf/jabref/gui/preftabs/FileSortTab.java,before,pmd,UseLocaleWithCaseConversions,6
+p085,treated,src/main/java/net/sf/jabref/gui/preftabs/FileSortTab.java,after,pmd,CompareObjectsWithEquals,2
+p085,treated,src/main/java/net/sf/jabref/gui/preftabs/FileSortTab.java,after,pmd,LooseCoupling,2
+p085,treated,src/main/java/net/sf/jabref/gui/preftabs/FileSortTab.java,after,pmd,OptimizableToArrayCall,2
+p085,treated,src/main/java/net/sf/jabref/gui/preftabs/FileSortTab.java,after,pmd,UnnecessaryImport,1
+p085,treated,src/main/java/net/sf/jabref/gui/preftabs/FileSortTab.java,after,pmd,UseLocaleWithCaseConversions,6
+p085,treated,src/main/java/net/sf/jabref/gui/preftabs/FileSortTab.java,before,designite,Unutilized Abstraction,1
+p085,treated,src/main/java/net/sf/jabref/gui/preftabs/FileSortTab.java,after,designite,Unutilized Abstraction,1
+p085,control,src/main/java/net/sf/jabref/PrefsDialog3.java,before,pmd,DanglingJavadoc,1
+p085,control,src/main/java/net/sf/jabref/PrefsDialog3.java,before,pmd,LooseCoupling,1
+p085,control,src/main/java/net/sf/jabref/PrefsDialog3.java,before,pmd,UnnecessaryImport,1
+p085,control,src/main/java/net/sf/jabref/PrefsDialog3.java,before,pmd,UnusedPrivateField,1
+p085,control,src/main/java/net/sf/jabref/PrefsDialog3.java,after,pmd,DanglingJavadoc,1
+p085,control,src/main/java/net/sf/jabref/PrefsDialog3.java,after,pmd,LooseCoupling,1
+p085,control,src/main/java/net/sf/jabref/PrefsDialog3.java,after,pmd,UnnecessaryImport,1
+p085,control,src/main/java/net/sf/jabref/PrefsDialog3.java,after,pmd,UnusedPrivateField,1
+p085,control,src/main/java/net/sf/jabref/PrefsDialog3.java,before,designite,Cyclic-Dependent Modularization,1
+p085,control,src/main/java/net/sf/jabref/PrefsDialog3.java,after,designite,Cyclic-Dependent Modularization,1
+p086,treated,jablib/src/main/java/org/jabref/logic/remote/RemotePreferences.java,before,pmd,PreserveStackTrace,1
+p086,treated,jablib/src/main/java/org/jabref/logic/remote/RemotePreferences.java,before,pmd,UnnecessaryFullyQualifiedName,1
+p086,treated,jablib/src/main/java/org/jabref/logic/remote/RemotePreferences.java,after,pmd,PreserveStackTrace,1
+p086,treated,jablib/src/main/java/org/jabref/logic/remote/RemotePreferences.java,after,pmd,UnnecessaryFullyQualifiedName,1
+p086,control,jabgui/src/main/java/org/jabref/gui/preferences/general/GeneralTabViewModel.java,before,pmd,NonExhaustiveSwitch,2
+p086,control,jabgui/src/main/java/org/jabref/gui/preferences/general/GeneralTabViewModel.java,before,pmd,UnusedPrivateField,2
+p086,control,jabgui/src/main/java/org/jabref/gui/preferences/general/GeneralTabViewModel.java,after,pmd,NonExhaustiveSwitch,2
+p086,control,jabgui/src/main/java/org/jabref/gui/preferences/general/GeneralTabViewModel.java,after,pmd,UnusedPrivateField,2
+p086,control,jabgui/src/main/java/org/jabref/gui/preferences/general/GeneralTabViewModel.java,before,designite,Insufficient Modularization,1
+p086,control,jabgui/src/main/java/org/jabref/gui/preferences/general/GeneralTabViewModel.java,after,designite,Insufficient Modularization,1
+p087,treated,src/main/java/net/sf/jabref/importer/fetcher/GeneralFetcher.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p087,treated,src/main/java/net/sf/jabref/importer/fetcher/GeneralFetcher.java,before,pmd,OptimizableToArrayCall,1
+p087,treated,src/main/java/net/sf/jabref/importer/fetcher/GeneralFetcher.java,before,pmd,UnnecessaryFullyQualifiedName,2
+p087,treated,src/main/java/net/sf/jabref/importer/fetcher/GeneralFetcher.java,before,pmd,UnnecessaryImport,2
+p087,treated,src/main/java/net/sf/jabref/importer/fetcher/GeneralFetcher.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p087,treated,src/main/java/net/sf/jabref/importer/fetcher/GeneralFetcher.java,after,pmd,OptimizableToArrayCall,1
+p087,treated,src/main/java/net/sf/jabref/importer/fetcher/GeneralFetcher.java,after,pmd,UnnecessaryFullyQualifiedName,2
+p087,treated,src/main/java/net/sf/jabref/importer/fetcher/GeneralFetcher.java,after,pmd,UnnecessaryImport,3
+p087,treated,src/main/java/net/sf/jabref/importer/fetcher/GeneralFetcher.java,before,designite,Cyclic-Dependent Modularization,1
+p087,treated,src/main/java/net/sf/jabref/importer/fetcher/GeneralFetcher.java,after,designite,Cyclic-Dependent Modularization,1
+p087,control,src/main/java/net/sf/jabref/gui/help/HelpAction.java,after,pmd,UnnecessaryImport,5
+p087,control,src/main/java/net/sf/jabref/gui/help/HelpAction.java,before,designite,Cyclic-Dependent Modularization,1
+p087,control,src/main/java/net/sf/jabref/gui/help/HelpAction.java,after,designite,Unutilized Abstraction,1
+p088,treated,src/main/java/org/jabref/logic/journals/ltwa/NormalizeUtils.java,before,pmd,UseUtilityClass,1
+p088,treated,src/main/java/org/jabref/logic/journals/ltwa/NormalizeUtils.java,after,pmd,UseUtilityClass,1
+p088,control,src/main/java/org/jabref/logic/journals/ltwa/PrefixTree.java,before,designite,Deficient Encapsulation,1
+p088,control,src/main/java/org/jabref/logic/journals/ltwa/PrefixTree.java,after,designite,Deficient Encapsulation,1
+p089,treated,src/main/java/net/sf/jabref/logic/groups/GroupsUtil.java,before,pmd,LooseCoupling,5
+p089,treated,src/main/java/net/sf/jabref/logic/groups/GroupsUtil.java,before,pmd,UseUtilityClass,1
+p089,treated,src/main/java/net/sf/jabref/logic/groups/GroupsUtil.java,after,pmd,LooseCoupling,4
+p089,treated,src/main/java/net/sf/jabref/logic/groups/GroupsUtil.java,after,pmd,UseUtilityClass,1
+p089,treated,src/main/java/net/sf/jabref/logic/groups/GroupsUtil.java,before,designite,Cyclic-Dependent Modularization,1
+p089,treated,src/main/java/net/sf/jabref/logic/groups/GroupsUtil.java,after,designite,Cyclic-Dependent Modularization,1
+p089,control,src/main/java/net/sf/jabref/groups/AddToGroupAction.java,before,pmd,LooseCoupling,1
+p089,control,src/main/java/net/sf/jabref/groups/AddToGroupAction.java,after,pmd,LooseCoupling,1
+p089,control,src/main/java/net/sf/jabref/groups/AddToGroupAction.java,before,designite,Cyclic-Dependent Modularization,1
+p089,control,src/main/java/net/sf/jabref/groups/AddToGroupAction.java,after,designite,Cyclic-Dependent Modularization,1
+p090,treated,src/main/java/org/jabref/model/openoffice/style/CitedKeys.java,before,pmd,LooseCoupling,3
+p090,treated,src/main/java/org/jabref/model/openoffice/style/CitedKeys.java,after,pmd,LooseCoupling,3
+p090,treated,src/main/java/org/jabref/model/openoffice/style/CitedKeys.java,before,designite,Cyclic-Dependent Modularization,1
+p090,treated,src/main/java/org/jabref/model/openoffice/style/CitedKeys.java,after,designite,Cyclic-Dependent Modularization,1
+p090,control,src/main/java/org/jabref/model/openoffice/style/CitationGroups.java,before,pmd,DanglingJavadoc,1
+p090,control,src/main/java/org/jabref/model/openoffice/style/CitationGroups.java,before,pmd,LambdaCanBeMethodReference,1
+p090,control,src/main/java/org/jabref/model/openoffice/style/CitationGroups.java,before,pmd,LooseCoupling,2
+p090,control,src/main/java/org/jabref/model/openoffice/style/CitationGroups.java,after,pmd,DanglingJavadoc,1
+p090,control,src/main/java/org/jabref/model/openoffice/style/CitationGroups.java,after,pmd,LambdaCanBeMethodReference,1
+p090,control,src/main/java/org/jabref/model/openoffice/style/CitationGroups.java,after,pmd,LooseCoupling,2
+p090,control,src/main/java/org/jabref/model/openoffice/style/CitationGroups.java,before,designite,Cyclic-Dependent Modularization,1
+p090,control,src/main/java/org/jabref/model/openoffice/style/CitationGroups.java,before,designite,Insufficient Modularization,1
+p090,control,src/main/java/org/jabref/model/openoffice/style/CitationGroups.java,after,designite,Cyclic-Dependent Modularization,1
+p090,control,src/main/java/org/jabref/model/openoffice/style/CitationGroups.java,after,designite,Insufficient Modularization,1
+p091,treated,src/main/java/org/jabref/gui/openoffice/OOBibBase.java,before,pmd,GuardLogStatement,1
+p091,treated,src/main/java/org/jabref/gui/openoffice/OOBibBase.java,before,pmd,IdenticalCatchBranches,6
+p091,treated,src/main/java/org/jabref/gui/openoffice/OOBibBase.java,before,pmd,LocalVariableNamingConventions,2
+p091,treated,src/main/java/org/jabref/gui/openoffice/OOBibBase.java,before,pmd,SingularField,1
+p091,treated,src/main/java/org/jabref/gui/openoffice/OOBibBase.java,after,pmd,GuardLogStatement,1
+p091,treated,src/main/java/org/jabref/gui/openoffice/OOBibBase.java,after,pmd,IdenticalCatchBranches,6
+p091,treated,src/main/java/org/jabref/gui/openoffice/OOBibBase.java,after,pmd,LocalVariableNamingConventions,2
+p091,treated,src/main/java/org/jabref/gui/openoffice/OOBibBase.java,after,pmd,SingularField,1
+p091,treated,src/main/java/org/jabref/gui/openoffice/OOBibBase.java,after,pmd,UnusedLocalVariable,1
+p091,treated,src/main/java/org/jabref/gui/openoffice/OOBibBase.java,before,designite,Insufficient Modularization,1
+p091,treated,src/main/java/org/jabref/gui/openoffice/OOBibBase.java,after,designite,Insufficient Modularization,1
+p091,control,src/main/java/org/jabref/logic/openoffice/oocsltext/CSLCitationOOAdapter.java,before,designite,Deficient Encapsulation,1
+p091,control,src/main/java/org/jabref/logic/openoffice/oocsltext/CSLCitationOOAdapter.java,after,designite,Deficient Encapsulation,1
+p092,treated,src/main/java/org/jabref/logic/importer/fetcher/CollectionOfComputerScienceBibliographiesParser.java,before,pmd,LiteralsFirstInComparisons,1
+p092,treated,src/main/java/org/jabref/logic/importer/fetcher/CollectionOfComputerScienceBibliographiesParser.java,before,pmd,VariableCanBeInlined,1
+p092,treated,src/main/java/org/jabref/logic/importer/fetcher/CollectionOfComputerScienceBibliographiesParser.java,after,pmd,LiteralsFirstInComparisons,1
+p092,treated,src/main/java/org/jabref/logic/importer/fetcher/CollectionOfComputerScienceBibliographiesParser.java,after,pmd,LooseCoupling,1
+p092,treated,src/main/java/org/jabref/logic/importer/fetcher/CollectionOfComputerScienceBibliographiesParser.java,after,pmd,VariableCanBeInlined,1
+p092,treated,src/main/java/org/jabref/logic/importer/fetcher/CollectionOfComputerScienceBibliographiesParser.java,before,designite,Unutilized Abstraction,1
+p092,treated,src/main/java/org/jabref/logic/importer/fetcher/CollectionOfComputerScienceBibliographiesParser.java,after,designite,Unutilized Abstraction,1
+p092,control,src/main/java/org/jabref/logic/importer/fetcher/CollectionOfComputerScienceBibliographiesFetcher.java,before,pmd,UnnecessaryImport,1
+p092,control,src/main/java/org/jabref/logic/importer/fetcher/CollectionOfComputerScienceBibliographiesFetcher.java,before,designite,Unutilized Abstraction,1
+p092,control,src/main/java/org/jabref/logic/importer/fetcher/CollectionOfComputerScienceBibliographiesFetcher.java,after,designite,Unutilized Abstraction,1
+p093,treated,jabgui/src/main/java/org/jabref/gui/entryeditor/citationrelationtab/CitationRelationsTab.java,before,pmd,DanglingJavadoc,5
+p093,treated,jabgui/src/main/java/org/jabref/gui/entryeditor/citationrelationtab/CitationRelationsTab.java,before,pmd,GuardLogStatement,1
+p093,treated,jabgui/src/main/java/org/jabref/gui/entryeditor/citationrelationtab/CitationRelationsTab.java,before,pmd,NonExhaustiveSwitch,1
+p093,treated,jabgui/src/main/java/org/jabref/gui/entryeditor/citationrelationtab/CitationRelationsTab.java,after,pmd,DanglingJavadoc,5
+p093,treated,jabgui/src/main/java/org/jabref/gui/entryeditor/citationrelationtab/CitationRelationsTab.java,after,pmd,GuardLogStatement,1
+p093,treated,jabgui/src/main/java/org/jabref/gui/entryeditor/citationrelationtab/CitationRelationsTab.java,after,pmd,NonExhaustiveSwitch,1
+p093,treated,jabgui/src/main/java/org/jabref/gui/entryeditor/citationrelationtab/CitationRelationsTab.java,before,designite,Deficient Encapsulation,1
+p093,treated,jabgui/src/main/java/org/jabref/gui/entryeditor/citationrelationtab/CitationRelationsTab.java,before,designite,Insufficient Modularization,1
+p093,treated,jabgui/src/main/java/org/jabref/gui/entryeditor/citationrelationtab/CitationRelationsTab.java,after,designite,Deficient Encapsulation,1
+p093,treated,jabgui/src/main/java/org/jabref/gui/entryeditor/citationrelationtab/CitationRelationsTab.java,after,designite,Insufficient Modularization,1
+p094,treated,src/main/java/org/jabref/gui/externalfiles/ExternalFilesEntryLinker.java,after,pmd,UnusedLocalVariable,2
+p094,treated,src/main/java/org/jabref/gui/externalfiles/ExternalFilesEntryLinker.java,before,designite,Cyclic-Dependent Modularization,1
+p094,treated,src/main/java/org/jabref/gui/externalfiles/ExternalFilesEntryLinker.java,after,designite,Cyclic-Dependent Modularization,1
+p095,treated,src/main/java/net/sf/jabref/wizard/auximport/AuxCommandLine.java,before,designite,Cyclic-Dependent Modularization,1
+p095,treated,src/main/java/net/sf/jabref/wizard/auximport/AuxCommandLine.java,after,designite,Cyclic-Dependent Modularization,1
+p095,control,src/main/java/net/sf/jabref/model/database/BibDatabase.java,before,pmd,GuardLogStatement,2
+p095,control,src/main/java/net/sf/jabref/model/database/BibDatabase.java,before,pmd,LooseCoupling,1
+p095,control,src/main/java/net/sf/jabref/model/database/BibDatabase.java,before,pmd,OptimizableToArrayCall,1
+p095,control,src/main/java/net/sf/jabref/model/database/BibDatabase.java,before,pmd,ProperLogger,1
+p095,control,src/main/java/net/sf/jabref/model/database/BibDatabase.java,before,pmd,UnnecessaryFullyQualifiedName,1
+p095,control,src/main/java/net/sf/jabref/model/database/BibDatabase.java,before,pmd,UselessQualifiedThis,2
+p095,control,src/main/java/net/sf/jabref/model/database/BibDatabase.java,after,pmd,GuardLogStatement,2
+p095,control,src/main/java/net/sf/jabref/model/database/BibDatabase.java,after,pmd,LooseCoupling,1
+p095,control,src/main/java/net/sf/jabref/model/database/BibDatabase.java,after,pmd,OptimizableToArrayCall,1
+p095,control,src/main/java/net/sf/jabref/model/database/BibDatabase.java,after,pmd,ProperLogger,1
+p095,control,src/main/java/net/sf/jabref/model/database/BibDatabase.java,after,pmd,UnnecessaryFullyQualifiedName,1
+p095,control,src/main/java/net/sf/jabref/model/database/BibDatabase.java,after,pmd,UseCollectionIsEmpty,1
+p095,control,src/main/java/net/sf/jabref/model/database/BibDatabase.java,after,pmd,UselessQualifiedThis,2
+p095,control,src/main/java/net/sf/jabref/model/database/BibDatabase.java,before,designite,Cyclic-Dependent Modularization,1
+p095,control,src/main/java/net/sf/jabref/model/database/BibDatabase.java,before,designite,Insufficient Modularization,1
+p095,control,src/main/java/net/sf/jabref/model/database/BibDatabase.java,after,designite,Cyclic-Dependent Modularization,1
+p095,control,src/main/java/net/sf/jabref/model/database/BibDatabase.java,after,designite,Insufficient Modularization,1
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,before,pmd,AvoidCatchingThrowable,6
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,6
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,before,pmd,DanglingJavadoc,3
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,before,pmd,FormalParameterNamingConventions,1
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,before,pmd,GuardLogStatement,5
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,before,pmd,LocalVariableNamingConventions,1
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,before,pmd,PreserveStackTrace,2
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,before,pmd,ProperLogger,1
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,before,pmd,SimplifyConditional,3
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,before,pmd,SingularField,1
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,before,pmd,UselessParentheses,6
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,before,pmd,UselessQualifiedThis,27
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,after,pmd,AvoidCatchingThrowable,6
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,6
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,after,pmd,DanglingJavadoc,3
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,after,pmd,FormalParameterNamingConventions,1
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,after,pmd,GuardLogStatement,5
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,after,pmd,LocalVariableNamingConventions,1
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,after,pmd,PreserveStackTrace,2
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,after,pmd,ProperLogger,1
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,after,pmd,SimplifyConditional,3
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,after,pmd,SingularField,1
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,after,pmd,UselessParentheses,6
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,after,pmd,UselessQualifiedThis,27
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,before,designite,Cyclic-Dependent Modularization,1
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,before,designite,Deficient Encapsulation,1
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,before,designite,Hub-like Modularization,1
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,before,designite,Insufficient Modularization,1
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,after,designite,Cyclic-Dependent Modularization,1
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,after,designite,Deficient Encapsulation,1
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,after,designite,Hub-like Modularization,1
+p096,treated,src/main/java/net/sf/jabref/gui/BasePanel.java,after,designite,Insufficient Modularization,1
+p096,control,src/main/java/net/sf/jabref/exporter/SaveDatabaseAction.java,before,pmd,EmptyControlStatement,1
+p096,control,src/main/java/net/sf/jabref/exporter/SaveDatabaseAction.java,before,pmd,PreserveStackTrace,2
+p096,control,src/main/java/net/sf/jabref/exporter/SaveDatabaseAction.java,before,pmd,ProperLogger,1
+p096,control,src/main/java/net/sf/jabref/exporter/SaveDatabaseAction.java,after,pmd,EmptyControlStatement,1
+p096,control,src/main/java/net/sf/jabref/exporter/SaveDatabaseAction.java,after,pmd,PreserveStackTrace,2
+p096,control,src/main/java/net/sf/jabref/exporter/SaveDatabaseAction.java,after,pmd,ProperLogger,1
+p096,control,src/main/java/net/sf/jabref/exporter/SaveDatabaseAction.java,before,designite,Unutilized Abstraction,1
+p096,control,src/main/java/net/sf/jabref/exporter/SaveDatabaseAction.java,after,designite,Unutilized Abstraction,1
+p097,treated,src/main/java/org/jabref/logic/importer/fileformat/RisImporter.java,before,pmd,AssignmentInOperand,1
+p097,treated,src/main/java/org/jabref/logic/importer/fileformat/RisImporter.java,before,pmd,EmptyCatchBlock,2
+p097,treated,src/main/java/org/jabref/logic/importer/fileformat/RisImporter.java,after,pmd,AssignmentInOperand,1
+p097,treated,src/main/java/org/jabref/logic/importer/fileformat/RisImporter.java,after,pmd,EmptyCatchBlock,2
+p097,treated,src/main/java/org/jabref/logic/importer/fileformat/RisImporter.java,before,designite,Unutilized Abstraction,1
+p097,treated,src/main/java/org/jabref/logic/importer/fileformat/RisImporter.java,after,designite,Unutilized Abstraction,1
+p097,control,src/main/java/org/jabref/logic/importer/fileformat/PdfEmbeddedBibFileImporter.java,before,pmd,UnusedPrivateField,1
+p098,treated,src/main/java/org/jabref/gui/LibraryTab.java,before,pmd,AvoidCatchingThrowable,1
+p098,treated,src/main/java/org/jabref/gui/LibraryTab.java,before,pmd,AvoidInstanceofChecksInCatchClause,2
+p098,treated,src/main/java/org/jabref/gui/LibraryTab.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,4
+p098,treated,src/main/java/org/jabref/gui/LibraryTab.java,before,pmd,UnusedFormalParameter,1
+p098,treated,src/main/java/org/jabref/gui/LibraryTab.java,before,pmd,UnusedPrivateField,1
+p098,treated,src/main/java/org/jabref/gui/LibraryTab.java,before,pmd,UselessParentheses,1
+p098,treated,src/main/java/org/jabref/gui/LibraryTab.java,after,pmd,AvoidCatchingThrowable,1
+p098,treated,src/main/java/org/jabref/gui/LibraryTab.java,after,pmd,AvoidInstanceofChecksInCatchClause,2
+p098,treated,src/main/java/org/jabref/gui/LibraryTab.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,4
+p098,treated,src/main/java/org/jabref/gui/LibraryTab.java,after,pmd,UnusedFormalParameter,2
+p098,treated,src/main/java/org/jabref/gui/LibraryTab.java,after,pmd,UnusedPrivateField,1
+p098,treated,src/main/java/org/jabref/gui/LibraryTab.java,after,pmd,UselessParentheses,1
+p098,treated,src/main/java/org/jabref/gui/LibraryTab.java,before,designite,Cyclic-Dependent Modularization,1
+p098,treated,src/main/java/org/jabref/gui/LibraryTab.java,before,designite,Hub-like Modularization,1
+p098,treated,src/main/java/org/jabref/gui/LibraryTab.java,before,designite,Insufficient Modularization,1
+p098,treated,src/main/java/org/jabref/gui/LibraryTab.java,after,designite,Cyclic-Dependent Modularization,1
+p098,treated,src/main/java/org/jabref/gui/LibraryTab.java,after,designite,Hub-like Modularization,1
+p098,treated,src/main/java/org/jabref/gui/LibraryTab.java,after,designite,Insufficient Modularization,1
+p098,control,src/main/java/org/jabref/gui/frame/JabRefFrame.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p098,control,src/main/java/org/jabref/gui/frame/JabRefFrame.java,before,pmd,SimplifyConditional,1
+p098,control,src/main/java/org/jabref/gui/frame/JabRefFrame.java,before,pmd,SingularField,1
+p098,control,src/main/java/org/jabref/gui/frame/JabRefFrame.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,1
+p098,control,src/main/java/org/jabref/gui/frame/JabRefFrame.java,after,pmd,SimplifyConditional,1
+p098,control,src/main/java/org/jabref/gui/frame/JabRefFrame.java,after,pmd,SingularField,1
+p098,control,src/main/java/org/jabref/gui/frame/JabRefFrame.java,before,designite,Cyclic-Dependent Modularization,1
+p098,control,src/main/java/org/jabref/gui/frame/JabRefFrame.java,before,designite,Deficient Encapsulation,1
+p098,control,src/main/java/org/jabref/gui/frame/JabRefFrame.java,before,designite,Insufficient Modularization,1
+p098,control,src/main/java/org/jabref/gui/frame/JabRefFrame.java,after,designite,Cyclic-Dependent Modularization,1
+p098,control,src/main/java/org/jabref/gui/frame/JabRefFrame.java,after,designite,Deficient Encapsulation,1
+p098,control,src/main/java/org/jabref/gui/frame/JabRefFrame.java,after,designite,Insufficient Modularization,1
+p099,treated,src/main/java/org/jabref/model/search/rules/ContainBasedSearchRule.java,after,pmd,LooseCoupling,3
+p099,treated,src/main/java/org/jabref/model/search/rules/ContainBasedSearchRule.java,after,designite,Unutilized Abstraction,1
+p099,control,src/main/java/org/jabref/gui/LibraryTab.java,before,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,3
+p099,control,src/main/java/org/jabref/gui/LibraryTab.java,before,pmd,SingularField,1
+p099,control,src/main/java/org/jabref/gui/LibraryTab.java,before,pmd,UnusedPrivateField,2
+p099,control,src/main/java/org/jabref/gui/LibraryTab.java,before,pmd,UselessParentheses,2
+p099,control,src/main/java/org/jabref/gui/LibraryTab.java,after,pmd,ClassWithOnlyPrivateConstructorsShouldBeFinal,3
+p099,control,src/main/java/org/jabref/gui/LibraryTab.java,after,pmd,SingularField,1
+p099,control,src/main/java/org/jabref/gui/LibraryTab.java,after,pmd,UnusedPrivateField,1
+p099,control,src/main/java/org/jabref/gui/LibraryTab.java,after,pmd,UselessParentheses,2
+p099,control,src/main/java/org/jabref/gui/LibraryTab.java,before,designite,Cyclic-Dependent Modularization,1
+p099,control,src/main/java/org/jabref/gui/LibraryTab.java,before,designite,Hub-like Modularization,1
+p099,control,src/main/java/org/jabref/gui/LibraryTab.java,before,designite,Insufficient Modularization,1
+p099,control,src/main/java/org/jabref/gui/LibraryTab.java,after,designite,Cyclic-Dependent Modularization,1
+p099,control,src/main/java/org/jabref/gui/LibraryTab.java,after,designite,Hub-like Modularization,1
+p099,control,src/main/java/org/jabref/gui/LibraryTab.java,after,designite,Insufficient Modularization,1
+p100,treated,jabgui/src/main/java/org/jabref/gui/welcome/WelcomeTab.java,before,pmd,CloseResource,1
+p100,treated,jabgui/src/main/java/org/jabref/gui/welcome/WelcomeTab.java,after,pmd,CloseResource,1
+p100,control,jablib/src/main/java/org/jabref/logic/util/strings/StringUtil.java,before,pmd,AssignmentInOperand,15
+p100,control,jablib/src/main/java/org/jabref/logic/util/strings/StringUtil.java,before,pmd,LooseCoupling,2
+p100,control,jablib/src/main/java/org/jabref/logic/util/strings/StringUtil.java,before,pmd,UnnecessaryFullyQualifiedName,2
+p100,control,jablib/src/main/java/org/jabref/logic/util/strings/StringUtil.java,before,pmd,UseUtilityClass,1
+p100,control,jablib/src/main/java/org/jabref/logic/util/strings/StringUtil.java,before,pmd,UselessParentheses,1
+p100,control,jablib/src/main/java/org/jabref/logic/util/strings/StringUtil.java,after,pmd,AssignmentInOperand,15
+p100,control,jablib/src/main/java/org/jabref/logic/util/strings/StringUtil.java,after,pmd,LooseCoupling,2
+p100,control,jablib/src/main/java/org/jabref/logic/util/strings/StringUtil.java,after,pmd,UnnecessaryFullyQualifiedName,2
+p100,control,jablib/src/main/java/org/jabref/logic/util/strings/StringUtil.java,after,pmd,UseUtilityClass,1
+p100,control,jablib/src/main/java/org/jabref/logic/util/strings/StringUtil.java,after,pmd,UselessParentheses,1
+p100,control,jablib/src/main/java/org/jabref/logic/util/strings/StringUtil.java,before,designite,Cyclic-Dependent Modularization,1
+p100,control,jablib/src/main/java/org/jabref/logic/util/strings/StringUtil.java,before,designite,Deficient Encapsulation,1
+p100,control,jablib/src/main/java/org/jabref/logic/util/strings/StringUtil.java,before,designite,Insufficient Modularization,1
+p100,control,jablib/src/main/java/org/jabref/logic/util/strings/StringUtil.java,after,designite,Cyclic-Dependent Modularization,1
+p100,control,jablib/src/main/java/org/jabref/logic/util/strings/StringUtil.java,after,designite,Deficient Encapsulation,1
+p100,control,jablib/src/main/java/org/jabref/logic/util/strings/StringUtil.java,after,designite,Insufficient Modularization,1

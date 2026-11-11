@@ -1,0 +1,38 @@
+started: 2026-11-11T10:55:52.546195706Z
+project: jabref
+refactoring CSV: jabref_extraction.csv (78325 rows, 5538 commits)
+seed: 6491, commits to record: 100, threads: 1
+PMD: PMD 7.17.0 (d2942d5ded8e3f967ba8872f3dc58a7bdffa73bf, 2025-09-12T07:17:26Z), ruleset rulesets/java/quickstart.xml (bundled, unmodified)
+DesigniteJava: DesigniteJava.jar (default thresholds)
+test code: left out of every snapshot, never a refactored or control file
+repository: https://github.com/JabRef/jabref.git
+commits with a production-code refactoring (sampling frame): 5085
+
+commits in the sampling frame: 5085
+
+== commit totals ==
+commits examined, in seeded order: 100
+  recorded: 100
+
+== file pairs ==
+commits examined, in seeded order: 173
+  recorded: 100
+  skipped: no control file passes the file checks: 63
+  skipped: no refactored production file passes the file checks: 10
+changed files left out by the file checks:
+  declares 0 top-level types (exactly one required): 6
+  declares 2 top-level types (exactly one required): 2
+  declares 3 top-level types (exactly one required): 5
+  declares 4 top-level types (exactly one required): 7
+  file added in the commit (nothing before): 120
+  file deleted in the commit (nothing after): 19
+  file renamed or moved in the commit: 644
+  test file: 179
+  top-level type is a record (DesigniteJava does not model it): 6
+  top-level type is an enum (DesigniteJava does not model it): 10
+
+== Snapshots ==
+analysed: 283 (ok 283, failed 0)
+
+RESULT: COMPLETE - 100 commits with totals and 100 file pairs recorded.
+finished: 2026-11-11T10:56:18.587828895Z

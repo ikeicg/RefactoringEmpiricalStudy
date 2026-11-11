@@ -1,0 +1,38 @@
+started: 2026-11-11T10:56:26.977992982Z
+project: checkstyle
+refactoring CSV: checkstyle_extraction.csv (37893 rows, 3868 commits)
+seed: 6491, commits to record: 100, threads: 1
+PMD: PMD 7.17.0 (d2942d5ded8e3f967ba8872f3dc58a7bdffa73bf, 2025-09-12T07:17:26Z), ruleset rulesets/java/quickstart.xml (bundled, unmodified)
+DesigniteJava: DesigniteJava.jar (default thresholds)
+test code: left out of every snapshot, never a refactored or control file
+repository: https://github.com/checkstyle/checkstyle.git
+commits with a production-code refactoring (sampling frame): 2220
+
+commits in the sampling frame: 2220
+
+== commit totals ==
+commits examined, in seeded order: 100
+  recorded: 100
+
+== file pairs ==
+commits examined, in seeded order: 354
+  recorded: 100
+  skipped: no control file passes the file checks: 230
+  skipped: no refactored production file passes the file checks: 24
+changed files left out by the file checks:
+  declares 0 top-level types (exactly one required): 1
+  declares 2 top-level types (exactly one required): 5
+  declares 7 top-level types (exactly one required): 1
+  file added in the commit (nothing before): 275
+  file deleted in the commit (nothing after): 14
+  file renamed or moved in the commit: 238
+  package declaration changed in the commit: 7
+  test file: 960
+  top-level type is a record (DesigniteJava does not model it): 3
+  top-level type is an enum (DesigniteJava does not model it): 6
+
+== Snapshots ==
+analysed: 335 (ok 335, failed 0)
+
+RESULT: COMPLETE - 100 commits with totals and 100 file pairs recorded.
+finished: 2026-11-11T10:56:53.680220662Z

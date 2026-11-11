@@ -1,0 +1,101 @@
+sample_id,project,commit,parent_commit,commit_date,production_refactorings,refactoring_types,java_files_before,java_files_after,designite_before,designite_after,pmd_before,pmd_after,pmd_unparsed_files_before,pmd_unparsed_files_after
+c001,checkstyle,2f8bcacc1e22b2ad0e249a0f942f799e47f23d0a,f921b9a5854f26354f7b0600130d8cc5c1d34cdc,2019-08-05,4,Localize Parameter;Rename Method,376,376,443,442,468,466,1,1
+c002,checkstyle,1d528505f9e45f64c40700871823fa3f774abd5c,15b4a0f888fb1d5b374fdd5ae11ec1865113c30d,2002-09-15,8,Change Parameter Type;Move Class,42,42,24,24,283,288,0,0
+c003,checkstyle,621975e046b5ad7a37da3638020c0ec424ea6088,cae000ff91d9af209208fc6c3834b90ae8c0f0d9,2020-04-19,2,Inline Variable;Invert Condition,383,383,457,457,467,467,2,2
+c004,checkstyle,c542571fdd11e74f5d37bb8c3e2aedccacc8b66f,f3bbf522bd8a4403cc94c2bb8ad6024934048edd,2019-07-15,3,Extract Method;Rename Variable,375,375,442,442,467,467,1,1
+c005,checkstyle,d43279c931bedab7d3ac6c2f79ce27e4dd7f4c8b,2e6c9a1aa270f7074a9b7b8e2974970a16e5b7ad,2025-06-10,1,Move Source Folder,450,450,506,506,502,502,0,0
+c006,checkstyle,7b74f65b1048400bd37b2e897811e1591929da0a,4f44299d43ca1d2ce4e226634e744d92b284c703,2015-06-07,1,Extract Method,320,320,407,407,512,512,0,0
+c007,checkstyle,c1f7520b68e38bfb601490ff3b7af572a5d994c3,6a0b1ed1b79de83eda2a82958ae7acb3892de539,2026-02-05,1,Add Attribute Modifier,469,469,498,498,532,532,0,0
+c008,checkstyle,3ded17ac3d61b4284299319f5f60ee220154fded,f464a296056168259e1f84333507fcb797d93cdc,2002-04-24,2,Change Return Type;Rename Method,24,25,17,18,179,181,0,0
+c009,checkstyle,788b41973d5747c7b4699a853b62168cf0001df6,96c668724bc05a11ceb031dda71efe1e9e69480d,2005-12-29,11,Add Attribute Modifier;Add Parameter;Extract Variable;Invert Condition;Remove Parameter;Rename Attribute,371,371,409,409,1274,1270,0,0
+c010,checkstyle,195dae3086c8f295d7ee2fcaa4d446d4eb6eb315,b1fb4f29a385866172e3e2bb6138713b7cd494b9,2026-03-01,3,Extract Method;Inline Variable,473,473,503,503,535,535,0,0
+c011,checkstyle,795968d20ed78e558a95fdd35702366327a4bdc1,3300c3c835982e11c24b89e7c11ec9d7333cfb52,2015-05-11,3,Add Method Modifier;Add Parameter;Rename Method,322,322,410,409,524,524,0,0
+c012,checkstyle,32d19d680144540a83c5dde5588f5a7ac302f8e1,679f818267161d9501a73ffdcc0d991537233633,2003-06-04,5,Move Class,160,160,169,169,505,505,0,0
+c013,checkstyle,4d307934ff226b8b1fd79005496b5f4eb832a68d,7bbd6c193a493848ba7dd3e7999b1762c601442a,2002-11-28,2,Add Variable Modifier;Extract Variable,102,102,117,117,356,357,1,1
+c014,checkstyle,904de34fcd984edce3d6042a5a17e2a969254588,e9ec5bfbd5ab91852c3ec1b30492df5c06cdd3b1,2015-08-29,5,Extract Method;Extract Variable;Merge Conditional,323,323,380,380,429,428,0,0
+c015,checkstyle,018b52126dd3ddf58a47dadbe5f1b7ca5c7ffd3d,07a72c23b460cd4d4fda0bcf98c812ea331fc49a,2019-12-21,3,Rename Method;Split Attribute;Split Parameter,377,377,448,448,463,463,2,2
+c016,checkstyle,a707819ab73dded873917fd33e22d45d0e3e1860,6ee4a0f805d528cdee03cfc175502d15b5722dab,2015-12-24,1,Invert Condition,323,323,373,373,440,440,0,0
+c017,checkstyle,d84869bcff9a2f0ad8d6f1d7741e07d22a78e4a6,8b43ebdbf7ff1abe9fb858fd5d0dbc2c903a4485,2015-01-19,210,Extract Variable;Rename Attribute;Rename Parameter;Rename Variable,423,423,427,427,1081,1081,0,0
+c018,checkstyle,99f8726600ebd9f73b86eacf5e44d0335266d8fc,6d20b67e0f1bfedc2132a887257d72edde4c857b,2015-10-15,7,Add Variable Modifier;Extract Method;Parameterize Variable;Rename Parameter;Rename Variable,326,326,378,378,436,436,0,0
+c019,checkstyle,797642aef9585ac695686b98b7268caccd332a20,24b077c66e9a3106dc0b2417734a654744cdaf74,2020-09-19,8,Change Parameter Type;Change Return Type;Change Variable Type,399,399,466,466,483,485,2,0
+c020,checkstyle,f6c9d83def3c381d7485186b36e8c1d5e17a13ca,83a1c2d3b34bd538da626562126e144cb5bb687d,2002-05-05,2,Extract Variable,25,25,18,18,219,221,0,0
+c021,checkstyle,6a568662589478646b99f9b277811977b8f94f39,d7a2f977d8f0bb2529c8dadf6d5f602b9603e5ae,2026-07-20,1,Extract Variable,478,478,508,508,787,787,0,0
+c022,checkstyle,b372cfa0a8632735da877de0f703c3b3c9ce5f63,f293a2107656cebb829e33cba2384ba56be54512,2015-08-30,2,Extract Method;Rename Parameter,323,323,379,379,432,432,0,0
+c023,checkstyle,6129b4e7c9532e6a40e95d044cbb758faa43bc73,6054b46c9b717a03cf000c7884d0256335fc01e9,2017-08-20,2,Extract Variable,348,348,402,402,471,471,0,0
+c024,checkstyle,c3baa3fa77f4ed8e475ab52db6d0f2f860d93ef0,04bca2e0435d598918603ce5a457ddc99e6ae5a5,2003-07-11,2,Invert Condition;Rename Variable,292,295,333,338,957,962,0,0
+c025,checkstyle,00ac4dfc36aadce0330d6373aeeeae39ec5111a0,4f910b8be92f424f017b139df0e680e129829020,2015-06-07,3,Add Attribute Modifier,319,319,407,407,510,510,0,0
+c026,checkstyle,4c1700ebe1041b5f3be839024ae553bd8983db91,342ae1315c775fa512a5278d901bbd4fb23fd7c1,2005-10-28,4,Change Attribute Type;Change Variable Type,369,369,407,407,1262,1263,0,0
+c027,checkstyle,7874cc4909f6e5104f42060528b9069669993533,3a7ab7d24d0b865fd95a8c72ce7e765a801ea555,2015-06-15,6,Add Variable Modifier;Extract And Move Method,320,320,407,407,524,524,0,0
+c028,checkstyle,ed89c9edb524243b0df61e83a5ac0930f070e6d7,c2176a24006cd8ed232815900ec4f78042a46a2d,2015-09-26,1,Change Attribute Type,325,325,374,374,435,435,0,0
+c029,checkstyle,c8ebc717eaa4da1ee37d66c90d52e7e91648ff82,83280597944c19c00625f7cebaf11d04a0da00c1,2026-05-11,3,Extract Method;Rename Method;Rename Variable,474,474,500,500,537,537,0,0
+c030,checkstyle,f7698ed23b365bce680b6ec8cd00b78e148582ac,66b07f10afe9882ba16db9bf66c7cb3c508b278b,2015-09-08,1,Invert Condition,325,325,376,376,432,432,0,0
+c031,checkstyle,048d0cdaf4492a4c1b122320143b9d5339e5ac3b,22885be800d66237f4447184acdf669224d6d8e0,2002-02-19,4,Add Variable Modifier;Change Return Type;Remove Variable Modifier;Rename Method,22,22,14,14,145,145,0,0
+c032,checkstyle,3ad02e2dcdb4e4fbea22f6e8b765ff812f7887ee,22d0ed9d4cf3c92e70d6315637ce36d572e91e98,2004-02-29,1,Extract Variable,346,346,387,387,1157,1159,0,0
+c033,checkstyle,72be23f288369fdd9e562999bb9b0e2ff646c897,42d34c7e16ebc69b0a33febb73c9fa318351e212,2003-12-08,5,Add Parameter;Extract Method;Remove Variable Modifier,331,331,370,370,1110,1110,0,0
+c034,checkstyle,3badd996bf40d25400ce40bf89aea92cd90b1b35,e0651ea2fb8cae32a66bd141a0be0783c5de5cb4,2002-12-25,1,Replace Variable With Attribute,107,107,121,121,391,391,0,0
+c035,checkstyle,868ae755c10592c29d76772a4cd903d556576b07,2200323756c338e031d1b0171779172512dc7c50,2003-09-30,7,Change Parameter Type;Change Return Type;Inline Variable,326,326,364,364,1094,1094,0,0
+c036,checkstyle,d6f3a17328226debcddb53ed25c39501f2781764,6098d52bc125347961fc37971fd0d9a428f2781a,2017-04-24,11,Extract Variable;Invert Condition;Remove Variable Modifier;Rename Variable,344,344,401,401,459,459,0,0
+c037,checkstyle,e464c231eccec72f964131d9aeb5e49982c4b3bb,41758923b8e4dcb9aae1ee967407826bda38d97b,2003-06-14,7,Add Method Modifier;Change Method Access Modifier;Change Parameter Type;Change Variable Type;Rename Method,163,164,174,175,510,515,0,0
+c038,checkstyle,3576d1ac2da7c7ee37f296599a99eaaf224e7b7c,9d26d2729930b32daee0e5cc0c5a6675601b44f0,2020-12-27,13,Add Attribute Modifier;Add Method Annotation;Add Method Modifier;Add Parameter;Extract Method;Move And Inline Method;Push Down Attribute;Push Down Method;Remove Attribute Modifier,403,403,472,472,489,489,0,0
+c039,checkstyle,04ac5dd87c11a2bf7b908b45bbca7933382df515,2ef6dc6a43ede89c5b5b9091dee83e1e58bb5edc,2003-06-03,9,Change Class Access Modifier;Change Method Access Modifier;Move Class,160,160,183,182,505,505,0,0
+c040,checkstyle,bad81c81c2be3e67099c512e4e0aada291323566,dfd04eb16b568e1db9200c0d9f5ea6151ccff762,2015-09-18,2,Rename Parameter;Rename Variable,325,325,375,375,435,435,0,0
+c041,checkstyle,95f8b08af84a2287dbd93c9cc740b6732e9e43b1,4f5a400f1287161c958720eea79143466191833d,2015-08-28,7,Change Method Access Modifier,323,323,377,377,429,429,0,0
+c042,checkstyle,4ac32a7c0cf72ee35630432ce260293f80d886b8,f9a9d6c3d321eeb2879efb7f48f02fe21a51c06c,2015-04-24,1,Rename Method,321,321,407,407,523,523,0,0
+c043,checkstyle,4346d41010a729e14991e30706bdb16ff18ff39a,4fb4529b6f629ec3745f402b11dc3c1d1632a85a,2015-11-10,1,Extract Method,326,326,378,378,443,443,0,0
+c044,checkstyle,661274b68096ccd5876abb8eacf7c8d42a939a0b,e8d025321c3d1f5741e860bd96a93e7d2169ca9c,2002-12-23,3,Extract Variable;Rename Attribute,107,107,121,121,390,391,0,0
+c045,checkstyle,f81aca7224727c7224e9ec7b01376674dc76fdd1,909c2324d38effbd7be0effd611ee82460a9eba0,2026-09-16,5,Add Parameter;Change Attribute Access Modifier;Remove Attribute Modifier;Rename Attribute,486,486,556,570,808,808,0,0
+c046,checkstyle,ef58eba6d1b95443ff240ed05634c7e373b3445a,91db1968e34b4f777ab146e37a827c20b35e5c52,2007-12-20,7,Add Attribute Modifier;Change Parameter Type,399,399,418,418,1181,1179,0,0
+c047,checkstyle,f6bec165c9c6b6d8cc430cb0694dd42ccb0b7f69,a3882648b21dcb89eb8c3bd11e702e7161a6d59d,2016-02-19,16,Add Method Annotation;Change Method Access Modifier,332,332,376,376,448,448,0,0
+c048,checkstyle,40a0b5dcf7f9b45ae98ddcb1dec6e9e7c4eec676,325e57feb8238285065bfe7f23b3664b45a53a2d,2016-06-16,1,Add Variable Modifier,336,336,384,384,452,452,0,0
+c049,checkstyle,6dfee04a5836a4ee00e6cd255d609f888c22f4a0,96d6745a12127bd547e32137713b33aa9327aeb8,2003-01-12,1,Change Attribute Type,109,109,122,122,403,403,0,0
+c050,checkstyle,257d13b6bb53245d2491e50d4ca8e39ddfc80035,0de913bf4d7bca3ddbbf1657d651370002536bf0,2017-02-23,3,Inline Method;Rename Variable,344,344,398,398,458,458,0,0
+c051,checkstyle,58513c6e79da541491b4a6395f08b6c17446190d,53fd6257d96908c4d763cb790a8be66858059108,2019-08-01,3,Extract Method;Extract Variable;Rename Variable,376,376,443,443,468,468,1,1
+c052,checkstyle,154f120d7b71c30ec64f3ef801fb080a24a21c4a,83b7bbec522c6235ab8858c2d2a3fcf124f49e57,2017-04-28,11,Extract Variable;Invert Condition,344,344,401,401,458,460,0,0
+c053,checkstyle,91db1968e34b4f777ab146e37a827c20b35e5c52,38bd8f7f3e30a8667792dccd591d8dc0461082df,2007-12-20,12,Change Parameter Type;Rename Method;Rename Parameter,399,399,418,418,1181,1181,0,0
+c054,checkstyle,effc726665baf6f2770ee072ca7d1d806704f25a,1085a2bf5dec77c5169626c251fc9a42d48629be,2025-06-14,1,Move Source Folder,450,450,506,506,502,502,0,0
+c055,checkstyle,32c6d986004ec58f883f1d0651fccb376f1ef33a,802ef0fdcc98bb6a268db51c0897551f7f67b774,2020-04-03,4,Add Class Annotation;Extract Method;Parameterize Variable;Remove Class Annotation,383,383,457,457,467,467,2,2
+c056,checkstyle,cdf3e56bacd3895262af8a1df9ca5c81f4071970,ed595de84fba2db507adaf01d04cb089a5e0bac5,2015-08-27,1,Split Class,322,323,378,377,427,428,0,0
+c057,checkstyle,41769cee1881c8c92cc59762b90b83529406208a,17a443435ecdb98f2a187aa50c2b06111b0d25f8,2020-11-22,2,Rename Attribute;Rename Method,400,400,466,466,486,486,0,0
+c058,checkstyle,be6a7ca77be3de342656ec381aaa02b89da252d4,825d1be1521b2ff93f040da47c0c08910cd55e28,2014-11-25,1,Extract Attribute,428,428,426,426,1142,1141,0,0
+c059,checkstyle,e66c64585f4af36b70b1371a55a3b145ac9c0661,c3c1b9ae062635d0be858088ed2c1fcf366ec33f,2015-08-29,3,Extract Variable;Invert Condition,323,323,380,380,428,428,0,0
+c060,checkstyle,fd6a743fd4b3c9283d62174327dd978bda694892,4011bf37400a7932f6c7a6f8fe1686673cea31c7,2003-11-20,3,Add Parameter;Change Parameter Type,329,329,369,369,1104,1107,0,0
+c061,checkstyle,3afbad622685b8b3bef9396f050577110ca2a2d2,e36dc4d945b488f53a1fac2f6455dd8710c3c940,2026-01-25,1,Change Variable Type,467,467,495,495,530,530,0,0
+c062,checkstyle,f804efa4a1218632de5d25a373e1837ab98e2578,c88a60a72cb6571ae49791cc4af6eddbb1d2a0a6,2017-09-17,9,Add Parameter;Extract Method;Parameterize Variable;Remove Method Modifier;Remove Parameter;Replace Variable With Attribute,351,351,407,407,478,478,0,0
+c063,checkstyle,0b4fe61b923949b0406805bab0bb2e4695abe210,6e5bc58e2fcff263d70dd69348e07b253834224f,2021-04-01,1,Extract Method,407,407,472,472,488,488,0,0
+c064,checkstyle,3eca04c940bcdf575c2f9009202a4145e9a82c15,cc6caa71f55ae33ad8c018e3b7915e6b93b7de81,2015-06-14,6,Add Variable Modifier;Extract Method,320,320,406,406,520,520,0,0
+c065,checkstyle,bcaa9d81a71c396d3e2eb3070149b3e4851d478f,57b908199dfa5c2c9bf9388d92925ccfb312812f,2015-08-20,1,Remove Parameter,321,321,380,380,425,425,0,0
+c066,checkstyle,cb8d98fb43494b7dfc415977083f9942768dcda3,5976084c38134f1b364b0b29d629cd7a314f560a,2015-05-31,2,Invert Condition;Remove Variable Modifier,322,322,410,410,516,516,0,0
+c067,checkstyle,b1eced12b2be801d2f68de4e1f404e1c04b10ae8,4b213ea2c5a85d0cc4aac89448fb1dabfb433d92,2016-08-04,2,Add Parameter;Rename Method,336,336,384,384,452,452,0,0
+c068,checkstyle,f6b0b3cd7f1587e97bbf188e8b285935e376f5ef,01a989d5a40c14a5448e135d6ad5b7f18027e930,2008-02-21,16,Change Method Access Modifier;Extract Superclass;Pull Up Attribute;Pull Up Method;Remove Method Annotation,371,372,389,391,1053,1054,0,0
+c069,checkstyle,9a39d19a31f06c8614d33fcc9c3f7654ec9cdd9f,f30512c75f51379b766e883666b6ce6ac5f3253d,2015-10-31,1,Rename Attribute,326,326,377,377,438,438,0,0
+c070,checkstyle,686de78ad4f137d53e412c113ac84f57ac8afed4,c91964b8d95ec0d220472c0efcfb3c1a0a7f6cc0,2003-07-10,4,Change Parameter Type;Move Class;Rename Parameter,291,291,332,332,955,956,0,0
+c071,checkstyle,a15fcb34fb0670b0603216dfca3c3c9e12d09727,cee4f351944dc6bad1c0b91eb8aaa118eed59fcc,2015-02-20,4,Extract Attribute,321,321,341,342,688,688,0,0
+c072,checkstyle,be08323f8a58f992bc61171bf53e0e51dbd21f29,ffd17e5ad649a03e4c9044005d2cb707be1261a1,2015-05-23,2,Rename Parameter;Rename Variable,322,322,412,412,516,516,0,0
+c073,checkstyle,6f1840f011cea3a523d9df1278d4a0af98e1d967,8e168c23bde5fed98dea0141b0cdcf11a74a7454,2015-08-27,3,Add Variable Modifier;Extract Method;Extract Variable,323,323,377,377,428,428,0,0
+c074,checkstyle,aa4e40e550403d61ce550a2056407fda43a22936,2af34e2adcd4d120d7400103d2dac3d5ee20f65b,2015-08-27,1,Extract Variable,323,323,377,377,428,428,0,0
+c075,checkstyle,c4d8550b2e36a0ae7c5c410e62ca798980b45c5c,76e9e8ee631399e45f641c12a164dd140939db50,2004-10-24,8,Add Parameter Modifier;Extract And Move Method;Parameterize Variable;Remove Variable Modifier,359,359,400,402,1229,1232,0,0
+c076,checkstyle,b9b72f969209ac4edb9c6b02aaf8e2f590d0b737,fd6a743fd4b3c9283d62174327dd978bda694892,2003-11-22,1,Invert Condition,329,329,369,369,1107,1108,0,0
+c077,checkstyle,f755213c9e8f55286776975bfc62d91a99e8c7cb,f5e1312191cfb6aa0f07eb58d6e19ad6a61d60fe,2002-01-22,22,Change Attribute Access Modifier;Change Class Access Modifier;Change Method Access Modifier,22,22,16,14,132,132,0,0
+c078,checkstyle,7450f13dfcf2f222c4bac344f21c5105f7430b61,77b69e2b9e30c1513f7082332288650db7224025,2016-02-21,11,Change Class Access Modifier;Change Method Access Modifier,332,332,377,377,448,448,0,0
+c079,checkstyle,7f452f66c8ac18a9d0093c0cb05009ddae0b8ea9,3e25a4911d0f0e4ea1b9c22f1b65158794f7d093,2015-06-25,11,Add Method Modifier;Extract Method;Inline Variable;Merge Conditional;Rename Variable,320,320,408,408,493,493,0,0
+c080,checkstyle,be134de6d5222ec718a8188182bed9d5b8d37390,375941fde1de89f6b24debdd44c1e5bf6a184590,2022-07-13,4,Change Return Type;Rename Method;Rename Parameter;Rename Variable,423,423,482,482,501,501,0,0
+c081,checkstyle,6f51fa7e63d3af55e2a6900d9aadb183ecf0cde8,d0e8581e9ce7dd420b94cb837b4331ec0baa9e4d,2015-07-08,1,Rename Parameter,320,320,407,407,493,492,0,0
+c082,checkstyle,15c641997da72c75b97abad5d0c40375f82851ea,fde141853282bb474d3011750e10cda12e2dbdd9,2002-11-03,1,Rename Variable,96,96,102,102,396,396,0,0
+c083,checkstyle,dc74f7fa7b20d265146c2945a28851e5ae6db761,e7c75fdbb2a1e598d6b113aef9f41ae8cf683790,2022-07-03,25,Change Parameter Type;Rename Parameter,423,423,482,482,501,501,0,0
+c084,checkstyle,f7309c44049963f36cd332c369cc267244aaaf63,c09a1ecf33f1ab0451bdf8686ceb240cef4c4496,2015-07-15,3,Add Method Modifier;Rename Method;Rename Parameter,320,320,403,402,477,477,0,0
+c085,checkstyle,4cff2eb7149113cd7549e9c4db97a189bbd1f3f3,861612671a7ad56901334dce338ff4b427a39189,2017-01-28,1,Extract Variable,344,344,396,396,456,456,0,0
+c086,checkstyle,5ab5020a270215b2ada9ad899339e078e75dfb9a,8d1cba0676d5550f7b538d2bd28cbc70dd9a003a,2002-01-14,8,Remove Parameter;Rename Method;Reorder Parameter,23,23,16,16,132,132,0,0
+c087,checkstyle,7335df239dda0b303e7de23ef6b1adf388780a0c,98d883bb3b2e5ea3774694b0529d1d16da5f3300,2002-09-04,8,Change Method Access Modifier,30,30,16,16,256,248,0,0
+c088,checkstyle,1bf41ac0029e4eb1303e953ee72bcedf791c3e66,7dfe6b1b94af8ab3f772e31f5e5d806cfeaacdf6,2026-05-15,15,Add Method Annotation;Add Variable Modifier;Extract Method;Extract Variable;Inline Method;Remove Variable Modifier;Rename Method;Rename Variable,474,474,500,500,537,537,0,0
+c089,checkstyle,bfe45c6f95d88e012e9cffbdfeca3ad91fb3ef0c,612d025d44009f1239aa2d4bb94f42d77ff85869,2026-09-26,108,Change Attribute Type;Change Method Access Modifier;Change Parameter Type;Change Return Type;Extract Class;Move Attribute;Move Method;Remove Attribute Modifier;Remove Method Modifier;Rename Attribute;Rename Method;Rename Parameter,488,490,573,573,814,817,0,0
+c090,checkstyle,3aa99fde8e937ab19b8e0e31f6ce52f6ced58bf1,060b37614b0f8c882cc5b633ad87e55d143fb81b,2003-02-15,3,Extract And Move Method;Remove Variable Modifier,110,110,123,123,384,385,0,0
+c091,checkstyle,204c073294cdca6756bcd546d6af85a797ad7d79,bac672f756acb6603e127a1c2ef84474b0db2ccd,2015-01-25,6,Add Method Modifier;Add Parameter;Change Method Access Modifier;Extract Class;Extract Variable;Move Method,423,424,427,427,1081,1082,0,0
+c092,checkstyle,619be72388bd49cc33dd8bb8150b66f81082ba18,1f30d57b3d6e7691cf05255a3477ea624ca83e13,2019-07-03,3,Add Class Modifier;Change Class Access Modifier;Change Method Access Modifier,375,375,442,442,467,467,1,1
+c093,checkstyle,8c08011e09bef5b739ca59366aaa83f698104eb1,bde2466193bbebf06e9c115cd866057961499af8,2017-07-13,1,Change Method Access Modifier,346,346,401,401,464,464,0,0
+c094,checkstyle,3ef918920c58c550169ccef3cfe1706aede11a6e,d740f2e1cdb05f20a48bf7d5dcebdcd0faae6ddd,2015-08-31,4,Change Variable Type;Parameterize Variable;Remove Thrown Exception Type;Remove Variable Modifier,323,323,378,378,431,431,0,0
+c095,checkstyle,a8f5fa3225e1c1ac96b28fbf16db1d51aa361a71,01b9628d3451c5c999facc0d1b88aeb085cceb6c,2015-04-08,3,Parameterize Variable;Remove Variable Modifier;Rename Variable,320,320,405,405,563,563,0,0
+c096,checkstyle,4ab4597511e0c71714f7338f1979c711adca8227,35461377834f1ce9c0d108772cd274fba432884a,2021-12-09,3,Inline Variable;Invert Condition;Merge Conditional,412,412,478,478,490,490,0,0
+c097,checkstyle,cd28d8c7ebbe51464d96c05db33e7a1f1b3ad86a,cffefba904f8d47f7bf9a9d9b053f5d33ea2afff,2022-06-08,18,Add Parameter;Change Attribute Type;Change Method Access Modifier;Change Return Type;Extract Superclass;Pull Up Attribute;Pull Up Method;Remove Parameter;Rename Attribute;Rename Method;Rename Parameter;Rename Variable,423,423,481,482,501,501,0,0
+c098,checkstyle,0bff4ad5d383fda3185c2511ec3fbc4114cd752b,02d7e86490a95cb2ea1b211d242eb0ba37e6b380,2025-08-24,6,Change Type Declaration Kind;Remove Class Modifier;Remove Method Modifier,455,455,509,506,516,516,0,0
+c099,checkstyle,22705bd0d4d4867f646b8c3aca115d7b3cb9c022,ef58eba6d1b95443ff240ed05634c7e373b3445a,2007-12-20,20,Add Attribute Modifier;Change Attribute Type;Change Parameter Type;Change Variable Type;Extract Variable;Inline Variable,399,399,418,418,1179,1113,0,0
+c100,checkstyle,7a6bf01c4dac8aedcdbd52aeed7500ba7a3ab0f8,02da493e64154d6bbac09a64d67a025f0e72cad1,2007-06-04,7,Add Parameter Modifier;Change Parameter Type;Change Variable Type;Rename Parameter;Rename Variable,377,377,418,418,1274,1274,0,0
