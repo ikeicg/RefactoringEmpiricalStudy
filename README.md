@@ -12,3 +12,4 @@ Java projects: Checkstyle, Mockito, JabRef.
 - [`smell-measurement/`](smell-measurement/) — standalone tool that reads that CSV and records code smells
   (DesigniteJava) and design rule violations (PMD) before and after a random sample of refactoring commits. Its
   [`datasets/`](smell-measurement/datasets/) folder holds the results for each project.
+- [`release-dates/`](release-dates/) — release dates of each project, with the official source of each date.

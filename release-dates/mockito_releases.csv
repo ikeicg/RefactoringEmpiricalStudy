@@ -1,0 +1,509 @@
+version,release_date,date_source,citation_url
+5.24.0,2026-09-23,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.24.0
+5.23.0,2026-03-04,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.23.0
+5.22.0,2026-02-13,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.22.0
+5.21.0,2025-12-02,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.21.0
+5.20.0,2025-09-20,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.20.0
+5.19.0,2025-08-15,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.19.0
+5.18.0,2025-05-20,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.18.0
+5.17.0,2025-04-04,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.17.0
+5.16.1,2025-03-15,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.16.1
+5.16.0,2025-03-03,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.16.0
+5.15.2,2025-01-02,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.15.2
+5.15.1,2024-12-22,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.15.1
+5.15.0,2024-12-10,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.15.0
+5.14.2,2024-10-15,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.14.2
+5.14.1,2024-09-30,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.14.1
+5.14.0,2024-09-27,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.14.0
+5.13.0,2024-08-27,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.13.0
+5.12.0,2024-05-11,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.12.0
+5.11.0,2024-03-01,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.11.0
+5.10.0,2024-01-24,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.10.0
+5.9.0,2024-01-14,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.9.0
+5.8.0,2023-12-01,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.8.0
+5.7.0,2023-10-31,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.7.0
+5.6.0,2023-10-06,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.6.0
+5.5.0,2023-08-22,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.5.0
+5.4.0,2023-06-16,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.4.0
+5.3.1,2023-04-21,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.3.1
+5.3.0,2023-04-11,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.3.0
+5.2.0,2023-03-09,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.2.0
+5.1.1,2023-01-30,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.1.1
+5.1.0,2023-01-29,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.1.0
+5.0.0,2023-01-13,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v5.0.0
+4.11.0,2022-12-28,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v4.11.0
+4.10.0,2022-12-14,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v4.10.0
+4.9.0,2022-11-11,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v4.9.0
+4.8.1,2022-10-17,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v4.8.1
+4.8.0,2022-09-07,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v4.8.0
+4.7.0,2022-08-10,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v4.7.0
+4.6.1,2022-06-02,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v4.6.1
+4.6.0,2022-05-27,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v4.6.0
+4.5.1,2022-04-21,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v4.5.1
+4.5.0,2022-04-19,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v4.5.0
+4.4.0,2022-03-07,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v4.4.0
+4.3.1,2022-01-25,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v4.3.1
+4.3.0,2022-01-22,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v4.3.0
+4.2.0,2021-12-16,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v4.2.0
+4.1.0,2021-11-19,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v4.1.0
+4.0.0,2021-10-06,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v4.0.0
+3.12.4,2021-08-25,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.12.4
+3.12.3,2021-08-24,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.12.3
+3.12.2,2021-08-24,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.12.2
+3.12.1,2021-08-20,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.12.1
+3.12.0,2021-08-19,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.12.0
+3.11.2,2021-06-18,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.11.2
+3.11.1,2021-06-11,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.11.1
+3.11.0,2021-06-03,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.11.0
+3.10.0,2021-05-11,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.10.0
+3.9.10,2021-04-29,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.9.10
+3.9.9,2021-04-29,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.9.9
+3.9.7,2021-04-23,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.9.7
+3.9.3,2021-04-14,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.9.3
+3.9.2,2021-04-12,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.9.2
+3.9.0,2021-04-07,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.9.0
+3.8.25,2021-04-07,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.8.25
+3.8.22,2021-04-05,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.8.22
+3.8.21,2021-04-05,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.8.21
+3.8.20,2021-04-01,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.8.20
+3.8.17,2021-03-29,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.8.17
+3.8.16,2021-03-29,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.8.16
+3.8.14,2021-03-25,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.8.14
+3.8.11,2021-03-22,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.8.11
+3.8.6,2021-03-04,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.8.6
+3.8.5,2021-03-01,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.8.5
+3.8.4,2021-03-01,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.8.4
+3.8.2,2021-02-26,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.8.2
+3.8.1,2021-02-23,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.8.1
+3.8.0,2021-02-22,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.8.0
+3.7.18,2021-02-15,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.7.18
+3.7.17,2021-02-15,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.7.17
+3.7.16,2021-02-11,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.7.16
+3.7.15,2021-02-05,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.7.15
+3.7.14,2021-02-05,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.7.14
+3.7.13,2021-02-04,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.7.13
+3.7.12,2021-02-04,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.7.12
+3.7.11,2021-02-02,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.7.11
+3.7.10,2021-02-01,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.7.10
+3.7.9,2021-01-27,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.7.9
+3.7.8,2021-01-17,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.7.8
+3.7.7,2021-01-16,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.7.7
+3.7.6,2021-01-15,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.7.6
+3.7.5,2021-01-15,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.7.5
+3.7.4,2021-01-12,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.7.4
+3.7.3,2021-01-11,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.7.3
+3.7.2,2021-01-06,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.7.2
+3.7.1,2021-01-05,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.7.1
+3.7.0,2021-01-04,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.7.0
+3.6.54,2021-01-03,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.54
+3.6.53,2021-01-03,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.53
+3.6.52,2021-01-03,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.52
+3.6.51,2020-12-31,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.51
+3.6.50,2020-12-31,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.50
+3.6.49,2020-12-30,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.49
+3.6.48,2020-12-21,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.48
+3.6.47,2020-12-17,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.47
+3.6.46,2020-12-17,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.46
+3.6.44,2020-12-08,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.44
+3.6.43,2020-12-08,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.43
+3.6.42,2020-12-03,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.42
+3.6.41,2020-12-03,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.41
+3.6.40,2020-12-02,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.40
+3.6.39,2020-12-02,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.39
+3.6.38,2020-12-02,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.38
+3.6.37,2020-12-02,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.37
+3.6.36,2020-12-01,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.36
+3.6.34,2020-12-01,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.34
+3.6.31,2020-11-30,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.31
+3.6.30,2020-11-30,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.30
+3.6.29,2020-11-30,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.29
+3.6.28,2020-11-25,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.28
+3.6.27,2020-11-25,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.27
+3.6.26,2020-11-25,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.26
+3.6.25,2020-11-24,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.25
+3.6.23,2020-11-15,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.23
+3.6.22,2020-11-15,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.22
+3.6.19,2020-11-11,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.19
+3.6.18,2020-11-10,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.18
+3.6.17,2020-11-10,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.17
+3.6.16,2020-11-09,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.16
+3.6.14,2020-11-08,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.14
+3.6.13,2020-11-05,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.13
+3.6.1,2020-10-28,GitHub Releases,https://github.com/mockito/mockito/releases/tag/v3.6.1
+3.6.0,2020-10-27,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.5.15,2020-10-19,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.5.14,2020-10-17,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.5.13,2020-09-24,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.5.12,2020-09-18,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.5.11,2020-09-17,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.5.10,2020-09-03,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.5.9,2020-09-01,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.5.8,2020-08-27,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.5.7,2020-08-25,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.5.6,2020-08-24,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.5.5,2020-08-22,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.5.4,2020-08-21,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.5.3,2020-08-20,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.5.2,2020-08-18,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.5.1,2020-08-18,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.5.0,2020-08-15,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.4.8,2020-08-09,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.4.7,2020-08-05,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.4.6,2020-07-29,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.4.5,2020-07-20,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.4.4,2020-07-18,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.4.3,2020-07-17,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.4.2,2020-07-16,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.4.1,2020-07-15,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.4.0,2020-07-10,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.3.13,2020-05-31,GitHub tag (no date in release notes),https://github.com/mockito/mockito/releases/tag/v3.3.13
+3.3.12,2020-05-25,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.3.11,2020-05-14,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.3.10,2020-04-30,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.3.9,2020-04-20,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.3.8,2020-04-15,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.3.7,2020-04-12,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.3.6,2020-03-25,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.3.5,2020-03-23,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.3.4,2020-03-21,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.3.3,2020-03-13,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.3.2,2020-02-28,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.3.1,2020-02-26,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.3.0,2020-02-21,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.2.11,2020-02-06,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.2.10,2020-01-31,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.2.9,2020-01-27,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.2.8,2020-01-15,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.2.7,2020-01-02,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.2.6,2019-12-31,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.2.5,2019-12-31,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.2.4,2019-12-16,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.2.3,2019-12-16,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.2.2,2019-12-12,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.2.1,2019-12-07,GitHub tag (no date in release notes),https://github.com/mockito/mockito/releases/tag/v3.2.1
+3.2.0,2019-11-29,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.1.13,2019-11-26,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.1.12,2019-11-20,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.1.11,2019-11-18,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.1.10,2019-11-13,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.1.9,2019-11-10,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.1.8,2019-11-07,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.1.7,2019-11-07,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.1.6,2019-11-06,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.1.5,2019-10-31,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.1.4,2019-10-31,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.1.3,2019-10-29,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.1.2,2019-10-05,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.1.1,2019-10-01,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.1.0,2019-10-01,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.0.12,2019-09-30,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.0.11,2019-09-28,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.0.10,2019-09-28,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.0.9,2019-09-25,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.0.8,2019-09-17,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.0.7,2019-09-04,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.0.6,2019-08-19,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.0.5,2019-08-16,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.0.4,2019-07-26,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.0.3,2019-07-26,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.0.2,2019-07-11,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.0.1,2019-07-08,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+3.0.0,2019-07-08,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.28.2,2019-05-29,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.28.1,2019-05-28,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.28.0,2019-05-28,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.27.5,2019-05-24,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.27.4,2019-05-03,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.27.3,2019-05-01,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.27.2,2019-04-30,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.27.1,2019-04-30,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.27.0,2019-04-10,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.26.2,2019-04-10,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.26.1,2019-04-10,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.26.0,2019-04-04,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.25.7,2019-03-28,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.25.6,2019-03-27,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.25.5,2019-03-26,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.25.4,2019-03-23,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.25.3,2019-03-22,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.25.2,2019-03-22,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.25.1,2019-03-15,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.25.0,2019-03-05,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.24.10,2019-03-05,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.24.9,2019-03-04,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.24.8,2019-03-01,GitHub tag (no date in release notes),https://github.com/mockito/mockito/releases/tag/v2.24.8
+2.24.7,2019-02-28,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.24.6,2019-02-27,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.24.5,2019-02-18,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.24.4,2019-02-13,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.24.3,2019-02-12,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.24.2,2019-02-11,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.24.1,2019-02-04,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.24.0,2019-02-01,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.23.20,2019-01-31,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.23.19,2019-01-31,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.23.18,2019-01-29,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.23.17,2019-01-28,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.23.16,2019-01-14,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.23.15,2019-01-10,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.23.14,2019-01-09,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.23.13,2019-01-08,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.23.12,2019-01-06,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.23.11,2018-12-13,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.23.10,2018-12-12,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.23.9,2018-12-02,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.23.8,2018-11-29,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.23.7,2018-11-27,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.23.6,2018-11-26,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.23.5,2018-11-25,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.23.4,2018-11-20,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.23.3,2018-11-19,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.23.2,2018-10-31,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.23.1,2018-10-19,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.23.0,2018-10-05,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.22.2,2018-10-05,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.22.1,2018-09-30,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.22.0,2018-09-09,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.21.5,2018-09-05,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.21.4,2018-08-25,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.21.3,2018-08-22,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.21.2,2018-08-19,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.21.1,2018-08-19,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.21.0,2018-07-31,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.20.7,2018-07-30,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.20.6,2018-07-30,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.20.5,2018-07-28,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.20.4,2018-07-27,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.20.3,2018-07-27,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.20.2,2018-07-27,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.20.1,2018-07-26,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.20.0,2018-07-24,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.19.6,2018-07-24,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.19.5,2018-07-21,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.19.4,2018-07-20,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.19.3,2018-07-18,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.19.2,2018-07-16,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.19.1,2018-07-13,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.19.0,2018-06-15,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.18.9,2018-06-14,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.18.8,2018-06-11,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.18.7,2018-06-08,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.18.6,2018-05-17,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.18.5,2018-04-28,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.18.4,2018-04-21,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.18.3,2018-04-20,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.18.2,2018-04-15,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.18.1,2018-04-13,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.18.0,2018-04-07,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.17.8,2018-04-07,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.17.7,2018-04-04,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.17.6,2018-04-01,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.17.5,2018-03-31,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.17.4,2018-03-31,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.17.3,2018-03-29,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.17.2,2018-03-26,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.17.1,2018-03-25,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.17.0,2018-03-24,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.16.3,2018-03-24,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.16.2,2018-03-23,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.16.1,2018-03-15,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.16.0,2018-03-13,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.15.6,2018-03-05,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.15.5,2018-03-02,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.15.4,2018-02-19,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.15.3,2018-02-15,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.15.2,2018-02-13,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.15.1,2018-02-12,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.15.0,2018-02-10,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.14.0,2018-02-09,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.13.3,2018-01-16,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.13.2,2018-01-16,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.13.1,2017-12-27,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.13.0,2017-12-06,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.12.2,2017-11-28,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.12.1,2017-11-28,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.12.0,2017-11-07,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.11.7,2017-11-06,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.11.6,2017-11-05,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.11.5,2017-10-31,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.11.4,2017-10-29,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.11.3,2017-10-28,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.11.2,2017-10-22,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.11.1,2017-10-20,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.11.0,2017-10-14,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.10.5,2017-10-14,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.10.4,2017-10-08,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.10.3,2017-10-07,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.10.2,2017-10-06,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.10.1,2017-10-04,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.10.0,2017-09-08,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.9.2,2017-09-05,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.9.1,2017-09-04,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.9.0,2017-08-26,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.55,2017-08-21,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.54,2017-08-09,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.53,2017-07-06,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.52,2017-06-24,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.51,2017-06-24,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.50,2017-06-24,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.49,2017-06-22,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.48,2017-06-18,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.47,2017-06-15,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.46,2017-06-15,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.45,2017-06-13,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.44,2017-06-12,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.43,2017-06-10,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.42,2017-06-10,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.41,2017-06-10,GitHub tag (no date in release notes),https://github.com/mockito/mockito/releases/tag/v2.8.41
+2.8.40,2017-06-05,GitHub tag (no date in release notes),https://github.com/mockito/mockito/releases/tag/v2.8.40
+2.8.39,2017-05-30,GitHub tag (no date in release notes),https://github.com/mockito/mockito/releases/tag/v2.8.39
+2.8.38,2017-05-30,GitHub tag (no date in release notes),https://github.com/mockito/mockito/releases/tag/v2.8.38
+2.8.37,2017-05-28,GitHub tag (no date in release notes),https://github.com/mockito/mockito/releases/tag/v2.8.37
+2.8.36,2017-05-27,GitHub tag (no date in release notes),https://github.com/mockito/mockito/releases/tag/v2.8.36
+2.8.35,2017-05-27,GitHub tag (no date in release notes),https://github.com/mockito/mockito/releases/tag/v2.8.35
+2.8.34,2017-05-27,GitHub tag (no date in release notes),https://github.com/mockito/mockito/releases/tag/v2.8.34
+2.8.33,2017-05-27,GitHub tag (no date in release notes),https://github.com/mockito/mockito/releases/tag/v2.8.33
+2.8.32,2017-05-26,GitHub tag (no date in release notes),https://github.com/mockito/mockito/releases/tag/v2.8.32
+2.8.31,2017-05-22,GitHub tag (no date in release notes),https://github.com/mockito/mockito/releases/tag/v2.8.31
+2.8.30,2017-05-18,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.29,2017-05-15,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.28,2017-05-06,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.27,2017-05-05,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.26,2017-05-05,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.25,2017-05-01,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.24,2017-05-01,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.23,2017-05-01,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.9,2017-04-26,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.8,2017-04-24,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.7,2017-04-20,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.6,2017-04-19,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.5,2017-04-18,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.4,2017-04-17,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.3,2017-04-16,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.2,2017-04-14,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.1,2017-04-13,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.8.0,2017-04-12,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.7.22,2017-04-07,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.7.21,2017-04-01,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.7.20,2017-03-29,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.7.19,2017-03-19,GitHub tag (no date in release notes),https://github.com/mockito/mockito/releases/tag/v2.7.19
+2.7.18,2017-03-18,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.7.17,2017-03-12,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.7.16,2017-03-10,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.7.15,2017-03-09,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.7.14,2017-03-05,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.7.13,2017-02-28,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.7.12,2017-02-25,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.7.11,2017-02-21,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.7.10,2017-02-19,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.7.9,2017-02-17,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.7.8,2017-02-17,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.7.7,2017-02-16,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.7.6,2017-02-13,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.7.5,2017-02-07,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.7.4,2017-02-06,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.7.3,2017-02-06,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.7.2,2017-02-04,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.7.1,2017-01-31,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.7.0,2017-01-29,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.6.9,2017-01-27,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.6.8,2017-01-23,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.6.7,2017-01-23,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.6.6,2017-01-23,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.6.5,2017-01-21,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.6.4,2017-01-19,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.6.3,2017-01-15,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.6.2,2017-01-13,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.6.1,2017-01-12,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.6.0,2017-01-12,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.5.7,2017-01-11,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.5.6,2017-01-10,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.5.5,2017-01-06,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.5.4,2017-01-04,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.5.3,2017-01-02,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.5.2,2017-01-02,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.5.1,2017-01-02,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.5.0,2016-12-28,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.4.5,2016-12-27,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.4.4,2016-12-27,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.4.3,2016-12-25,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.4.2,2016-12-23,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.4.1,2016-12-22,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.4.0,2016-12-21,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.3.11,2016-12-20,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.3.10,2016-12-19,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.3.9,2016-12-19,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.3.7,2016-12-18,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.3.6,2016-12-17,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.3.5,2016-12-15,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.3.4,2016-12-14,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.3.3,2016-12-13,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.3.2,2016-12-13,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.3.1,2016-12-13,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.3.0,2016-12-10,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.29,2016-12-07,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.28,2016-12-02,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.27,2016-11-30,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.26,2016-11-27,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.25,2016-11-25,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.24,2016-11-25,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.23,2016-11-25,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.22,2016-11-21,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.21,2016-11-18,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.20,2016-11-17,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.19,2016-11-17,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.18,2016-11-17,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.17,2016-11-15,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.16,2016-11-14,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.15,2016-11-08,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.14,2016-11-08,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.13,2016-11-07,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.12,2016-11-07,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.11,2016-11-04,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.10,2016-11-04,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.9,2016-10-26,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.8,2016-10-24,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.7,2016-10-22,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.6,2016-10-21,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.5,2016-10-17,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.4,2016-10-17,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.3,2016-10-16,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.2,2016-10-16,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.1,2016-10-11,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.2.0,2016-10-09,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+2.1.0,2016-10-03,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+1.10.19,2014-12-31,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+1.10.18,2014-12-30,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+1.10.17,2014-12-16,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+1.10.16,2014-12-14,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+1.10.15,2014-12-12,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+1.10.14,2014-12-02,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+1.10.13,2014-11-22,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+1.10.12,2014-11-17,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+1.10.11,2014-11-15,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+1.10.10,2014-10-28,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+1.10.9,2014-10-22,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+1.10.8,2014-10-10,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+1.10.7,2014-10-08,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+1.10.6,2014-10-07,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+1.10.5,2014-10-06,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+1.10.4,2014-09-28,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+1.10.3,2014-09-27,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+1.10.2,2014-09-26,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+1.10.0,2014-09-25,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+1.9.5,2012-10-06,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+1.9.0,2011-12-16,Mockito release notes (official.md),https://github.com/mockito/mockito/blob/main/doc/release-notes/official.md
+1.8.5,2010-05-24,Mockito release notes (Google Code wiki),https://code.google.com/archive/p/mockito/wikis/ReleaseNotes.wiki
+1.8.4,2010-03-17,Mockito release notes (Google Code wiki),https://code.google.com/archive/p/mockito/wikis/ReleaseNotes.wiki
+1.8.3,2010-03-07,Mockito release notes (Google Code wiki),https://code.google.com/archive/p/mockito/wikis/ReleaseNotes.wiki
+1.8.2,2009-12-12,Mockito release notes (Google Code wiki),https://code.google.com/archive/p/mockito/wikis/ReleaseNotes.wiki
+1.8.1,2009-11-22,Mockito release notes (Google Code wiki),https://code.google.com/archive/p/mockito/wikis/ReleaseNotes.wiki
+1.8.0,2009-07-23,Mockito release notes (Google Code wiki),https://code.google.com/archive/p/mockito/wikis/ReleaseNotes.wiki
+1.7,2009-01-24,Mockito release notes (Google Code wiki),https://code.google.com/archive/p/mockito/wikis/ReleaseNotes.wiki
+1.6,2008-10-21,Mockito release notes (Google Code wiki),https://code.google.com/archive/p/mockito/wikis/ReleaseNotes.wiki
+1.5,2008-07-26,Mockito release notes (Google Code wiki),https://code.google.com/archive/p/mockito/wikis/ReleaseNotes.wiki
+1.4,2008-07-10,Git release commit (tag re-created 2012-01-29),https://github.com/mockito/mockito/commit/48900ffc67bb73cfeb1776052cce1f07d3e1a863
+1.3,2008-04-28,Git release commit (tag re-created 2012-01-29),https://github.com/mockito/mockito/commit/c922f4b357435fcf3e98c620e6a97d3b5c462790
+1.2,2008-03-13,Git release commit (tag re-created 2012-01-29),https://github.com/mockito/mockito/commit/44a205370ccd4930a00927d9816342b127dd985a
+1.1,2008-03-03,Git release commit (tag re-created 2012-01-29),https://github.com/mockito/mockito/commit/789b479a099aba22ab00d16264979a613bf1d695
+1.0,2008-02-12,Git release commit (tag re-created 2012-01-29),https://github.com/mockito/mockito/commit/5e5e7c573f192f6c9c057fd1ebf2f69d8e41a84e

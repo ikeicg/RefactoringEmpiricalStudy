@@ -1,0 +1,53 @@
+version,release_date,date_source,citation_url
+6.0-beta.1,2026-09-21,JabRef CHANGELOG.md (pre-release),https://github.com/JabRef/jabref/blob/main/CHANGELOG.md
+6.0-alpha.6,2026-05-14,JabRef CHANGELOG.md (pre-release),https://github.com/JabRef/jabref/blob/main/CHANGELOG.md
+6.0-alpha.5,2026-02-20,JabRef CHANGELOG.md (pre-release),https://github.com/JabRef/jabref/blob/main/CHANGELOG.md
+6.0-alpha.4,2025-12-25,JabRef CHANGELOG.md (pre-release),https://github.com/JabRef/jabref/blob/main/CHANGELOG.md
+6.0-alpha.3,2025-10-30,JabRef CHANGELOG.md (pre-release),https://github.com/JabRef/jabref/blob/main/CHANGELOG.md
+6.0-alpha2,2025-04-27,JabRef CHANGELOG.md (pre-release),https://github.com/JabRef/jabref/blob/main/CHANGELOG.md
+6.0-alpha,2024-12-23,JabRef CHANGELOG.md (pre-release),https://github.com/JabRef/jabref/blob/main/CHANGELOG.md
+5.15,2024-07-10,JabRef CHANGELOG.md,https://github.com/JabRef/jabref/blob/main/CHANGELOG.md
+5.14,2024-07-08,JabRef CHANGELOG.md,https://github.com/JabRef/jabref/blob/main/CHANGELOG.md
+5.13,2024-04-01,JabRef CHANGELOG.md,https://github.com/JabRef/jabref/blob/main/CHANGELOG.md
+5.12,2023-12-24,JabRef CHANGELOG.md,https://github.com/JabRef/jabref/blob/main/CHANGELOG.md
+5.11,2023-10-22,JabRef CHANGELOG.md,https://github.com/JabRef/jabref/blob/main/CHANGELOG.md
+5.10,2023-09-02,JabRef CHANGELOG.md,https://github.com/JabRef/jabref/blob/main/CHANGELOG.md
+5.9,2023-01-08,GitHub release + JabRef blog (CHANGELOG says 2023-01-06),https://blog.jabref.org/2023/01/08/JabRef5-9/
+5.8,2022-12-18,JabRef CHANGELOG.md,https://github.com/JabRef/jabref/blob/main/CHANGELOG.md
+5.7,2022-08-05,JabRef CHANGELOG.md,https://github.com/JabRef/jabref/blob/main/CHANGELOG.md
+5.6,2022-04-25,JabRef CHANGELOG.md,https://github.com/JabRef/jabref/blob/main/CHANGELOG.md
+5.5,2022-01-17,JabRef CHANGELOG.md,https://github.com/JabRef/jabref/blob/main/CHANGELOG.md
+5.4,2021-12-20,JabRef CHANGELOG.md,https://github.com/JabRef/jabref/blob/main/CHANGELOG.md
+5.3,2021-07-05,JabRef CHANGELOG.md,https://github.com/JabRef/jabref/blob/main/CHANGELOG.md
+5.2,2020-12-24,JabRef CHANGELOG.md,https://github.com/JabRef/jabref/blob/main/CHANGELOG.md
+5.1,2020-08-30,JabRef CHANGELOG.md,https://github.com/JabRef/jabref/blob/main/CHANGELOG.md
+5.0,2020-03-06,JabRef CHANGELOG.md,https://github.com/JabRef/jabref/blob/main/CHANGELOG.md
+5.0-beta,2019-12-15,JabRef CHANGELOG.md (pre-release),https://github.com/JabRef/jabref/blob/main/CHANGELOG.md
+5.0-alpha,2019-08-25,JabRef CHANGELOG.md (pre-release),https://github.com/JabRef/jabref/blob/main/CHANGELOG.md
+4.3.1,2018-06-05,GitHub Releases,https://github.com/JabRef/jabref/releases/tag/v4.3.1
+4.3,2018-06-01,GitHub Releases,https://github.com/JabRef/jabref/releases/tag/v4.3
+4.2,2018-04-26,GitHub Releases,https://github.com/JabRef/jabref/releases/tag/v4.2
+4.1,2017-12-23,GitHub Releases,https://github.com/JabRef/jabref/releases/tag/v4.1
+4.0,2017-10-04,GitHub Releases,https://github.com/JabRef/jabref/releases/tag/v4.0
+4.0-beta3,2017-08-16,GitHub Releases (pre-release),https://github.com/JabRef/jabref/releases/tag/v4.0-beta3
+4.0-beta2,2017-07-18,GitHub Releases (pre-release),https://github.com/JabRef/jabref/releases/tag/v4.0-beta2
+4.0-beta,2017-04-17,GitHub Releases (pre-release),https://github.com/JabRef/jabref/releases/tag/v4.0-beta
+3.8.2,2017-01-29,GitHub Releases,https://github.com/JabRef/jabref/releases/tag/v3.8.2
+3.8.1,2016-12-24,GitHub Releases,https://github.com/JabRef/jabref/releases/tag/v3.8.1
+3.8,2016-12-16,GitHub Releases,https://github.com/JabRef/jabref/releases/tag/v3.8
+3.7,2016-11-14,GitHub Releases,https://github.com/JabRef/jabref/releases/tag/v3.7
+3.6,2016-08-26,GitHub Releases,https://github.com/JabRef/jabref/releases/tag/v3.6
+3.5,2016-07-13,GitHub Releases,https://github.com/JabRef/jabref/releases/tag/v3.5
+3.4,2016-06-02,GitHub Releases,https://github.com/JabRef/jabref/releases/tag/v3.4
+3.3,2016-04-17,GitHub Releases,https://github.com/JabRef/jabref/releases/tag/v3.3
+3.2,2016-01-10,GitHub Releases,https://github.com/JabRef/jabref/releases/tag/v3.2
+3.1,2015-12-24,GitHub Releases,https://github.com/JabRef/jabref/releases/tag/v3.1
+3.0,2015-11-29,GitHub Releases,https://github.com/JabRef/jabref/releases/tag/v3.0
+2.11.1,2015-11-16,GitHub Releases,https://github.com/JabRef/jabref/releases/tag/v2.11.1
+2.11,2015-11-11,GitHub Releases,https://github.com/JabRef/jabref/releases/tag/v2.11
+2.10,2014-03-11,GitHub Releases,https://github.com/JabRef/jabref/releases/tag/v_2.10
+2.9.2,2013-01-12,GitHub Releases,https://github.com/JabRef/jabref/releases/tag/v_2.9.2
+2.9.1,2013-01-01,GitHub Releases,https://github.com/JabRef/jabref/releases/tag/v_2.9.1
+2.9,2012-12-15,GitHub Releases,https://github.com/JabRef/jabref/releases/tag/v_2.9
+2.8.1,2012-06-30,GitHub Releases,https://github.com/JabRef/jabref/releases/tag/v_2.8.1
+2.8,2012-05-07,GitHub Releases,https://github.com/JabRef/jabref/releases/tag/v_2.8
