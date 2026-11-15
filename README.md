@@ -13,3 +13,6 @@ Java projects: Checkstyle, Mockito, JabRef.
   (DesigniteJava) and design rule violations (PMD) before and after a random sample of refactoring commits. Its
   [`datasets/`](smell-measurement/datasets/) folder holds the results for each project.
 - [`release-dates/`](release-dates/) — release dates of each project, with the official source of each date.
+- [`analysis/`](analysis/) — scripts and data behind Section 5 (refactoring activity summary), Section 6.1
+  (RQ1: timing of refactoring) and Section 6.2 (RQ2: refactoring motivations, including the 300-commit labeling
+  sample). `./analysis/run_all.sh` reproduces all of it.
