@@ -1,0 +1,883 @@
+{
+ "checkstyle": {
+  "reclassified_as_test": 193,
+  "instances": 37893,
+  "nonmerge_commits": 17841,
+  "analyzed_commits": 17830,
+  "ref_commits": 3868,
+  "ref_commit_pct": 21.7,
+  "distinct_types": 99,
+  "top10": [
+   [
+    "Move Class",
+    3597,
+    9.5
+   ],
+   [
+    "Add Variable Modifier",
+    2914,
+    7.7
+   ],
+   [
+    "Rename Variable",
+    2854,
+    7.5
+   ],
+   [
+    "Rename Parameter",
+    2782,
+    7.3
+   ],
+   [
+    "Change Variable Type",
+    1799,
+    4.7
+   ],
+   [
+    "Change Method Access Modifier",
+    1760,
+    4.6
+   ],
+   [
+    "Rename Method",
+    1712,
+    4.5
+   ],
+   [
+    "Add Method Annotation",
+    1540,
+    4.1
+   ],
+   [
+    "Rename Class",
+    1497,
+    4.0
+   ],
+   [
+    "Move Method",
+    1259,
+    3.3
+   ]
+  ],
+  "top10_share": 57.3,
+  "families": [
+   [
+    "Rename",
+    10096,
+    26.6
+   ],
+   [
+    "Modifier / Annotation",
+    9995,
+    26.4
+   ],
+   [
+    "Move",
+    6730,
+    17.8
+   ],
+   [
+    "Change Type",
+    3862,
+    10.2
+   ],
+   [
+    "Extract",
+    2497,
+    6.6
+   ],
+   [
+    "Signature (Parameters / Exceptions)",
+    2001,
+    5.3
+   ],
+   [
+    "Other",
+    1813,
+    4.8
+   ],
+   [
+    "Inline",
+    544,
+    1.4
+   ],
+   [
+    "Hierarchy (Pull Up / Push Down / Extract Superclass)",
+    355,
+    0.9
+   ]
+  ],
+  "production": 16032,
+  "test": 21861,
+  "test_pct": 57.7,
+  "commits_touching_test": 2056,
+  "commits_touching_production": 2220,
+  "per_year": {
+   "2001": {
+    "commits": 44,
+    "ref_commits": 9,
+    "instances": 120
+   },
+   "2002": {
+    "commits": 979,
+    "ref_commits": 261,
+    "instances": 1510
+   },
+   "2003": {
+    "commits": 646,
+    "ref_commits": 150,
+    "instances": 976
+   },
+   "2004": {
+    "commits": 208,
+    "ref_commits": 46,
+    "instances": 331
+   },
+   "2005": {
+    "commits": 261,
+    "ref_commits": 58,
+    "instances": 585
+   },
+   "2006": {
+    "commits": 45,
+    "ref_commits": 15,
+    "instances": 514
+   },
+   "2007": {
+    "commits": 70,
+    "ref_commits": 21,
+    "instances": 1022
+   },
+   "2008": {
+    "commits": 107,
+    "ref_commits": 41,
+    "instances": 856
+   },
+   "2009": {
+    "commits": 59,
+    "ref_commits": 16,
+    "instances": 65
+   },
+   "2010": {
+    "commits": 134,
+    "ref_commits": 28,
+    "instances": 152
+   },
+   "2011": {
+    "commits": 64,
+    "ref_commits": 12,
+    "instances": 85
+   },
+   "2012": {
+    "commits": 16,
+    "ref_commits": 0,
+    "instances": 0
+   },
+   "2013": {
+    "commits": 46,
+    "ref_commits": 6,
+    "instances": 39
+   },
+   "2014": {
+    "commits": 465,
+    "ref_commits": 105,
+    "instances": 712
+   },
+   "2015": {
+    "commits": 2341,
+    "ref_commits": 810,
+    "instances": 10470
+   },
+   "2016": {
+    "commits": 743,
+    "ref_commits": 161,
+    "instances": 1219
+   },
+   "2017": {
+    "commits": 1214,
+    "ref_commits": 391,
+    "instances": 3571
+   },
+   "2018": {
+    "commits": 699,
+    "ref_commits": 88,
+    "instances": 986
+   },
+   "2019": {
+    "commits": 773,
+    "ref_commits": 139,
+    "instances": 1536
+   },
+   "2020": {
+    "commits": 892,
+    "ref_commits": 95,
+    "instances": 406
+   },
+   "2021": {
+    "commits": 1197,
+    "ref_commits": 143,
+    "instances": 1451
+   },
+   "2022": {
+    "commits": 976,
+    "ref_commits": 143,
+    "instances": 1144
+   },
+   "2023": {
+    "commits": 1139,
+    "ref_commits": 151,
+    "instances": 1246
+   },
+   "2024": {
+    "commits": 1254,
+    "ref_commits": 345,
+    "instances": 2181
+   },
+   "2025": {
+    "commits": 1457,
+    "ref_commits": 255,
+    "instances": 3606
+   },
+   "2026": {
+    "commits": 2012,
+    "ref_commits": 379,
+    "instances": 3110
+   }
+  },
+  "peak_year": [
+   "2015",
+   10470,
+   27.6
+  ],
+  "first_year": "2001",
+  "last_year": "2026",
+  "density": {
+   "median": 2.0,
+   "mean": 9.8,
+   "p90": 18,
+   "max": 1235,
+   "max_commit": "3a2cb4d",
+   "eq1": 1256,
+   "ge100": 46,
+   "ge100_instances": 12262,
+   "eq1_pct": 32.5,
+   "ge100_share": 32.4
+  },
+  "authors_total": 679,
+  "authors_refactoring": 283,
+  "authors_refactoring_pct": 41.7,
+  "bot_instances": 28,
+  "top1_share": 16.4,
+  "top10_author_share": 58.7,
+  "authors_for_80pct": 27,
+  "distinct_files": 5699,
+  "top_files": [
+   [
+    "javadoc/ParseTreeBuilder.java",
+    1029,
+    "test"
+   ],
+   [
+    "noenumtrailingcomma/InputNoEnumTrailingComma.java",
+    318,
+    "test"
+   ],
+   [
+    "javadoc/JavadocMethodCheck.java",
+    289,
+    "production"
+   ],
+   [
+    "checkstyle/Main.java",
+    242,
+    "production"
+   ],
+   [
+    "recordcomponentnumber/InputRecordComponentNumberPrivateModifier.java",
+    228,
+    "test"
+   ]
+  ],
+  "test_resource_instances": 6559,
+  "test_resource_pct_of_test": 30.0,
+  "files_once": 2993,
+  "files_once_pct": 52.5,
+  "top10pct_files_share": 65.2,
+  "proxy_yes": 10373,
+  "proxy_pct": 64.7
+ },
+ "mockito": {
+  "reclassified_as_test": 0,
+  "instances": 14334,
+  "nonmerge_commits": 5872,
+  "analyzed_commits": 5871,
+  "ref_commits": 1600,
+  "ref_commit_pct": 27.3,
+  "distinct_types": 96,
+  "top10": [
+   [
+    "Change Variable Type",
+    1596,
+    11.1
+   ],
+   [
+    "Rename Method",
+    1375,
+    9.6
+   ],
+   [
+    "Change Parameter Type",
+    1168,
+    8.1
+   ],
+   [
+    "Add Method Annotation",
+    773,
+    5.4
+   ],
+   [
+    "Change Return Type",
+    738,
+    5.1
+   ],
+   [
+    "Change Attribute Type",
+    599,
+    4.2
+   ],
+   [
+    "Move Class",
+    586,
+    4.1
+   ],
+   [
+    "Rename Parameter",
+    446,
+    3.1
+   ],
+   [
+    "Move Method",
+    430,
+    3.0
+   ],
+   [
+    "Remove Method Annotation",
+    429,
+    3.0
+   ]
+  ],
+  "top10_share": 56.8,
+  "families": [
+   [
+    "Change Type",
+    4118,
+    28.7
+   ],
+   [
+    "Modifier / Annotation",
+    3339,
+    23.3
+   ],
+   [
+    "Rename",
+    2842,
+    19.8
+   ],
+   [
+    "Move",
+    1463,
+    10.2
+   ],
+   [
+    "Signature (Parameters / Exceptions)",
+    1015,
+    7.1
+   ],
+   [
+    "Extract",
+    624,
+    4.4
+   ],
+   [
+    "Other",
+    445,
+    3.1
+   ],
+   [
+    "Hierarchy (Pull Up / Push Down / Extract Superclass)",
+    340,
+    2.4
+   ],
+   [
+    "Inline",
+    148,
+    1.0
+   ]
+  ],
+  "production": 8663,
+  "test": 5671,
+  "test_pct": 39.6,
+  "commits_touching_test": 873,
+  "commits_touching_production": 1221,
+  "per_year": {
+   "2007": {
+    "commits": 253,
+    "ref_commits": 154,
+    "instances": 2451
+   },
+   "2008": {
+    "commits": 523,
+    "ref_commits": 208,
+    "instances": 1649
+   },
+   "2009": {
+    "commits": 505,
+    "ref_commits": 198,
+    "instances": 1395
+   },
+   "2010": {
+    "commits": 229,
+    "ref_commits": 72,
+    "instances": 407
+   },
+   "2011": {
+    "commits": 118,
+    "ref_commits": 37,
+    "instances": 305
+   },
+   "2012": {
+    "commits": 207,
+    "ref_commits": 113,
+    "instances": 1512
+   },
+   "2013": {
+    "commits": 67,
+    "ref_commits": 23,
+    "instances": 121
+   },
+   "2014": {
+    "commits": 509,
+    "ref_commits": 125,
+    "instances": 671
+   },
+   "2015": {
+    "commits": 338,
+    "ref_commits": 87,
+    "instances": 862
+   },
+   "2016": {
+    "commits": 900,
+    "ref_commits": 220,
+    "instances": 1853
+   },
+   "2017": {
+    "commits": 521,
+    "ref_commits": 84,
+    "instances": 453
+   },
+   "2018": {
+    "commits": 330,
+    "ref_commits": 84,
+    "instances": 416
+   },
+   "2019": {
+    "commits": 285,
+    "ref_commits": 63,
+    "instances": 386
+   },
+   "2020": {
+    "commits": 212,
+    "ref_commits": 27,
+    "instances": 139
+   },
+   "2021": {
+    "commits": 220,
+    "ref_commits": 26,
+    "instances": 1141
+   },
+   "2022": {
+    "commits": 147,
+    "ref_commits": 22,
+    "instances": 189
+   },
+   "2023": {
+    "commits": 176,
+    "ref_commits": 24,
+    "instances": 55
+   },
+   "2024": {
+    "commits": 200,
+    "ref_commits": 15,
+    "instances": 58
+   },
+   "2025": {
+    "commits": 95,
+    "ref_commits": 8,
+    "instances": 107
+   },
+   "2026": {
+    "commits": 37,
+    "ref_commits": 10,
+    "instances": 164
+   }
+  },
+  "peak_year": [
+   "2007",
+   2451,
+   17.1
+  ],
+  "first_year": "2007",
+  "last_year": "2026",
+  "density": {
+   "median": 4.0,
+   "mean": 9.0,
+   "p90": 20,
+   "max": 419,
+   "max_commit": "8037448",
+   "eq1": 401,
+   "ge100": 15,
+   "ge100_instances": 2734,
+   "eq1_pct": 25.1,
+   "ge100_share": 19.1
+  },
+  "authors_total": 344,
+  "authors_refactoring": 137,
+  "authors_refactoring_pct": 39.8,
+  "bot_instances": 8,
+  "top1_share": 58.1,
+  "top10_author_share": 91.4,
+  "authors_for_80pct": 4,
+  "distinct_files": 2038,
+  "top_files": [
+   [
+    "exceptions/Reporter.java",
+    155,
+    "production"
+   ],
+   [
+    "exceptions/Reporter.java",
+    154,
+    "production"
+   ],
+   [
+    "mockito/Matchers.java",
+    151,
+    "production"
+   ],
+   [
+    "internal/MockHandler.java",
+    141,
+    "production"
+   ],
+   [
+    "mockito/Mockito.java",
+    121,
+    "production"
+   ]
+  ],
+  "test_resource_instances": 0,
+  "test_resource_pct_of_test": 0.0,
+  "files_once": 618,
+  "files_once_pct": 30.3,
+  "top10pct_files_share": 49.7,
+  "proxy_yes": 4519,
+  "proxy_pct": 52.2
+ },
+ "jabref": {
+  "reclassified_as_test": 34,
+  "instances": 78325,
+  "nonmerge_commits": 22141,
+  "analyzed_commits": 22121,
+  "ref_commits": 5538,
+  "ref_commit_pct": 25.0,
+  "distinct_types": 101,
+  "top10": [
+   [
+    "Change Variable Type",
+    6670,
+    8.5
+   ],
+   [
+    "Change Method Access Modifier",
+    5006,
+    6.4
+   ],
+   [
+    "Rename Method",
+    4058,
+    5.2
+   ],
+   [
+    "Change Parameter Type",
+    4002,
+    5.1
+   ],
+   [
+    "Change Attribute Type",
+    3929,
+    5.0
+   ],
+   [
+    "Add Parameter",
+    3721,
+    4.8
+   ],
+   [
+    "Move Class",
+    3346,
+    4.3
+   ],
+   [
+    "Rename Variable",
+    3324,
+    4.2
+   ],
+   [
+    "Add Attribute Modifier",
+    2918,
+    3.7
+   ],
+   [
+    "Change Attribute Access Modifier",
+    2837,
+    3.6
+   ]
+  ],
+  "top10_share": 50.8,
+  "families": [
+   [
+    "Modifier / Annotation",
+    18899,
+    24.1
+   ],
+   [
+    "Change Type",
+    17253,
+    22.0
+   ],
+   [
+    "Rename",
+    12861,
+    16.4
+   ],
+   [
+    "Signature (Parameters / Exceptions)",
+    9365,
+    12.0
+   ],
+   [
+    "Move",
+    7477,
+    9.5
+   ],
+   [
+    "Other",
+    5509,
+    7.0
+   ],
+   [
+    "Extract",
+    4775,
+    6.1
+   ],
+   [
+    "Inline",
+    1371,
+    1.8
+   ],
+   [
+    "Hierarchy (Pull Up / Push Down / Extract Superclass)",
+    815,
+    1.0
+   ]
+  ],
+  "production": 61259,
+  "test": 17066,
+  "test_pct": 21.8,
+  "commits_touching_test": 1205,
+  "commits_touching_production": 5085,
+  "per_year": {
+   "2003": {
+    "commits": 106,
+    "ref_commits": 29,
+    "instances": 84
+   },
+   "2004": {
+    "commits": 521,
+    "ref_commits": 174,
+    "instances": 1012
+   },
+   "2005": {
+    "commits": 486,
+    "ref_commits": 152,
+    "instances": 847
+   },
+   "2006": {
+    "commits": 366,
+    "ref_commits": 79,
+    "instances": 478
+   },
+   "2007": {
+    "commits": 380,
+    "ref_commits": 92,
+    "instances": 1762
+   },
+   "2008": {
+    "commits": 108,
+    "ref_commits": 21,
+    "instances": 109
+   },
+   "2009": {
+    "commits": 148,
+    "ref_commits": 24,
+    "instances": 149
+   },
+   "2010": {
+    "commits": 137,
+    "ref_commits": 15,
+    "instances": 83
+   },
+   "2011": {
+    "commits": 300,
+    "ref_commits": 51,
+    "instances": 249
+   },
+   "2012": {
+    "commits": 597,
+    "ref_commits": 88,
+    "instances": 570
+   },
+   "2013": {
+    "commits": 173,
+    "ref_commits": 24,
+    "instances": 102
+   },
+   "2014": {
+    "commits": 291,
+    "ref_commits": 76,
+    "instances": 946
+   },
+   "2015": {
+    "commits": 2334,
+    "ref_commits": 802,
+    "instances": 14692
+   },
+   "2016": {
+    "commits": 2466,
+    "ref_commits": 1001,
+    "instances": 12521
+   },
+   "2017": {
+    "commits": 1238,
+    "ref_commits": 320,
+    "instances": 4221
+   },
+   "2018": {
+    "commits": 1139,
+    "ref_commits": 358,
+    "instances": 5584
+   },
+   "2019": {
+    "commits": 1394,
+    "ref_commits": 323,
+    "instances": 4389
+   },
+   "2020": {
+    "commits": 1562,
+    "ref_commits": 227,
+    "instances": 3576
+   },
+   "2021": {
+    "commits": 901,
+    "ref_commits": 177,
+    "instances": 2782
+   },
+   "2022": {
+    "commits": 791,
+    "ref_commits": 172,
+    "instances": 2217
+   },
+   "2023": {
+    "commits": 1604,
+    "ref_commits": 307,
+    "instances": 2584
+   },
+   "2024": {
+    "commits": 1291,
+    "ref_commits": 299,
+    "instances": 8329
+   },
+   "2025": {
+    "commits": 1920,
+    "ref_commits": 337,
+    "instances": 5640
+   },
+   "2026": {
+    "commits": 1888,
+    "ref_commits": 390,
+    "instances": 5399
+   }
+  },
+  "peak_year": [
+   "2015",
+   14692,
+   18.8
+  ],
+  "first_year": "2003",
+  "last_year": "2026",
+  "density": {
+   "median": 3.0,
+   "mean": 14.1,
+   "p90": 28,
+   "max": 2242,
+   "max_commit": "0f0aa00",
+   "eq1": 1555,
+   "ge100": 100,
+   "ge100_instances": 30405,
+   "eq1_pct": 28.1,
+   "ge100_share": 38.8
+  },
+  "authors_total": 990,
+  "authors_refactoring": 484,
+  "authors_refactoring_pct": 48.9,
+  "bot_instances": 103,
+  "top1_share": 15.6,
+  "top10_author_share": 77.1,
+  "authors_for_80pct": 12,
+  "distinct_files": 8000,
+  "top_files": [
+   [
+    "preferences/JabRefPreferences.java",
+    706,
+    "production"
+   ],
+   [
+    "bst/VM.java",
+    549,
+    "production"
+   ],
+   [
+    "gui/BasePanel.java",
+    538,
+    "production"
+   ],
+   [
+    "jabref/JabRefPreferences.java",
+    353,
+    "production"
+   ],
+   [
+    "gui/JabRefFrame.java",
+    352,
+    "production"
+   ]
+  ],
+  "test_resource_instances": 0,
+  "test_resource_pct_of_test": 0.0,
+  "files_once": 2418,
+  "files_once_pct": 30.2,
+  "top10pct_files_share": 54.3,
+  "proxy_yes": 14453,
+  "proxy_pct": 23.6
+ }
+}
