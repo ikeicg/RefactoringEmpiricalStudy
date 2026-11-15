@@ -32,7 +32,9 @@ minutes. The run overwrites `analysis/data/`. It uses the same random seed as th
 |---|---|
 | `stats.json` | All statistics of Section 5, per project: totals, types, families, production/test split, density per commit, developers, files, test-file proxy. |
 | `<project>_per_year.csv` | Per year: non-merge commits, refactoring commits, refactoring instances, % of commits with a refactoring. |
-| `fig_*.pdf`, `fig_*.png` | The three figures of Section 5. |
+| `<project>_monthly.csv` | Per calendar month: refactoring instances at the low, medium and high level of Murphy-Hill et al., and the total. |
+| `levels.json` | Instances and share per level and project, and which refactoring types belong to each level. |
+| `fig_*.pdf`, `fig_*.png` | The figures of Section 5, including the monthly activity chart (`fig_activity_monthly`). |
 
 ### `data/section6_1_rq1/`: timing of refactoring activity (Section 6.1)
 
@@ -58,7 +60,8 @@ Author names and e-mail addresses are not repeated here (they are in the extract
 | Script | Produces |
 |---|---|
 | `scripts/section5_stats.py` | `data/section5/stats.json`, `<project>_per_year.csv` |
-| `scripts/section5_figures.py` | the Section 5 figures |
+| `scripts/section5_figures.py` | the Section 5 figures (per year, families, share of commits) |
+| `scripts/section5_activity.py` | `<project>_monthly.csv`, `levels.json`, `fig_activity_monthly` |
 | `scripts/rq1_data.py` | `data/section6_1_rq1/` (all but the figure) |
 | `scripts/rq1_figure.py` | the Section 6.1 figure |
 | `scripts/rq2_data.py` | `data/section6_2_rq2/` |
@@ -74,4 +77,8 @@ Author names and e-mail addresses are not repeated here (they are in the extract
   34 JabRef rows, and makes the number of commits with production refactorings match Section 6.3
   (2,220 / 1,221 / 5,085).
 - **Developers**: author entries that share a name or an e-mail address are merged into one person.
+- **Refactoring levels** (Section 5.4), after Murphy-Hill, Parnin and Black (ICSE 2009): *high* changes signatures
+  only (rename, move, change type, parameters, modifiers, annotations); *medium* changes signatures and code
+  blocks (extract/inline method, pull up/push down, extract class, extract/inline attribute); *low* changes only
+  code inside method bodies (local variables, conditionals, lambdas, loops). The full list is in `levels.json`.
 - **Release milestones** (Section 6.1): final releases whose version is `x.y` or `x.y.0`.

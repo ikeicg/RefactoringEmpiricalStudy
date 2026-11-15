@@ -11,6 +11,7 @@ DS="$ROOT/refactoring-extraction/datasets"; REL="$ROOT/release-dates"
 mkdir -p "$A/data/section5" "$A/data/section6_1_rq1" "$A/data/section6_2_rq2"
 python3 -I "$S/section5_stats.py"   "$DS" "$WORK" "$A/data/section5"        > /dev/null
 python3 -I "$S/section5_figures.py" "$A/data/section5"
+python3 -I "$S/section5_activity.py" "$DS" "$A/data/section5" > /dev/null
 python3 -I "$S/rq1_data.py"         "$DS" "$REL" "$WORK" "$A/data/section6_1_rq1" > /dev/null
 python3 -I "$S/rq1_figure.py"       "$A/data/section6_1_rq1"
 python3 -I "$S/rq2_data.py"         "$DS" "$WORK" "$A/data/section6_2_rq2"  > /dev/null
