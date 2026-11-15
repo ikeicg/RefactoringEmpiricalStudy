@@ -78,7 +78,7 @@ Author names and e-mail addresses are not repeated here (they are in the extract
   (2,220 / 1,221 / 5,085).
 - **Developers**: author entries that share a name or an e-mail address are merged into one person.
 - **Refactoring levels** (Section 5.4), after Murphy-Hill, Parnin and Black (ICSE 2009): *high* changes signatures
-  only (rename, move, change type, parameters, modifiers, annotations); *medium* changes signatures and code
+  (rename, move, change type, parameters, modifiers, annotations); *medium* changes signatures and code
   blocks (extract/inline method, pull up/push down, extract class, extract/inline attribute); *low* changes only
   code inside method bodies (local variables, conditionals, lambdas, loops). The full list is in `levels.json`.
 - **Release milestones** (Section 6.1): final releases whose version is `x.y` or `x.y.0`.

@@ -81,9 +81,9 @@ json.dump({"projects": shares, "types_per_level": {k: sorted(v) for k, v in type
 
 # Figure: monthly refactoring instances, stacked by level, one panel per project (own y scale)
 INK, INK2, GRID, SURF = "#0b0b0b", "#52514e", "#e4e3df", "#ffffff"
-LV = [("high", "High level (signatures only)", "#1c5cab"),
-      ("medium", "Medium level (signatures and code blocks)", "#3987e5"),
-      ("low", "Low level (code blocks only)", "#86b6ef")]
+LV = [("high", "High level (signatures)", "#0072B2"),
+      ("medium", "Medium level (signatures and code blocks)", "#E69F00"),
+      ("low", "Low level (code blocks only)", "#009E73")]
 plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 9, "axes.edgecolor": INK2,
                      "axes.labelcolor": INK2, "xtick.color": INK2, "ytick.color": INK2,
                      "axes.spines.top": False, "axes.spines.right": False})
