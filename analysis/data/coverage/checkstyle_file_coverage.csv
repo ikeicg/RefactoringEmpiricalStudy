@@ -1,0 +1,637 @@
+file,production_refactorings,refactorings_last_12_months,with_test_file_proxy,status,lines_covered,lines_missed,line_coverage_pct
+com/mycompany/filters/FilesFilter.java,2,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/AbstractAutomaticBean.java,11,5,11,covered,116,0,100.0
+com/puppycrawl/tools/checkstyle/AbstractLoader.java,5,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/AnnotationUtility.java,2,0,2,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/AstTreeStringPrinter.java,30,0,30,covered,64,0,100.0
+com/puppycrawl/tools/checkstyle/AuditEvemtFormatter.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/AuditEvent.java,12,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/AuditEventDefaultFormatter.java,6,0,6,covered,31,0,100.0
+com/puppycrawl/tools/checkstyle/AuditEventFormatter.java,1,0,0,outside measured module,,,
+com/puppycrawl/tools/checkstyle/AuditListener.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/BlockOption.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/CatchBlockOption.java,5,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/CheckConfiguration.java,5,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/CheckStyleTask.java,194,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/Checker.java,287,9,230,covered,232,0,100.0
+com/puppycrawl/tools/checkstyle/ChecksAndFilesSuppressionFileGeneratorAuditListener.java,1,1,1,covered,70,0,100.0
+com/puppycrawl/tools/checkstyle/CheckstyleException.java,3,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/CommentManager.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/Configuration.java,208,0,126,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/ConfigurationLoader.java,195,2,193,covered,135,0,100.0
+com/puppycrawl/tools/checkstyle/ConfigurationRuleParser.java,8,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/DefaultConfiguration.java,38,1,15,covered,35,0,100.0
+com/puppycrawl/tools/checkstyle/DefaultContext.java,12,0,0,covered,7,0,100.0
+com/puppycrawl/tools/checkstyle/DefaultLogger.java,85,0,44,covered,49,0,100.0
+com/puppycrawl/tools/checkstyle/Defn.java,7,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/DetailAstImpl.java,18,0,18,covered,167,0,100.0
+com/puppycrawl/tools/checkstyle/DetailNodeTreeStringPrinter.java,19,4,19,covered,44,0,100.0
+com/puppycrawl/tools/checkstyle/HardErrorHandler.java,2,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/JavaAstVisitor.java,195,6,195,covered,961,0,100.0
+com/puppycrawl/tools/checkstyle/JavaParser.java,27,0,27,covered,78,0,100.0
+com/puppycrawl/tools/checkstyle/JavadocCommentsAstVisitor.java,7,7,0,covered,257,0,100.0
+com/puppycrawl/tools/checkstyle/JavadocDetailNodeParser.java,46,22,40,covered,68,0,100.0
+com/puppycrawl/tools/checkstyle/JavadocPropertiesGenerator.java,10,2,10,covered,97,0,100.0
+com/puppycrawl/tools/checkstyle/LeftCurlyOption.java,4,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/LineText.java,8,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/LocalizedMessage.java,13,1,13,covered,23,0,100.0
+com/puppycrawl/tools/checkstyle/LocalizedMessages.java,16,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/Main.java,292,3,194,covered,230,0,100.0
+com/puppycrawl/tools/checkstyle/MethodSignature.java,4,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/ModuleFactory.java,4,0,0,outside measured module,,,
+com/puppycrawl/tools/checkstyle/MyModifierSet.java,7,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/MyVariable.java,4,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/PackageNamesLoader.java,101,0,93,covered,43,0,100.0
+com/puppycrawl/tools/checkstyle/PackageObjectFactory.java,98,0,97,covered,404,0,100.0
+com/puppycrawl/tools/checkstyle/PadOption.java,2,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/PropertiesExpander.java,18,0,12,covered,9,0,100.0
+com/puppycrawl/tools/checkstyle/PropertyCacheFile.java,109,0,56,covered,89,0,100.0
+com/puppycrawl/tools/checkstyle/PropertyResolver.java,4,0,0,outside measured module,,,
+com/puppycrawl/tools/checkstyle/RightCurlyOption.java,2,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/SarifLogger.java,8,3,8,covered,196,0,100.0
+com/puppycrawl/tools/checkstyle/Scope.java,22,0,11,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/ScopeUtils.java,5,0,5,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/Streamable.java,2,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/StringArrayReader.java,12,0,11,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/SuppressionsLoader.java,5,0,5,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/ThreadModeSettings.java,3,0,3,covered,14,0,100.0
+com/puppycrawl/tools/checkstyle/TreeWalker.java,284,4,143,covered,173,0,100.0
+com/puppycrawl/tools/checkstyle/TreeWalkerAuditEvent.java,8,1,0,covered,8,0,100.0
+com/puppycrawl/tools/checkstyle/Utils.java,29,0,29,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/Verifier.java,207,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/VerifierImpl.java,142,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/VerifierSingleton.java,3,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/XMLLogger.java,70,6,68,covered,130,0,100.0
+com/puppycrawl/tools/checkstyle/XmlLoader.java,12,0,12,covered,29,0,100.0
+com/puppycrawl/tools/checkstyle/XpathFileGeneratorAstFilter.java,1,0,1,covered,15,0,100.0
+com/puppycrawl/tools/checkstyle/XpathFileGeneratorAuditListener.java,3,1,3,covered,46,0,100.0
+com/puppycrawl/tools/checkstyle/ant/CheckstyleAntTask.java,99,5,62,covered,226,0,100.0
+com/puppycrawl/tools/checkstyle/api/AbstractCheck.java,20,0,20,covered,59,0,100.0
+com/puppycrawl/tools/checkstyle/api/AbstractFileSetCheck.java,108,1,35,covered,63,0,100.0
+com/puppycrawl/tools/checkstyle/api/AbstractLoader.java,34,0,4,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/api/AbstractViolationReporter.java,29,0,26,covered,21,0,100.0
+com/puppycrawl/tools/checkstyle/api/AnnotationUtility.java,14,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/api/AuditEvent.java,22,0,6,covered,23,0,100.0
+com/puppycrawl/tools/checkstyle/api/AuditListener.java,13,0,0,outside measured module,,,
+com/puppycrawl/tools/checkstyle/api/AutomaticBean.java,114,0,91,covered,3,2,60.0
+com/puppycrawl/tools/checkstyle/api/BeforeExecutionFileFilter.java,1,0,1,outside measured module,,,
+com/puppycrawl/tools/checkstyle/api/Check.java,102,0,6,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/api/CheckstyleException.java,4,0,0,covered,4,0,100.0
+com/puppycrawl/tools/checkstyle/api/Comment.java,36,0,0,covered,19,0,100.0
+com/puppycrawl/tools/checkstyle/api/Configurable.java,2,0,0,outside measured module,,,
+com/puppycrawl/tools/checkstyle/api/Configuration.java,7,0,0,outside measured module,,,
+com/puppycrawl/tools/checkstyle/api/Context.java,5,0,0,outside measured module,,,
+com/puppycrawl/tools/checkstyle/api/Contextualizable.java,2,0,0,outside measured module,,,
+com/puppycrawl/tools/checkstyle/api/DetailAST.java,145,0,68,outside measured module,,,
+com/puppycrawl/tools/checkstyle/api/DetailNode.java,2,2,0,outside measured module,,,
+com/puppycrawl/tools/checkstyle/api/ExternalResourceHolder.java,1,0,0,outside measured module,,,
+com/puppycrawl/tools/checkstyle/api/FastStack.java,8,0,8,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/api/FileContents.java,128,2,44,covered,80,0,100.0
+com/puppycrawl/tools/checkstyle/api/FileSetCheck.java,14,0,1,outside measured module,,,
+com/puppycrawl/tools/checkstyle/api/FileText.java,43,1,22,covered,76,0,100.0
+com/puppycrawl/tools/checkstyle/api/Filter.java,13,0,0,outside measured module,,,
+com/puppycrawl/tools/checkstyle/api/FilterChain.java,7,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/api/FilterSet.java,20,0,20,covered,18,0,100.0
+com/puppycrawl/tools/checkstyle/api/FullIdent.java,29,3,13,covered,75,0,100.0
+com/puppycrawl/tools/checkstyle/api/JavadocCommentsTokenTypes.java,2,2,2,outside measured module,,,
+com/puppycrawl/tools/checkstyle/api/JavadocTagInfo.java,20,0,2,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/api/JavadocTokenTypes.java,21,17,3,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/api/LineColumn.java,11,0,5,covered,17,0,100.0
+com/puppycrawl/tools/checkstyle/api/LocalizedMessage.java,108,0,62,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/api/LocalizedMessages.java,11,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/api/MessageDispatcher.java,7,0,0,outside measured module,,,
+com/puppycrawl/tools/checkstyle/api/PackageNamesBean.java,2,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/api/PackageNamesClient.java,2,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/api/Scope.java,10,0,10,covered,11,0,100.0
+com/puppycrawl/tools/checkstyle/api/ScopeUtils.java,2,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/api/SeverityLevel.java,11,0,4,covered,9,0,100.0
+com/puppycrawl/tools/checkstyle/api/SeverityLevelCounter.java,27,0,11,covered,17,0,100.0
+com/puppycrawl/tools/checkstyle/api/TokenTypes.java,25,0,22,outside measured module,,,
+com/puppycrawl/tools/checkstyle/api/Utils.java,79,0,79,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/api/Violation.java,25,11,25,covered,93,0,100.0
+com/puppycrawl/tools/checkstyle/bcel/AbstractCheckVisitor.java,2,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/bcel/VisitorSet.java,3,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/bcel/checks/AbstractReferenceCheck.java,6,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/bcel/checks/UnusedMethodCheck.java,2,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/bcel/classfile/JavaClassDefinition.java,2,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/bcel/classfile/ReferenceDAO.java,2,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/AbbreviationAsWordInNameCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/AbstractDeclarationCollector.java,12,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/AbstractFileSetCheck.java,2,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/AbstractFormatCheck.java,28,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/AbstractHeaderCheck.java,17,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/AbstractImportCheck.java,4,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/AbstractLeftCurlyCheck.java,5,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/AbstractNameCheck.java,2,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/AbstractOption.java,9,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/AbstractOptionCheck.java,16,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/AbstractTypeAwareCheck.java,170,0,8,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/ArrayTrailingCommaCheck.java,3,0,3,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/ArrayTypeStyleCheck.java,13,0,13,covered,19,0,100.0
+com/puppycrawl/tools/checkstyle/checks/AvoidEscapedUnicodeCharactersCheck.java,54,3,54,covered,67,0,100.0
+com/puppycrawl/tools/checkstyle/checks/AvoidInlineConditionalsCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/AvoidNestedBlocksCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/AvoidStarImport.java,6,0,4,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/AvoidStarImportCheck.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/BlockOption.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/CheckUtils.java,36,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/ClassResolver.java,57,0,57,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/ConstantNameCheck.java,6,0,6,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/DeclarationCollector.java,66,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/DescendantTokenCheck.java,42,1,42,covered,83,0,100.0
+com/puppycrawl/tools/checkstyle/checks/DesignForExtensionCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/DesignForInheritanceCheck.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/DoubleCheckedLockingCheck.java,3,0,3,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/EmptyBlockCheck.java,4,0,3,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/EmptyForIteratorPadCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/EmptyStatementCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/EqualsHashCodeCheck.java,7,0,7,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/FileContentsHolder.java,12,0,5,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/FileLengthCheck.java,4,0,3,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/FinalClassCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/FinalParametersCheck.java,34,0,34,covered,53,0,100.0
+com/puppycrawl/tools/checkstyle/checks/GenericIllegalRegexpCheck.java,16,0,10,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/HeaderCheck.java,10,0,10,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/HexLiteralCaseCheck.java,3,3,3,covered,28,0,100.0
+com/puppycrawl/tools/checkstyle/checks/HiddenFieldCheck.java,4,0,4,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/HideUtilityClassConstructorCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/IllegalImportCheck.java,4,0,4,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/IllegalInstantiationCheck.java,8,0,8,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/ImportCheck.java,3,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/IndentationCheck.java,120,0,120,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/InnerAssignmentCheck.java,8,0,8,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/InterfaceIsTypeCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/JavadocMethodCheck.java,13,0,13,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/JavadocTag.java,2,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/JavadocTypeCheck.java,12,0,12,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/JavadocVariableCheck.java,12,0,12,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/LeftCurlyCheck.java,4,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/LeftCurlyOption.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/LineEndingOption.java,1,1,0,covered,8,0,100.0
+com/puppycrawl/tools/checkstyle/checks/LineLengthCheck.java,3,0,3,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/LineSeparatorOption.java,14,1,0,covered,15,0,100.0
+com/puppycrawl/tools/checkstyle/checks/LocalFinalVariableNameCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/LocalVariableNameCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/MagicNumberCheck.java,6,0,6,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/MemberNameCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/MethodLeftCurlyCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/MethodLengthCheck.java,6,0,6,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/MethodNameCheck.java,2,0,2,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/MissingSwitchDefaultCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/ModifierCheck.java,2,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/ModifierOrderCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/NeedBracesCheck.java,2,0,2,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/NewlineAtEndOfFileCheck.java,31,0,31,covered,34,0,100.0
+com/puppycrawl/tools/checkstyle/checks/NoWhitespaceAfterCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/NoWhitespaceBeforeCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/OperatorWrapCheck.java,2,0,2,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/OperatorWrapOption.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/OrderedPropertiesCheck.java,7,1,7,covered,47,0,100.0
+com/puppycrawl/tools/checkstyle/checks/OuterTypeFilenameCheck.java,19,1,19,covered,31,0,100.0
+com/puppycrawl/tools/checkstyle/checks/PackageHtmlCheck.java,23,0,23,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/PackageNameCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/PadOption.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/ParameterFormatCheck.java,5,0,4,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/ParameterNameCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/ParameterNumberCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/ParenPadCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/RedundantImportCheck.java,2,0,2,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/RedundantModifierCheck.java,7,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/RedundantThrowsCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/RegexpCheck.java,24,0,24,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/RegexpHeaderCheck.java,6,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/RequiredRegexpCheck.java,4,0,4,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/RightCurlyCheck.java,3,0,3,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/RightCurlyOption.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/SimplifyBooleanExpressionCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/SimplifyBooleanReturnCheck.java,8,0,4,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/StaticVariableNameCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/SuppressWarningsHolder.java,82,1,53,covered,151,0,100.0
+com/puppycrawl/tools/checkstyle/checks/TabCharacterCheck.java,2,0,2,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/TodoCommentCheck.java,23,0,23,covered,14,0,100.0
+com/puppycrawl/tools/checkstyle/checks/TrailingCommentCheck.java,52,0,52,covered,46,0,100.0
+com/puppycrawl/tools/checkstyle/checks/TranslationCheck.java,231,7,212,covered,178,0,100.0
+com/puppycrawl/tools/checkstyle/checks/TypeLeftCurlyCheck.java,7,0,7,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/TypeNameCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/UncommentedMainCheck.java,55,0,55,covered,68,0,100.0
+com/puppycrawl/tools/checkstyle/checks/UniquePropertiesCheck.java,40,1,40,covered,46,0,100.0
+com/puppycrawl/tools/checkstyle/checks/UnusedImportsCheck.java,9,0,8,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/UpperEllCheck.java,6,0,6,covered,8,0,100.0
+com/puppycrawl/tools/checkstyle/checks/VisibilityModifierCheck.java,5,0,5,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/WhitespaceAfterCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/WhitespaceAroundCheck.java,5,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/annotation/AnnotationLocationCheck.java,35,4,35,covered,59,0,100.0
+com/puppycrawl/tools/checkstyle/checks/annotation/AnnotationOnSameLineCheck.java,1,0,1,covered,25,0,100.0
+com/puppycrawl/tools/checkstyle/checks/annotation/AnnotationUseStyleCheck.java,46,0,15,covered,101,0,100.0
+com/puppycrawl/tools/checkstyle/checks/annotation/MissingDeprecatedCheck.java,22,1,9,covered,36,0,100.0
+com/puppycrawl/tools/checkstyle/checks/annotation/MissingOverrideCheck.java,18,1,18,covered,39,0,100.0
+com/puppycrawl/tools/checkstyle/checks/annotation/OpenjdkAnnotationLocationCheck.java,4,4,4,covered,54,0,100.0
+com/puppycrawl/tools/checkstyle/checks/annotation/PackageAnnotationCheck.java,5,0,4,covered,10,0,100.0
+com/puppycrawl/tools/checkstyle/checks/annotation/SuppressWarningsCheck.java,35,1,22,covered,60,0,100.0
+com/puppycrawl/tools/checkstyle/checks/blocks/AvoidNestedBlocksCheck.java,10,0,10,covered,13,0,100.0
+com/puppycrawl/tools/checkstyle/checks/blocks/BlockOption.java,6,0,0,covered,3,0,100.0
+com/puppycrawl/tools/checkstyle/checks/blocks/EmptyBlockCheck.java,41,1,41,covered,64,0,100.0
+com/puppycrawl/tools/checkstyle/checks/blocks/EmptyCatchBlockCheck.java,5,0,5,covered,53,0,100.0
+com/puppycrawl/tools/checkstyle/checks/blocks/LeftCurlyCheck.java,67,9,67,covered,103,0,100.0
+com/puppycrawl/tools/checkstyle/checks/blocks/LeftCurlyOption.java,5,0,0,covered,4,0,100.0
+com/puppycrawl/tools/checkstyle/checks/blocks/NeedBracesCheck.java,57,0,57,covered,87,0,100.0
+com/puppycrawl/tools/checkstyle/checks/blocks/RightCurlyCheck.java,109,1,109,covered,154,0,100.0
+com/puppycrawl/tools/checkstyle/checks/blocks/RightCurlyOption.java,5,0,0,covered,4,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/AbstractIllegalCheck.java,8,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/coding/AbstractIllegalMethodCheck.java,8,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/coding/AbstractNestedDepthCheck.java,11,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/coding/AbstractSuperCheck.java,56,7,0,covered,65,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/ArrayTrailingCommaCheck.java,8,0,8,covered,15,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/AvoidDoubleBraceInitializationCheck.java,1,0,1,covered,15,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/AvoidInlineConditionalsCheck.java,6,0,6,covered,7,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/BaseIllegalMethodCheck.java,3,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/coding/CovariantEqualsCheck.java,26,0,26,covered,31,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/DeclarationOrderCheck.java,55,4,55,covered,91,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/DefaultComesLastCheck.java,7,0,7,covered,20,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/DoubleCheckedLockingCheck.java,2,0,2,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/coding/EmptyStatementCheck.java,6,0,6,covered,9,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/EqualsAvoidNullCheck.java,87,12,60,covered,172,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/EqualsHashCodeCheck.java,43,0,43,covered,41,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/ExplicitInitializationCheck.java,30,0,30,covered,48,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/FallThroughCheck.java,99,18,99,covered,35,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java,115,4,115,covered,228,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/HiddenFieldCheck.java,117,9,117,covered,172,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/IllegalCatchCheck.java,31,0,31,covered,24,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/IllegalInstantiationCheck.java,71,4,71,covered,89,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/IllegalThrowsCheck.java,18,0,18,covered,33,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/IllegalTokenCheck.java,11,0,11,covered,13,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/IllegalTokenTextCheck.java,21,0,21,covered,29,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/IllegalTypeCheck.java,54,0,54,covered,155,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/InnerAssignmentCheck.java,37,0,37,covered,41,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/JUnitTestCaseCheck.java,17,0,17,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/coding/MagicNumberCheck.java,65,1,65,covered,113,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/MatchXpathCheck.java,2,0,2,covered,29,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/MissingCtorCheck.java,6,0,6,covered,11,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/MissingSwitchDefaultCheck.java,6,0,6,covered,36,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/ModifiedControlVariableCheck.java,40,1,40,covered,94,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/MultipleStringLiteralsCheck.java,59,0,59,covered,52,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/MultipleVariableDeclarationsCheck.java,8,0,8,covered,27,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/NestedForDepthCheck.java,8,0,8,covered,14,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/NestedIfDepthCheck.java,19,0,19,covered,20,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/NestedTryDepthCheck.java,16,0,16,covered,14,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/NoCloneCheck.java,6,0,6,covered,14,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/NoEnumTrailingCommaCheck.java,1,0,1,covered,12,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/NoFinalizerCheck.java,5,0,5,covered,14,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/OneStatementPerLineCheck.java,31,8,31,covered,102,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/OverloadMethodsDeclarationOrderCheck.java,12,3,12,covered,50,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/PackageDeclarationCheck.java,19,0,19,covered,29,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/ParameterAssignmentCheck.java,31,0,31,covered,54,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/PatternVariableAssignmentCheck.java,3,3,3,covered,105,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/RedundantThrowsCheck.java,34,0,34,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/coding/RequireThisCheck.java,227,72,227,covered,496,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/ReturnCountCheck.java,35,2,35,covered,56,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/SimplifyBooleanExpressionCheck.java,7,0,7,covered,20,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/SimplifyBooleanReturnCheck.java,33,0,33,covered,28,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/StringLiteralEqualityCheck.java,9,0,9,covered,18,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/SuperCloneCheck.java,17,0,17,covered,3,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/SuperFinalizeCheck.java,2,0,2,covered,3,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/TextBlockGoogleStyleFormattingCheck.java,1,1,1,covered,50,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/UnnecessaryNullCheckWithInstanceOfCheck.java,10,10,10,covered,84,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/UnnecessaryParenthesesCheck.java,46,2,46,covered,142,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/UnnecessarySemicolonInEnumerationCheck.java,3,3,3,covered,26,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/UnusedLocalVariableCheck.java,49,16,49,covered,335,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/VariableDeclarationUsageDistanceCheck.java,73,2,73,covered,247,0,100.0
+com/puppycrawl/tools/checkstyle/checks/coding/WhenShouldBeUsedCheck.java,2,2,2,covered,33,0,100.0
+com/puppycrawl/tools/checkstyle/checks/design/DesignForExtensionCheck.java,52,0,52,covered,105,0,100.0
+com/puppycrawl/tools/checkstyle/checks/design/FinalClassCheck.java,79,4,79,covered,134,0,100.0
+com/puppycrawl/tools/checkstyle/checks/design/HideUtilityClassConstructorCheck.java,38,5,38,covered,63,0,100.0
+com/puppycrawl/tools/checkstyle/checks/design/IllegalAbstractClassNameCheck.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/design/InnerTypeLastCheck.java,9,3,9,covered,19,0,100.0
+com/puppycrawl/tools/checkstyle/checks/design/InterfaceIsTypeCheck.java,9,0,9,covered,18,0,100.0
+com/puppycrawl/tools/checkstyle/checks/design/MutableExceptionCheck.java,26,0,26,covered,42,0,100.0
+com/puppycrawl/tools/checkstyle/checks/design/OneTopLevelClassCheck.java,20,0,20,covered,28,0,100.0
+com/puppycrawl/tools/checkstyle/checks/design/ThrowsCountCheck.java,12,0,12,covered,36,0,100.0
+com/puppycrawl/tools/checkstyle/checks/design/VisibilityModifierCheck.java,92,0,92,covered,174,0,100.0
+com/puppycrawl/tools/checkstyle/checks/duplicates/ChecksumInfo.java,8,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/duplicates/StrictDuplicateCodeCheck.java,94,0,74,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/header/AbstractHeaderCheck.java,55,0,0,covered,51,0,100.0
+com/puppycrawl/tools/checkstyle/checks/header/CrossLanguageRegexpHeaderCheck.java,7,0,7,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/header/HeaderCheck.java,23,1,23,covered,16,0,100.0
+com/puppycrawl/tools/checkstyle/checks/header/HeaderInfo.java,11,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/header/RegexpHeaderCheck.java,47,0,20,covered,54,0,100.0
+com/puppycrawl/tools/checkstyle/checks/header/RegexpHeaderChecker.java,5,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/header/RegexpHeaderInfo.java,10,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/imports/AbstractImportControl.java,2,1,0,covered,29,0,100.0
+com/puppycrawl/tools/checkstyle/checks/imports/AbstractImportRule.java,1,1,0,covered,13,0,100.0
+com/puppycrawl/tools/checkstyle/checks/imports/AccessResult.java,8,1,6,covered,4,0,100.0
+com/puppycrawl/tools/checkstyle/checks/imports/AvoidStarImportCheck.java,34,3,6,covered,39,0,100.0
+com/puppycrawl/tools/checkstyle/checks/imports/AvoidStaticImportCheck.java,12,0,2,covered,33,0,100.0
+com/puppycrawl/tools/checkstyle/checks/imports/CustomImportOrderCheck.java,171,3,171,covered,194,0,100.0
+com/puppycrawl/tools/checkstyle/checks/imports/Guard.java,40,0,27,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/imports/IllegalImportCheck.java,15,1,15,covered,69,0,100.0
+com/puppycrawl/tools/checkstyle/checks/imports/ImportControl.java,56,0,30,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/imports/ImportControlCheck.java,44,0,44,covered,42,0,100.0
+com/puppycrawl/tools/checkstyle/checks/imports/ImportControlLoader.java,118,4,118,covered,94,0,100.0
+com/puppycrawl/tools/checkstyle/checks/imports/ImportOrderCheck.java,97,5,97,covered,170,0,100.0
+com/puppycrawl/tools/checkstyle/checks/imports/PkgControl.java,44,0,36,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/imports/PkgImportControl.java,2,1,2,covered,56,0,100.0
+com/puppycrawl/tools/checkstyle/checks/imports/RedundantImportCheck.java,27,5,27,covered,39,0,100.0
+com/puppycrawl/tools/checkstyle/checks/imports/UnusedImportsCheck.java,82,13,82,covered,160,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/AbstractExpressionHandler.java,82,12,0,covered,157,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/AnnotationArrayInitHandler.java,3,2,0,covered,41,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/ArrayInitHandler.java,41,3,0,covered,42,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/AssignHandler.java,6,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/indentation/BlockParentHandler.java,76,6,0,covered,84,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/CaseHandler.java,21,2,0,covered,13,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/CatchHandler.java,11,2,0,covered,14,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/ClassDefHandler.java,23,3,0,covered,80,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/CommentsIndentationCheck.java,73,1,73,covered,271,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/DetailAstSet.java,4,4,0,covered,21,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/DoWhileHandler.java,9,2,0,covered,13,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/ElseHandler.java,15,2,0,covered,11,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/ExpressionHandler.java,147,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/indentation/FinallyHandler.java,8,2,0,covered,4,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/ForHandler.java,18,2,0,covered,23,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/HandlerFactory.java,64,4,0,covered,75,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/IfHandler.java,29,2,0,covered,27,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/ImportHandler.java,11,2,0,covered,8,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/IndentLevel.java,25,2,0,covered,36,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/IndentationCheck.java,87,27,87,covered,49,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/IndexHandler.java,8,2,0,covered,3,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/LabelHandler.java,17,2,0,covered,13,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/LambdaHandler.java,13,3,0,covered,102,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/LineSet.java,22,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/indentation/LineWrappingHandler.java,66,7,0,covered,136,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/MemberDefHandler.java,30,4,0,covered,34,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/MethodCallHandler.java,76,6,0,covered,116,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/MethodDefHandler.java,29,4,0,covered,48,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/NewHandler.java,33,5,5,covered,68,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/ObjectBlockHandler.java,25,2,0,covered,21,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/PackageDefHandler.java,8,2,0,covered,8,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/PrimordialHandler.java,14,2,0,covered,5,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/SlistHandler.java,25,2,0,covered,21,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/StaticInitHandler.java,8,2,0,covered,2,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/SwitchHandler.java,14,2,0,covered,31,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/SwitchRuleHandler.java,5,2,0,covered,16,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/SynchronizedHandler.java,5,2,0,covered,17,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/TryHandler.java,18,2,0,covered,55,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/WhileHandler.java,9,2,0,covered,10,0,100.0
+com/puppycrawl/tools/checkstyle/checks/indentation/YieldHandler.java,3,2,0,covered,16,0,100.0
+com/puppycrawl/tools/checkstyle/checks/j2ee/AbstractBeanCheck.java,3,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/AbstractInterfaceCheck.java,2,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/AbstractJ2eeCheck.java,3,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/AbstractMethodCheck.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/BeanManagedMethodChecker.java,2,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/BeanMethodChecker.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/ContainerManagedMethodChecker.java,2,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/EntityBeanCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/EntityBeanEjbCreateCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/EntityBeanEjbSelectCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/EntityBeanMethodChecker.java,8,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/FinalStaticCheck.java,3,0,3,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/HomeInterfaceCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/HomeInterfaceMethodChecker.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/LocalHomeInterfaceCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/LocalHomeInterfaceMethodChecker.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/LocalInterfaceCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/LocalInterfaceMethodChecker.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/MessageBeanCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/MessageBeanMethodChecker.java,2,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/MethodChecker.java,2,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/NonVoidEjbCreateCheck.java,5,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/PersistenceOption.java,3,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/RemoteHomeInterfaceCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/RemoteHomeInterfaceMethodChecker.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/RemoteInterfaceCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/RemoteInterfaceMethodChecker.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/SessionBeanCheck.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/SessionBeanMethodChecker.java,2,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/ThisParameterCheck.java,3,0,3,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/ThisReturnCheck.java,3,0,3,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/j2ee/Utils.java,6,0,6,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractJavadocCheck.java,155,6,148,covered,105,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractTypeAwareCheck.java,40,0,4,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/javadoc/AnnotationLocationCheck.java,3,0,3,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/javadoc/AtclauseOrderCheck.java,33,1,33,covered,37,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/HtmlTag.java,21,1,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/javadoc/InvalidJavadocTag.java,8,0,0,covered,4,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/JavaDocTagContinuationIndentationCheck.java,4,0,3,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocBlockTagLocationCheck.java,1,1,1,covered,27,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocContentLocationCheck.java,2,1,2,covered,31,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocLeadingAsteriskAlignCheck.java,2,2,2,covered,46,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java,423,16,423,covered,312,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMissingLeadingAsteriskCheck.java,1,1,1,covered,19,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMissingWhitespaceAfterAsteriskCheck.java,6,6,6,covered,26,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocNodeImpl.java,29,7,14,covered,49,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocPackageCheck.java,20,0,20,covered,24,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocParagraphCheck.java,46,7,46,covered,135,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocStyleCheck.java,138,1,138,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocTag.java,30,0,4,covered,18,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocTagContinuationIndentationCheck.java,26,9,26,covered,95,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocTagInfo.java,3,1,3,covered,118,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocTags.java,12,4,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocTypeCheck.java,159,24,159,covered,109,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocUtils.java,41,0,41,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocVariableCheck.java,41,3,41,covered,36,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/MissingJavadocMethodCheck.java,9,6,9,covered,95,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/MissingJavadocPackageCheck.java,13,6,13,covered,10,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/MissingJavadocTypeCheck.java,7,5,7,covered,65,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/NonEmptyAtclauseDescriptionCheck.java,9,0,9,covered,11,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/PackageHtmlCheck.java,6,0,6,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/javadoc/RequireEmptyLineBeforeBlockTagGroupCheck.java,4,4,4,covered,64,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/SingleLineJavadocCheck.java,18,0,18,covered,30,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/SummaryJavadocCheck.java,101,21,101,covered,182,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/TagParser.java,50,3,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/javadoc/WriteTagCheck.java,71,7,71,covered,50,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/utils/BlockTagUtil.java,1,1,1,covered,22,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/utils/BlockTagUtils.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/javadoc/utils/InlineTagUtil.java,2,0,2,covered,34,0,100.0
+com/puppycrawl/tools/checkstyle/checks/javadoc/utils/InlineTagUtils.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/javadoc/utils/TagInfo.java,2,0,0,covered,4,0,100.0
+com/puppycrawl/tools/checkstyle/checks/metrics/AbstractClassCouplingCheck.java,101,4,0,covered,138,0,100.0
+com/puppycrawl/tools/checkstyle/checks/metrics/AbstractComplexityCheck.java,37,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/metrics/BooleanExpressionComplexityCheck.java,30,3,30,covered,48,0,100.0
+com/puppycrawl/tools/checkstyle/checks/metrics/ClassDataAbstractionCouplingCheck.java,2,0,2,covered,11,0,100.0
+com/puppycrawl/tools/checkstyle/checks/metrics/ClassFanOutComplexityCheck.java,2,0,2,covered,11,0,100.0
+com/puppycrawl/tools/checkstyle/checks/metrics/CyclomaticComplexityCheck.java,17,0,17,covered,40,0,100.0
+com/puppycrawl/tools/checkstyle/checks/metrics/ExecutableStatementCountCheck.java,5,0,5,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/metrics/JavaNCSSCheck.java,62,2,62,covered,75,0,100.0
+com/puppycrawl/tools/checkstyle/checks/metrics/MethodCountCheck.java,23,0,13,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/metrics/NPathComplexityCheck.java,26,5,26,covered,156,0,100.0
+com/puppycrawl/tools/checkstyle/checks/modifier/ClassMemberImpliedModifierCheck.java,1,0,1,covered,33,0,100.0
+com/puppycrawl/tools/checkstyle/checks/modifier/ModifierOrderCheck.java,27,4,27,covered,63,0,100.0
+com/puppycrawl/tools/checkstyle/checks/modifier/RedundantModifierCheck.java,27,0,9,covered,142,0,100.0
+com/puppycrawl/tools/checkstyle/checks/naming/AbbreviationAsWordInNameCheck.java,31,0,31,covered,104,0,100.0
+com/puppycrawl/tools/checkstyle/checks/naming/AbstractAccessControlNameCheck.java,14,1,0,covered,26,0,100.0
+com/puppycrawl/tools/checkstyle/checks/naming/AbstractClassNameCheck.java,26,0,26,covered,26,0,100.0
+com/puppycrawl/tools/checkstyle/checks/naming/AbstractNameCheck.java,13,4,0,covered,13,0,100.0
+com/puppycrawl/tools/checkstyle/checks/naming/AbstractTypeParameterNameCheck.java,6,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/naming/AccessModifier.java,3,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/naming/AccessModifierOption.java,3,3,3,covered,7,0,100.0
+com/puppycrawl/tools/checkstyle/checks/naming/ClassTypeParameterNameCheck.java,1,0,1,covered,8,0,100.0
+com/puppycrawl/tools/checkstyle/checks/naming/ConstantNameCheck.java,9,0,9,covered,28,0,100.0
+com/puppycrawl/tools/checkstyle/checks/naming/InterfaceTypeParameterNameCheck.java,1,0,0,covered,8,0,100.0
+com/puppycrawl/tools/checkstyle/checks/naming/LocalFinalVariableNameCheck.java,3,0,3,covered,10,0,100.0
+com/puppycrawl/tools/checkstyle/checks/naming/LocalVariableNameCheck.java,10,0,10,covered,17,0,100.0
+com/puppycrawl/tools/checkstyle/checks/naming/MemberNameCheck.java,19,0,19,covered,19,0,100.0
+com/puppycrawl/tools/checkstyle/checks/naming/MethodNameCheck.java,6,0,6,covered,27,0,100.0
+com/puppycrawl/tools/checkstyle/checks/naming/MethodTypeParameterNameCheck.java,1,0,0,covered,8,0,100.0
+com/puppycrawl/tools/checkstyle/checks/naming/PackageNameCheck.java,8,0,8,covered,15,0,100.0
+com/puppycrawl/tools/checkstyle/checks/naming/ParameterNameCheck.java,24,0,24,covered,34,0,100.0
+com/puppycrawl/tools/checkstyle/checks/naming/StaticVariableNameCheck.java,5,0,5,covered,20,0,100.0
+com/puppycrawl/tools/checkstyle/checks/naming/TypeNameCheck.java,4,0,4,covered,13,0,100.0
+com/puppycrawl/tools/checkstyle/checks/regexp/CommentSuppressor.java,6,0,0,covered,5,0,100.0
+com/puppycrawl/tools/checkstyle/checks/regexp/DetectorOptions.java,46,0,0,covered,34,0,100.0
+com/puppycrawl/tools/checkstyle/checks/regexp/MatchSuppressor.java,2,0,0,outside measured module,,,
+com/puppycrawl/tools/checkstyle/checks/regexp/MultilineDetector.java,26,9,0,covered,40,0,100.0
+com/puppycrawl/tools/checkstyle/checks/regexp/NeverSuppress.java,11,0,0,covered,2,0,100.0
+com/puppycrawl/tools/checkstyle/checks/regexp/RegexpCheck.java,27,0,27,covered,62,0,100.0
+com/puppycrawl/tools/checkstyle/checks/regexp/RegexpMultilineCheck.java,17,0,17,covered,32,0,100.0
+com/puppycrawl/tools/checkstyle/checks/regexp/RegexpOnFilenameCheck.java,7,0,7,covered,43,0,100.0
+com/puppycrawl/tools/checkstyle/checks/regexp/RegexpSinglelineCheck.java,19,0,19,covered,25,0,100.0
+com/puppycrawl/tools/checkstyle/checks/regexp/RegexpSinglelineJavaCheck.java,21,0,21,covered,33,0,100.0
+com/puppycrawl/tools/checkstyle/checks/regexp/SinglelineDetector.java,28,9,0,covered,34,0,100.0
+com/puppycrawl/tools/checkstyle/checks/sizes/AnonInnerLengthCheck.java,8,0,8,covered,17,0,100.0
+com/puppycrawl/tools/checkstyle/checks/sizes/ExecutableStatementCountCheck.java,41,3,41,covered,46,0,100.0
+com/puppycrawl/tools/checkstyle/checks/sizes/FileLengthCheck.java,13,0,13,covered,8,0,100.0
+com/puppycrawl/tools/checkstyle/checks/sizes/LineLengthCheck.java,18,1,18,covered,17,0,100.0
+com/puppycrawl/tools/checkstyle/checks/sizes/MethodCountCheck.java,49,0,49,covered,65,0,100.0
+com/puppycrawl/tools/checkstyle/checks/sizes/MethodLengthCheck.java,19,0,19,covered,41,0,100.0
+com/puppycrawl/tools/checkstyle/checks/sizes/OuterTypeNumberCheck.java,11,0,11,covered,22,0,100.0
+com/puppycrawl/tools/checkstyle/checks/sizes/ParameterNumberCheck.java,16,0,16,covered,22,0,100.0
+com/puppycrawl/tools/checkstyle/checks/sizes/RecordComponentNumberCheck.java,1,0,1,covered,24,0,100.0
+com/puppycrawl/tools/checkstyle/checks/usage/ASTManager.java,5,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/usage/AbstractUsageCheck.java,4,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/usage/transmogrify/ASTManager.java,3,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/usage/transmogrify/ClassDef.java,3,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/usage/transmogrify/PrimitiveClasses.java,8,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/usage/transmogrify/QueryEngine.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/usage/transmogrify/Resolver.java,10,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/usage/transmogrify/SymbolTable.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/whitespace/AbstractParenPadCheck.java,28,12,0,covered,30,0,100.0
+com/puppycrawl/tools/checkstyle/checks/whitespace/EmptyForInitializerPadCheck.java,15,0,15,covered,20,0,100.0
+com/puppycrawl/tools/checkstyle/checks/whitespace/EmptyForIteratorPadCheck.java,11,0,11,covered,20,0,100.0
+com/puppycrawl/tools/checkstyle/checks/whitespace/EmptyLineSeparatorCheck.java,43,1,43,covered,279,0,100.0
+com/puppycrawl/tools/checkstyle/checks/whitespace/FileTabCharacterCheck.java,11,0,11,covered,15,0,100.0
+com/puppycrawl/tools/checkstyle/checks/whitespace/GenericWhitespaceCheck.java,44,3,44,covered,92,0,100.0
+com/puppycrawl/tools/checkstyle/checks/whitespace/MethodParamPadCheck.java,18,0,18,covered,26,0,100.0
+com/puppycrawl/tools/checkstyle/checks/whitespace/NoLineWrapCheck.java,4,1,4,covered,14,0,100.0
+com/puppycrawl/tools/checkstyle/checks/whitespace/NoWhitespaceAfterCheck.java,71,0,71,covered,119,0,100.0
+com/puppycrawl/tools/checkstyle/checks/whitespace/NoWhitespaceBeforeCheck.java,22,0,22,covered,25,0,100.0
+com/puppycrawl/tools/checkstyle/checks/whitespace/OperatorWrapCheck.java,16,0,16,covered,51,0,100.0
+com/puppycrawl/tools/checkstyle/checks/whitespace/OperatorWrapOption.java,6,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/whitespace/PadOption.java,5,0,0,covered,3,0,100.0
+com/puppycrawl/tools/checkstyle/checks/whitespace/ParenPadCheck.java,30,0,30,covered,71,0,100.0
+com/puppycrawl/tools/checkstyle/checks/whitespace/SeparatorWrapCheck.java,13,0,13,covered,21,0,100.0
+com/puppycrawl/tools/checkstyle/checks/whitespace/SingleSpaceSeparatorCheck.java,8,1,8,covered,38,0,100.0
+com/puppycrawl/tools/checkstyle/checks/whitespace/TabCharacterCheck.java,2,0,2,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/whitespace/TypecastParenPadCheck.java,4,0,4,covered,11,0,100.0
+com/puppycrawl/tools/checkstyle/checks/whitespace/WhitespaceAfterCheck.java,20,1,20,covered,46,0,100.0
+com/puppycrawl/tools/checkstyle/checks/whitespace/WhitespaceAroundCheck.java,76,0,18,covered,118,0,100.0
+com/puppycrawl/tools/checkstyle/checks/xpath/DocumentNavigator.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/checks/xpath/NodeIterator.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/doclets/CheckDocsDoclet.java,38,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/doclets/TokenTypesDoclet.java,26,0,9,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/filefilters/BeforeExecutionExclusionFileFilter.java,1,0,0,covered,6,0,100.0
+com/puppycrawl/tools/checkstyle/filter/CSVFilter.java,2,0,2,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/filter/DenyAllFilter.java,3,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/filter/IntMatchFilter.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/filter/IntRangeFilter.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/filter/SeverityMatchFilter.java,4,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/filter/SuppressElement.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/filter/SuppressionFilter.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/filters/CSVFilter.java,25,0,23,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/filters/CsvFilter.java,7,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/filters/CsvFilterElement.java,5,3,5,covered,34,0,100.0
+com/puppycrawl/tools/checkstyle/filters/DenyAllFilter.java,2,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/filters/IntFilter.java,4,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/filters/IntMatchFilter.java,21,0,19,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/filters/IntMatchFilterElement.java,2,1,2,covered,3,0,100.0
+com/puppycrawl/tools/checkstyle/filters/IntRangeFilter.java,25,0,23,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/filters/IntRangeFilterElement.java,1,1,1,covered,4,0,100.0
+com/puppycrawl/tools/checkstyle/filters/SeverityMatchFilter.java,16,0,14,covered,11,0,100.0
+com/puppycrawl/tools/checkstyle/filters/SuppressElement.java,75,0,71,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/filters/SuppressFilterElement.java,28,2,28,covered,61,0,100.0
+com/puppycrawl/tools/checkstyle/filters/SuppressWarningsFilter.java,3,0,3,covered,4,0,100.0
+com/puppycrawl/tools/checkstyle/filters/SuppressWithNearbyCommentFilter.java,139,7,139,covered,120,0,100.0
+com/puppycrawl/tools/checkstyle/filters/SuppressWithNearbyTextFilter.java,5,0,5,covered,99,0,100.0
+com/puppycrawl/tools/checkstyle/filters/SuppressWithPlainTextCommentFilter.java,28,2,28,covered,111,0,100.0
+com/puppycrawl/tools/checkstyle/filters/SuppressionCommentFilter.java,185,9,185,covered,131,0,100.0
+com/puppycrawl/tools/checkstyle/filters/SuppressionFilter.java,20,0,6,covered,15,0,100.0
+com/puppycrawl/tools/checkstyle/filters/SuppressionXpathFilter.java,1,0,1,covered,28,0,100.0
+com/puppycrawl/tools/checkstyle/filters/SuppressionXpathSingleFilter.java,1,0,1,covered,21,0,100.0
+com/puppycrawl/tools/checkstyle/filters/SuppressionsLoader.java,84,0,84,covered,72,0,100.0
+com/puppycrawl/tools/checkstyle/filters/XpathFilter.java,9,0,7,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/filters/XpathFilterElement.java,8,3,8,covered,74,0,100.0
+com/puppycrawl/tools/checkstyle/grammar/CompositeLexerContextCache.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/grammars/CommentListener.java,4,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/gui/AbstractCellEditor.java,16,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/gui/AbstractTreeTableModel.java,46,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/gui/BaseCellEditor.java,3,2,2,covered,17,5,77.3
+com/puppycrawl/tools/checkstyle/gui/CheckstyleFrameModel.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/gui/CodeSelector.java,12,1,0,covered,11,1,91.7
+com/puppycrawl/tools/checkstyle/gui/CodeSelectorPModel.java,5,0,3,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/gui/CodeSelectorPresentation.java,7,2,7,covered,36,0,100.0
+com/puppycrawl/tools/checkstyle/gui/FileDrop.java,58,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/gui/JTreeTable.java,62,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/gui/ListToTreeSelectionModelWrapper.java,16,2,0,covered,20,7,74.1
+com/puppycrawl/tools/checkstyle/gui/Main.java,20,0,17,covered,13,0,100.0
+com/puppycrawl/tools/checkstyle/gui/MainFrame.java,23,1,12,covered,112,0,100.0
+com/puppycrawl/tools/checkstyle/gui/MainFrameModel.java,16,0,14,covered,55,0,100.0
+com/puppycrawl/tools/checkstyle/gui/ParseTreeInfoPanel.java,107,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/gui/ParseTreeModel.java,28,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/gui/ParseTreeTableModel.java,15,2,2,covered,31,3,91.2
+com/puppycrawl/tools/checkstyle/gui/ParseTreeTablePModel.java,11,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/gui/ParseTreeTablePresentation.java,10,2,10,covered,77,0,100.0
+com/puppycrawl/tools/checkstyle/gui/TreeTable.java,19,0,11,covered,101,24,80.8
+com/puppycrawl/tools/checkstyle/gui/TreeTableCellRenderer.java,8,0,0,covered,14,15,48.3
+com/puppycrawl/tools/checkstyle/gui/TreeTableModel.java,2,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/gui/TreeTableModelAdapter.java,39,0,0,covered,26,6,81.2
+com/puppycrawl/tools/checkstyle/meta/JavadocMetadataScraper.java,30,0,25,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/meta/JavadocMetadataScraperUtil.java,4,4,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/meta/MetadataGenerationException.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/meta/MetadataGenerator.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/meta/MetadataGeneratorUtil.java,29,11,29,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/meta/XmlMetaReader.java,11,5,11,covered,84,2,97.7
+com/puppycrawl/tools/checkstyle/meta/XmlMetaWriter.java,5,2,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/site/AllCheckSummaries.java,37,37,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/site/ChecksXmlMacro.java,15,15,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/site/ClassAndPropertiesSettersJavadocScraper.java,8,7,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/site/DescriptionMacro.java,35,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/site/ExampleMacro.java,16,8,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/site/JavadocScraperResultUtil.java,13,13,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/site/ModuleJavadocParsingUtil.java,25,21,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/site/NotesMacro.java,32,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/site/ParentModuleMacro.java,2,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/site/PropertiesMacro.java,50,20,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/site/SearchIndexEntry.java,1,1,0,not covered,0,32,0.0
+com/puppycrawl/tools/checkstyle/site/SearchIndexGenerator.java,19,19,19,covered,63,303,17.2
+com/puppycrawl/tools/checkstyle/site/SiteUtil.java,141,64,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/site/TocMacro.java,6,6,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/site/ViolationMessagesMacro.java,2,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/site/XdocsTemplateSink.java,1,0,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/site/XdocsTemplateSinkFactory.java,1,1,0,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/utils/AnnotationUtil.java,6,1,6,covered,50,0,100.0
+com/puppycrawl/tools/checkstyle/utils/AnnotationUtility.java,3,0,2,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/utils/BlockCommentPosition.java,7,2,7,covered,100,0,100.0
+com/puppycrawl/tools/checkstyle/utils/CheckUtil.java,27,3,27,covered,267,0,100.0
+com/puppycrawl/tools/checkstyle/utils/CheckUtils.java,29,0,28,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/utils/CodePointUtil.java,1,0,1,covered,11,0,100.0
+com/puppycrawl/tools/checkstyle/utils/CommonUtil.java,39,9,39,covered,147,0,100.0
+com/puppycrawl/tools/checkstyle/utils/CommonUtils.java,17,0,16,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/utils/FilterUtils.java,4,0,3,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/utils/JavadocUtil.java,14,9,14,covered,103,0,100.0
+com/puppycrawl/tools/checkstyle/utils/JavadocUtils.java,34,0,33,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/utils/ModuleReflectionUtil.java,1,0,1,covered,24,0,100.0
+com/puppycrawl/tools/checkstyle/utils/ModuleReflectionUtils.java,2,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/utils/ParserUtil.java,5,1,5,covered,56,0,100.0
+com/puppycrawl/tools/checkstyle/utils/ScopeUtil.java,14,6,14,covered,99,0,100.0
+com/puppycrawl/tools/checkstyle/utils/ScopeUtils.java,23,0,22,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/utils/TokenUtil.java,5,0,5,covered,68,0,100.0
+com/puppycrawl/tools/checkstyle/utils/TokenUtils.java,7,0,6,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/utils/UnmodifiableCollectionUtil.java,1,1,0,covered,10,0,100.0
+com/puppycrawl/tools/checkstyle/utils/Utils.java,1,0,1,not present at snapshot,,,
+com/puppycrawl/tools/checkstyle/utils/XpathUtil.java,9,0,9,covered,36,0,100.0
+com/puppycrawl/tools/checkstyle/xpath/AbstractElementNode.java,2,1,0,covered,69,0,100.0
+com/puppycrawl/tools/checkstyle/xpath/AbstractNode.java,21,1,0,covered,37,0,100.0
+com/puppycrawl/tools/checkstyle/xpath/AbstractRootNode.java,1,0,0,covered,23,0,100.0
+com/puppycrawl/tools/checkstyle/xpath/AttributeNode.java,3,0,3,covered,20,0,100.0
+com/puppycrawl/tools/checkstyle/xpath/ElementNode.java,49,0,49,covered,15,0,100.0
+com/puppycrawl/tools/checkstyle/xpath/RootNode.java,13,0,13,covered,9,0,100.0
+com/puppycrawl/tools/checkstyle/xpath/XpathQueryGenerator.java,21,0,21,covered,109,0,100.0
+com/puppycrawl/tools/checkstyle/xpath/iterators/ReverseListIterator.java,3,0,3,covered,9,0,100.0

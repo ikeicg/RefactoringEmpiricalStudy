@@ -1,0 +1,34 @@
+{
+  "checkstyle": {
+    "measured": "whole project",
+    "project_line_coverage_pct": 90.6,
+    "refactored_production_files": 636,
+    "files_present_at_snapshot": 339,
+    "files_outside_measured_module": 18,
+    "files_present_with_coverage_pct": 99.7,
+    "line_coverage_of_refactored_files_pct": 98.1,
+    "production_refactorings": 15913,
+    "refactorings_in_present_files": 11258,
+    "refactorings_in_covered_files_pct": 100.0,
+    "last_12_months_refactorings_in_present_files": 814,
+    "last_12_months_in_covered_files_pct": 99.9,
+    "proxy_yes_in_covered_files_pct": 100.0,
+    "proxy_no_in_covered_files_pct": 100.0
+  },
+  "mockito": {
+    "measured": "mockito-core module",
+    "project_line_coverage_pct": 84.4,
+    "refactored_production_files": 932,
+    "files_present_at_snapshot": 273,
+    "files_outside_measured_module": 78,
+    "files_present_with_coverage_pct": 96.3,
+    "line_coverage_of_refactored_files_pct": 85.7,
+    "production_refactorings": 8628,
+    "refactorings_in_present_files": 4282,
+    "refactorings_in_covered_files_pct": 98.6,
+    "last_12_months_refactorings_in_present_files": 130,
+    "last_12_months_in_covered_files_pct": 98.5,
+    "proxy_yes_in_covered_files_pct": 98.8,
+    "proxy_no_in_covered_files_pct": 98.4
+  }
+}

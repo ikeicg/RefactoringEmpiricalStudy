@@ -1,0 +1,9 @@
+// Gradle init script used by run_coverage.sh: records JaCoCo coverage for every test task and
+// keeps running when individual tests fail (we want coverage, not a green build).
+allprojects { Project p ->
+    p.plugins.withId("java") {
+        p.apply(plugin: "jacoco")
+        p.extensions.getByName("jacoco").toolVersion = "0.8.15"
+        p.tasks.withType(Test).configureEach { ignoreFailures = true }
+    }
+}

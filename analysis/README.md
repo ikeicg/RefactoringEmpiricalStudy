@@ -68,6 +68,28 @@ Author names and e-mail addresses are not repeated here (they are in the extract
 | `export_git_history.sh` | commit lists and messages at each snapshot (inputs, kept in `.cache/`) |
 | `run_all.sh` | runs everything above in order |
 
+## Unit-test coverage with JaCoCo (requirement 1c, Section 5.8)
+
+Historical versions cannot be built any more, so coverage is measured once, at the analysis snapshot,
+and linked to the production files that were refactored. Measured: Checkstyle (whole project, 6,874 tests)
+and Mockito (`mockito-core`). JabRef was not completed: its suite also needs JavaFX, a database and
+external services. To reproduce (needs internet, Maven, and a JDK 21 for Checkstyle):
+
+```bash
+./analysis/coverage/run_coverage.sh mockito      # about 5 min
+./analysis/coverage/run_coverage.sh checkstyle   # about 10 min, needs JDK 21
+python3 analysis/coverage/coverage_match.py
+```
+
+| File | Contents |
+|---|---|
+| `data/coverage/<project>_jacoco.xml` | JaCoCo line coverage per source file at the snapshot. |
+| `data/coverage/<project>_file_coverage.csv` | Per refactored production file: refactorings (all / last 12 months / with a matching test file), status (`covered`, `not covered`, `outside measured module`, `not present at snapshot`) and line coverage. |
+| `data/coverage/coverage_stats.json` | Per project: line coverage, share of refactored files and refactorings in covered files, the last-12-months share, and agreement with the test-file proxy. |
+
+Failing tests do not stop the run. Coverage describes the files as they are at the snapshot, not at the
+time of each refactoring, which is why the last-12-months share is reported separately.
+
 ## Definitions shared by all scripts
 
 - **Bots**: authors whose name or e-mail contains `[bot]`, `dependabot`, `github-actions` or `renovate`.

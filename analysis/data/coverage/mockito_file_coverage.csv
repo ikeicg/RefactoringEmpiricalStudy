@@ -1,0 +1,933 @@
+file,production_refactorings,refactorings_last_12_months,with_test_file_proxy,status,lines_covered,lines_missed,line_coverage_pct
+org/easymock/EasyMock.java,2,0,0,not present at snapshot,,,
+org/easymock/IAnswer.java,1,0,0,not present at snapshot,,,
+org/easymock/IArgumentMatcher.java,1,0,0,not present at snapshot,,,
+org/easymock/LogicalOperator.java,1,0,0,not present at snapshot,,,
+org/easymock/ObjenesisClassInstantiator.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/ClassExtensionHelper.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/ClassProxyFactory.java,1,0,1,not present at snapshot,,,
+org/easymock/internal/ExpectedInvocation.java,3,0,3,not present at snapshot,,,
+org/easymock/internal/Invocation.java,1,0,1,not present at snapshot,,,
+org/easymock/internal/LastArguments.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/MockitoObjectMethodsFilter.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/ObjectMethodsFilter.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/Result.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/RuntimeExceptionWrapper.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/ToTypeMappings.java,1,0,1,not present at snapshot,,,
+org/easymock/internal/matchers/And.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/matchers/Any.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/matchers/ArrayEquals.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/matchers/Compare.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/matchers/CompareEqual.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/matchers/CompareTo.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/matchers/Contains.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/matchers/EndsWith.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/matchers/Equals.java,1,0,1,not present at snapshot,,,
+org/easymock/internal/matchers/EqualsWithDelta.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/matchers/Find.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/matchers/GreaterOrEqual.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/matchers/GreaterThan.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/matchers/InstanceOf.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/matchers/LessOrEqual.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/matchers/LessThan.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/matchers/Matches.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/matchers/Not.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/matchers/NotNull.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/matchers/Null.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/matchers/Or.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/matchers/Same.java,1,0,0,not present at snapshot,,,
+org/easymock/internal/matchers/StartsWith.java,1,0,0,not present at snapshot,,,
+org/junit/experimental/VerboseMockitoJUnitRunner.java,2,0,2,not present at snapshot,,,
+org/junit/mockito/ExperimentalMockitoJUnitRunner.java,1,0,0,not present at snapshot,,,
+org/junit/mockito/VerboseMockitoJUnitRunner.java,2,0,2,not present at snapshot,,,
+org/mockito/AdditionalAnswers.java,40,0,0,covered,19,0,100.0
+org/mockito/AdditionalMatchers.java,14,0,0,covered,138,0,100.0
+org/mockito/AnnotationEngine.java,1,0,0,not present at snapshot,,,
+org/mockito/Answers.java,3,0,0,covered,11,0,100.0
+org/mockito/Argument.java,4,0,0,not present at snapshot,,,
+org/mockito/ArgumentCaptor.java,17,0,10,covered,13,0,100.0
+org/mockito/ArgumentMatcher.java,12,0,1,covered,1,0,100.0
+org/mockito/ArgumentMatchers.java,30,0,0,covered,104,4,96.3
+org/mockito/BDDMockito.java,57,7,57,covered,45,5,90.0
+org/mockito/Captor.java,1,0,0,outside measured module,,,
+org/mockito/CheckReturnValue.java,1,0,0,outside measured module,,,
+org/mockito/CoolMatchers.java,27,0,0,not present at snapshot,,,
+org/mockito/CrazyMatchers.java,5,0,0,not present at snapshot,,,
+org/mockito/CustomMatcher.java,3,0,0,not present at snapshot,,,
+org/mockito/Decamelizer.java,1,0,1,not present at snapshot,,,
+org/mockito/DefaultMockitoConfiguration.java,1,0,0,not present at snapshot,,,
+org/mockito/IMockitoConfiguration.java,1,0,0,not present at snapshot,,,
+org/mockito/InOrderImpl.java,1,0,0,not present at snapshot,,,
+org/mockito/InOrderVerifier.java,3,0,0,not present at snapshot,,,
+org/mockito/Incubating.java,1,0,0,outside measured module,,,
+org/mockito/InjectMock.java,1,0,0,not present at snapshot,,,
+org/mockito/InjectMocks.java,2,0,0,outside measured module,,,
+org/mockito/InvocationWithMatchers.java,2,0,0,not present at snapshot,,,
+org/mockito/Matchers.java,210,0,210,not present at snapshot,,,
+org/mockito/MethodSelector.java,1,0,0,not present at snapshot,,,
+org/mockito/Mock.java,5,0,0,covered,5,0,100.0
+org/mockito/MockAwareInvocationHandler.java,1,0,0,not present at snapshot,,,
+org/mockito/MockSettings.java,24,0,13,outside measured module,,,
+org/mockito/MockUtil.java,2,0,2,not present at snapshot,,,
+org/mockito/MockedConstruction.java,2,0,0,outside measured module,,,
+org/mockito/MockedStatic.java,7,0,0,not covered,0,2,0.0
+org/mockito/MockingDetails.java,21,1,18,outside measured module,,,
+org/mockito/Mockito.java,234,1,234,covered,86,27,76.1
+org/mockito/MockitoAnnotations.java,14,0,0,covered,5,6,45.5
+org/mockito/MockitoBehavior.java,7,0,0,not present at snapshot,,,
+org/mockito/MockitoConfiguration.java,8,0,0,not present at snapshot,,,
+org/mockito/MockitoControl.java,1,0,0,not present at snapshot,,,
+org/mockito/MockitoDebugger.java,3,0,0,not present at snapshot,,,
+org/mockito/MockitoExpectation.java,1,0,0,not present at snapshot,,,
+org/mockito/MockitoExperimental.java,4,0,0,not present at snapshot,,,
+org/mockito/MockitoFramework.java,25,0,0,outside measured module,,,
+org/mockito/MockitoInvocation.java,1,0,0,not present at snapshot,,,
+org/mockito/MockitoMatcher.java,3,0,0,not present at snapshot,,,
+org/mockito/MockitoMocking.java,1,0,0,not present at snapshot,,,
+org/mockito/MockitoOperations.java,2,0,2,not present at snapshot,,,
+org/mockito/MockitoSession.java,5,0,5,outside measured module,,,
+org/mockito/MockitoTroubleshooter.java,1,0,0,not present at snapshot,,,
+org/mockito/ReturnValues.java,3,0,0,not present at snapshot,,,
+org/mockito/ScopedMock.java,1,0,0,outside measured module,,,
+org/mockito/Spy.java,2,0,0,outside measured module,,,
+org/mockito/StrictOrderVerifier.java,13,0,0,not present at snapshot,,,
+org/mockito/Strictly.java,7,0,0,not present at snapshot,,,
+org/mockito/VerifyingMode.java,1,0,1,not present at snapshot,,,
+org/mockito/VoidMethodExpectation.java,1,0,0,not present at snapshot,,,
+org/mockito/android/internal/creation/AndroidLoadingStrategy.java,10,0,0,not present at snapshot,,,
+org/mockito/android/internal/creation/AndroidTempFileLocator.java,2,0,0,not present at snapshot,,,
+org/mockito/cglib/proxy/CallbackFilter.java,1,0,0,not present at snapshot,,,
+org/mockito/cglib/proxy/CallbackHelper.java,1,0,0,not present at snapshot,,,
+org/mockito/cglib/proxy/Enhancer.java,1,0,0,not present at snapshot,,,
+org/mockito/cglib/proxy/Proxy.java,1,0,0,not present at snapshot,,,
+org/mockito/cglib/proxy/SerializableNoOp.java,2,0,0,not present at snapshot,,,
+org/mockito/codegen/InjectionBase.java,1,0,0,not present at snapshot,,,
+org/mockito/configuration/AnnotationEngine.java,6,0,0,not present at snapshot,,,
+org/mockito/configuration/BaseReturnValues.java,9,0,0,not present at snapshot,,,
+org/mockito/configuration/ConfigurationSupport.java,1,0,0,not present at snapshot,,,
+org/mockito/configuration/DefaultMockitoConfiguration.java,8,0,0,covered,4,0,100.0
+org/mockito/configuration/DefaultReturnValues.java,4,0,4,not present at snapshot,,,
+org/mockito/configuration/IMockitoConfiguration.java,5,0,0,outside measured module,,,
+org/mockito/configuration/MockitoConfiguration.java,5,0,0,not present at snapshot,,,
+org/mockito/configuration/MockitoProperties.java,1,0,0,not present at snapshot,,,
+org/mockito/configuration/ReturnValues.java,2,0,0,not present at snapshot,,,
+org/mockito/configuration/experimental/ConfigurationSupport.java,6,0,0,not present at snapshot,,,
+org/mockito/creation/instance/Instantiator.java,1,0,0,outside measured module,,,
+org/mockito/errorprone/bugpatterns/MockitoAnyClassWithPrimitiveType.java,1,0,1,outside measured module,,,
+org/mockito/errorprone/bugpatterns/MockitoInternalUsage.java,2,0,2,outside measured module,,,
+org/mockito/errorprone/bugpatterns/MockitoNotExtensible.java,1,0,1,outside measured module,,,
+org/mockito/exceptions/CommonStackTraceRemover.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/Discrepancy.java,8,0,0,not present at snapshot,,,
+org/mockito/exceptions/Exceptions.java,31,0,4,not present at snapshot,,,
+org/mockito/exceptions/HasFilterableStackTrace.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/HasStackTrace.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/InvalidUseOfMatchersException.java,2,0,0,not present at snapshot,,,
+org/mockito/exceptions/MissingMethodInvocationException.java,2,0,0,not present at snapshot,,,
+org/mockito/exceptions/MockVerificationAssertionError.java,6,0,0,not present at snapshot,,,
+org/mockito/exceptions/MockitoAssertionError.java,4,0,2,not present at snapshot,,,
+org/mockito/exceptions/MockitoException.java,2,0,1,not present at snapshot,,,
+org/mockito/exceptions/MockitoStackTraceFilter.java,3,0,0,not present at snapshot,,,
+org/mockito/exceptions/MockitoStackTraceMerger.java,3,0,0,not present at snapshot,,,
+org/mockito/exceptions/NotAMockException.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/NotAMockMethodException.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/NumberOfInvocationsAssertionError.java,13,0,0,not present at snapshot,,,
+org/mockito/exceptions/NumberOfInvocationsError.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/Pluralizer.java,3,0,3,not present at snapshot,,,
+org/mockito/exceptions/Printable.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/PrintableInvocation.java,6,0,0,not present at snapshot,,,
+org/mockito/exceptions/Reporter.java,309,0,309,not present at snapshot,,,
+org/mockito/exceptions/StackTraceFilter.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/StrictVerificationError.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/StringJoiner.java,5,0,0,not present at snapshot,,,
+org/mockito/exceptions/Strings.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/TooLittleActualInvocationsError.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/TooManyActualInvocationsError.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/UndesiredInvocation.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/UnfinishedStubbingException.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/UnfinishedVerificationException.java,2,0,0,not present at snapshot,,,
+org/mockito/exceptions/VerificationAssertionError.java,3,0,0,not present at snapshot,,,
+org/mockito/exceptions/VerificationError.java,3,0,0,not present at snapshot,,,
+org/mockito/exceptions/WantedDiffersFromActual.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/base/CommonStackTraceRemover.java,4,0,4,not present at snapshot,,,
+org/mockito/exceptions/base/ConditionalStackTraceFilter.java,1,0,1,not present at snapshot,,,
+org/mockito/exceptions/base/MockitoAssertionError.java,2,0,2,covered,14,0,100.0
+org/mockito/exceptions/base/MockitoException.java,2,0,2,covered,11,0,100.0
+org/mockito/exceptions/base/StackTraceFilter.java,11,0,11,not present at snapshot,,,
+org/mockito/exceptions/cause/ActualArgumentsAreDifferent.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/cause/WantedDiffersFromActual.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/misusing/NotAMockException.java,2,0,0,covered,2,0,100.0
+org/mockito/exceptions/misusing/UnfinishedMockingException.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/parents/CommonStackTraceRemover.java,2,0,0,not present at snapshot,,,
+org/mockito/exceptions/parents/HasStackTrace.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/parents/HasStackTraceThrowableWrapper.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/parents/MockitoAssertionError.java,2,0,2,not present at snapshot,,,
+org/mockito/exceptions/parents/MockitoException.java,2,0,2,not present at snapshot,,,
+org/mockito/exceptions/parents/StackTraceFilter.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/stacktrace/LastClassIsCglibEnchantedFilter.java,3,0,0,not present at snapshot,,,
+org/mockito/exceptions/stacktrace/LastClassIsMockitoFilter.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/stacktrace/StackTraceCleaner.java,4,0,3,not covered,0,5,0.0
+org/mockito/exceptions/verification/ArgumentsAreDifferent.java,1,0,0,covered,4,1,80.0
+org/mockito/exceptions/verification/ArgumentsAreDifferentException.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/verification/InvocationDiffersFromActual.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/verification/NeverWantedButInvoked.java,1,0,0,covered,2,0,100.0
+org/mockito/exceptions/verification/NoInteractionsWanted.java,1,0,0,covered,2,0,100.0
+org/mockito/exceptions/verification/StrictVerificationFailure.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/verification/TooLittleActualInvocations.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/verification/VerifcationInOrderFailed.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/verification/VerifcationInOrderFailure.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/verification/VerificationError.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/verification/WrongOrderVerificationError.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/verification/junit/ArgumentsAreDifferent.java,3,0,0,not covered,0,9,0.0
+org/mockito/exceptions/verification/junit/ArgumentsAreDifferentJUnitStyle.java,1,0,0,not present at snapshot,,,
+org/mockito/exceptions/verification/junit/JUnitTool.java,2,0,0,not present at snapshot,,,
+org/mockito/hamcrest/MatcherGenericTypeExtractor.java,3,0,3,not present at snapshot,,,
+org/mockito/hamcrest/MockitoHamcrest.java,25,0,0,covered,24,2,92.3
+org/mockito/hamcrest/WasInvokedMatcher.java,6,0,0,not present at snapshot,,,
+org/mockito/internal/AllInvocationsFinder.java,11,0,7,not present at snapshot,,,
+org/mockito/internal/ClassProxyFactory.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/EmptyReturnValues.java,1,0,1,not present at snapshot,,,
+org/mockito/internal/ExpectedInvocation.java,13,0,12,not present at snapshot,,,
+org/mockito/internal/IAnswer.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/IMockHandler.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/IMockMaker.java,4,0,0,not present at snapshot,,,
+org/mockito/internal/InOrderImpl.java,17,0,17,covered,31,7,81.6
+org/mockito/internal/Incubating.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/InternalMockHandler.java,8,0,0,not present at snapshot,,,
+org/mockito/internal/Invocation.java,13,0,13,not present at snapshot,,,
+org/mockito/internal/InvocationChunk.java,1,0,1,not present at snapshot,,,
+org/mockito/internal/InvocationMatcher.java,2,0,2,not present at snapshot,,,
+org/mockito/internal/InvocationMatcherFactory.java,7,0,0,not present at snapshot,,,
+org/mockito/internal/InvocationNotifierHandler.java,13,0,13,not present at snapshot,,,
+org/mockito/internal/InvocationWithMatchers.java,10,0,0,not present at snapshot,,,
+org/mockito/internal/InvocationsFinder.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/LastArguments.java,32,0,0,not present at snapshot,,,
+org/mockito/internal/MatchersBinder.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/MethodSelector.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/MissingInvocationVerifier.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/MockAwareInvocationHandler.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/MockControl.java,45,0,44,not present at snapshot,,,
+org/mockito/internal/MockFactory.java,1,0,1,not present at snapshot,,,
+org/mockito/internal/MockHandler.java,141,0,140,not present at snapshot,,,
+org/mockito/internal/MockHandlerFactory.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/MockHandlerImpl.java,1,0,1,not present at snapshot,,,
+org/mockito/internal/MockHandlerInterface.java,7,0,0,not present at snapshot,,,
+org/mockito/internal/MockUtil.java,12,0,12,not present at snapshot,,,
+org/mockito/internal/MockedConstructionImpl.java,11,11,0,covered,3,0,100.0
+org/mockito/internal/MockedStaticImpl.java,14,12,0,covered,21,41,33.9
+org/mockito/internal/MockitoBehavior.java,119,0,96,not present at snapshot,,,
+org/mockito/internal/MockitoControl.java,11,0,7,not present at snapshot,,,
+org/mockito/internal/MockitoCore.java,101,7,1,covered,136,12,91.9
+org/mockito/internal/MockitoExpectation.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/MockitoInvocation.java,3,0,0,not present at snapshot,,,
+org/mockito/internal/MockitoInvocationHandler.java,3,0,0,not present at snapshot,,,
+org/mockito/internal/MockitoObjectMethodsFilter.java,3,0,0,not present at snapshot,,,
+org/mockito/internal/MockitoOperations.java,14,0,0,not present at snapshot,,,
+org/mockito/internal/MockitoState.java,58,0,47,not present at snapshot,,,
+org/mockito/internal/MockitoStateImpl.java,14,0,14,not present at snapshot,,,
+org/mockito/internal/Namer.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/NumberOfInvocationsVerifier.java,2,0,2,not present at snapshot,,,
+org/mockito/internal/ObjectMethodsFilter.java,9,0,0,not present at snapshot,,,
+org/mockito/internal/ObjenesisClassInstantiator.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/OrderOfInvocationsVerifier.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/PremainAttach.java,5,5,5,covered,22,11,66.7
+org/mockito/internal/RegisteredInvocations.java,15,0,15,not present at snapshot,,,
+org/mockito/internal/Result.java,4,0,0,not present at snapshot,,,
+org/mockito/internal/StrictOrderVerifier.java,7,0,0,not present at snapshot,,,
+org/mockito/internal/StubbedInvocation.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/StubbedInvocationMatcher.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/Stubber.java,7,0,7,not present at snapshot,,,
+org/mockito/internal/ThreadSafeMockitoState.java,9,0,0,not present at snapshot,,,
+org/mockito/internal/ToTypeMappings.java,3,0,1,not present at snapshot,,,
+org/mockito/internal/Verifier.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/VerifyingMode.java,36,0,29,not present at snapshot,,,
+org/mockito/internal/VerifyingRecorder.java,17,0,0,not present at snapshot,,,
+org/mockito/internal/VoidMethodExpectation.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/configuration/CaptorAnnotationProcessor.java,2,0,0,covered,7,6,53.8
+org/mockito/internal/configuration/ClassPathLoader.java,22,0,12,covered,6,5,54.5
+org/mockito/internal/configuration/Configuration.java,1,0,1,not present at snapshot,,,
+org/mockito/internal/configuration/DefaultAnnotationEngine.java,23,0,0,not present at snapshot,,,
+org/mockito/internal/configuration/DefaultAnntotationEngine.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/configuration/DefaultInjectionEngine.java,28,0,0,covered,8,0,100.0
+org/mockito/internal/configuration/DefaultReturnValues.java,10,0,8,not present at snapshot,,,
+org/mockito/internal/configuration/GlobalConfiguration.java,23,0,4,covered,17,0,100.0
+org/mockito/internal/configuration/IndependentAnnotationEngine.java,11,0,0,covered,32,9,78.0
+org/mockito/internal/configuration/InjectingAnnotationEngine.java,51,0,9,covered,34,6,85.0
+org/mockito/internal/configuration/MockAnnotationProcessor.java,9,0,6,covered,36,7,83.7
+org/mockito/internal/configuration/MockitoAnnotationsMockAnnotationProcessor.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/configuration/MockitoConfiguration.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/configuration/MockitoProperties.java,3,0,0,not present at snapshot,,,
+org/mockito/internal/configuration/SpyAnnotationEngine.java,26,3,0,covered,59,0,100.0
+org/mockito/internal/configuration/injection/ConstructorInjection.java,3,0,3,covered,22,0,100.0
+org/mockito/internal/configuration/injection/FinalMockCandidateFilter.java,3,0,0,not present at snapshot,,,
+org/mockito/internal/configuration/injection/Injecter.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/configuration/injection/MockCandidateFilter.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/configuration/injection/MockInjection.java,9,0,9,covered,25,0,100.0
+org/mockito/internal/configuration/injection/MockInjectionStrategy.java,2,0,0,covered,11,0,100.0
+org/mockito/internal/configuration/injection/NameBasedCandidateFilter.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/configuration/injection/OngoingInjecter.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/configuration/injection/PropertyAndSetterInjection.java,36,0,0,covered,43,0,100.0
+org/mockito/internal/configuration/injection/SpyOnInjectedFieldsHandler.java,2,1,0,covered,7,2,77.8
+org/mockito/internal/configuration/injection/TypeBasedCandidateFilter.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/configuration/injection/filter/FinalMockCandidateFilter.java,8,0,0,not present at snapshot,,,
+org/mockito/internal/configuration/injection/filter/MockCandidateFilter.java,7,0,0,outside measured module,,,
+org/mockito/internal/configuration/injection/filter/NameBasedCandidateFilter.java,17,0,0,covered,23,0,100.0
+org/mockito/internal/configuration/injection/filter/OngoingInjecter.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/configuration/injection/filter/OngoingInjector.java,1,0,0,covered,3,0,100.0
+org/mockito/internal/configuration/injection/filter/TerminalMockCandidateFilter.java,4,0,0,covered,11,2,84.6
+org/mockito/internal/configuration/injection/filter/TypeBasedCandidateFilter.java,21,0,0,covered,50,35,58.8
+org/mockito/internal/configuration/injection/scanner/InjectMocksScanner.java,9,0,0,covered,17,0,100.0
+org/mockito/internal/configuration/injection/scanner/MockScanner.java,1,0,0,covered,21,0,100.0
+org/mockito/internal/configuration/plugins/DefaultMockitoPlugins.java,6,0,6,covered,39,2,95.1
+org/mockito/internal/configuration/plugins/DefaultPluginSwitch.java,1,0,0,covered,1,1,50.0
+org/mockito/internal/configuration/plugins/DefaultPluginSwitcher.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/configuration/plugins/PluginFileReader.java,12,0,12,covered,11,0,100.0
+org/mockito/internal/configuration/plugins/PluginFinder.java,4,0,4,covered,17,10,63.0
+org/mockito/internal/configuration/plugins/PluginInitializer.java,3,0,0,covered,21,33,38.9
+org/mockito/internal/configuration/plugins/PluginLoader.java,44,0,8,covered,26,6,81.2
+org/mockito/internal/configuration/plugins/PluginRegistry.java,14,0,0,covered,30,0,100.0
+org/mockito/internal/configuration/plugins/Plugins.java,4,0,0,covered,10,0,100.0
+org/mockito/internal/creation/AbstractMockitoMethodProxy.java,6,0,0,not present at snapshot,,,
+org/mockito/internal/creation/AcrossJVMSerializationFeature.java,40,0,0,not present at snapshot,,,
+org/mockito/internal/creation/CglibMockMaker.java,15,0,0,not present at snapshot,,,
+org/mockito/internal/creation/DelegatingMethod.java,12,0,11,covered,17,3,85.0
+org/mockito/internal/creation/DelegatingMockitoMethodProxy.java,3,0,0,not present at snapshot,,,
+org/mockito/internal/creation/MethodInterceptorFilter.java,50,0,36,not present at snapshot,,,
+org/mockito/internal/creation/MockAwareInterceptor.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/creation/MockAwareInvocationHandler.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/creation/MockFactory.java,7,0,7,not present at snapshot,,,
+org/mockito/internal/creation/MockNamer.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/creation/MockSettingsImpl.java,94,0,94,covered,99,6,94.3
+org/mockito/internal/creation/MockitoMethodProxy.java,12,0,0,not present at snapshot,,,
+org/mockito/internal/creation/ObjectMethodsFilter.java,3,0,0,not present at snapshot,,,
+org/mockito/internal/creation/ObjenesisClassInstantiator.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/creation/SearchingClassLoader.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/creation/SerializableMockitoMethodProxy.java,7,0,7,not present at snapshot,,,
+org/mockito/internal/creation/SuspendMethod.java,1,0,0,covered,5,1,83.3
+org/mockito/internal/creation/bytebuddy/AcrossJVMSerializationFeature.java,3,0,0,not present at snapshot,,,
+org/mockito/internal/creation/bytebuddy/ByteBuddyCrossClassLoaderSerializationSupport.java,15,0,0,covered,3,83,3.5
+org/mockito/internal/creation/bytebuddy/ByteBuddyMockBytecodeGenerator.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/creation/bytebuddy/ByteBuddyMockMaker.java,86,6,52,covered,14,7,66.7
+org/mockito/internal/creation/bytebuddy/CachingBytecodeGenerator.java,12,0,0,not present at snapshot,,,
+org/mockito/internal/creation/bytebuddy/CachingMockBytecodeGenerator.java,41,0,30,not present at snapshot,,,
+org/mockito/internal/creation/bytebuddy/ClassCreatingMockMaker.java,1,0,0,outside measured module,,,
+org/mockito/internal/creation/bytebuddy/ClinitSuppressionTransformer.java,4,4,4,covered,27,1,96.4
+org/mockito/internal/creation/bytebuddy/ConstructionCallback.java,2,0,0,outside measured module,,,
+org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java,45,6,45,covered,22,5,81.5
+org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java,27,2,1,covered,245,17,93.5
+org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker.java,16,7,16,covered,285,130,68.7
+org/mockito/internal/creation/bytebuddy/InterceptedInvocation.java,20,0,0,not present at snapshot,,,
+org/mockito/internal/creation/bytebuddy/MethodInterceptor.java,13,0,0,not present at snapshot,,,
+org/mockito/internal/creation/bytebuddy/MockAccess.java,1,0,1,not present at snapshot,,,
+org/mockito/internal/creation/bytebuddy/MockBytecodeGenerator.java,8,0,0,not present at snapshot,,,
+org/mockito/internal/creation/bytebuddy/MockFeatures.java,13,0,0,covered,8,0,100.0
+org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java,64,1,0,covered,307,50,86.0
+org/mockito/internal/creation/bytebuddy/MockMethodDispatcher.java,3,0,0,not present at snapshot,,,
+org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java,56,0,0,not present at snapshot,,,
+org/mockito/internal/creation/bytebuddy/MockReference.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/creation/bytebuddy/MockStrongReference.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/creation/bytebuddy/MockWeakReference.java,1,0,1,not present at snapshot,,,
+org/mockito/internal/creation/bytebuddy/MockitoMethodInterceptor.java,8,0,0,not present at snapshot,,,
+org/mockito/internal/creation/bytebuddy/ModuleHandler.java,62,0,0,covered,68,90,43.0
+org/mockito/internal/creation/bytebuddy/SerializableReference.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/creation/bytebuddy/SerializableStrongReference.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/creation/bytebuddy/SerializeableWeakReference.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker.java,14,4,14,covered,38,33,53.5
+org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java,42,0,0,covered,135,31,81.3
+org/mockito/internal/creation/bytebuddy/SubclassInjectionLoader.java,7,0,0,not present at snapshot,,,
+org/mockito/internal/creation/bytebuddy/SubclassLoader.java,5,0,0,not present at snapshot,,,
+org/mockito/internal/creation/bytebuddy/TypeCachingBytecodeGenerator.java,18,0,0,covered,49,4,92.5
+org/mockito/internal/creation/bytebuddy/inject/MockMethodDispatcher.java,5,0,0,not covered,0,19,0.0
+org/mockito/internal/creation/cglib/AbstractMockitoMethodProxy.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/creation/cglib/CGLIBHacker.java,8,0,8,not present at snapshot,,,
+org/mockito/internal/creation/cglib/CglibMockMaker.java,6,0,0,not present at snapshot,,,
+org/mockito/internal/creation/cglib/ClassImposterizer.java,3,0,3,not present at snapshot,,,
+org/mockito/internal/creation/cglib/DelegatingMockitoMethodProxy.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/creation/cglib/MethodInterceptorFilter.java,2,0,2,not present at snapshot,,,
+org/mockito/internal/creation/cglib/MockitoMethodProxy.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/creation/cglib/MockitoNamingPolicy.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/creation/cglib/SearchingClassLoader.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/creation/cglib/SerializableMockitoMethodProxy.java,3,0,3,not present at snapshot,,,
+org/mockito/internal/creation/instance/CachingObjenesisInstanceFactory.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/creation/instance/ConstructorInstanceFactory.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/creation/instance/ConstructorInstantiator.java,43,0,43,covered,78,1,98.7
+org/mockito/internal/creation/instance/DefaultInstantiatorProvider.java,6,0,0,covered,6,0,100.0
+org/mockito/internal/creation/instance/InstanceFactory.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/creation/instance/InstantationException.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/creation/instance/InstantiationException.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/creation/instance/Instantiator.java,4,0,0,not present at snapshot,,,
+org/mockito/internal/creation/instance/InstantiatorProvider.java,4,0,0,not present at snapshot,,,
+org/mockito/internal/creation/instance/InstantiatorProvider2Adapter.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/creation/instance/InstantiatorProvider2Wrapper.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/creation/instance/InstantiatorProviderAdapter.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/creation/instance/InstantiatorProviderWrapper.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/creation/instance/LegacyDefaultInstantiatorProvider.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/creation/instance/ObjenesisInstanceFactory.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/creation/instance/ObjenesisInstantiator.java,2,0,0,covered,4,0,100.0
+org/mockito/internal/creation/jmock/CglibClassImposterizer.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/creation/jmock/ClassImposterizer.java,25,0,24,not present at snapshot,,,
+org/mockito/internal/creation/jmock/DefaultClassImposterizer.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/creation/jmock/SearchingClassLoader.java,3,0,0,not present at snapshot,,,
+org/mockito/internal/creation/jmock/SerializableNoOp.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/creation/proxy/ProxyMockMaker.java,7,4,7,covered,46,24,65.7
+org/mockito/internal/creation/settings/CreationSettings.java,39,0,0,covered,58,3,95.1
+org/mockito/internal/creation/util/MockitoMethodProxy.java,1,0,0,outside measured module,,,
+org/mockito/internal/debugging/DebuggingInfo.java,25,0,0,not present at snapshot,,,
+org/mockito/internal/debugging/FindingsListener.java,5,0,0,outside measured module,,,
+org/mockito/internal/debugging/InvocationsPrinter.java,4,0,4,covered,28,0,100.0
+org/mockito/internal/debugging/Localized.java,8,0,0,covered,6,0,100.0
+org/mockito/internal/debugging/Location.java,6,0,5,not present at snapshot,,,
+org/mockito/internal/debugging/LocationFactory.java,1,0,1,covered,7,4,63.6
+org/mockito/internal/debugging/LocationImpl.java,19,0,17,covered,44,13,77.2
+org/mockito/internal/debugging/LogInvocationsToStdOutListener.java,14,0,3,not present at snapshot,,,
+org/mockito/internal/debugging/LoggingListener.java,16,0,16,covered,42,0,100.0
+org/mockito/internal/debugging/MockitoDebuggerImpl.java,11,0,0,not present at snapshot,,,
+org/mockito/internal/debugging/VerboseMockInvocationLogger.java,11,0,11,covered,39,0,100.0
+org/mockito/internal/debugging/WarningsCollector.java,11,0,0,not present at snapshot,,,
+org/mockito/internal/debugging/WarningsFinder.java,18,0,16,covered,25,0,100.0
+org/mockito/internal/debugging/WarningsPrinter.java,9,0,8,not present at snapshot,,,
+org/mockito/internal/debugging/WarningsPrinterImpl.java,25,0,22,not covered,0,9,0.0
+org/mockito/internal/exceptions/MockitoLimitations.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/exceptions/Reporter.java,44,2,44,covered,313,34,90.2
+org/mockito/internal/exceptions/base/ConditionalStackTraceFilter.java,2,0,2,not present at snapshot,,,
+org/mockito/internal/exceptions/base/StackTraceFilter.java,2,0,2,not present at snapshot,,,
+org/mockito/internal/exceptions/stacktrace/ConditionalStackTraceFilter.java,3,0,3,covered,8,0,100.0
+org/mockito/internal/exceptions/stacktrace/DefaultStackTraceCleaner.java,14,0,0,covered,18,0,100.0
+org/mockito/internal/exceptions/stacktrace/DefaultStackTraceCleanerProvider.java,1,0,0,covered,2,0,100.0
+org/mockito/internal/exceptions/stacktrace/StackTraceFilter.java,6,0,6,covered,12,30,28.6
+org/mockito/internal/exceptions/util/ScenarioPrinter.java,1,0,1,covered,12,0,100.0
+org/mockito/internal/experimental/VerboseMockitoJUnitRunner.java,2,0,2,not present at snapshot,,,
+org/mockito/internal/framework/DefaultMockitoFramework.java,10,0,10,covered,19,0,100.0
+org/mockito/internal/framework/DefaultMockitoMocking.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/framework/DefaultMockitoSession.java,8,0,0,covered,35,5,87.5
+org/mockito/internal/framework/DisabledMockHandler.java,3,3,0,covered,5,20,20.0
+org/mockito/internal/hamcrest/HamcrestArgumentMatcher.java,4,0,0,covered,11,0,100.0
+org/mockito/internal/hamcrest/MatcherGenericTypeExtractor.java,3,0,3,covered,1,0,100.0
+org/mockito/internal/handler/InvocationNotifierHandler.java,14,0,14,covered,26,0,100.0
+org/mockito/internal/handler/MockHandlerFactory.java,14,0,14,covered,3,0,100.0
+org/mockito/internal/handler/MockHandlerImpl.java,33,0,33,covered,42,0,100.0
+org/mockito/internal/handler/NotifiedMethodInvocationReport.java,7,0,0,covered,23,6,79.3
+org/mockito/internal/handler/NullResultGuardian.java,10,0,0,covered,10,0,100.0
+org/mockito/internal/invocation/ActualInvocationsFinder.java,36,0,29,not present at snapshot,,,
+org/mockito/internal/invocation/AllInvocationsFinder.java,6,0,6,not present at snapshot,,,
+org/mockito/internal/invocation/ArgumentsComparator.java,29,0,21,not present at snapshot,,,
+org/mockito/internal/invocation/ArgumentsProcessor.java,8,0,0,covered,24,0,100.0
+org/mockito/internal/invocation/CanPrintInMultilines.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/invocation/CapturesArgumensFromInvocation.java,3,0,0,not present at snapshot,,,
+org/mockito/internal/invocation/CapturesArgumentsFromInvocation.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/invocation/Chunker.java,3,0,3,not present at snapshot,,,
+org/mockito/internal/invocation/DefaultInvocationFactory.java,15,8,0,covered,12,2,85.7
+org/mockito/internal/invocation/InterceptedInvocation.java,15,0,0,covered,39,8,83.0
+org/mockito/internal/invocation/Invocation.java,111,0,111,not present at snapshot,,,
+org/mockito/internal/invocation/InvocationChunk.java,3,0,0,not present at snapshot,,,
+org/mockito/internal/invocation/InvocationComparator.java,1,0,0,covered,2,0,100.0
+org/mockito/internal/invocation/InvocationImpl.java,5,0,3,not present at snapshot,,,
+org/mockito/internal/invocation/InvocationMarker.java,21,0,21,covered,12,0,100.0
+org/mockito/internal/invocation/InvocationMatcher.java,112,0,112,covered,50,0,100.0
+org/mockito/internal/invocation/InvocationOnMock.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/invocation/InvocationsAnalyzer.java,28,0,28,not present at snapshot,,,
+org/mockito/internal/invocation/InvocationsCalculator.java,8,0,7,not present at snapshot,,,
+org/mockito/internal/invocation/InvocationsCalculatorImpl.java,8,0,0,not present at snapshot,,,
+org/mockito/internal/invocation/InvocationsChunker.java,4,0,3,not present at snapshot,,,
+org/mockito/internal/invocation/InvocationsFinder.java,145,0,141,covered,66,0,100.0
+org/mockito/internal/invocation/InvocationsMarker.java,3,0,3,not present at snapshot,,,
+org/mockito/internal/invocation/InvocationsPrinter.java,5,0,5,not present at snapshot,,,
+org/mockito/internal/invocation/ListUtil.java,1,0,1,not present at snapshot,,,
+org/mockito/internal/invocation/MatcherApplicationStrategy.java,26,0,26,covered,40,0,100.0
+org/mockito/internal/invocation/MatchersBinder.java,34,0,0,covered,14,0,100.0
+org/mockito/internal/invocation/MockitoMethod.java,21,0,0,outside measured module,,,
+org/mockito/internal/invocation/PrintSettings.java,4,0,4,not present at snapshot,,,
+org/mockito/internal/invocation/PrintingFriendlyInocation.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/invocation/RealMethod.java,1,0,0,covered,15,1,93.8
+org/mockito/internal/invocation/SerializableMethod.java,16,0,16,covered,33,21,61.1
+org/mockito/internal/invocation/SerializableMockitoMethod.java,19,0,19,not present at snapshot,,,
+org/mockito/internal/invocation/StubInfo.java,7,0,0,not present at snapshot,,,
+org/mockito/internal/invocation/StubInfoImpl.java,4,0,0,covered,4,0,100.0
+org/mockito/internal/invocation/Stubbing.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/invocation/TypeSafeMatching.java,2,0,2,covered,23,1,95.8
+org/mockito/internal/invocation/UnusedStubsFinder.java,10,0,0,not present at snapshot,,,
+org/mockito/internal/invocation/finder/AllInvocationsFinder.java,33,0,33,covered,15,1,93.8
+org/mockito/internal/invocation/finder/VerifiableInvocationsFinder.java,10,0,0,covered,3,0,100.0
+org/mockito/internal/invocation/realmethod/CGLIBProxyRealMethod.java,5,0,0,not present at snapshot,,,
+org/mockito/internal/invocation/realmethod/FilteredCGLIBProxyRealMethod.java,3,0,2,not present at snapshot,,,
+org/mockito/internal/invocation/realmethod/HasCGLIBMethodProxy.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/junit/ArgMismatchFinder.java,1,0,1,covered,16,0,100.0
+org/mockito/internal/junit/DefaultStubbingLookupListener.java,16,3,0,covered,31,1,96.9
+org/mockito/internal/junit/DefaultTestFinishedEvent.java,1,0,0,covered,7,0,100.0
+org/mockito/internal/junit/ExceptionFactory.java,3,0,3,covered,9,3,75.0
+org/mockito/internal/junit/FriendlyExceptionMaker.java,4,0,0,not present at snapshot,,,
+org/mockito/internal/junit/JUnitRule.java,42,0,42,covered,7,1,87.5
+org/mockito/internal/junit/JUnitSessionStore.java,1,0,0,covered,30,0,100.0
+org/mockito/internal/junit/JUnitTestRule.java,2,0,0,covered,7,1,87.5
+org/mockito/internal/junit/JUnitTool.java,4,0,0,not present at snapshot,,,
+org/mockito/internal/junit/MismatchReportingTestListener.java,6,0,0,covered,13,0,100.0
+org/mockito/internal/junit/MockitoTestListener.java,2,0,0,outside measured module,,,
+org/mockito/internal/junit/NoOpTestListener.java,3,0,0,covered,3,0,100.0
+org/mockito/internal/junit/SilentTestListener.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/junit/StrictStubsTestListener.java,8,0,0,not present at snapshot,,,
+org/mockito/internal/junit/StubbingArgMismatches.java,2,0,2,covered,21,0,100.0
+org/mockito/internal/junit/StubbingHint.java,1,0,0,covered,10,0,100.0
+org/mockito/internal/junit/TestFinishedEvent.java,1,0,0,outside measured module,,,
+org/mockito/internal/junit/UniversalTestListener.java,9,0,0,covered,36,1,97.3
+org/mockito/internal/junit/UnnecessaryStubbingsReporter.java,1,0,0,covered,13,0,100.0
+org/mockito/internal/junit/UnusedStubbings.java,7,0,7,covered,21,4,84.0
+org/mockito/internal/junit/UnusedStubbingsFinder.java,13,0,13,covered,19,0,100.0
+org/mockito/internal/junit/VerificationCollectorImpl.java,6,0,6,covered,42,1,97.7
+org/mockito/internal/junit/WarningTestListener.java,11,0,0,not present at snapshot,,,
+org/mockito/internal/listeners/CollectCreatedMocks.java,6,0,0,not present at snapshot,,,
+org/mockito/internal/listeners/MockingStartedListener.java,3,0,0,not present at snapshot,,,
+org/mockito/internal/listeners/NotifiedMethodInvocationReport.java,11,0,0,not present at snapshot,,,
+org/mockito/internal/listeners/StubbingLookupEvent.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/listeners/StubbingLookupListener.java,5,0,0,not present at snapshot,,,
+org/mockito/internal/listeners/StubbingLookupNotifier.java,4,3,4,covered,18,0,100.0
+org/mockito/internal/listeners/VerificationStartedNotifier.java,24,4,24,covered,36,0,100.0
+org/mockito/internal/matchers/And.java,31,0,0,covered,9,0,100.0
+org/mockito/internal/matchers/Any.java,9,0,0,covered,5,0,100.0
+org/mockito/internal/matchers/AnyVararg.java,3,0,0,not present at snapshot,,,
+org/mockito/internal/matchers/ArrayEquals.java,22,0,0,covered,39,1,97.5
+org/mockito/internal/matchers/CanDescribeVerbosely.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/matchers/CanPrintArgumentVerbosely.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/matchers/CapturingMatcher.java,14,0,14,covered,26,0,100.0
+org/mockito/internal/matchers/Compare.java,4,0,0,not present at snapshot,,,
+org/mockito/internal/matchers/CompareEqual.java,1,0,0,covered,4,0,100.0
+org/mockito/internal/matchers/CompareTo.java,17,0,0,covered,10,0,100.0
+org/mockito/internal/matchers/Contains.java,10,0,0,covered,5,0,100.0
+org/mockito/internal/matchers/ContainsExtraTypeInfo.java,1,0,0,outside measured module,,,
+org/mockito/internal/matchers/ContainsExtraTypeInformation.java,3,0,0,not present at snapshot,,,
+org/mockito/internal/matchers/ContainsTypedDescription.java,3,0,0,not present at snapshot,,,
+org/mockito/internal/matchers/EndsWith.java,10,0,0,covered,5,0,100.0
+org/mockito/internal/matchers/Equality.java,1,0,1,covered,14,0,100.0
+org/mockito/internal/matchers/Equals.java,25,0,25,covered,16,0,100.0
+org/mockito/internal/matchers/EqualsWithDelta.java,14,0,10,covered,11,0,100.0
+org/mockito/internal/matchers/Find.java,10,0,0,covered,5,0,100.0
+org/mockito/internal/matchers/GreaterOrEqual.java,1,0,0,covered,4,0,100.0
+org/mockito/internal/matchers/GreaterThan.java,1,0,0,covered,4,0,100.0
+org/mockito/internal/matchers/IArgumentMatcher.java,4,0,0,not present at snapshot,,,
+org/mockito/internal/matchers/InstanceOf.java,11,0,5,covered,11,0,100.0
+org/mockito/internal/matchers/LessOrEqual.java,1,0,0,covered,4,0,100.0
+org/mockito/internal/matchers/LessThan.java,1,0,0,covered,4,0,100.0
+org/mockito/internal/matchers/LocalizedMatcher.java,32,0,21,covered,6,0,100.0
+org/mockito/internal/matchers/MatcherDecorator.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/matchers/MatchersPrinter.java,15,0,15,not present at snapshot,,,
+org/mockito/internal/matchers/Matches.java,10,0,0,covered,7,0,100.0
+org/mockito/internal/matchers/Not.java,20,0,0,covered,6,0,100.0
+org/mockito/internal/matchers/NotNull.java,10,0,0,covered,7,0,100.0
+org/mockito/internal/matchers/Null.java,10,0,0,covered,7,0,100.0
+org/mockito/internal/matchers/Or.java,28,0,0,covered,9,0,100.0
+org/mockito/internal/matchers/Same.java,10,0,0,covered,6,0,100.0
+org/mockito/internal/matchers/StartsWith.java,10,0,0,covered,5,0,100.0
+org/mockito/internal/matchers/VarargCapturingMatcher.java,5,0,5,not present at snapshot,,,
+org/mockito/internal/matchers/VarargMatcher.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/matchers/apachecommons/EqualsBuilder.java,12,0,12,covered,187,31,85.8
+org/mockito/internal/matchers/apachecommons/ReflectionEquals.java,6,0,0,covered,6,0,100.0
+org/mockito/internal/matchers/text/FormattedText.java,1,0,0,covered,4,0,100.0
+org/mockito/internal/matchers/text/MatcherToString.java,4,0,4,covered,13,0,100.0
+org/mockito/internal/matchers/text/MatchersPrinter.java,10,0,10,covered,25,0,100.0
+org/mockito/internal/matchers/text/ValuePrinter.java,16,0,16,covered,92,5,94.8
+org/mockito/internal/progress/ArgumentMatcherStorage.java,14,0,0,outside measured module,,,
+org/mockito/internal/progress/ArgumentMatcherStorageImpl.java,51,0,0,covered,37,0,100.0
+org/mockito/internal/progress/DebuggingHelper.java,9,0,0,not present at snapshot,,,
+org/mockito/internal/progress/DeprecatedOngoingStubbing.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/progress/EmptyReturnValues.java,2,0,1,not present at snapshot,,,
+org/mockito/internal/progress/LastArguments.java,27,0,0,not present at snapshot,,,
+org/mockito/internal/progress/MockingProgress.java,40,2,0,outside measured module,,,
+org/mockito/internal/progress/MockingProgressImpl.java,90,2,90,covered,83,9,90.2
+org/mockito/internal/progress/NewOngoingStubbing.java,6,0,0,not present at snapshot,,,
+org/mockito/internal/progress/OngoingStubbing.java,6,0,0,not present at snapshot,,,
+org/mockito/internal/progress/OngoingVerifyingMode.java,4,0,0,not present at snapshot,,,
+org/mockito/internal/progress/ReturnValues.java,6,0,0,not present at snapshot,,,
+org/mockito/internal/progress/SequenceNumber.java,1,0,0,covered,2,0,100.0
+org/mockito/internal/progress/ThreadSafeMockingProgress.java,33,0,12,covered,4,0,100.0
+org/mockito/internal/progress/VerificationMode.java,8,0,6,not present at snapshot,,,
+org/mockito/internal/progress/VerificationModeImpl.java,47,0,47,not present at snapshot,,,
+org/mockito/internal/reporting/Pluralizer.java,1,0,1,covered,4,0,100.0
+org/mockito/internal/reporting/PrintSettings.java,18,0,0,covered,24,0,100.0
+org/mockito/internal/reporting/PrintingFriendlyInocation.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/reporting/SmartPrinter.java,21,0,21,covered,24,0,100.0
+org/mockito/internal/returnvalues/EmptyReturnValues.java,2,0,1,not present at snapshot,,,
+org/mockito/internal/returnvalues/GloballyConfiguredAnswer.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/returnvalues/GloballyConfiguredReturnValues.java,6,0,4,not present at snapshot,,,
+org/mockito/internal/returnvalues/MockReturnValues.java,5,0,4,not present at snapshot,,,
+org/mockito/internal/returnvalues/MoreEmptyReturnValues.java,4,0,3,not present at snapshot,,,
+org/mockito/internal/returnvalues/ReturnsEmptyValues.java,1,0,1,not present at snapshot,,,
+org/mockito/internal/returnvalues/ReturnsMocks.java,1,0,1,not present at snapshot,,,
+org/mockito/internal/returnvalues/ReturnsMoreEmptyValues.java,1,0,1,not present at snapshot,,,
+org/mockito/internal/returnvalues/ReturnsSmartNulls.java,1,0,1,not present at snapshot,,,
+org/mockito/internal/returnvalues/SmartNullReturnValues.java,19,0,18,not present at snapshot,,,
+org/mockito/internal/rules/JUnitRule.java,6,0,6,not present at snapshot,,,
+org/mockito/internal/runners/DefaultInternalRunner.java,8,0,8,covered,39,0,100.0
+org/mockito/internal/runners/FrameworkUsageValidator.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/runners/InternalJUnitRunner.java,4,0,2,not present at snapshot,,,
+org/mockito/internal/runners/JUnit44RunnerImpl.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/runners/JUnit45AndHigherRunnerImpl.java,9,0,0,not present at snapshot,,,
+org/mockito/internal/runners/LegacyJUnitRunner.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/runners/RunnerFactory.java,11,0,6,covered,12,7,63.2
+org/mockito/internal/runners/RunnerImpl.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/runners/SilentJUnitRunner.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/runners/StrictRunner.java,9,0,9,covered,27,2,93.1
+org/mockito/internal/runners/UnnecessaryStubbingsReporter.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/runners/util/ClassProvider.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/runners/util/FailureDetecter.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/runners/util/FrameworkUsageValidator.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/runners/util/MockitoJUnitListener.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/runners/util/RunnerProvider.java,5,0,5,covered,6,7,46.2
+org/mockito/internal/runners/util/TestMethodsFinder.java,1,0,1,covered,5,0,100.0
+org/mockito/internal/session/DefaultMockitoSessionBuilder.java,7,0,7,covered,26,0,100.0
+org/mockito/internal/state/LastArguments.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/state/MockingProgress.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/state/MockingProgressImpl.java,1,0,1,not present at snapshot,,,
+org/mockito/internal/state/MockitoState.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/state/MockitoStateImpl.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/state/OngoingStubbing.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/state/OngoingVerifyingMode.java,1,0,1,not present at snapshot,,,
+org/mockito/internal/state/ThreadSafeMockingProgress.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/state/ThreadSafeMockitoState.java,4,0,0,not present at snapshot,,,
+org/mockito/internal/stubbing/Answer.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/stubbing/AnswerFactory.java,10,0,8,not present at snapshot,,,
+org/mockito/internal/stubbing/AnswersValidator.java,7,0,7,not present at snapshot,,,
+org/mockito/internal/stubbing/BaseStubbing.java,26,0,0,covered,30,2,93.8
+org/mockito/internal/stubbing/CallsRealMethod.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/stubbing/ConsecutiveStubbing.java,16,0,0,covered,5,0,100.0
+org/mockito/internal/stubbing/DefaultLenientStubber.java,2,0,0,covered,15,0,100.0
+org/mockito/internal/stubbing/DefaultReturnValues.java,1,0,1,not present at snapshot,,,
+org/mockito/internal/stubbing/DoAnswerStyleStubbing.java,5,0,0,covered,11,0,100.0
+org/mockito/internal/stubbing/DoesNothing.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/stubbing/DontThrow.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/stubbing/EmptyReturnValues.java,4,0,1,not present at snapshot,,,
+org/mockito/internal/stubbing/ExceptionsValidator.java,3,0,0,not present at snapshot,,,
+org/mockito/internal/stubbing/IAnswer.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/stubbing/InvocationContainer.java,3,0,0,not present at snapshot,,,
+org/mockito/internal/stubbing/InvocationContainerImpl.java,54,1,53,covered,71,1,98.6
+org/mockito/internal/stubbing/MethodSelector.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/stubbing/MethodSelectorImpl.java,5,0,0,not present at snapshot,,,
+org/mockito/internal/stubbing/MockitoStubber.java,19,0,19,not present at snapshot,,,
+org/mockito/internal/stubbing/OngoingStubbingImpl.java,20,0,0,covered,10,0,100.0
+org/mockito/internal/stubbing/Result.java,8,0,5,not present at snapshot,,,
+org/mockito/internal/stubbing/Returns.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/stubbing/ReturnsVoid.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/stubbing/StrictnessSelector.java,3,0,0,covered,5,0,100.0
+org/mockito/internal/stubbing/StubbedInvocationMatcher.java,24,0,0,covered,20,0,100.0
+org/mockito/internal/stubbing/StubbedMethodSelector.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/stubbing/Stubber.java,35,0,32,not present at snapshot,,,
+org/mockito/internal/stubbing/StubberFoo.java,5,0,0,not present at snapshot,,,
+org/mockito/internal/stubbing/StubberImpl.java,30,0,0,covered,41,2,95.3
+org/mockito/internal/stubbing/StubbingComparator.java,2,0,0,covered,3,0,100.0
+org/mockito/internal/stubbing/ThrowsException.java,4,0,0,not present at snapshot,,,
+org/mockito/internal/stubbing/UnusedStubbingReporting.java,1,0,0,covered,1,0,100.0
+org/mockito/internal/stubbing/VoidMethodStubable.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/stubbing/VoidMethodStubbable.java,3,0,0,not present at snapshot,,,
+org/mockito/internal/stubbing/VoidMethodStubbableImpl.java,5,0,0,not present at snapshot,,,
+org/mockito/internal/stubbing/answers/AbstractThrowsException.java,1,0,1,covered,20,0,100.0
+org/mockito/internal/stubbing/answers/AnswerFunctionalInterfaces.java,14,0,0,covered,94,2,97.9
+org/mockito/internal/stubbing/answers/AnswersValidator.java,31,0,19,not present at snapshot,,,
+org/mockito/internal/stubbing/answers/CallsRealMethod.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/stubbing/answers/CallsRealMethods.java,1,0,1,covered,7,0,100.0
+org/mockito/internal/stubbing/answers/ClonesArguments.java,1,0,0,covered,17,0,100.0
+org/mockito/internal/stubbing/answers/DoesNothing.java,2,0,2,covered,6,0,100.0
+org/mockito/internal/stubbing/answers/InvocationInfo.java,7,0,7,covered,45,0,100.0
+org/mockito/internal/stubbing/answers/MethodInfo.java,6,0,4,not present at snapshot,,,
+org/mockito/internal/stubbing/answers/Returns.java,5,0,5,covered,23,0,100.0
+org/mockito/internal/stubbing/answers/ReturnsArgumentAt.java,29,0,29,covered,56,0,100.0
+org/mockito/internal/stubbing/answers/ReturnsElementsOf.java,2,0,0,covered,8,0,100.0
+org/mockito/internal/stubbing/answers/ThrowsException.java,4,0,4,covered,4,0,100.0
+org/mockito/internal/stubbing/answers/ThrowsExceptionClass.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/stubbing/defaultanswers/Answers.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/stubbing/defaultanswers/ForwardsInvocations.java,4,0,2,covered,24,0,100.0
+org/mockito/internal/stubbing/defaultanswers/GloballyConfiguredAnswer.java,1,0,0,covered,2,0,100.0
+org/mockito/internal/stubbing/defaultanswers/RetrieveGenericsForDefaultAnswers.java,2,0,0,covered,52,1,98.1
+org/mockito/internal/stubbing/defaultanswers/ReturnsDeepMocks.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,51,0,4,covered,57,0,100.0
+org/mockito/internal/stubbing/defaultanswers/ReturnsDelegate.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java,25,0,25,covered,75,5,93.8
+org/mockito/internal/stubbing/defaultanswers/ReturnsGenericDeepStubs.java,4,0,4,not present at snapshot,,,
+org/mockito/internal/stubbing/defaultanswers/ReturnsMocks.java,10,0,10,covered,14,0,100.0
+org/mockito/internal/stubbing/defaultanswers/ReturnsMoreEmptyValues.java,3,0,3,covered,13,0,100.0
+org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java,21,0,21,covered,33,0,100.0
+org/mockito/internal/stubbing/defaultanswers/TriesToReturnSelf.java,2,0,0,covered,8,0,100.0
+org/mockito/internal/util/ArrayUtils.java,4,0,4,not present at snapshot,,,
+org/mockito/internal/util/Checks.java,3,0,3,covered,12,0,100.0
+org/mockito/internal/util/ConsoleMockitoLogger.java,1,0,0,covered,3,2,60.0
+org/mockito/internal/util/CreationValidator.java,5,0,0,not present at snapshot,,,
+org/mockito/internal/util/Decamelizer.java,4,0,0,not present at snapshot,,,
+org/mockito/internal/util/DefaultMockingDetails.java,17,1,15,covered,22,0,100.0
+org/mockito/internal/util/IdentitySet.java,1,0,1,not present at snapshot,,,
+org/mockito/internal/util/JavaEightUtil.java,9,0,0,not present at snapshot,,,
+org/mockito/internal/util/ListUtil.java,5,0,5,not present at snapshot,,,
+org/mockito/internal/util/MockCreationValidator.java,9,0,9,covered,19,6,76.0
+org/mockito/internal/util/MockName.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/util/MockNameImpl.java,9,0,9,covered,19,0,100.0
+org/mockito/internal/util/MockUtil.java,110,8,110,covered,78,9,89.7
+org/mockito/internal/util/MockitoLogger.java,6,0,3,not present at snapshot,,,
+org/mockito/internal/util/MockitoLoggerImpl.java,4,0,0,not present at snapshot,,,
+org/mockito/internal/util/MockitoMock.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/util/MockitoSpy.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/util/ObjectMethodsGuru.java,9,0,9,covered,8,0,100.0
+org/mockito/internal/util/Platform.java,1,0,1,covered,18,3,85.7
+org/mockito/internal/util/Primitives.java,17,0,4,covered,45,1,97.8
+org/mockito/internal/util/ShallowCopyTool.java,14,0,10,not present at snapshot,,,
+org/mockito/internal/util/SimpleMockitoLogger.java,3,0,3,not present at snapshot,,,
+org/mockito/internal/util/StringJoiner.java,11,0,0,not present at snapshot,,,
+org/mockito/internal/util/StringUtil.java,1,0,1,covered,25,0,100.0
+org/mockito/internal/util/Timer.java,17,0,17,covered,14,0,100.0
+org/mockito/internal/util/collections/ArrayUtils.java,3,0,0,not present at snapshot,,,
+org/mockito/internal/util/collections/HashCodeAndEqualsMockWrapper.java,1,0,0,covered,14,4,77.8
+org/mockito/internal/util/collections/HashCodeAndEqualsSafeSet.java,17,0,17,covered,50,1,98.0
+org/mockito/internal/util/collections/IdentitySet.java,2,0,2,covered,9,0,100.0
+org/mockito/internal/util/collections/Iterables.java,1,0,0,covered,6,2,75.0
+org/mockito/internal/util/collections/ListUtil.java,6,0,6,not present at snapshot,,,
+org/mockito/internal/util/concurrent/WeakConcurrentMap.java,5,0,0,covered,65,34,65.7
+org/mockito/internal/util/concurrent/WeakConcurrentSet.java,2,0,0,covered,22,9,71.0
+org/mockito/internal/util/copy/AccessibilityChanger.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/util/copy/FieldCopier.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/util/copy/LenientCopyTool.java,1,0,1,not present at snapshot,,,
+org/mockito/internal/util/io/IOUtil.java,5,0,5,covered,18,7,72.0
+org/mockito/internal/util/junit/JUnitFailureHacker.java,3,0,3,not present at snapshot,,,
+org/mockito/internal/util/reflection/AccessibilityChanger.java,4,0,0,not present at snapshot,,,
+org/mockito/internal/util/reflection/BeanPropertySetter.java,4,0,4,covered,24,5,82.8
+org/mockito/internal/util/reflection/BoundedType.java,3,0,0,not present at snapshot,,,
+org/mockito/internal/util/reflection/ConstructorInitializer.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/util/reflection/FieldInitializationReport.java,4,0,0,covered,9,0,100.0
+org/mockito/internal/util/reflection/FieldInitializer.java,44,0,44,covered,103,12,89.6
+org/mockito/internal/util/reflection/FieldReader.java,1,0,1,covered,7,2,77.8
+org/mockito/internal/util/reflection/FieldSetter.java,5,0,0,not present at snapshot,,,
+org/mockito/internal/util/reflection/Fields.java,17,0,17,not present at snapshot,,,
+org/mockito/internal/util/reflection/GenericMaster.java,5,0,5,covered,11,0,100.0
+org/mockito/internal/util/reflection/GenericMetadataSupport.java,58,0,58,covered,193,30,86.5
+org/mockito/internal/util/reflection/GenericTypeExtractor.java,11,0,11,covered,23,0,100.0
+org/mockito/internal/util/reflection/GenericTypeInfo.java,10,0,9,not present at snapshot,,,
+org/mockito/internal/util/reflection/InstanceField.java,3,0,0,not covered,0,30,0.0
+org/mockito/internal/util/reflection/InstrumentationMemberAccessor.java,11,0,0,covered,198,20,90.8
+org/mockito/internal/util/reflection/LenientCopyTool.java,8,0,8,covered,19,0,100.0
+org/mockito/internal/util/reflection/MockitoGenericMetadata.java,28,0,20,not present at snapshot,,,
+org/mockito/internal/util/reflection/ModuleMemberAccessor.java,1,0,0,covered,15,1,93.8
+org/mockito/internal/util/reflection/ReflectionMemberAccessor.java,6,0,0,covered,22,14,61.1
+org/mockito/internal/util/reflection/SuperTypesLastSorter.java,8,0,8,covered,19,0,100.0
+org/mockito/internal/util/reflection/Whitebox.java,6,0,0,not present at snapshot,,,
+org/mockito/internal/util/text/ArrayIterator.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/util/text/HamcrestPrinter.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/util/text/ValuePrinter.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/verification/AtLeast.java,11,0,9,covered,15,1,93.8
+org/mockito/internal/verification/AtLeastXNumberOfInvocationsChecker.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/verification/AtLeastXNumberOfInvocationsInOrderChecker.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/verification/AtLeastXVerificationMode.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/verification/AtMost.java,8,0,0,covered,21,0,100.0
+org/mockito/internal/verification/AtMostXVerificationMode.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/verification/BasicVerificationMode.java,10,0,0,not present at snapshot,,,
+org/mockito/internal/verification/Calls.java,7,0,0,covered,12,1,92.3
+org/mockito/internal/verification/DefaultRegisteredInvocations.java,8,0,8,covered,23,0,100.0
+org/mockito/internal/verification/Description.java,2,0,2,covered,6,3,66.7
+org/mockito/internal/verification/DurationCheckerImpl.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/verification/InOrderContextImpl.java,8,0,0,covered,5,0,100.0
+org/mockito/internal/verification/InOrderVerificationMode.java,7,0,0,not present at snapshot,,,
+org/mockito/internal/verification/InOrderVerificationModeWrapper.java,2,0,0,not present at snapshot,,,
+org/mockito/internal/verification/InOrderWrapper.java,11,0,0,covered,10,0,100.0
+org/mockito/internal/verification/MarkingVerifier.java,6,0,0,not present at snapshot,,,
+org/mockito/internal/verification/MissingInvocationChecker.java,3,0,3,not present at snapshot,,,
+org/mockito/internal/verification/MissingInvocationInOrderChecker.java,2,0,2,not present at snapshot,,,
+org/mockito/internal/verification/MissingInvocationInOrderVerifier.java,3,0,2,not present at snapshot,,,
+org/mockito/internal/verification/MissingInvocationVerifier.java,26,0,20,not present at snapshot,,,
+org/mockito/internal/verification/MockAwareVerificationMode.java,7,0,0,covered,17,0,100.0
+org/mockito/internal/verification/MockitoInOrderVerificationMode.java,5,0,0,not present at snapshot,,,
+org/mockito/internal/verification/MockitoVerificationMode.java,18,0,17,not present at snapshot,,,
+org/mockito/internal/verification/NoInteractions.java,3,0,3,covered,5,0,100.0
+org/mockito/internal/verification/NoMoreInteractions.java,11,0,11,covered,10,0,100.0
+org/mockito/internal/verification/NoMoreInteractionsMode.java,6,0,0,not present at snapshot,,,
+org/mockito/internal/verification/NoMoreInvocationsVerifier.java,16,0,16,not present at snapshot,,,
+org/mockito/internal/verification/NumberOfInvocationsChecker.java,6,0,6,not present at snapshot,,,
+org/mockito/internal/verification/NumberOfInvocationsInOrderChecker.java,5,0,5,not present at snapshot,,,
+org/mockito/internal/verification/NumberOfInvocationsInOrderVerifier.java,6,0,5,not present at snapshot,,,
+org/mockito/internal/verification/NumberOfInvocationsVerifier.java,28,0,27,not present at snapshot,,,
+org/mockito/internal/verification/Only.java,13,0,11,covered,14,0,100.0
+org/mockito/internal/verification/OnlyTest.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/verification/RegisteredInvocations.java,30,0,14,outside measured module,,,
+org/mockito/internal/verification/RegisteredInvocationsAll.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/verification/RegisteredInvocationsStubOnly.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/verification/SingleRegisteredInvocation.java,5,0,0,covered,6,3,66.7
+org/mockito/internal/verification/SmartPrinter.java,1,0,1,not present at snapshot,,,
+org/mockito/internal/verification/StrictVerifier.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/verification/StrictlyMissingInvocationVerifier.java,3,0,0,not present at snapshot,,,
+org/mockito/internal/verification/StrictlyNumberOfInvocationsVerifier.java,6,0,3,not present at snapshot,,,
+org/mockito/internal/verification/SyncingPrinter.java,5,0,4,not present at snapshot,,,
+org/mockito/internal/verification/Timer.java,3,0,3,not present at snapshot,,,
+org/mockito/internal/verification/Times.java,10,0,10,covered,19,0,100.0
+org/mockito/internal/verification/TimesNow.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/verification/VerificationAfterDelayImpl.java,15,0,0,not present at snapshot,,,
+org/mockito/internal/verification/VerificationDataImpl.java,13,0,11,covered,12,0,100.0
+org/mockito/internal/verification/VerificationEventImpl.java,4,0,0,covered,10,0,100.0
+org/mockito/internal/verification/VerificationMode.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/verification/VerificationModeDecoder.java,8,0,8,not present at snapshot,,,
+org/mockito/internal/verification/VerificationModeFactory.java,7,0,0,covered,10,0,100.0
+org/mockito/internal/verification/VerificationModeImpl.java,11,0,6,not present at snapshot,,,
+org/mockito/internal/verification/VerificationOverTimeImpl.java,48,0,46,covered,35,2,94.6
+org/mockito/internal/verification/VerificationWithTimeoutImpl.java,17,0,0,not present at snapshot,,,
+org/mockito/internal/verification/VerificationWrapper.java,3,0,0,covered,14,1,93.3
+org/mockito/internal/verification/VerificationWrapperInOrderWrapper.java,2,0,0,covered,24,0,100.0
+org/mockito/internal/verification/Verifier.java,10,0,0,not present at snapshot,,,
+org/mockito/internal/verification/VerifyingRecorder.java,41,0,41,not present at snapshot,,,
+org/mockito/internal/verification/api/InOrderContext.java,4,0,0,outside measured module,,,
+org/mockito/internal/verification/api/VerificationData.java,4,0,0,outside measured module,,,
+org/mockito/internal/verification/api/VerificationDataInOrder.java,3,0,0,outside measured module,,,
+org/mockito/internal/verification/api/VerificationDataInOrderImpl.java,15,0,0,covered,8,0,100.0
+org/mockito/internal/verification/api/VerificationInOrderMode.java,1,0,0,outside measured module,,,
+org/mockito/internal/verification/api/VerificationMode.java,1,0,0,not present at snapshot,,,
+org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java,16,0,16,covered,49,0,100.0
+org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsChecker.java,24,0,21,covered,15,0,100.0
+org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsInOrderChecker.java,12,0,0,not present at snapshot,,,
+org/mockito/internal/verification/checkers/MissingInvocationChecker.java,21,0,21,covered,22,2,91.7
+org/mockito/internal/verification/checkers/MissingInvocationInOrderChecker.java,16,0,16,not present at snapshot,,,
+org/mockito/internal/verification/checkers/NonGreedyNumberOfInvocationsInOrderChecker.java,11,0,0,not present at snapshot,,,
+org/mockito/internal/verification/checkers/NumberOfInvocationsChecker.java,21,0,21,covered,35,0,100.0
+org/mockito/internal/verification/checkers/NumberOfInvocationsInOrderChecker.java,16,0,16,not present at snapshot,,,
+org/mockito/invocation/DescribedInvocation.java,3,0,0,outside measured module,,,
+org/mockito/invocation/Invocation.java,6,0,1,outside measured module,,,
+org/mockito/invocation/InvocationContainer.java,3,0,0,outside measured module,,,
+org/mockito/invocation/InvocationFactory.java,8,2,6,outside measured module,,,
+org/mockito/invocation/InvocationListener.java,8,0,0,not present at snapshot,,,
+org/mockito/invocation/InvocationOnMock.java,6,0,0,outside measured module,,,
+org/mockito/invocation/Location.java,4,0,1,outside measured module,,,
+org/mockito/invocation/MatchableInvocation.java,2,0,0,outside measured module,,,
+org/mockito/invocation/MethodCallReport.java,12,0,0,not present at snapshot,,,
+org/mockito/invocation/MockHandler.java,7,0,0,outside measured module,,,
+org/mockito/invocation/MockitoInvocationHandler.java,2,0,0,not present at snapshot,,,
+org/mockito/invocation/PublicInvocation.java,3,0,0,not present at snapshot,,,
+org/mockito/invocation/StubInfo.java,2,0,0,outside measured module,,,
+org/mockito/javadoc/JavadocExclude.java,8,0,0,not present at snapshot,,,
+org/mockito/junit/MockitoJUnit.java,3,0,0,covered,3,0,100.0
+org/mockito/junit/MockitoJUnitRule.java,14,0,14,not present at snapshot,,,
+org/mockito/junit/MockitoJUnitRunner.java,4,0,0,covered,16,0,100.0
+org/mockito/junit/MockitoRule.java,4,0,0,outside measured module,,,
+org/mockito/junit/MockitoTestRule.java,1,0,0,outside measured module,,,
+org/mockito/junit/VerificationCollector.java,6,0,0,outside measured module,,,
+org/mockito/junit/VerificationCollectorImpl.java,4,0,4,not present at snapshot,,,
+org/mockito/junit/jupiter/MockitoExtension.java,13,0,0,outside measured module,,,
+org/mockito/junit/jupiter/MockitoSettings.java,1,0,0,outside measured module,,,
+org/mockito/listeners/MethodInvocationReport.java,1,0,0,outside measured module,,,
+org/mockito/listeners/MockCreationListener.java,2,2,0,not covered,0,2,0.0
+org/mockito/listeners/StubbingListener.java,2,0,0,not present at snapshot,,,
+org/mockito/listeners/StubbingLookUpListener.java,1,0,0,not present at snapshot,,,
+org/mockito/listeners/StubbingLookupEvent.java,1,1,0,outside measured module,,,
+org/mockito/listeners/VerificationListener.java,1,0,0,outside measured module,,,
+org/mockito/listeners/VerificationStartedEvent.java,3,0,0,outside measured module,,,
+org/mockito/listeners/VerificationStartedListener.java,2,0,2,outside measured module,,,
+org/mockito/matchers/HasNoIvocationsMatcher.java,2,0,0,not present at snapshot,,,
+org/mockito/matchers/HasNoMoreIvocationsMatcher.java,1,0,0,not present at snapshot,,,
+org/mockito/matchers/MockitoMatcher.java,1,0,0,not present at snapshot,,,
+org/mockito/matchers/WasInvokedMatcher.java,1,0,0,not present at snapshot,,,
+org/mockito/mock/MockCreationSettings.java,16,0,0,outside measured module,,,
+org/mockito/mock/MockName.java,2,0,0,outside measured module,,,
+org/mockito/mock/MockSettingsInfo.java,3,0,0,not present at snapshot,,,
+org/mockito/mock/SerializableMode.java,2,0,0,covered,4,0,100.0
+org/mockito/plugins/AnnotationEngine.java,1,0,0,covered,2,0,100.0
+org/mockito/plugins/InlineMockMaker.java,3,0,0,outside measured module,,,
+org/mockito/plugins/InstantiatorProvider.java,2,0,0,not present at snapshot,,,
+org/mockito/plugins/MemberAccessor.java,1,0,1,not covered,0,1,0.0
+org/mockito/plugins/MockMaker.java,35,12,0,covered,1,10,9.1
+org/mockito/plugins/MockSettingsInfo.java,2,0,0,not present at snapshot,,,
+org/mockito/plugins/MockitoInvocationHandler.java,3,0,0,not present at snapshot,,,
+org/mockito/plugins/MockitoLogger.java,2,0,2,not covered,0,2,0.0
+org/mockito/plugins/MockitoPlugins.java,2,0,2,covered,1,0,100.0
+org/mockito/plugins/PluginSwitch.java,2,0,2,outside measured module,,,
+org/mockito/plugins/PluginSwitcher.java,3,0,2,not present at snapshot,,,
+org/mockito/plugins/StackTraceCleanerProvider.java,1,0,0,outside measured module,,,
+org/mockito/quality/Strictness.java,8,0,4,covered,4,0,100.0
+org/mockito/release/comparison/BinaryComparator.java,16,0,0,not present at snapshot,,,
+org/mockito/release/comparison/PomComparator.java,2,0,0,not present at snapshot,,,
+org/mockito/release/comparison/PublicationsComparatorTask.java,12,0,0,not present at snapshot,,,
+org/mockito/release/comparison/SourceJarComparator.java,6,0,0,not present at snapshot,,,
+org/mockito/release/comparison/ZipComparator.java,1,0,0,not present at snapshot,,,
+org/mockito/release/comparison/ZipCompare.java,2,0,0,not present at snapshot,,,
+org/mockito/release/exec/DefaultProcessRunner.java,1,0,0,not present at snapshot,,,
+org/mockito/release/git/DefaultGitAuthor.java,1,0,0,not present at snapshot,,,
+org/mockito/release/git/DefaultGitTool.java,1,0,0,not present at snapshot,,,
+org/mockito/release/git/Git.java,1,0,0,not present at snapshot,,,
+org/mockito/release/notes/Contribution.java,4,0,0,not present at snapshot,,,
+org/mockito/release/notes/GitCommit.java,1,0,0,not present at snapshot,,,
+org/mockito/release/notes/GitNotesBuilder.java,8,0,0,not present at snapshot,,,
+org/mockito/release/notes/Notes.java,7,0,0,not present at snapshot,,,
+org/mockito/release/notes/NotesBuilder.java,7,0,0,not present at snapshot,,,
+org/mockito/release/notes/PreviousVersionProvider.java,1,0,0,not present at snapshot,,,
+org/mockito/release/notes/ReleaseNotesBuilder.java,1,0,0,not present at snapshot,,,
+org/mockito/release/notes/ReleaseNotesBuilderFactory.java,12,0,0,not present at snapshot,,,
+org/mockito/release/notes/ReleaseNotesServices.java,2,0,0,not present at snapshot,,,
+org/mockito/release/notes/exec/DefaultProcessRunner.java,1,0,0,not present at snapshot,,,
+org/mockito/release/notes/exec/Exec.java,4,0,0,not present at snapshot,,,
+org/mockito/release/notes/exec/ProcessRunner.java,1,0,0,not present at snapshot,,,
+org/mockito/release/notes/improvements/DefaultImprovements.java,5,0,0,not present at snapshot,,,
+org/mockito/release/notes/improvements/GitHubImprovementsProvider.java,8,0,0,not present at snapshot,,,
+org/mockito/release/notes/improvements/GitHubTicketFetcher.java,21,0,0,not present at snapshot,,,
+org/mockito/release/notes/improvements/Improvement.java,7,0,0,not present at snapshot,,,
+org/mockito/release/notes/improvements/ImprovementSet.java,1,0,0,not present at snapshot,,,
+org/mockito/release/notes/improvements/ImprovementSetProvider.java,1,0,0,not present at snapshot,,,
+org/mockito/release/notes/improvements/Improvements.java,2,0,0,not present at snapshot,,,
+org/mockito/release/notes/improvements/ImprovementsProvider.java,1,0,0,not present at snapshot,,,
+org/mockito/release/notes/internal/Contribution.java,3,0,0,not present at snapshot,,,
+org/mockito/release/notes/internal/Improvement.java,14,0,0,not present at snapshot,,,
+org/mockito/release/notes/internal/PreviousVersionProvider.java,1,0,0,not present at snapshot,,,
+org/mockito/release/notes/util/IOUtil.java,6,0,2,not present at snapshot,,,
+org/mockito/release/notes/util/ReleaseNotesException.java,1,0,0,not present at snapshot,,,
+org/mockito/release/notes/vcs/Commit.java,3,0,0,not present at snapshot,,,
+org/mockito/release/notes/vcs/Contribution.java,5,0,0,not present at snapshot,,,
+org/mockito/release/notes/vcs/DefaultContribution.java,15,0,0,not present at snapshot,,,
+org/mockito/release/notes/vcs/DefaultContributionSet.java,8,0,0,not present at snapshot,,,
+org/mockito/release/notes/vcs/GitCommit.java,4,0,0,not present at snapshot,,,
+org/mockito/release/notes/vcs/GitContributionsProvider.java,7,0,0,not present at snapshot,,,
+org/mockito/release/notes/vcs/Vcs.java,1,0,0,not present at snapshot,,,
+org/mockito/release/notes/versions/Versions.java,5,0,0,not present at snapshot,,,
+org/mockito/release/steps/DefaultReleaseStep.java,5,0,0,not present at snapshot,,,
+org/mockito/release/steps/DefaultReleaseSteps.java,4,0,0,not present at snapshot,,,
+org/mockito/release/steps/ReleaseStep.java,5,0,0,not present at snapshot,,,
+org/mockito/release/steps/ReleaseSteps.java,2,0,0,not present at snapshot,,,
+org/mockito/release/util/MultiMap.java,2,0,0,not present at snapshot,,,
+org/mockito/release/version/DefaultVersionTool.java,6,0,0,not present at snapshot,,,
+org/mockito/release/version/Version.java,2,0,0,not present at snapshot,,,
+org/mockito/release/version/VersionTool.java,1,0,0,not present at snapshot,,,
+org/mockito/rules/MockitoJUnit.java,3,0,0,not present at snapshot,,,
+org/mockito/rules/MockitoJUnitRule.java,2,0,2,not present at snapshot,,,
+org/mockito/runners/ConsoleSpammingMockitoJUnitRunner.java,15,0,15,not present at snapshot,,,
+org/mockito/runners/ExperimentalMockitoJUnitRunner.java,29,0,14,not present at snapshot,,,
+org/mockito/runners/ExperimentalMockitoJUnitRunnerPM.java,6,0,6,not present at snapshot,,,
+org/mockito/runners/MockitoJUnit44Runner.java,11,0,0,not present at snapshot,,,
+org/mockito/runners/MockitoJUnit45Runner.java,1,0,0,not present at snapshot,,,
+org/mockito/runners/MockitoJUnit4Runner.java,2,0,0,not present at snapshot,,,
+org/mockito/runners/MockitoJUnitRunner.java,16,0,0,not present at snapshot,,,
+org/mockito/runners/VerboseMockitoJUnitRunner.java,25,0,6,not present at snapshot,,,
+org/mockito/session/MockitoSessionBuilder.java,9,0,0,outside measured module,,,
+org/mockito/session/MockitoSessionLogger.java,3,0,0,outside measured module,,,
+org/mockito/stubbing/Answer1.java,5,0,0,outside measured module,,,
+org/mockito/stubbing/Answer2.java,3,0,0,outside measured module,,,
+org/mockito/stubbing/Answer3.java,3,0,0,outside measured module,,,
+org/mockito/stubbing/Answer4.java,3,0,0,outside measured module,,,
+org/mockito/stubbing/Answer5.java,3,0,0,outside measured module,,,
+org/mockito/stubbing/Answer6.java,1,0,0,outside measured module,,,
+org/mockito/stubbing/BaseStubber.java,1,0,0,outside measured module,,,
+org/mockito/stubbing/ClonesArguments.java,1,0,0,not present at snapshot,,,
+org/mockito/stubbing/LenientStubber.java,2,0,0,outside measured module,,,
+org/mockito/stubbing/NewOngoingStubbing.java,6,0,0,not present at snapshot,,,
+org/mockito/stubbing/OngoingStubbing.java,8,3,0,outside measured module,,,
+org/mockito/stubbing/Stubber.java,14,0,0,outside measured module,,,
+org/mockito/stubbing/Stubbing.java,3,0,0,outside measured module,,,
+org/mockito/stubbing/ValidableAnswer.java,1,0,0,outside measured module,,,
+org/mockito/stubbing/VoidAnswer1.java,5,0,0,outside measured module,,,
+org/mockito/stubbing/VoidAnswer2.java,3,0,0,outside measured module,,,
+org/mockito/stubbing/VoidAnswer3.java,3,0,0,outside measured module,,,
+org/mockito/stubbing/VoidAnswer4.java,3,0,0,outside measured module,,,
+org/mockito/stubbing/VoidAnswer5.java,3,0,0,outside measured module,,,
+org/mockito/stubbing/VoidAnswer6.java,1,0,0,outside measured module,,,
+org/mockito/stubbing/answers/ReturnsArgumentAt.java,1,0,1,not present at snapshot,,,
+org/mockito/stubbing/answers/ReturnsElementsOf.java,10,0,0,not present at snapshot,,,
+org/mockito/stubbing/answers/ReturnsFirstArgument.java,1,0,1,not present at snapshot,,,
+org/mockito/stubbing/answers/ReturnsIdentity.java,19,0,10,not present at snapshot,,,
+org/mockito/testng/MockitoAfterTestNGMethod.java,3,0,0,not present at snapshot,,,
+org/mockito/testng/MockitoBeforeTestNGMethod.java,3,0,0,not present at snapshot,,,
+org/mockito/testng/MockitoTestNGListener.java,2,0,0,not present at snapshot,,,
+org/mockito/verification/After.java,18,0,0,covered,10,0,100.0
+org/mockito/verification/Timeout.java,75,0,75,covered,12,2,85.7
+org/mockito/verification/VerificationData.java,6,0,0,not present at snapshot,,,
+org/mockito/verification/VerificationEvent.java,1,0,0,outside measured module,,,
+org/mockito/verification/VerificationInOrderMode.java,1,0,0,not present at snapshot,,,
+org/mockito/verification/VerificationMode.java,6,0,0,not covered,0,1,0.0
+org/mockito/verification/VerificationWithTimeout.java,19,0,19,outside measured module,,,
+org/mockito/verification/VerificationWrapper.java,1,0,0,not present at snapshot,,,
+org/mockito/verification/VerificationWrapperInOrderWrapper.java,1,0,0,not present at snapshot,,,
+org/mockito/workflow/gradle/internal/ReleaseWorkflowExtension.java,11,0,0,not present at snapshot,,,
+org/mockito/workflow/gradle/internal/ReleaseWorkflowPlugin.java,2,0,0,not present at snapshot,,,
+org/mockito/workflow/gradle/internal/StepConfiguration.java,2,0,0,not present at snapshot,,,
